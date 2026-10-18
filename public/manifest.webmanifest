@@ -1,0 +1,16 @@
+{
+  "name": "Little Thinkers · Pequeños Pensadores",
+  "short_name": "Little Thinkers",
+  "description": "Bilingual learning games for little kids. Works offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#FFF8EC",
+  "theme_color": "#FFF8EC",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

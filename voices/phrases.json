@@ -1,0 +1,5762 @@
+[
+ {
+  "id": "84503c9e",
+  "lang": "en",
+  "text": "a ball"
+ },
+ {
+  "id": "b7cc363e",
+  "lang": "en",
+  "text": "a balloon"
+ },
+ {
+  "id": "06dfc46f",
+  "lang": "en",
+  "text": "a bandage"
+ },
+ {
+  "id": "8ac0366a",
+  "lang": "en",
+  "text": "A bandage!"
+ },
+ {
+  "id": "c41197f3",
+  "lang": "en",
+  "text": "a cozy bed"
+ },
+ {
+  "id": "295939b6",
+  "lang": "en",
+  "text": "A cozy bed!"
+ },
+ {
+  "id": "300d328d",
+  "lang": "en",
+  "text": "a glass of water"
+ },
+ {
+  "id": "3200fbe4",
+  "lang": "en",
+  "text": "A glass of water!"
+ },
+ {
+  "id": "5f5a60bd",
+  "lang": "en",
+  "text": "a guitar"
+ },
+ {
+  "id": "b080e648",
+  "lang": "en",
+  "text": "a kite"
+ },
+ {
+  "id": "b44f1ff2",
+  "lang": "en",
+  "text": "A little alien wants to come too. But he got a boo-boo"
+ },
+ {
+  "id": "b48aeec7",
+  "lang": "en",
+  "text": "A little alien wants to come too. But he is cold, brrr!"
+ },
+ {
+  "id": "b88b1dcb",
+  "lang": "en",
+  "text": "A little alien wants to come too. But he is hungry"
+ },
+ {
+  "id": "5df83898",
+  "lang": "en",
+  "text": "A little alien wants to come too. But he is sleepy"
+ },
+ {
+  "id": "cf95f275",
+  "lang": "en",
+  "text": "A little alien wants to come too. But he is thirsty"
+ },
+ {
+  "id": "3f374ec7",
+  "lang": "en",
+  "text": "a teddy bear"
+ },
+ {
+  "id": "927b0a48",
+  "lang": "en",
+  "text": "a warm jacket"
+ },
+ {
+  "id": "fb61ea6b",
+  "lang": "en",
+  "text": "A warm jacket!"
+ },
+ {
+  "id": "db6e4c58",
+  "lang": "en",
+  "text": "airplane"
+ },
+ {
+  "id": "35515610",
+  "lang": "en",
+  "text": "All done for today!"
+ },
+ {
+  "id": "7fc7183c",
+  "lang": "en",
+  "text": "All done! Great playing!"
+ },
+ {
+  "id": "6e59a614",
+  "lang": "en",
+  "text": "Almost! Try again."
+ },
+ {
+  "id": "3a47e890",
+  "lang": "en",
+  "text": "Amazing!"
+ },
+ {
+  "id": "9351d1af",
+  "lang": "en",
+  "text": "angry"
+ },
+ {
+  "id": "bbc834da",
+  "lang": "en",
+  "text": "Animal Homes"
+ },
+ {
+  "id": "b051c3b8",
+  "lang": "en",
+  "text": "Awesome!"
+ },
+ {
+  "id": "01c9d6e8",
+  "lang": "en",
+  "text": "Baa! Baa!"
+ },
+ {
+  "id": "1a1dce7d",
+  "lang": "en",
+  "text": "balloon"
+ },
+ {
+  "id": "dc13b58f",
+  "lang": "en",
+  "text": "banana"
+ },
+ {
+  "id": "16a97bb8",
+  "lang": "en",
+  "text": "bear"
+ },
+ {
+  "id": "359ac1ce",
+  "lang": "en",
+  "text": "bee"
+ },
+ {
+  "id": "adc975bf",
+  "lang": "en",
+  "text": "bike"
+ },
+ {
+  "id": "e30831ed",
+  "lang": "en",
+  "text": "bird"
+ },
+ {
+  "id": "3cd515fc",
+  "lang": "en",
+  "text": "Blast off!"
+ },
+ {
+  "id": "78feefc3",
+  "lang": "en",
+  "text": "Blast off! Bye bye, rocket!"
+ },
+ {
+  "id": "ecb697c0",
+  "lang": "en",
+  "text": "Block Builder"
+ },
+ {
+  "id": "f77bd1d2",
+  "lang": "en",
+  "text": "blue"
+ },
+ {
+  "id": "a22f7807",
+  "lang": "en",
+  "text": "blue! Glug, glug, glug!"
+ },
+ {
+  "id": "4ae94940",
+  "lang": "en",
+  "text": "boat"
+ },
+ {
+  "id": "95d53521",
+  "lang": "en",
+  "text": "Brain Workout"
+ },
+ {
+  "id": "37b363c0",
+  "lang": "en",
+  "text": "Build a house! Can you put a roof on top?"
+ },
+ {
+  "id": "07da94ba",
+  "lang": "en",
+  "text": "bunny"
+ },
+ {
+  "id": "c28efb25",
+  "lang": "en",
+  "text": "butterfly"
+ },
+ {
+  "id": "93d1d34a",
+  "lang": "en",
+  "text": "Buzz!"
+ },
+ {
+  "id": "8372822c",
+  "lang": "en",
+  "text": "car"
+ },
+ {
+  "id": "e52e4a21",
+  "lang": "en",
+  "text": "carrot"
+ },
+ {
+  "id": "81727f06",
+  "lang": "en",
+  "text": "cat"
+ },
+ {
+  "id": "6d6c585d",
+  "lang": "en",
+  "text": "chicken"
+ },
+ {
+  "id": "acbd6c7a",
+  "lang": "en",
+  "text": "circle"
+ },
+ {
+  "id": "4f672f0d",
+  "lang": "en",
+  "text": "Cluck, cluck!"
+ },
+ {
+  "id": "f6443fa0",
+  "lang": "en",
+  "text": "Cock-a-doodle-doo!"
+ },
+ {
+  "id": "310884f9",
+  "lang": "en",
+  "text": "Colors & counting"
+ },
+ {
+  "id": "0d4b4c8f",
+  "lang": "en",
+  "text": "Copy Me"
+ },
+ {
+  "id": "f8850dbd",
+  "lang": "en",
+  "text": "Counting & comparing"
+ },
+ {
+  "id": "808c1559",
+  "lang": "en",
+  "text": "cow"
+ },
+ {
+  "id": "1157be7c",
+  "lang": "en",
+  "text": "crab"
+ },
+ {
+  "id": "70214e02",
+  "lang": "en",
+  "text": "Creativity & building"
+ },
+ {
+  "id": "8e45b882",
+  "lang": "en",
+  "text": "cross"
+ },
+ {
+  "id": "154f27a2",
+  "lang": "en",
+  "text": "diamond"
+ },
+ {
+  "id": "91b134a0",
+  "lang": "en",
+  "text": "dog"
+ },
+ {
+  "id": "8025a382",
+  "lang": "en",
+  "text": "dolphin"
+ },
+ {
+  "id": "adb39350",
+  "lang": "en",
+  "text": "Done for today! See you tomorrow."
+ },
+ {
+  "id": "34db70f4",
+  "lang": "en",
+  "text": "Drag it to the plate!"
+ },
+ {
+  "id": "d33d9fc6",
+  "lang": "en",
+  "text": "drum"
+ },
+ {
+  "id": "e759e7db",
+  "lang": "en",
+  "text": "duck"
+ },
+ {
+  "id": "01025da6",
+  "lang": "en",
+  "text": "eagle"
+ },
+ {
+  "id": "a98748d5",
+  "lang": "en",
+  "text": "eight"
+ },
+ {
+  "id": "e3e2e9c3",
+  "lang": "en",
+  "text": "elephant"
+ },
+ {
+  "id": "9ecf4e82",
+  "lang": "en",
+  "text": "English"
+ },
+ {
+  "id": "65c77ba2",
+  "lang": "en",
+  "text": "es"
+ },
+ {
+  "id": "7c65472f",
+  "lang": "en",
+  "text": "Español"
+ },
+ {
+  "id": "a20cdab1",
+  "lang": "en",
+  "text": "Everything is fixed! Count down to blast off. Tap 3, 2, 1!"
+ },
+ {
+  "id": "526fc2d8",
+  "lang": "en",
+  "text": "Everything is fixed! Count down to blast off. Tap 5, 4, 3, 2, 1!"
+ },
+ {
+  "id": "1f12f949",
+  "lang": "en",
+  "text": "Everything is fixed! Press the big button to blast off!"
+ },
+ {
+  "id": "cd7654cb",
+  "lang": "en",
+  "text": "Everything together"
+ },
+ {
+  "id": "ce8dd176",
+  "lang": "en",
+  "text": "farm"
+ },
+ {
+  "id": "3b0f6388",
+  "lang": "en",
+  "text": "Feed the Animals"
+ },
+ {
+  "id": "e4162066",
+  "lang": "en",
+  "text": "Feelings & kindness"
+ },
+ {
+  "id": "7bbb629e",
+  "lang": "en",
+  "text": "Find blue!"
+ },
+ {
+  "id": "dbc656f5",
+  "lang": "en",
+  "text": "Find green!"
+ },
+ {
+  "id": "cae15fcc",
+  "lang": "en",
+  "text": "Find orange!"
+ },
+ {
+  "id": "a3f3d752",
+  "lang": "en",
+  "text": "Find pink!"
+ },
+ {
+  "id": "552c56fc",
+  "lang": "en",
+  "text": "Find purple!"
+ },
+ {
+  "id": "6e08b695",
+  "lang": "en",
+  "text": "Find red!"
+ },
+ {
+  "id": "c12ac3ca",
+  "lang": "en",
+  "text": "Find the Animal"
+ },
+ {
+  "id": "b1ede6ce",
+  "lang": "en",
+  "text": "Find yellow!"
+ },
+ {
+  "id": "d067fa17",
+  "lang": "en",
+  "text": "First, fuel! Tap the blue fuel can."
+ },
+ {
+  "id": "ff70856a",
+  "lang": "en",
+  "text": "First, fuel! Tap the green fuel can."
+ },
+ {
+  "id": "6d831339",
+  "lang": "en",
+  "text": "First, fuel! Tap the purple fuel can."
+ },
+ {
+  "id": "7278ba9a",
+  "lang": "en",
+  "text": "First, fuel! Tap the red fuel can."
+ },
+ {
+  "id": "a209cb27",
+  "lang": "en",
+  "text": "First, fuel! Tap the yellow fuel can."
+ },
+ {
+  "id": "46f47804",
+  "lang": "en",
+  "text": "fish"
+ },
+ {
+  "id": "4fec376a",
+  "lang": "en",
+  "text": "five"
+ },
+ {
+  "id": "70772fcd",
+  "lang": "en",
+  "text": "Flap your arms like a little bird!"
+ },
+ {
+  "id": "755902a2",
+  "lang": "en",
+  "text": "four"
+ },
+ {
+  "id": "cb4f8f13",
+  "lang": "en",
+  "text": "fox"
+ },
+ {
+  "id": "eec2c5b8",
+  "lang": "en",
+  "text": "frog"
+ },
+ {
+  "id": "74f4019a",
+  "lang": "en",
+  "text": "giraffe"
+ },
+ {
+  "id": "0ff60d60",
+  "lang": "en",
+  "text": "Give the bear 1 apple!"
+ },
+ {
+  "id": "0a685490",
+  "lang": "en",
+  "text": "Give the bear 2 apples!"
+ },
+ {
+  "id": "950f5a73",
+  "lang": "en",
+  "text": "Give the bear 3 apples!"
+ },
+ {
+  "id": "3e5a704e",
+  "lang": "en",
+  "text": "Give the bear 4 apples!"
+ },
+ {
+  "id": "4b314001",
+  "lang": "en",
+  "text": "Give the bear 5 apples!"
+ },
+ {
+  "id": "01eae8ed",
+  "lang": "en",
+  "text": "Give the bunny 1 carrot!"
+ },
+ {
+  "id": "b901a58d",
+  "lang": "en",
+  "text": "Give the bunny 2 carrots!"
+ },
+ {
+  "id": "ff01e048",
+  "lang": "en",
+  "text": "Give the bunny 3 carrots!"
+ },
+ {
+  "id": "c0a01a9b",
+  "lang": "en",
+  "text": "Give the bunny 4 carrots!"
+ },
+ {
+  "id": "45dd2ad6",
+  "lang": "en",
+  "text": "Give the bunny 5 carrots!"
+ },
+ {
+  "id": "19bf5d32",
+  "lang": "en",
+  "text": "Give the monkey 1 banana!"
+ },
+ {
+  "id": "313ecaf4",
+  "lang": "en",
+  "text": "Give the monkey 2 bananas!"
+ },
+ {
+  "id": "ed33429d",
+  "lang": "en",
+  "text": "Give the monkey 3 bananas!"
+ },
+ {
+  "id": "a8a13922",
+  "lang": "en",
+  "text": "Give the monkey 4 bananas!"
+ },
+ {
+  "id": "f15d2f0b",
+  "lang": "en",
+  "text": "Give the monkey 5 bananas!"
+ },
+ {
+  "id": "e4b89144",
+  "lang": "en",
+  "text": "Give the puppy 1 bone!"
+ },
+ {
+  "id": "0c921ff6",
+  "lang": "en",
+  "text": "Give the puppy 2 bones!"
+ },
+ {
+  "id": "e322351f",
+  "lang": "en",
+  "text": "Give the puppy 3 bones!"
+ },
+ {
+  "id": "658bd454",
+  "lang": "en",
+  "text": "Give the puppy 4 bones!"
+ },
+ {
+  "id": "88afa8e5",
+  "lang": "en",
+  "text": "Give the puppy 5 bones!"
+ },
+ {
+  "id": "dc042896",
+  "lang": "en",
+  "text": "got a boo-boo"
+ },
+ {
+  "id": "3789fd4e",
+  "lang": "en",
+  "text": "grapes"
+ },
+ {
+  "id": "dc3066e2",
+  "lang": "en",
+  "text": "Great job today! Your brain did a big workout."
+ },
+ {
+  "id": "60fcc653",
+  "lang": "en",
+  "text": "Great job!"
+ },
+ {
+  "id": "7cd6ecf8",
+  "lang": "en",
+  "text": "Great moving! Sit down, let’s keep going."
+ },
+ {
+  "id": "cb9e36bf",
+  "lang": "en",
+  "text": "Great playing today!"
+ },
+ {
+  "id": "fe6fcd25",
+  "lang": "en",
+  "text": "green"
+ },
+ {
+  "id": "e604458a",
+  "lang": "en",
+  "text": "green! Glug, glug, glug!"
+ },
+ {
+  "id": "7058b48c",
+  "lang": "en",
+  "text": "guitar"
+ },
+ {
+  "id": "9e2ef864",
+  "lang": "en",
+  "text": "happy"
+ },
+ {
+  "id": "e3eccc66",
+  "lang": "en",
+  "text": "heart"
+ },
+ {
+  "id": "1eca4b67",
+  "lang": "en",
+  "text": "helicopter"
+ },
+ {
+  "id": "38e18b9a",
+  "lang": "en",
+  "text": "Help a Friend"
+ },
+ {
+  "id": "20c0f081",
+  "lang": "en",
+  "text": "Help the animals get home!"
+ },
+ {
+  "id": "cba4b392",
+  "lang": "en",
+  "text": "Help the astronaut get to the rocket!"
+ },
+ {
+  "id": "d0521ee6",
+  "lang": "en",
+  "text": "hexagon"
+ },
+ {
+  "id": "f71757ec",
+  "lang": "en",
+  "text": "Hi! It's time for your brain workout!"
+ },
+ {
+  "id": "4585da68",
+  "lang": "en",
+  "text": "Hi! What do you want to play?"
+ },
+ {
+  "id": "3f566736",
+  "lang": "en",
+  "text": "Hiss!"
+ },
+ {
+  "id": "1d18ecfe",
+  "lang": "en",
+  "text": "Hmm, does he need that?"
+ },
+ {
+  "id": "8d8d133a",
+  "lang": "en",
+  "text": "Hmm, does the bear need that?"
+ },
+ {
+  "id": "041825f0",
+  "lang": "en",
+  "text": "Hmm, does the bunny need that?"
+ },
+ {
+  "id": "a9a2253b",
+  "lang": "en",
+  "text": "Hmm, does the fox need that?"
+ },
+ {
+  "id": "dc779829",
+  "lang": "en",
+  "text": "Hmm, does the kitty need that?"
+ },
+ {
+  "id": "07832f58",
+  "lang": "en",
+  "text": "Hmm, does the panda need that?"
+ },
+ {
+  "id": "093da402",
+  "lang": "en",
+  "text": "Hmm, does the puppy need that?"
+ },
+ {
+  "id": "41e511b0",
+  "lang": "en",
+  "text": "Hmm, not that one."
+ },
+ {
+  "id": "d44c58a4",
+  "lang": "en",
+  "text": "Hoo! Hoo!"
+ },
+ {
+  "id": "995159af",
+  "lang": "en",
+  "text": "horse"
+ },
+ {
+  "id": "bacefc46",
+  "lang": "en",
+  "text": "How can we help?"
+ },
+ {
+  "id": "675f0704",
+  "lang": "en",
+  "text": "in the ocean"
+ },
+ {
+  "id": "a1dbf85f",
+  "lang": "en",
+  "text": "in the sky"
+ },
+ {
+  "id": "b5c7f6fa",
+  "lang": "en",
+  "text": "in the tree"
+ },
+ {
+  "id": "f05ef5f3",
+  "lang": "en",
+  "text": "is cold, brrr!"
+ },
+ {
+  "id": "7d816e17",
+  "lang": "en",
+  "text": "is hungry"
+ },
+ {
+  "id": "fd2c7844",
+  "lang": "en",
+  "text": "is sleepy"
+ },
+ {
+  "id": "ca0981f1",
+  "lang": "en",
+  "text": "is thirsty"
+ },
+ {
+  "id": "92e1f991",
+  "lang": "en",
+  "text": "It's time to turn off the iPad. Bye bye!"
+ },
+ {
+  "id": "7413771d",
+  "lang": "en",
+  "text": "Keep going"
+ },
+ {
+  "id": "61c047a9",
+  "lang": "en",
+  "text": "kite"
+ },
+ {
+  "id": "bd863e4d",
+  "lang": "en",
+  "text": "kitty"
+ },
+ {
+  "id": "d51b21de",
+  "lang": "en",
+  "text": "Last one! The astronaut's rocket is broken. Let's fix it!"
+ },
+ {
+  "id": "07d4a099",
+  "lang": "en",
+  "text": "Let's build! Drag the blocks."
+ },
+ {
+  "id": "9246cdba",
+  "lang": "en",
+  "text": "Let's fix the rocket so the astronaut can fly home!"
+ },
+ {
+  "id": "ae77537c",
+  "lang": "en",
+  "text": "Let's go!"
+ },
+ {
+  "id": "16dd2a64",
+  "lang": "en",
+  "text": "lion"
+ },
+ {
+  "id": "694ec918",
+  "lang": "en",
+  "text": "Listening & words"
+ },
+ {
+  "id": "293856e6",
+  "lang": "en",
+  "text": "Little Thinkers"
+ },
+ {
+  "id": "0abbcf88",
+  "lang": "en",
+  "text": "Match each one to its shadow!"
+ },
+ {
+  "id": "94de582d",
+  "lang": "en",
+  "text": "Memory"
+ },
+ {
+  "id": "74c6a3f5",
+  "lang": "en",
+  "text": "Meow!"
+ },
+ {
+  "id": "a9279317",
+  "lang": "en",
+  "text": "monkey"
+ },
+ {
+  "id": "1d458c06",
+  "lang": "en",
+  "text": "Moo! Moo!"
+ },
+ {
+  "id": "3edf90cf",
+  "lang": "en",
+  "text": "moon"
+ },
+ {
+  "id": "0107c080",
+  "lang": "en",
+  "text": "Move break"
+ },
+ {
+  "id": "5c8838b0",
+  "lang": "en",
+  "text": "My stickers"
+ },
+ {
+  "id": "63cd7d28",
+  "lang": "en",
+  "text": "Neigh!"
+ },
+ {
+  "id": "81baf6e2",
+  "lang": "en",
+  "text": "Next time: a little harder!"
+ },
+ {
+  "id": "0a4dec0c",
+  "lang": "en",
+  "text": "Next: Animal Homes!"
+ },
+ {
+  "id": "5ee29fb0",
+  "lang": "en",
+  "text": "Next: Block Builder!"
+ },
+ {
+  "id": "509279d1",
+  "lang": "en",
+  "text": "Next: Copy Me!"
+ },
+ {
+  "id": "d294a276",
+  "lang": "en",
+  "text": "Next: Feed the Animals!"
+ },
+ {
+  "id": "28013f86",
+  "lang": "en",
+  "text": "Next: Find the Animal!"
+ },
+ {
+  "id": "fe1a05a6",
+  "lang": "en",
+  "text": "Next: Help a Friend!"
+ },
+ {
+  "id": "27057332",
+  "lang": "en",
+  "text": "Next: Pop & Tap!"
+ },
+ {
+  "id": "bae7f0c3",
+  "lang": "en",
+  "text": "Next: Rocket Maze!"
+ },
+ {
+  "id": "f93e01f1",
+  "lang": "en",
+  "text": "Next: Rocket Rescue!"
+ },
+ {
+  "id": "3a9285cb",
+  "lang": "en",
+  "text": "Next: Shapes & Shadows!"
+ },
+ {
+  "id": "2da08f5f",
+  "lang": "en",
+  "text": "Next: Trace Numbers!"
+ },
+ {
+  "id": "d50b3bfa",
+  "lang": "en",
+  "text": "nine"
+ },
+ {
+  "id": "58a5aa45",
+  "lang": "en",
+  "text": "Now he feels better. Climb aboard!"
+ },
+ {
+  "id": "5ec5cc5a",
+  "lang": "en",
+  "text": "Now the lights! Watch, then copy me."
+ },
+ {
+  "id": "f6a72cc8",
+  "lang": "en",
+  "text": "Now you!"
+ },
+ {
+  "id": "baa35252",
+  "lang": "en",
+  "text": "Numbers & finger control"
+ },
+ {
+  "id": "1eb86fc0",
+  "lang": "en",
+  "text": "ocean"
+ },
+ {
+  "id": "8b183257",
+  "lang": "en",
+  "text": "octopus"
+ },
+ {
+  "id": "4769117e",
+  "lang": "en",
+  "text": "Oink! Oink!"
+ },
+ {
+  "id": "d0e58c64",
+  "lang": "en",
+  "text": "on the farm"
+ },
+ {
+  "id": "bde978fa",
+  "lang": "en",
+  "text": "one"
+ },
+ {
+  "id": "842e0b75",
+  "lang": "en",
+  "text": "Oops, no way out! Go back."
+ },
+ {
+  "id": "3f5da226",
+  "lang": "en",
+  "text": "Oops! Let's watch again."
+ },
+ {
+  "id": "45fb71ec",
+  "lang": "en",
+  "text": "orange"
+ },
+ {
+  "id": "306342c3",
+  "lang": "en",
+  "text": "Other games"
+ },
+ {
+  "id": "55a1584e",
+  "lang": "en",
+  "text": "oval"
+ },
+ {
+  "id": "90aac964",
+  "lang": "en",
+  "text": "owl"
+ },
+ {
+  "id": "13d75b3a",
+  "lang": "en",
+  "text": "panda"
+ },
+ {
+  "id": "f3dad64e",
+  "lang": "en",
+  "text": "parrot"
+ },
+ {
+  "id": "3a87cd1e",
+  "lang": "en",
+  "text": "pear"
+ },
+ {
+  "id": "b37ab8ca",
+  "lang": "en",
+  "text": "penguin"
+ },
+ {
+  "id": "c1a9aa2e",
+  "lang": "en",
+  "text": "pentagon"
+ },
+ {
+  "id": "bd1b47de",
+  "lang": "en",
+  "text": "pig"
+ },
+ {
+  "id": "910d381c",
+  "lang": "en",
+  "text": "pineapple"
+ },
+ {
+  "id": "5ee08c36",
+  "lang": "en",
+  "text": "pink"
+ },
+ {
+  "id": "686de9f8",
+  "lang": "en",
+  "text": "Play again"
+ },
+ {
+  "id": "0bc5babc",
+  "lang": "en",
+  "text": "polar bear"
+ },
+ {
+  "id": "834e2b7a",
+  "lang": "en",
+  "text": "Pop & Tap"
+ },
+ {
+  "id": "3f8dba82",
+  "lang": "en",
+  "text": "Pop 2 blue balloons!"
+ },
+ {
+  "id": "0034c91f",
+  "lang": "en",
+  "text": "Pop 2 green balloons!"
+ },
+ {
+  "id": "b3c96a4c",
+  "lang": "en",
+  "text": "Pop 2 orange balloons!"
+ },
+ {
+  "id": "08217612",
+  "lang": "en",
+  "text": "Pop 2 pink balloons!"
+ },
+ {
+  "id": "9942d040",
+  "lang": "en",
+  "text": "Pop 2 purple balloons!"
+ },
+ {
+  "id": "26ff8f6f",
+  "lang": "en",
+  "text": "Pop 2 red balloons!"
+ },
+ {
+  "id": "24e5df16",
+  "lang": "en",
+  "text": "Pop 2 yellow balloons!"
+ },
+ {
+  "id": "4c1b7b0b",
+  "lang": "en",
+  "text": "Pop 3 blue balloons!"
+ },
+ {
+  "id": "c2ac7198",
+  "lang": "en",
+  "text": "Pop 3 green balloons!"
+ },
+ {
+  "id": "0db5850d",
+  "lang": "en",
+  "text": "Pop 3 orange balloons!"
+ },
+ {
+  "id": "c03b1a1b",
+  "lang": "en",
+  "text": "Pop 3 pink balloons!"
+ },
+ {
+  "id": "4d40ebcd",
+  "lang": "en",
+  "text": "Pop 3 purple balloons!"
+ },
+ {
+  "id": "bb927514",
+  "lang": "en",
+  "text": "Pop 3 red balloons!"
+ },
+ {
+  "id": "aaebe72f",
+  "lang": "en",
+  "text": "Pop 3 yellow balloons!"
+ },
+ {
+  "id": "366601e0",
+  "lang": "en",
+  "text": "Pop 4 blue balloons!"
+ },
+ {
+  "id": "a08a45e1",
+  "lang": "en",
+  "text": "Pop 4 green balloons!"
+ },
+ {
+  "id": "8808e1e6",
+  "lang": "en",
+  "text": "Pop 4 orange balloons!"
+ },
+ {
+  "id": "97f6c064",
+  "lang": "en",
+  "text": "Pop 4 pink balloons!"
+ },
+ {
+  "id": "cbf5ebf6",
+  "lang": "en",
+  "text": "Pop 4 purple balloons!"
+ },
+ {
+  "id": "c07a7d81",
+  "lang": "en",
+  "text": "Pop 4 red balloons!"
+ },
+ {
+  "id": "cc4aaaf0",
+  "lang": "en",
+  "text": "Pop 4 yellow balloons!"
+ },
+ {
+  "id": "5aa76029",
+  "lang": "en",
+  "text": "Pop 5 blue balloons!"
+ },
+ {
+  "id": "431253ea",
+  "lang": "en",
+  "text": "Pop 5 green balloons!"
+ },
+ {
+  "id": "c0d60817",
+  "lang": "en",
+  "text": "Pop 5 orange balloons!"
+ },
+ {
+  "id": "dc6b6395",
+  "lang": "en",
+  "text": "Pop 5 pink balloons!"
+ },
+ {
+  "id": "f43fb9c3",
+  "lang": "en",
+  "text": "Pop 5 purple balloons!"
+ },
+ {
+  "id": "12ea262e",
+  "lang": "en",
+  "text": "Pop 5 red balloons!"
+ },
+ {
+  "id": "d04f6bb9",
+  "lang": "en",
+  "text": "Pop 5 yellow balloons!"
+ },
+ {
+  "id": "bdeab9b8",
+  "lang": "en",
+  "text": "Problem-solving"
+ },
+ {
+  "id": "080eb2a8",
+  "lang": "en",
+  "text": "puppy"
+ },
+ {
+  "id": "193e6978",
+  "lang": "en",
+  "text": "purple"
+ },
+ {
+  "id": "6794cad1",
+  "lang": "en",
+  "text": "purple! Glug, glug, glug!"
+ },
+ {
+  "id": "24263b0c",
+  "lang": "en",
+  "text": "Put each shape in its place!"
+ },
+ {
+  "id": "5efb9e4e",
+  "lang": "en",
+  "text": "Quack! Quack!"
+ },
+ {
+  "id": "687456fe",
+  "lang": "en",
+  "text": "rabbit"
+ },
+ {
+  "id": "07479a4c",
+  "lang": "en",
+  "text": "Ready? Press go!"
+ },
+ {
+  "id": "054bb783",
+  "lang": "en",
+  "text": "rectangle"
+ },
+ {
+  "id": "e6e22b91",
+  "lang": "en",
+  "text": "red"
+ },
+ {
+  "id": "bb7be93e",
+  "lang": "en",
+  "text": "red! Glug, glug, glug!"
+ },
+ {
+  "id": "1fc04bb6",
+  "lang": "en",
+  "text": "Ribbit! Ribbit!"
+ },
+ {
+  "id": "1ee655d9",
+  "lang": "en",
+  "text": "Roar!"
+ },
+ {
+  "id": "9bff8ce1",
+  "lang": "en",
+  "text": "Rocket Maze"
+ },
+ {
+  "id": "f4156dfb",
+  "lang": "en",
+  "text": "Rocket Rescue"
+ },
+ {
+  "id": "55016f9a",
+  "lang": "en",
+  "text": "rooster"
+ },
+ {
+  "id": "411a9ca6",
+  "lang": "en",
+  "text": "sad"
+ },
+ {
+  "id": "424fb9d2",
+  "lang": "en",
+  "text": "scared"
+ },
+ {
+  "id": "f2f4fdb1",
+  "lang": "en",
+  "text": "scooter"
+ },
+ {
+  "id": "f9c92b1f",
+  "lang": "en",
+  "text": "seal"
+ },
+ {
+  "id": "c4fe8138",
+  "lang": "en",
+  "text": "See you tomorrow!"
+ },
+ {
+  "id": "27cb393f",
+  "lang": "en",
+  "text": "seven"
+ },
+ {
+  "id": "546d71e2",
+  "lang": "en",
+  "text": "Shapes & finger control"
+ },
+ {
+  "id": "6c378013",
+  "lang": "en",
+  "text": "Shapes & Shadows"
+ },
+ {
+  "id": "55a6bad1",
+  "lang": "en",
+  "text": "sheep"
+ },
+ {
+  "id": "5d2e5072",
+  "lang": "en",
+  "text": "six"
+ },
+ {
+  "id": "5229c1f3",
+  "lang": "en",
+  "text": "sky"
+ },
+ {
+  "id": "c397ae0a",
+  "lang": "en",
+  "text": "sloth"
+ },
+ {
+  "id": "e2fa1807",
+  "lang": "en",
+  "text": "snail"
+ },
+ {
+  "id": "cdf579ca",
+  "lang": "en",
+  "text": "snake"
+ },
+ {
+  "id": "716d334e",
+  "lang": "en",
+  "text": "some food"
+ },
+ {
+  "id": "6a0169dd",
+  "lang": "en",
+  "text": "Some food!"
+ },
+ {
+  "id": "2caa76c2",
+  "lang": "en",
+  "text": "Sorting & logic"
+ },
+ {
+  "id": "e6430711",
+  "lang": "en",
+  "text": "square"
+ },
+ {
+  "id": "249a28f5",
+  "lang": "en",
+  "text": "squirrel"
+ },
+ {
+  "id": "bb9511c2",
+  "lang": "en",
+  "text": "Stand up tall! Reach up high like a giraffe!"
+ },
+ {
+  "id": "aca4c1fa",
+  "lang": "en",
+  "text": "Stand up!"
+ },
+ {
+  "id": "b5644353",
+  "lang": "en",
+  "text": "Stand up! Jump like a frog!"
+ },
+ {
+  "id": "4fd8108a",
+  "lang": "en",
+  "text": "star"
+ },
+ {
+  "id": "e3f63b8a",
+  "lang": "en",
+  "text": "Star power!"
+ },
+ {
+  "id": "dcf0d94e",
+  "lang": "en",
+  "text": "Stomp, stomp, like an elephant!"
+ },
+ {
+  "id": "d40dbe89",
+  "lang": "en",
+  "text": "Stop for now"
+ },
+ {
+  "id": "45f0ebfb",
+  "lang": "en",
+  "text": "strawberry"
+ },
+ {
+  "id": "dec08618",
+  "lang": "en",
+  "text": "Tap 2 blue footballs!"
+ },
+ {
+  "id": "feb0eaf3",
+  "lang": "en",
+  "text": "Tap 2 blue soccer balls!"
+ },
+ {
+  "id": "5a1f815f",
+  "lang": "en",
+  "text": "Tap 2 green footballs!"
+ },
+ {
+  "id": "13223a4a",
+  "lang": "en",
+  "text": "Tap 2 green soccer balls!"
+ },
+ {
+  "id": "1cc1bf92",
+  "lang": "en",
+  "text": "Tap 2 orange footballs!"
+ },
+ {
+  "id": "82e98521",
+  "lang": "en",
+  "text": "Tap 2 orange soccer balls!"
+ },
+ {
+  "id": "20ddb54c",
+  "lang": "en",
+  "text": "Tap 2 pink footballs!"
+ },
+ {
+  "id": "97d76faf",
+  "lang": "en",
+  "text": "Tap 2 pink soccer balls!"
+ },
+ {
+  "id": "35d94e2a",
+  "lang": "en",
+  "text": "Tap 2 purple footballs!"
+ },
+ {
+  "id": "79b860f9",
+  "lang": "en",
+  "text": "Tap 2 purple soccer balls!"
+ },
+ {
+  "id": "2420448f",
+  "lang": "en",
+  "text": "Tap 2 red footballs!"
+ },
+ {
+  "id": "b8af1a3a",
+  "lang": "en",
+  "text": "Tap 2 red soccer balls!"
+ },
+ {
+  "id": "d5c7d248",
+  "lang": "en",
+  "text": "Tap 2 yellow footballs!"
+ },
+ {
+  "id": "7ac8d223",
+  "lang": "en",
+  "text": "Tap 2 yellow soccer balls!"
+ },
+ {
+  "id": "f74a5957",
+  "lang": "en",
+  "text": "Tap 3 blue footballs!"
+ },
+ {
+  "id": "f6bfc6e2",
+  "lang": "en",
+  "text": "Tap 3 blue soccer balls!"
+ },
+ {
+  "id": "742276be",
+  "lang": "en",
+  "text": "Tap 3 green footballs!"
+ },
+ {
+  "id": "659905b5",
+  "lang": "en",
+  "text": "Tap 3 green soccer balls!"
+ },
+ {
+  "id": "77130cf1",
+  "lang": "en",
+  "text": "Tap 3 orange footballs!"
+ },
+ {
+  "id": "6de3b7b8",
+  "lang": "en",
+  "text": "Tap 3 orange soccer balls!"
+ },
+ {
+  "id": "1810e7e3",
+  "lang": "en",
+  "text": "Tap 3 pink footballs!"
+ },
+ {
+  "id": "c81eb396",
+  "lang": "en",
+  "text": "Tap 3 pink soccer balls!"
+ },
+ {
+  "id": "6b097295",
+  "lang": "en",
+  "text": "Tap 3 purple footballs!"
+ },
+ {
+  "id": "bcf6b524",
+  "lang": "en",
+  "text": "Tap 3 purple soccer balls!"
+ },
+ {
+  "id": "aa7bb692",
+  "lang": "en",
+  "text": "Tap 3 red footballs!"
+ },
+ {
+  "id": "fa19e221",
+  "lang": "en",
+  "text": "Tap 3 red soccer balls!"
+ },
+ {
+  "id": "7545a937",
+  "lang": "en",
+  "text": "Tap 3 yellow footballs!"
+ },
+ {
+  "id": "8ca94ac2",
+  "lang": "en",
+  "text": "Tap 3 yellow soccer balls!"
+ },
+ {
+  "id": "ab1a4f4e",
+  "lang": "en",
+  "text": "Tap 4 blue footballs!"
+ },
+ {
+  "id": "004ddc85",
+  "lang": "en",
+  "text": "Tap 4 blue soccer balls!"
+ },
+ {
+  "id": "3d42a529",
+  "lang": "en",
+  "text": "Tap 4 green footballs!"
+ },
+ {
+  "id": "74700b70",
+  "lang": "en",
+  "text": "Tap 4 green soccer balls!"
+ },
+ {
+  "id": "144a1434",
+  "lang": "en",
+  "text": "Tap 4 orange footballs!"
+ },
+ {
+  "id": "62b72777",
+  "lang": "en",
+  "text": "Tap 4 orange soccer balls!"
+ },
+ {
+  "id": "6775034e",
+  "lang": "en",
+  "text": "Tap 4 pink footballs!"
+ },
+ {
+  "id": "52bc9885",
+  "lang": "en",
+  "text": "Tap 4 pink soccer balls!"
+ },
+ {
+  "id": "dec26e60",
+  "lang": "en",
+  "text": "Tap 4 purple footballs!"
+ },
+ {
+  "id": "d5ea087b",
+  "lang": "en",
+  "text": "Tap 4 purple soccer balls!"
+ },
+ {
+  "id": "104a0359",
+  "lang": "en",
+  "text": "Tap 4 red footballs!"
+ },
+ {
+  "id": "61571620",
+  "lang": "en",
+  "text": "Tap 4 red soccer balls!"
+ },
+ {
+  "id": "f54a8942",
+  "lang": "en",
+  "text": "Tap 4 yellow footballs!"
+ },
+ {
+  "id": "dc888b51",
+  "lang": "en",
+  "text": "Tap 4 yellow soccer balls!"
+ },
+ {
+  "id": "654e59b5",
+  "lang": "en",
+  "text": "Tap 5 blue footballs!"
+ },
+ {
+  "id": "e615eec4",
+  "lang": "en",
+  "text": "Tap 5 blue soccer balls!"
+ },
+ {
+  "id": "73c483e8",
+  "lang": "en",
+  "text": "Tap 5 green footballs!"
+ },
+ {
+  "id": "937b1d43",
+  "lang": "en",
+  "text": "Tap 5 green soccer balls!"
+ },
+ {
+  "id": "cc9acc0b",
+  "lang": "en",
+  "text": "Tap 5 orange footballs!"
+ },
+ {
+  "id": "f1307a5e",
+  "lang": "en",
+  "text": "Tap 5 orange soccer balls!"
+ },
+ {
+  "id": "ae15ff15",
+  "lang": "en",
+  "text": "Tap 5 pink footballs!"
+ },
+ {
+  "id": "62e15ea4",
+  "lang": "en",
+  "text": "Tap 5 pink soccer balls!"
+ },
+ {
+  "id": "9063eee3",
+  "lang": "en",
+  "text": "Tap 5 purple footballs!"
+ },
+ {
+  "id": "6056c096",
+  "lang": "en",
+  "text": "Tap 5 purple soccer balls!"
+ },
+ {
+  "id": "a13f80f4",
+  "lang": "en",
+  "text": "Tap 5 red footballs!"
+ },
+ {
+  "id": "81c785b7",
+  "lang": "en",
+  "text": "Tap 5 red soccer balls!"
+ },
+ {
+  "id": "09e86da9",
+  "lang": "en",
+  "text": "Tap 5 yellow footballs!"
+ },
+ {
+  "id": "773348f0",
+  "lang": "en",
+  "text": "Tap 5 yellow soccer balls!"
+ },
+ {
+  "id": "7121f392",
+  "lang": "en",
+  "text": "teddy bear"
+ },
+ {
+  "id": "6a4a6f11",
+  "lang": "en",
+  "text": "ten"
+ },
+ {
+  "id": "58f49a50",
+  "lang": "en",
+  "text": "Thank you! Now I feel better!"
+ },
+ {
+  "id": "38386ac5",
+  "lang": "en",
+  "text": "That doesn't fit. Try another spot!"
+ },
+ {
+  "id": "4aed4626",
+  "lang": "en",
+  "text": "That one is angry."
+ },
+ {
+  "id": "73e38a2b",
+  "lang": "en",
+  "text": "That one is blue."
+ },
+ {
+  "id": "5b2ea354",
+  "lang": "en",
+  "text": "That one is green."
+ },
+ {
+  "id": "cc4afcaf",
+  "lang": "en",
+  "text": "That one is happy."
+ },
+ {
+  "id": "4ac884ad",
+  "lang": "en",
+  "text": "That one is purple."
+ },
+ {
+  "id": "844f2b14",
+  "lang": "en",
+  "text": "That one is red."
+ },
+ {
+  "id": "72f47e21",
+  "lang": "en",
+  "text": "That one is sad."
+ },
+ {
+  "id": "ef1b98f3",
+  "lang": "en",
+  "text": "That one is scared."
+ },
+ {
+  "id": "ff21432b",
+  "lang": "en",
+  "text": "That one is yellow."
+ },
+ {
+  "id": "d1306ce6",
+  "lang": "en",
+  "text": "That plate has fewer. Look again!"
+ },
+ {
+  "id": "572f7505",
+  "lang": "en",
+  "text": "That's 1. We need 2!"
+ },
+ {
+  "id": "7b31ec48",
+  "lang": "en",
+  "text": "That's 1. We need 3!"
+ },
+ {
+  "id": "e334ce97",
+  "lang": "en",
+  "text": "That's 1. We need 4!"
+ },
+ {
+  "id": "073745da",
+  "lang": "en",
+  "text": "That's 1. We need 5!"
+ },
+ {
+  "id": "e516083b",
+  "lang": "en",
+  "text": "That's 2. We need 1!"
+ },
+ {
+  "id": "f11a984d",
+  "lang": "en",
+  "text": "That's 2. We need 3!"
+ },
+ {
+  "id": "61220462",
+  "lang": "en",
+  "text": "That's 2. We need 4!"
+ },
+ {
+  "id": "3d1f8d1f",
+  "lang": "en",
+  "text": "That's 2. We need 5!"
+ },
+ {
+  "id": "1b1a3a0c",
+  "lang": "en",
+  "text": "That's 3. We need 1!"
+ },
+ {
+  "id": "ab12cdf7",
+  "lang": "en",
+  "text": "That's 3. We need 2!"
+ },
+ {
+  "id": "9f0e3de5",
+  "lang": "en",
+  "text": "That's 3. We need 4!"
+ },
+ {
+  "id": "c310b528",
+  "lang": "en",
+  "text": "That's 3. We need 5!"
+ },
+ {
+  "id": "98a82c91",
+  "lang": "en",
+  "text": "That's 4. We need 1!"
+ },
+ {
+  "id": "b0a613c2",
+  "lang": "en",
+  "text": "That's 4. We need 2!"
+ },
+ {
+  "id": "8ca39c7f",
+  "lang": "en",
+  "text": "That's 4. We need 3!"
+ },
+ {
+  "id": "409ea7ad",
+  "lang": "en",
+  "text": "That's 4. We need 5!"
+ },
+ {
+  "id": "13faa712",
+  "lang": "en",
+  "text": "That's 5. We need 1!"
+ },
+ {
+  "id": "3bfd24a1",
+  "lang": "en",
+  "text": "That's 5. We need 2!"
+ },
+ {
+  "id": "1fff3724",
+  "lang": "en",
+  "text": "That's 5. We need 3!"
+ },
+ {
+  "id": "17ede16b",
+  "lang": "en",
+  "text": "That's 5. We need 4!"
+ },
+ {
+  "id": "dff9357e",
+  "lang": "en",
+  "text": "That's a circle. It doesn't fit."
+ },
+ {
+  "id": "2ea531b2",
+  "lang": "en",
+  "text": "That's a heart. It doesn't fit."
+ },
+ {
+  "id": "c98e4e1b",
+  "lang": "en",
+  "text": "That's a square. It doesn't fit."
+ },
+ {
+  "id": "dd73d3f6",
+  "lang": "en",
+  "text": "That's a star. It doesn't fit."
+ },
+ {
+  "id": "c8b00946",
+  "lang": "en",
+  "text": "That's a triangle. It doesn't fit."
+ },
+ {
+  "id": "e4f7cde6",
+  "lang": "en",
+  "text": "That's the bear."
+ },
+ {
+  "id": "beec0ea4",
+  "lang": "en",
+  "text": "That's the bee."
+ },
+ {
+  "id": "c32f5d78",
+  "lang": "en",
+  "text": "That's the bunny."
+ },
+ {
+  "id": "6c370285",
+  "lang": "en",
+  "text": "That's the butterfly."
+ },
+ {
+  "id": "d2719fc4",
+  "lang": "en",
+  "text": "That's the cat."
+ },
+ {
+  "id": "20371f4d",
+  "lang": "en",
+  "text": "That's the chicken."
+ },
+ {
+  "id": "2da7bbd9",
+  "lang": "en",
+  "text": "That's the cow."
+ },
+ {
+  "id": "16323a86",
+  "lang": "en",
+  "text": "That's the dog."
+ },
+ {
+  "id": "bed1974b",
+  "lang": "en",
+  "text": "That's the duck."
+ },
+ {
+  "id": "5dc8cabb",
+  "lang": "en",
+  "text": "That's the elephant."
+ },
+ {
+  "id": "8be7d5f2",
+  "lang": "en",
+  "text": "That's the fish."
+ },
+ {
+  "id": "b82c0926",
+  "lang": "en",
+  "text": "That's the frog."
+ },
+ {
+  "id": "6730fb50",
+  "lang": "en",
+  "text": "That's the giraffe."
+ },
+ {
+  "id": "58fad437",
+  "lang": "en",
+  "text": "That's the horse."
+ },
+ {
+  "id": "e4fa2e72",
+  "lang": "en",
+  "text": "That's the lion."
+ },
+ {
+  "id": "fcca5eb7",
+  "lang": "en",
+  "text": "That's the monkey."
+ },
+ {
+  "id": "eb01930a",
+  "lang": "en",
+  "text": "That's the owl."
+ },
+ {
+  "id": "ae7a4c8c",
+  "lang": "en",
+  "text": "That's the pig."
+ },
+ {
+  "id": "addbb691",
+  "lang": "en",
+  "text": "That's the sheep."
+ },
+ {
+  "id": "626e9b4f",
+  "lang": "en",
+  "text": "That's the snail."
+ },
+ {
+  "id": "fc2ed076",
+  "lang": "en",
+  "text": "That's the turtle."
+ },
+ {
+  "id": "098916cf",
+  "lang": "en",
+  "text": "That's the whale."
+ },
+ {
+  "id": "ca771250",
+  "lang": "en",
+  "text": "That's the zebra."
+ },
+ {
+  "id": "1c5af1c5",
+  "lang": "en",
+  "text": "The bear got a boo-boo"
+ },
+ {
+  "id": "f9f0a69e",
+  "lang": "en",
+  "text": "The bear is cold, brrr!"
+ },
+ {
+  "id": "40a0c21c",
+  "lang": "en",
+  "text": "The bear is hungry"
+ },
+ {
+  "id": "bd2e6983",
+  "lang": "en",
+  "text": "The bear is sleepy"
+ },
+ {
+  "id": "dfb48190",
+  "lang": "en",
+  "text": "The bear is thirsty"
+ },
+ {
+  "id": "fbd9a8c0",
+  "lang": "en",
+  "text": "The bear!"
+ },
+ {
+  "id": "24cdaa8e",
+  "lang": "en",
+  "text": "The bee lives in the sky!"
+ },
+ {
+  "id": "a7a65cdc",
+  "lang": "en",
+  "text": "The bee!"
+ },
+ {
+  "id": "eb648b27",
+  "lang": "en",
+  "text": "The bird lives in the sky!"
+ },
+ {
+  "id": "be560369",
+  "lang": "en",
+  "text": "The bunny got a boo-boo"
+ },
+ {
+  "id": "a1a35d0a",
+  "lang": "en",
+  "text": "The bunny is cold, brrr!"
+ },
+ {
+  "id": "03b92e98",
+  "lang": "en",
+  "text": "The bunny is hungry"
+ },
+ {
+  "id": "2010efbf",
+  "lang": "en",
+  "text": "The bunny is sleepy"
+ },
+ {
+  "id": "7258815c",
+  "lang": "en",
+  "text": "The bunny is thirsty"
+ },
+ {
+  "id": "a519678c",
+  "lang": "en",
+  "text": "The bunny!"
+ },
+ {
+  "id": "70fdcd8d",
+  "lang": "en",
+  "text": "The butterfly lives in the sky!"
+ },
+ {
+  "id": "2f09c889",
+  "lang": "en",
+  "text": "The butterfly!"
+ },
+ {
+  "id": "cebbea9c",
+  "lang": "en",
+  "text": "The cat!"
+ },
+ {
+  "id": "19c56302",
+  "lang": "en",
+  "text": "The chicken lives on the farm!"
+ },
+ {
+  "id": "287c5185",
+  "lang": "en",
+  "text": "The chicken!"
+ },
+ {
+  "id": "7401e6e8",
+  "lang": "en",
+  "text": "The circle fits!"
+ },
+ {
+  "id": "6e86b65a",
+  "lang": "en",
+  "text": "The cow lives on the farm!"
+ },
+ {
+  "id": "374862fd",
+  "lang": "en",
+  "text": "The cow!"
+ },
+ {
+  "id": "1ab9bc3b",
+  "lang": "en",
+  "text": "The crab lives in the ocean!"
+ },
+ {
+  "id": "84af7dfe",
+  "lang": "en",
+  "text": "The dog!"
+ },
+ {
+  "id": "9eadce0f",
+  "lang": "en",
+  "text": "The dolphin lives in the ocean!"
+ },
+ {
+  "id": "8982ec53",
+  "lang": "en",
+  "text": "The door is missing! Which piece fits the door?"
+ },
+ {
+  "id": "f57bdbf5",
+  "lang": "en",
+  "text": "The duck!"
+ },
+ {
+  "id": "4d41a9ed",
+  "lang": "en",
+  "text": "The elephant!"
+ },
+ {
+  "id": "299f928f",
+  "lang": "en",
+  "text": "The fish lives in the ocean!"
+ },
+ {
+  "id": "b62a9ca0",
+  "lang": "en",
+  "text": "The fish!"
+ },
+ {
+  "id": "8c3fbc10",
+  "lang": "en",
+  "text": "The fox got a boo-boo"
+ },
+ {
+  "id": "f68998ad",
+  "lang": "en",
+  "text": "The fox is cold, brrr!"
+ },
+ {
+  "id": "439971c1",
+  "lang": "en",
+  "text": "The fox is hungry"
+ },
+ {
+  "id": "b70b41ae",
+  "lang": "en",
+  "text": "The fox is sleepy"
+ },
+ {
+  "id": "13c8b143",
+  "lang": "en",
+  "text": "The fox is thirsty"
+ },
+ {
+  "id": "bbc38e04",
+  "lang": "en",
+  "text": "The frog!"
+ },
+ {
+  "id": "0d332ab0",
+  "lang": "en",
+  "text": "The giraffe!"
+ },
+ {
+  "id": "67177e06",
+  "lang": "en",
+  "text": "The heart fits!"
+ },
+ {
+  "id": "a73e77bc",
+  "lang": "en",
+  "text": "The horse lives on the farm!"
+ },
+ {
+  "id": "32650dd7",
+  "lang": "en",
+  "text": "The horse!"
+ },
+ {
+  "id": "2c5278ae",
+  "lang": "en",
+  "text": "The kitty got a boo-boo"
+ },
+ {
+  "id": "6a2f72bb",
+  "lang": "en",
+  "text": "The kitty is cold, brrr!"
+ },
+ {
+  "id": "b748d30f",
+  "lang": "en",
+  "text": "The kitty is hungry"
+ },
+ {
+  "id": "f26c5d2c",
+  "lang": "en",
+  "text": "The kitty is sleepy"
+ },
+ {
+  "id": "ce865119",
+  "lang": "en",
+  "text": "The kitty is thirsty"
+ },
+ {
+  "id": "81f232e6",
+  "lang": "en",
+  "text": "The lights work!"
+ },
+ {
+  "id": "e2c647fc",
+  "lang": "en",
+  "text": "The lion!"
+ },
+ {
+  "id": "8302fa9c",
+  "lang": "en",
+  "text": "The monkey lives in the tree!"
+ },
+ {
+  "id": "b63be991",
+  "lang": "en",
+  "text": "The monkey!"
+ },
+ {
+  "id": "6981ae5e",
+  "lang": "en",
+  "text": "The octopus lives in the ocean!"
+ },
+ {
+  "id": "0cca03ca",
+  "lang": "en",
+  "text": "The owl!"
+ },
+ {
+  "id": "9bf2a9fd",
+  "lang": "en",
+  "text": "The panda got a boo-boo"
+ },
+ {
+  "id": "58620746",
+  "lang": "en",
+  "text": "The panda is cold, brrr!"
+ },
+ {
+  "id": "65789874",
+  "lang": "en",
+  "text": "The panda is hungry"
+ },
+ {
+  "id": "39598d4b",
+  "lang": "en",
+  "text": "The panda is sleepy"
+ },
+ {
+  "id": "3d1f36d8",
+  "lang": "en",
+  "text": "The panda is thirsty"
+ },
+ {
+  "id": "f4c50e43",
+  "lang": "en",
+  "text": "The pig lives on the farm!"
+ },
+ {
+  "id": "977d4afc",
+  "lang": "en",
+  "text": "The pig!"
+ },
+ {
+  "id": "586223cb",
+  "lang": "en",
+  "text": "The puppy got a boo-boo"
+ },
+ {
+  "id": "b76fb144",
+  "lang": "en",
+  "text": "The puppy is cold, brrr!"
+ },
+ {
+  "id": "389d5ca2",
+  "lang": "en",
+  "text": "The puppy is hungry"
+ },
+ {
+  "id": "b9f3a5b1",
+  "lang": "en",
+  "text": "The puppy is sleepy"
+ },
+ {
+  "id": "733fedd6",
+  "lang": "en",
+  "text": "The puppy is thirsty"
+ },
+ {
+  "id": "d15132b2",
+  "lang": "en",
+  "text": "The rocket needs star power! Tap 2 stars."
+ },
+ {
+  "id": "4fa1232b",
+  "lang": "en",
+  "text": "The rocket needs star power! Tap 3 stars."
+ },
+ {
+  "id": "2e477304",
+  "lang": "en",
+  "text": "The rocket needs star power! Tap 4 stars."
+ },
+ {
+  "id": "7c02b83d",
+  "lang": "en",
+  "text": "The rocket needs star power! Tap 5 stars."
+ },
+ {
+  "id": "4a2ff3be",
+  "lang": "en",
+  "text": "The sheep lives on the farm!"
+ },
+ {
+  "id": "fdf9d379",
+  "lang": "en",
+  "text": "The sheep!"
+ },
+ {
+  "id": "f13f09f5",
+  "lang": "en",
+  "text": "The sloth lives in the tree!"
+ },
+ {
+  "id": "cb9d0597",
+  "lang": "en",
+  "text": "The snail!"
+ },
+ {
+  "id": "a7eff61b",
+  "lang": "en",
+  "text": "The square fits!"
+ },
+ {
+  "id": "3eaf0f26",
+  "lang": "en",
+  "text": "The squirrel lives in the tree!"
+ },
+ {
+  "id": "32f10f1c",
+  "lang": "en",
+  "text": "The star fits!"
+ },
+ {
+  "id": "a821613c",
+  "lang": "en",
+  "text": "The triangle fits!"
+ },
+ {
+  "id": "d8b032d0",
+  "lang": "en",
+  "text": "The turtle!"
+ },
+ {
+  "id": "694d047a",
+  "lang": "en",
+  "text": "The whale lives in the ocean!"
+ },
+ {
+  "id": "2b3f7af7",
+  "lang": "en",
+  "text": "The whale!"
+ },
+ {
+  "id": "63629dc4",
+  "lang": "en",
+  "text": "The zebra!"
+ },
+ {
+  "id": "377774a2",
+  "lang": "en",
+  "text": "three"
+ },
+ {
+  "id": "7463e695",
+  "lang": "en",
+  "text": "tiger"
+ },
+ {
+  "id": "a2859923",
+  "lang": "en",
+  "text": "Time for a break!"
+ },
+ {
+  "id": "603e1f88",
+  "lang": "en",
+  "text": "Time to move our bodies!"
+ },
+ {
+  "id": "420febfd",
+  "lang": "en",
+  "text": "Today's adventure"
+ },
+ {
+  "id": "8969809e",
+  "lang": "en",
+  "text": "Too tall! Try another spot."
+ },
+ {
+  "id": "9b498121",
+  "lang": "en",
+  "text": "Trace Numbers"
+ },
+ {
+  "id": "170d2ff9",
+  "lang": "en",
+  "text": "Trace the number 1!"
+ },
+ {
+  "id": "9de7e515",
+  "lang": "en",
+  "text": "Trace the number 10!"
+ },
+ {
+  "id": "2f0b172a",
+  "lang": "en",
+  "text": "Trace the number 2!"
+ },
+ {
+  "id": "cb083b27",
+  "lang": "en",
+  "text": "Trace the number 3!"
+ },
+ {
+  "id": "a305bd98",
+  "lang": "en",
+  "text": "Trace the number 4!"
+ },
+ {
+  "id": "bf03ab15",
+  "lang": "en",
+  "text": "Trace the number 5!"
+ },
+ {
+  "id": "97012d86",
+  "lang": "en",
+  "text": "Trace the number 6!"
+ },
+ {
+  "id": "32fe5183",
+  "lang": "en",
+  "text": "Trace the number 7!"
+ },
+ {
+  "id": "ab23df44",
+  "lang": "en",
+  "text": "Trace the number 8!"
+ },
+ {
+  "id": "47210341",
+  "lang": "en",
+  "text": "Trace the number 9!"
+ },
+ {
+  "id": "af578530",
+  "lang": "en",
+  "text": "train"
+ },
+ {
+  "id": "8ea771be",
+  "lang": "en",
+  "text": "tree"
+ },
+ {
+  "id": "f30e564a",
+  "lang": "en",
+  "text": "triangle"
+ },
+ {
+  "id": "dff2c636",
+  "lang": "en",
+  "text": "Try again!"
+ },
+ {
+  "id": "31c833c8",
+  "lang": "en",
+  "text": "turtle"
+ },
+ {
+  "id": "696cffc0",
+  "lang": "en",
+  "text": "two"
+ },
+ {
+  "id": "6d4e85b6",
+  "lang": "en",
+  "text": "umbrella"
+ },
+ {
+  "id": "8e850592",
+  "lang": "en",
+  "text": "Watch me first, then you!"
+ },
+ {
+  "id": "c76cf8b4",
+  "lang": "en",
+  "text": "watermelon"
+ },
+ {
+  "id": "ff772cfa",
+  "lang": "en",
+  "text": "We'll play games, move our bodies, and then fix a rocket!"
+ },
+ {
+  "id": "c345f829",
+  "lang": "en",
+  "text": "Well done!"
+ },
+ {
+  "id": "58d4c5ff",
+  "lang": "en",
+  "text": "whale"
+ },
+ {
+  "id": "654de311",
+  "lang": "en",
+  "text": "What a great building!"
+ },
+ {
+  "id": "47ff6f96",
+  "lang": "en",
+  "text": "What do you want to play?"
+ },
+ {
+  "id": "f13d9136",
+  "lang": "en",
+  "text": "Where does the bee live?"
+ },
+ {
+  "id": "0383d15f",
+  "lang": "en",
+  "text": "Where does the bird live?"
+ },
+ {
+  "id": "78ede8b9",
+  "lang": "en",
+  "text": "Where does the butterfly live?"
+ },
+ {
+  "id": "2904659d",
+  "lang": "en",
+  "text": "Where does the chicken live?"
+ },
+ {
+  "id": "6e597e25",
+  "lang": "en",
+  "text": "Where does the cow live?"
+ },
+ {
+  "id": "fceb6096",
+  "lang": "en",
+  "text": "Where does the crab live?"
+ },
+ {
+  "id": "99cd5eb2",
+  "lang": "en",
+  "text": "Where does the dolphin live?"
+ },
+ {
+  "id": "b41f1ab2",
+  "lang": "en",
+  "text": "Where does the fish live?"
+ },
+ {
+  "id": "c277308b",
+  "lang": "en",
+  "text": "Where does the horse live?"
+ },
+ {
+  "id": "dbd4b0c1",
+  "lang": "en",
+  "text": "Where does the monkey live?"
+ },
+ {
+  "id": "3feb40e7",
+  "lang": "en",
+  "text": "Where does the octopus live?"
+ },
+ {
+  "id": "aeb69206",
+  "lang": "en",
+  "text": "Where does the pig live?"
+ },
+ {
+  "id": "14d465d9",
+  "lang": "en",
+  "text": "Where does the sheep live?"
+ },
+ {
+  "id": "bcdcc746",
+  "lang": "en",
+  "text": "Where does the sloth live?"
+ },
+ {
+  "id": "d119e63f",
+  "lang": "en",
+  "text": "Where does the squirrel live?"
+ },
+ {
+  "id": "f0d74aab",
+  "lang": "en",
+  "text": "Where does the whale live?"
+ },
+ {
+  "id": "ffd8c1a7",
+  "lang": "en",
+  "text": "Where is the bear?"
+ },
+ {
+  "id": "d56844e5",
+  "lang": "en",
+  "text": "Where is the bee?"
+ },
+ {
+  "id": "0b9f2811",
+  "lang": "en",
+  "text": "Where is the bunny?"
+ },
+ {
+  "id": "23459b10",
+  "lang": "en",
+  "text": "Where is the butterfly?"
+ },
+ {
+  "id": "49e6875d",
+  "lang": "en",
+  "text": "Where is the cat?"
+ },
+ {
+  "id": "1e5bf94c",
+  "lang": "en",
+  "text": "Where is the chicken?"
+ },
+ {
+  "id": "07a46534",
+  "lang": "en",
+  "text": "Where is the cow?"
+ },
+ {
+  "id": "b1ed8bbb",
+  "lang": "en",
+  "text": "Where is the dog?"
+ },
+ {
+  "id": "e2396aae",
+  "lang": "en",
+  "text": "Where is the duck?"
+ },
+ {
+  "id": "cbe8871a",
+  "lang": "en",
+  "text": "Where is the elephant?"
+ },
+ {
+  "id": "c665d4d3",
+  "lang": "en",
+  "text": "Where is the fish?"
+ },
+ {
+  "id": "4b9bb5d7",
+  "lang": "en",
+  "text": "Where is the frog?"
+ },
+ {
+  "id": "11e27ffd",
+  "lang": "en",
+  "text": "Where is the giraffe?"
+ },
+ {
+  "id": "d53b09c2",
+  "lang": "en",
+  "text": "Where is the horse?"
+ },
+ {
+  "id": "d9b65fcb",
+  "lang": "en",
+  "text": "Where is the lion?"
+ },
+ {
+  "id": "eb8a3bae",
+  "lang": "en",
+  "text": "Where is the monkey?"
+ },
+ {
+  "id": "b271acc7",
+  "lang": "en",
+  "text": "Where is the owl?"
+ },
+ {
+  "id": "ff26bbfd",
+  "lang": "en",
+  "text": "Where is the pig?"
+ },
+ {
+  "id": "93bfc634",
+  "lang": "en",
+  "text": "Where is the sheep?"
+ },
+ {
+  "id": "d1a78306",
+  "lang": "en",
+  "text": "Where is the snail?"
+ },
+ {
+  "id": "75e020db",
+  "lang": "en",
+  "text": "Where is the turtle?"
+ },
+ {
+  "id": "60ddd752",
+  "lang": "en",
+  "text": "Where is the whale?"
+ },
+ {
+  "id": "da2c6c09",
+  "lang": "en",
+  "text": "Where is the zebra?"
+ },
+ {
+  "id": "484c0d6a",
+  "lang": "en",
+  "text": "Which plate has more apples?"
+ },
+ {
+  "id": "1dcc5433",
+  "lang": "en",
+  "text": "Which plate has more bananas?"
+ },
+ {
+  "id": "99013010",
+  "lang": "en",
+  "text": "Which plate has more bones?"
+ },
+ {
+  "id": "6c3443a9",
+  "lang": "en",
+  "text": "Which plate has more carrots?"
+ },
+ {
+  "id": "208c4ea7",
+  "lang": "en",
+  "text": "Who feels angry?"
+ },
+ {
+  "id": "435c9b4e",
+  "lang": "en",
+  "text": "Who feels happy?"
+ },
+ {
+  "id": "c8cea444",
+  "lang": "en",
+  "text": "Who feels sad?"
+ },
+ {
+  "id": "8b10d0d2",
+  "lang": "en",
+  "text": "Who feels scared?"
+ },
+ {
+  "id": "7f01c3a1",
+  "lang": "en",
+  "text": "Who is playing?"
+ },
+ {
+  "id": "27ed35ea",
+  "lang": "en",
+  "text": "Woof! Woof!"
+ },
+ {
+  "id": "899ca1bc",
+  "lang": "en",
+  "text": "Wow!"
+ },
+ {
+  "id": "c5eb08d2",
+  "lang": "en",
+  "text": "yellow"
+ },
+ {
+  "id": "be7ad507",
+  "lang": "en",
+  "text": "yellow! Glug, glug, glug!"
+ },
+ {
+  "id": "91809421",
+  "lang": "en",
+  "text": "Yes! 1 is more!"
+ },
+ {
+  "id": "dca30912",
+  "lang": "en",
+  "text": "Yes! 2 is more!"
+ },
+ {
+  "id": "bfe52c1f",
+  "lang": "en",
+  "text": "Yes! 3 is more!"
+ },
+ {
+  "id": "363ac960",
+  "lang": "en",
+  "text": "Yes! 4 is more!"
+ },
+ {
+  "id": "cb081bb5",
+  "lang": "en",
+  "text": "Yes! 5 is more!"
+ },
+ {
+  "id": "f5ce3986",
+  "lang": "en",
+  "text": "Yes! 6 is more!"
+ },
+ {
+  "id": "27cc4c13",
+  "lang": "en",
+  "text": "Yes! 7 is more!"
+ },
+ {
+  "id": "0e82ed70",
+  "lang": "en",
+  "text": "Yes! Angry!"
+ },
+ {
+  "id": "8cfd08f9",
+  "lang": "en",
+  "text": "Yes! Happy!"
+ },
+ {
+  "id": "e4b57773",
+  "lang": "en",
+  "text": "Yes! Sad!"
+ },
+ {
+  "id": "ffe1d6a3",
+  "lang": "en",
+  "text": "Yes! Scared!"
+ },
+ {
+  "id": "06b21f1c",
+  "lang": "en",
+  "text": "You already did your brain workout today!"
+ },
+ {
+  "id": "b444a968",
+  "lang": "en",
+  "text": "You did it!"
+ },
+ {
+  "id": "4587513c",
+  "lang": "en",
+  "text": "You got a new sticker!"
+ },
+ {
+  "id": "29699b54",
+  "lang": "en",
+  "text": "Yum! Thank you!"
+ },
+ {
+  "id": "b374d312",
+  "lang": "en",
+  "text": "zebra"
+ },
+ {
+  "id": "0b9d88d0",
+  "lang": "en",
+  "text": "zero"
+ },
+ {
+  "id": "142081d8",
+  "lang": "es",
+  "text": "¡A construir! Arrastra los bloques."
+ },
+ {
+  "id": "85b0fd70",
+  "lang": "es",
+  "text": "¡Ahora las luces! Mira y luego cópiame."
+ },
+ {
+  "id": "dbd24874",
+  "lang": "es",
+  "text": "¡Ahora tú!"
+ },
+ {
+  "id": "f523c45a",
+  "lang": "es",
+  "text": "¡Amarilla! ¡Glu, glu, glu!"
+ },
+ {
+  "id": "c68dc147",
+  "lang": "es",
+  "text": "¡Arrástrala al plato!"
+ },
+ {
+  "id": "107c178d",
+  "lang": "es",
+  "text": "¡Arreglemos el cohete para que el astronauta vuelva a casa!"
+ },
+ {
+  "id": "11d2d3db",
+  "lang": "es",
+  "text": "¡Ayuda a los animales a llegar a su casa!"
+ },
+ {
+  "id": "3b3af903",
+  "lang": "es",
+  "text": "¡Ayuda al astronauta a llegar a su cohete!"
+ },
+ {
+  "id": "d3f142e5",
+  "lang": "es",
+  "text": "¡Azul! ¡Glu, glu, glu!"
+ },
+ {
+  "id": "66429f95",
+  "lang": "es",
+  "text": "¡Bee! ¡Bee!"
+ },
+ {
+  "id": "1116ba71",
+  "lang": "es",
+  "text": "¡Bravo!"
+ },
+ {
+  "id": "b57e55f0",
+  "lang": "es",
+  "text": "¡Busca amarillo!"
+ },
+ {
+  "id": "96c71d96",
+  "lang": "es",
+  "text": "¡Busca anaranjado!"
+ },
+ {
+  "id": "62458a1d",
+  "lang": "es",
+  "text": "¡Busca azul!"
+ },
+ {
+  "id": "3618bf05",
+  "lang": "es",
+  "text": "¡Busca la amarilla!"
+ },
+ {
+  "id": "39c10a6a",
+  "lang": "es",
+  "text": "¡Busca la azul!"
+ },
+ {
+  "id": "93728a82",
+  "lang": "es",
+  "text": "¡Busca la morada!"
+ },
+ {
+  "id": "823adca6",
+  "lang": "es",
+  "text": "¡Busca la roja!"
+ },
+ {
+  "id": "f8f52b20",
+  "lang": "es",
+  "text": "¡Busca la verde!"
+ },
+ {
+  "id": "88ebdb3b",
+  "lang": "es",
+  "text": "¡Busca morado!"
+ },
+ {
+  "id": "ec45c773",
+  "lang": "es",
+  "text": "¡Busca rojo!"
+ },
+ {
+  "id": "54ef52ba",
+  "lang": "es",
+  "text": "¡Busca rosa!"
+ },
+ {
+  "id": "29966f95",
+  "lang": "es",
+  "text": "¡Busca verde!"
+ },
+ {
+  "id": "c6406691",
+  "lang": "es",
+  "text": "¡Bzzz!"
+ },
+ {
+  "id": "d7b8678f",
+  "lang": "es",
+  "text": "¡Casi! Intenta otra vez."
+ },
+ {
+  "id": "460029ba",
+  "lang": "es",
+  "text": "¡Coc, coc, coc!"
+ },
+ {
+  "id": "c8fbc3e4",
+  "lang": "es",
+  "text": "¡Comida!"
+ },
+ {
+  "id": "c6e28107",
+  "lang": "es",
+  "text": "¡Construye una casa! ¿Le pones un techo?"
+ },
+ {
+  "id": "aa70f809",
+  "lang": "es",
+  "text": "¡Croac! ¡Croac!"
+ },
+ {
+  "id": "f8e60855",
+  "lang": "es",
+  "text": "¡Cuac! ¡Cuac!"
+ },
+ {
+  "id": "2e93b426",
+  "lang": "es",
+  "text": "¡Dale cinco huesos al perrito!"
+ },
+ {
+  "id": "6e1caf9e",
+  "lang": "es",
+  "text": "¡Dale cinco manzanas al oso!"
+ },
+ {
+  "id": "d3309921",
+  "lang": "es",
+  "text": "¡Dale cinco plátanos al mono!"
+ },
+ {
+  "id": "abd890fc",
+  "lang": "es",
+  "text": "¡Dale cinco zanahorias al conejo!"
+ },
+ {
+  "id": "f17fbcd8",
+  "lang": "es",
+  "text": "¡Dale cuatro huesos al perrito!"
+ },
+ {
+  "id": "138fa8bc",
+  "lang": "es",
+  "text": "¡Dale cuatro manzanas al oso!"
+ },
+ {
+  "id": "6cf4b63f",
+  "lang": "es",
+  "text": "¡Dale cuatro plátanos al mono!"
+ },
+ {
+  "id": "a37a82e2",
+  "lang": "es",
+  "text": "¡Dale cuatro zanahorias al conejo!"
+ },
+ {
+  "id": "4bbb00e4",
+  "lang": "es",
+  "text": "¡Dale dos huesos al perrito!"
+ },
+ {
+  "id": "06449070",
+  "lang": "es",
+  "text": "¡Dale dos manzanas al oso!"
+ },
+ {
+  "id": "a8d3f6b3",
+  "lang": "es",
+  "text": "¡Dale dos plátanos al mono!"
+ },
+ {
+  "id": "99554ea6",
+  "lang": "es",
+  "text": "¡Dale dos zanahorias al conejo!"
+ },
+ {
+  "id": "b9cb0bfc",
+  "lang": "es",
+  "text": "¡Dale tres huesos al perrito!"
+ },
+ {
+  "id": "dfdae9c8",
+  "lang": "es",
+  "text": "¡Dale tres manzanas al oso!"
+ },
+ {
+  "id": "b89dbbab",
+  "lang": "es",
+  "text": "¡Dale tres plátanos al mono!"
+ },
+ {
+  "id": "0b13491e",
+  "lang": "es",
+  "text": "¡Dale tres zanahorias al conejo!"
+ },
+ {
+  "id": "f8ff6b64",
+  "lang": "es",
+  "text": "¡Dale un hueso al perrito!"
+ },
+ {
+  "id": "51583129",
+  "lang": "es",
+  "text": "¡Dale un plátano al mono!"
+ },
+ {
+  "id": "3d91ddcd",
+  "lang": "es",
+  "text": "¡Dale una manzana al oso!"
+ },
+ {
+  "id": "e7e38a67",
+  "lang": "es",
+  "text": "¡Dale una zanahoria al conejo!"
+ },
+ {
+  "id": "ffeddf63",
+  "lang": "es",
+  "text": "¡Despegue!"
+ },
+ {
+  "id": "59c1147f",
+  "lang": "es",
+  "text": "¡Despegue! ¡Adiós, cohete!"
+ },
+ {
+  "id": "d72c7577",
+  "lang": "es",
+  "text": "¡El búho!"
+ },
+ {
+  "id": "42e4b39f",
+  "lang": "es",
+  "text": "¡El caballo vive en la granja!"
+ },
+ {
+  "id": "65311658",
+  "lang": "es",
+  "text": "¡El caballo!"
+ },
+ {
+  "id": "c705e483",
+  "lang": "es",
+  "text": "¡El cangrejo vive en el mar!"
+ },
+ {
+  "id": "746ddf05",
+  "lang": "es",
+  "text": "¡El caracol!"
+ },
+ {
+  "id": "da7c0a4c",
+  "lang": "es",
+  "text": "¡El cerdo vive en la granja!"
+ },
+ {
+  "id": "df28237b",
+  "lang": "es",
+  "text": "¡El cerdo!"
+ },
+ {
+  "id": "6b9327f4",
+  "lang": "es",
+  "text": "¡El círculo sí cabe!"
+ },
+ {
+  "id": "f855a66f",
+  "lang": "es",
+  "text": "¡El cohete necesita estrellas! Toca cinco estrellas."
+ },
+ {
+  "id": "2e6c20f9",
+  "lang": "es",
+  "text": "¡El cohete necesita estrellas! Toca cuatro estrellas."
+ },
+ {
+  "id": "745a927d",
+  "lang": "es",
+  "text": "¡El cohete necesita estrellas! Toca dos estrellas."
+ },
+ {
+  "id": "74f7b5bd",
+  "lang": "es",
+  "text": "¡El cohete necesita estrellas! Toca tres estrellas."
+ },
+ {
+  "id": "456a0a50",
+  "lang": "es",
+  "text": "¡El conejo!"
+ },
+ {
+  "id": "c1356497",
+  "lang": "es",
+  "text": "¡El corazón sí cabe!"
+ },
+ {
+  "id": "6c78b0a4",
+  "lang": "es",
+  "text": "¡El cuadrado sí cabe!"
+ },
+ {
+  "id": "9d8c90cc",
+  "lang": "es",
+  "text": "¡El delfín vive en el mar!"
+ },
+ {
+  "id": "996eefd6",
+  "lang": "es",
+  "text": "¡El elefante!"
+ },
+ {
+  "id": "c9d150ef",
+  "lang": "es",
+  "text": "¡El estrella sí cabe!"
+ },
+ {
+  "id": "172ebad3",
+  "lang": "es",
+  "text": "¡El gato!"
+ },
+ {
+  "id": "532bfb4e",
+  "lang": "es",
+  "text": "¡El león!"
+ },
+ {
+  "id": "ea83f841",
+  "lang": "es",
+  "text": "¡El mono vive en el árbol!"
+ },
+ {
+  "id": "72dea8cd",
+  "lang": "es",
+  "text": "¡El mono!"
+ },
+ {
+  "id": "5662a19f",
+  "lang": "es",
+  "text": "¡El oso!"
+ },
+ {
+  "id": "f5a0638a",
+  "lang": "es",
+  "text": "¡El pajarito vive en el cielo!"
+ },
+ {
+  "id": "68a6a966",
+  "lang": "es",
+  "text": "¡El pato!"
+ },
+ {
+  "id": "aabc0205",
+  "lang": "es",
+  "text": "¡El perezoso vive en el árbol!"
+ },
+ {
+  "id": "a5f8e8d6",
+  "lang": "es",
+  "text": "¡El perro!"
+ },
+ {
+  "id": "90349dbb",
+  "lang": "es",
+  "text": "¡El pez vive en el mar!"
+ },
+ {
+  "id": "e088cb83",
+  "lang": "es",
+  "text": "¡El pez!"
+ },
+ {
+  "id": "7ef96984",
+  "lang": "es",
+  "text": "¡El pulpo vive en el mar!"
+ },
+ {
+  "id": "e9792c74",
+  "lang": "es",
+  "text": "¡El triángulo sí cabe!"
+ },
+ {
+  "id": "83438f74",
+  "lang": "es",
+  "text": "¡El último! El cohete del astronauta está roto. ¡Vamos a arreglarlo!"
+ },
+ {
+  "id": "46f33f5c",
+  "lang": "es",
+  "text": "¡Excelente!"
+ },
+ {
+  "id": "68e0ee59",
+  "lang": "es",
+  "text": "¡Falta la puerta! ¿Qué pieza le queda a la puerta?"
+ },
+ {
+  "id": "969a21d2",
+  "lang": "es",
+  "text": "¡Ganaste una calcomanía!"
+ },
+ {
+  "id": "b3c5da20",
+  "lang": "es",
+  "text": "¡Gracias! ¡Ya me siento mejor!"
+ },
+ {
+  "id": "868370f5",
+  "lang": "es",
+  "text": "¡Grrraaar!"
+ },
+ {
+  "id": "1a49a983",
+  "lang": "es",
+  "text": "¡Guau!"
+ },
+ {
+  "id": "714721f1",
+  "lang": "es",
+  "text": "¡Guau! ¡Guau!"
+ },
+ {
+  "id": "f60041c3",
+  "lang": "es",
+  "text": "¡Hola! ¡Es hora de tu ejercicio mental!"
+ },
+ {
+  "id": "09f9f20d",
+  "lang": "es",
+  "text": "¡Hola! ¿Qué quieres jugar?"
+ },
+ {
+  "id": "63371750",
+  "lang": "es",
+  "text": "¡Hora de descansar!"
+ },
+ {
+  "id": "fc1283d4",
+  "lang": "es",
+  "text": "¡Hora de mover el cuerpo!"
+ },
+ {
+  "id": "3ea2aa24",
+  "lang": "es",
+  "text": "¡Iiiii!"
+ },
+ {
+  "id": "b26e1e1a",
+  "lang": "es",
+  "text": "¡Increíble!"
+ },
+ {
+  "id": "d907f8ab",
+  "lang": "es",
+  "text": "¡Jugaste muy bien hoy!"
+ },
+ {
+  "id": "94e1787b",
+  "lang": "es",
+  "text": "¡La abeja vive en el cielo!"
+ },
+ {
+  "id": "bb9936ad",
+  "lang": "es",
+  "text": "¡La abeja!"
+ },
+ {
+  "id": "181b8721",
+  "lang": "es",
+  "text": "¡La ardilla vive en el árbol!"
+ },
+ {
+  "id": "2af2e4ef",
+  "lang": "es",
+  "text": "¡La ballena vive en el mar!"
+ },
+ {
+  "id": "8cba479f",
+  "lang": "es",
+  "text": "¡La ballena!"
+ },
+ {
+  "id": "1fd30f59",
+  "lang": "es",
+  "text": "¡La cebra!"
+ },
+ {
+  "id": "fe3b28c5",
+  "lang": "es",
+  "text": "¡La gallina vive en la granja!"
+ },
+ {
+  "id": "48d3c4ba",
+  "lang": "es",
+  "text": "¡La gallina!"
+ },
+ {
+  "id": "a64029cd",
+  "lang": "es",
+  "text": "¡La jirafa!"
+ },
+ {
+  "id": "7f4902f0",
+  "lang": "es",
+  "text": "¡La mariposa vive en el cielo!"
+ },
+ {
+  "id": "fdedb458",
+  "lang": "es",
+  "text": "¡La mariposa!"
+ },
+ {
+  "id": "04241394",
+  "lang": "es",
+  "text": "¡La oveja vive en la granja!"
+ },
+ {
+  "id": "0e7159b3",
+  "lang": "es",
+  "text": "¡La oveja!"
+ },
+ {
+  "id": "9334fe58",
+  "lang": "es",
+  "text": "¡La próxima vez: un poquito más difícil!"
+ },
+ {
+  "id": "606c7116",
+  "lang": "es",
+  "text": "¡La rana!"
+ },
+ {
+  "id": "35bacba6",
+  "lang": "es",
+  "text": "¡La tortuga!"
+ },
+ {
+  "id": "28e262da",
+  "lang": "es",
+  "text": "¡La vaca vive en la granja!"
+ },
+ {
+  "id": "a6d9b605",
+  "lang": "es",
+  "text": "¡La vaca!"
+ },
+ {
+  "id": "699042b0",
+  "lang": "es",
+  "text": "¡Las luces funcionan!"
+ },
+ {
+  "id": "45966c8e",
+  "lang": "es",
+  "text": "¡Listo por hoy! Nos vemos mañana."
+ },
+ {
+  "id": "056472a7",
+  "lang": "es",
+  "text": "¡Lo hiciste!"
+ },
+ {
+  "id": "90c2012d",
+  "lang": "es",
+  "text": "¡Lo lograste!"
+ },
+ {
+  "id": "fe3121ad",
+  "lang": "es",
+  "text": "¡Miau!"
+ },
+ {
+  "id": "d9c19509",
+  "lang": "es",
+  "text": "¡Mírame primero y luego tú!"
+ },
+ {
+  "id": "d638c5be",
+  "lang": "es",
+  "text": "¡Mmm, qué rico! ¡Gracias!"
+ },
+ {
+  "id": "8cdcaa25",
+  "lang": "es",
+  "text": "¡Morada! ¡Glu, glu, glu!"
+ },
+ {
+  "id": "acff390d",
+  "lang": "es",
+  "text": "¡Mu! ¡Mu!"
+ },
+ {
+  "id": "bddb1ca9",
+  "lang": "es",
+  "text": "¡Mueve los brazos como un pajarito!"
+ },
+ {
+  "id": "050ee9b7",
+  "lang": "es",
+  "text": "¡Muy alto! Prueba en otro lugar."
+ },
+ {
+  "id": "d584cbe6",
+  "lang": "es",
+  "text": "¡Muy bien!"
+ },
+ {
+  "id": "86eb5afd",
+  "lang": "es",
+  "text": "¡Muy bien! Siéntate, vamos a seguir."
+ },
+ {
+  "id": "61f3dae7",
+  "lang": "es",
+  "text": "¡Muy buen trabajo hoy! Tu cerebro hizo mucho ejercicio."
+ },
+ {
+  "id": "e47f965c",
+  "lang": "es",
+  "text": "¡Nos vemos mañana!"
+ },
+ {
+  "id": "da5b589f",
+  "lang": "es",
+  "text": "¡Oinc! ¡Oinc!"
+ },
+ {
+  "id": "3d14598c",
+  "lang": "es",
+  "text": "¡Otra vez!"
+ },
+ {
+  "id": "69f8c9ba",
+  "lang": "es",
+  "text": "¡Párate!"
+ },
+ {
+  "id": "fb7144a4",
+  "lang": "es",
+  "text": "¡Párate! ¡Estírate alto como una jirafa!"
+ },
+ {
+  "id": "a41b5c4b",
+  "lang": "es",
+  "text": "¡Párate! ¡Salta como una rana!"
+ },
+ {
+  "id": "c6c4ba6a",
+  "lang": "es",
+  "text": "¡Pisa fuerte como un elefante!"
+ },
+ {
+  "id": "73caa2df",
+  "lang": "es",
+  "text": "¡Poder de estrellas!"
+ },
+ {
+  "id": "c0503d5b",
+  "lang": "es",
+  "text": "¡Pon cada figura en su lugar!"
+ },
+ {
+  "id": "04c66b18",
+  "lang": "es",
+  "text": "¡Pon cada uno en su sombra!"
+ },
+ {
+  "id": "f7b0c6d0",
+  "lang": "es",
+  "text": "¡Primero, gasolina! Toca la lata amarilla."
+ },
+ {
+  "id": "9ce59eeb",
+  "lang": "es",
+  "text": "¡Primero, gasolina! Toca la lata azul."
+ },
+ {
+  "id": "dd731453",
+  "lang": "es",
+  "text": "¡Primero, gasolina! Toca la lata morada."
+ },
+ {
+  "id": "b01b1aaf",
+  "lang": "es",
+  "text": "¡Primero, gasolina! Toca la lata roja."
+ },
+ {
+  "id": "fd5880a5",
+  "lang": "es",
+  "text": "¡Primero, gasolina! Toca la lata verde."
+ },
+ {
+  "id": "31d310c2",
+  "lang": "es",
+  "text": "¡Qué gran construcción!"
+ },
+ {
+  "id": "7b9c14dd",
+  "lang": "es",
+  "text": "¡Quiquiriquí!"
+ },
+ {
+  "id": "d516d807",
+  "lang": "es",
+  "text": "¡Revienta cinco globos amarillos!"
+ },
+ {
+  "id": "e029acb9",
+  "lang": "es",
+  "text": "¡Revienta cinco globos anaranjados!"
+ },
+ {
+  "id": "a9b6a8d7",
+  "lang": "es",
+  "text": "¡Revienta cinco globos azules!"
+ },
+ {
+  "id": "37523766",
+  "lang": "es",
+  "text": "¡Revienta cinco globos morados!"
+ },
+ {
+  "id": "05c0b932",
+  "lang": "es",
+  "text": "¡Revienta cinco globos rojos!"
+ },
+ {
+  "id": "7ebcfd85",
+  "lang": "es",
+  "text": "¡Revienta cinco globos rosas!"
+ },
+ {
+  "id": "0488b690",
+  "lang": "es",
+  "text": "¡Revienta cinco globos verdes!"
+ },
+ {
+  "id": "8d09d7ed",
+  "lang": "es",
+  "text": "¡Revienta cuatro globos amarillos!"
+ },
+ {
+  "id": "8ece0e0b",
+  "lang": "es",
+  "text": "¡Revienta cuatro globos anaranjados!"
+ },
+ {
+  "id": "b5cfe3cd",
+  "lang": "es",
+  "text": "¡Revienta cuatro globos azules!"
+ },
+ {
+  "id": "fc251638",
+  "lang": "es",
+  "text": "¡Revienta cuatro globos morados!"
+ },
+ {
+  "id": "83cc7640",
+  "lang": "es",
+  "text": "¡Revienta cuatro globos rojos!"
+ },
+ {
+  "id": "5391eea7",
+  "lang": "es",
+  "text": "¡Revienta cuatro globos rosas!"
+ },
+ {
+  "id": "a46505e2",
+  "lang": "es",
+  "text": "¡Revienta cuatro globos verdes!"
+ },
+ {
+  "id": "4a95e089",
+  "lang": "es",
+  "text": "¡Revienta dos globos amarillos!"
+ },
+ {
+  "id": "580ba027",
+  "lang": "es",
+  "text": "¡Revienta dos globos anaranjados!"
+ },
+ {
+  "id": "03e69299",
+  "lang": "es",
+  "text": "¡Revienta dos globos azules!"
+ },
+ {
+  "id": "2d695134",
+  "lang": "es",
+  "text": "¡Revienta dos globos morados!"
+ },
+ {
+  "id": "72487f7c",
+  "lang": "es",
+  "text": "¡Revienta dos globos rojos!"
+ },
+ {
+  "id": "fc5bf95b",
+  "lang": "es",
+  "text": "¡Revienta dos globos rosas!"
+ },
+ {
+  "id": "8bf48a96",
+  "lang": "es",
+  "text": "¡Revienta dos globos verdes!"
+ },
+ {
+  "id": "84b3e0a1",
+  "lang": "es",
+  "text": "¡Revienta tres globos amarillos!"
+ },
+ {
+  "id": "e929feef",
+  "lang": "es",
+  "text": "¡Revienta tres globos anaranjados!"
+ },
+ {
+  "id": "3104d451",
+  "lang": "es",
+  "text": "¡Revienta tres globos azules!"
+ },
+ {
+  "id": "b50683ec",
+  "lang": "es",
+  "text": "¡Revienta tres globos morados!"
+ },
+ {
+  "id": "f71d1474",
+  "lang": "es",
+  "text": "¡Revienta tres globos rojos!"
+ },
+ {
+  "id": "ebe985d3",
+  "lang": "es",
+  "text": "¡Revienta tres globos rosas!"
+ },
+ {
+  "id": "91cddf6e",
+  "lang": "es",
+  "text": "¡Revienta tres globos verdes!"
+ },
+ {
+  "id": "f3112489",
+  "lang": "es",
+  "text": "¡Roja! ¡Glu, glu, glu!"
+ },
+ {
+  "id": "ec0c51f3",
+  "lang": "es",
+  "text": "¡Sí! ¡Asustado!"
+ },
+ {
+  "id": "183429b1",
+  "lang": "es",
+  "text": "¡Sí! ¡Enojado!"
+ },
+ {
+  "id": "703182f5",
+  "lang": "es",
+  "text": "¡Sí! ¡Feliz!"
+ },
+ {
+  "id": "8e67dff2",
+  "lang": "es",
+  "text": "¡Sí! ¡Triste!"
+ },
+ {
+  "id": "0f9be4ce",
+  "lang": "es",
+  "text": "¡Sí! cinco es más."
+ },
+ {
+  "id": "f336f81a",
+  "lang": "es",
+  "text": "¡Sí! cuatro es más."
+ },
+ {
+  "id": "49748868",
+  "lang": "es",
+  "text": "¡Sí! dos es más."
+ },
+ {
+  "id": "d213e22c",
+  "lang": "es",
+  "text": "¡Sí! seis es más."
+ },
+ {
+  "id": "fda42f32",
+  "lang": "es",
+  "text": "¡Sí! siete es más."
+ },
+ {
+  "id": "071c27b6",
+  "lang": "es",
+  "text": "¡Sí! tres es más."
+ },
+ {
+  "id": "7641512e",
+  "lang": "es",
+  "text": "¡Sí! uno es más."
+ },
+ {
+  "id": "7ea13eb0",
+  "lang": "es",
+  "text": "¡Sss!"
+ },
+ {
+  "id": "fe8830dd",
+  "lang": "es",
+  "text": "¡Terminamos por hoy!"
+ },
+ {
+  "id": "109d0954",
+  "lang": "es",
+  "text": "¡Terminamos! ¡Qué bien jugaste!"
+ },
+ {
+  "id": "e9195e66",
+  "lang": "es",
+  "text": "¡Toca cinco balones amarillos!"
+ },
+ {
+  "id": "12ccfb80",
+  "lang": "es",
+  "text": "¡Toca cinco balones anaranjados!"
+ },
+ {
+  "id": "e50603ac",
+  "lang": "es",
+  "text": "¡Toca cinco balones azules!"
+ },
+ {
+  "id": "55de65f3",
+  "lang": "es",
+  "text": "¡Toca cinco balones morados!"
+ },
+ {
+  "id": "2ca8f9cb",
+  "lang": "es",
+  "text": "¡Toca cinco balones rojos!"
+ },
+ {
+  "id": "6258d318",
+  "lang": "es",
+  "text": "¡Toca cinco balones rosas!"
+ },
+ {
+  "id": "d25cdd73",
+  "lang": "es",
+  "text": "¡Toca cinco balones verdes!"
+ },
+ {
+  "id": "3a772ef2",
+  "lang": "es",
+  "text": "¡Toca cuatro balones amarillos!"
+ },
+ {
+  "id": "07ac2b1c",
+  "lang": "es",
+  "text": "¡Toca cuatro balones anaranjados!"
+ },
+ {
+  "id": "152c6ac8",
+  "lang": "es",
+  "text": "¡Toca cuatro balones azules!"
+ },
+ {
+  "id": "058dac1f",
+  "lang": "es",
+  "text": "¡Toca cuatro balones morados!"
+ },
+ {
+  "id": "0362d7b7",
+  "lang": "es",
+  "text": "¡Toca cuatro balones rojos!"
+ },
+ {
+  "id": "946519cc",
+  "lang": "es",
+  "text": "¡Toca cuatro balones rosas!"
+ },
+ {
+  "id": "4da70b77",
+  "lang": "es",
+  "text": "¡Toca cuatro balones verdes!"
+ },
+ {
+  "id": "03c622b4",
+  "lang": "es",
+  "text": "¡Toca dos balones amarillos!"
+ },
+ {
+  "id": "5b39f3da",
+  "lang": "es",
+  "text": "¡Toca dos balones anaranjados!"
+ },
+ {
+  "id": "1f719b9a",
+  "lang": "es",
+  "text": "¡Toca dos balones azules!"
+ },
+ {
+  "id": "4b4b3405",
+  "lang": "es",
+  "text": "¡Toca dos balones morados!"
+ },
+ {
+  "id": "94204859",
+  "lang": "es",
+  "text": "¡Toca dos balones rojos!"
+ },
+ {
+  "id": "852b997a",
+  "lang": "es",
+  "text": "¡Toca dos balones rosas!"
+ },
+ {
+  "id": "212cc8ad",
+  "lang": "es",
+  "text": "¡Toca dos balones verdes!"
+ },
+ {
+  "id": "3a90f8a2",
+  "lang": "es",
+  "text": "¡Toca tres balones amarillos!"
+ },
+ {
+  "id": "9037834c",
+  "lang": "es",
+  "text": "¡Toca tres balones anaranjados!"
+ },
+ {
+  "id": "d87ba7b8",
+  "lang": "es",
+  "text": "¡Toca tres balones azules!"
+ },
+ {
+  "id": "e350830f",
+  "lang": "es",
+  "text": "¡Toca tres balones morados!"
+ },
+ {
+  "id": "56d52927",
+  "lang": "es",
+  "text": "¡Toca tres balones rojos!"
+ },
+ {
+  "id": "937462dc",
+  "lang": "es",
+  "text": "¡Toca tres balones rosas!"
+ },
+ {
+  "id": "1b42a667",
+  "lang": "es",
+  "text": "¡Toca tres balones verdes!"
+ },
+ {
+  "id": "53e3b99b",
+  "lang": "es",
+  "text": "¡Todo listo! ¡Aprieta el botón grande para despegar!"
+ },
+ {
+  "id": "f5faa0d0",
+  "lang": "es",
+  "text": "¡Todo listo! Cuenta para despegar. Toca cinco, cuatro, tres, dos, uno."
+ },
+ {
+  "id": "956f378a",
+  "lang": "es",
+  "text": "¡Todo listo! Cuenta para despegar. Toca tres, dos, uno."
+ },
+ {
+  "id": "0c1c0dd7",
+  "lang": "es",
+  "text": "¡Traza el número cinco!"
+ },
+ {
+  "id": "e41ab149",
+  "lang": "es",
+  "text": "¡Traza el número cuatro!"
+ },
+ {
+  "id": "8a2b76b7",
+  "lang": "es",
+  "text": "¡Traza el número diez!"
+ },
+ {
+  "id": "5064969d",
+  "lang": "es",
+  "text": "¡Traza el número dos!"
+ },
+ {
+  "id": "9289f444",
+  "lang": "es",
+  "text": "¡Traza el número nueve!"
+ },
+ {
+  "id": "e7320dbe",
+  "lang": "es",
+  "text": "¡Traza el número ocho!"
+ },
+ {
+  "id": "d1c5eac7",
+  "lang": "es",
+  "text": "¡Traza el número seis!"
+ },
+ {
+  "id": "92d9ba97",
+  "lang": "es",
+  "text": "¡Traza el número siete!"
+ },
+ {
+  "id": "55e7ddc1",
+  "lang": "es",
+  "text": "¡Traza el número tres!"
+ },
+ {
+  "id": "eba72f1f",
+  "lang": "es",
+  "text": "¡Traza el número uno!"
+ },
+ {
+  "id": "1da1f122",
+  "lang": "es",
+  "text": "¡Un vaso de agua!"
+ },
+ {
+  "id": "2a9e92b0",
+  "lang": "es",
+  "text": "¡Una camita!"
+ },
+ {
+  "id": "e9ca66c0",
+  "lang": "es",
+  "text": "¡Una chamarra calientita!"
+ },
+ {
+  "id": "ebb186f9",
+  "lang": "es",
+  "text": "¡Una curita!"
+ },
+ {
+  "id": "200c0981",
+  "lang": "es",
+  "text": "¡Ups, no hay salida! Regresa."
+ },
+ {
+  "id": "12d8f979",
+  "lang": "es",
+  "text": "¡Ups! Mira otra vez."
+ },
+ {
+  "id": "13797f3c",
+  "lang": "es",
+  "text": "¡Ups! Miremos otra vez."
+ },
+ {
+  "id": "4a62c34d",
+  "lang": "es",
+  "text": "¡Uu! ¡Uu!"
+ },
+ {
+  "id": "b2b746bc",
+  "lang": "es",
+  "text": "¡Vamos a jugar, a movernos y a arreglar un cohete!"
+ },
+ {
+  "id": "ad9a7b6b",
+  "lang": "es",
+  "text": "¡Vamos!"
+ },
+ {
+  "id": "f40afc05",
+  "lang": "es",
+  "text": "¡Verde! ¡Glu, glu, glu!"
+ },
+ {
+  "id": "d8a66033",
+  "lang": "es",
+  "text": "¡Ya hiciste tu ejercicio mental hoy!"
+ },
+ {
+  "id": "c90269bf",
+  "lang": "es",
+  "text": "¡Ya se siente mejor! ¡Súbete!"
+ },
+ {
+  "id": "b82e797e",
+  "lang": "es",
+  "text": "¡Ya terminamos! ¡Qué bien jugaste!"
+ },
+ {
+  "id": "8569ff35",
+  "lang": "es",
+  "text": "¿Cómo le ayudamos?"
+ },
+ {
+  "id": "7c3cf554",
+  "lang": "es",
+  "text": "¿Dónde está el búho?"
+ },
+ {
+  "id": "a0881d69",
+  "lang": "es",
+  "text": "¿Dónde está el caballo?"
+ },
+ {
+  "id": "d2ae16dc",
+  "lang": "es",
+  "text": "¿Dónde está el caracol?"
+ },
+ {
+  "id": "08bc6af6",
+  "lang": "es",
+  "text": "¿Dónde está el cerdo?"
+ },
+ {
+  "id": "beecb5b3",
+  "lang": "es",
+  "text": "¿Dónde está el conejo?"
+ },
+ {
+  "id": "3d3bb5b9",
+  "lang": "es",
+  "text": "¿Dónde está el elefante?"
+ },
+ {
+  "id": "b0de4c7c",
+  "lang": "es",
+  "text": "¿Dónde está el gato?"
+ },
+ {
+  "id": "ff009ad5",
+  "lang": "es",
+  "text": "¿Dónde está el león?"
+ },
+ {
+  "id": "9f645942",
+  "lang": "es",
+  "text": "¿Dónde está el mono?"
+ },
+ {
+  "id": "465d2fae",
+  "lang": "es",
+  "text": "¿Dónde está el oso?"
+ },
+ {
+  "id": "044e3195",
+  "lang": "es",
+  "text": "¿Dónde está el pato?"
+ },
+ {
+  "id": "c36ca413",
+  "lang": "es",
+  "text": "¿Dónde está el perro?"
+ },
+ {
+  "id": "54e6cd96",
+  "lang": "es",
+  "text": "¿Dónde está el pez?"
+ },
+ {
+  "id": "804cb390",
+  "lang": "es",
+  "text": "¿Dónde está la abeja?"
+ },
+ {
+  "id": "00cdf6e6",
+  "lang": "es",
+  "text": "¿Dónde está la ballena?"
+ },
+ {
+  "id": "24a5d578",
+  "lang": "es",
+  "text": "¿Dónde está la cebra?"
+ },
+ {
+  "id": "3bffa22f",
+  "lang": "es",
+  "text": "¿Dónde está la gallina?"
+ },
+ {
+  "id": "837262c2",
+  "lang": "es",
+  "text": "¿Dónde está la jirafa?"
+ },
+ {
+  "id": "601e78d7",
+  "lang": "es",
+  "text": "¿Dónde está la mariposa?"
+ },
+ {
+  "id": "460c9486",
+  "lang": "es",
+  "text": "¿Dónde está la oveja?"
+ },
+ {
+  "id": "935c1189",
+  "lang": "es",
+  "text": "¿Dónde está la rana?"
+ },
+ {
+  "id": "3818c8b7",
+  "lang": "es",
+  "text": "¿Dónde está la tortuga?"
+ },
+ {
+  "id": "188135a2",
+  "lang": "es",
+  "text": "¿Dónde está la vaca?"
+ },
+ {
+  "id": "9ce5e732",
+  "lang": "es",
+  "text": "¿Dónde Está?"
+ },
+ {
+  "id": "c611292e",
+  "lang": "es",
+  "text": "¿Dónde vive el caballo?"
+ },
+ {
+  "id": "560bf0a1",
+  "lang": "es",
+  "text": "¿Dónde vive el cangrejo?"
+ },
+ {
+  "id": "b849cc71",
+  "lang": "es",
+  "text": "¿Dónde vive el cerdo?"
+ },
+ {
+  "id": "634dfda0",
+  "lang": "es",
+  "text": "¿Dónde vive el delfín?"
+ },
+ {
+  "id": "e8a6212f",
+  "lang": "es",
+  "text": "¿Dónde vive el mono?"
+ },
+ {
+  "id": "915856a4",
+  "lang": "es",
+  "text": "¿Dónde vive el pajarito?"
+ },
+ {
+  "id": "2e87749b",
+  "lang": "es",
+  "text": "¿Dónde vive el perezoso?"
+ },
+ {
+  "id": "015f3ea9",
+  "lang": "es",
+  "text": "¿Dónde vive el pez?"
+ },
+ {
+  "id": "da41a738",
+  "lang": "es",
+  "text": "¿Dónde vive el pulpo?"
+ },
+ {
+  "id": "4e297357",
+  "lang": "es",
+  "text": "¿Dónde vive la abeja?"
+ },
+ {
+  "id": "20fc5cd7",
+  "lang": "es",
+  "text": "¿Dónde vive la ardilla?"
+ },
+ {
+  "id": "d53ece1d",
+  "lang": "es",
+  "text": "¿Dónde vive la ballena?"
+ },
+ {
+  "id": "1fb0b50c",
+  "lang": "es",
+  "text": "¿Dónde vive la gallina?"
+ },
+ {
+  "id": "07f1d106",
+  "lang": "es",
+  "text": "¿Dónde vive la mariposa?"
+ },
+ {
+  "id": "1273ad61",
+  "lang": "es",
+  "text": "¿Dónde vive la oveja?"
+ },
+ {
+  "id": "57c729b7",
+  "lang": "es",
+  "text": "¿Dónde vive la vaca?"
+ },
+ {
+  "id": "83a0f290",
+  "lang": "es",
+  "text": "¿Listo? ¡Aprieta vamos!"
+ },
+ {
+  "id": "5af1fe99",
+  "lang": "es",
+  "text": "¿Qué plato tiene más huesos?"
+ },
+ {
+  "id": "0581ffb5",
+  "lang": "es",
+  "text": "¿Qué plato tiene más manzanas?"
+ },
+ {
+  "id": "e0372ec2",
+  "lang": "es",
+  "text": "¿Qué plato tiene más plátanos?"
+ },
+ {
+  "id": "3e5c5b52",
+  "lang": "es",
+  "text": "¿Qué plato tiene más zanahorias?"
+ },
+ {
+  "id": "e4d88b0f",
+  "lang": "es",
+  "text": "¿Qué quieres jugar?"
+ },
+ {
+  "id": "c25b036e",
+  "lang": "es",
+  "text": "¿Quién está asustado?"
+ },
+ {
+  "id": "90a76d96",
+  "lang": "es",
+  "text": "¿Quién está enojado?"
+ },
+ {
+  "id": "20cf98c2",
+  "lang": "es",
+  "text": "¿Quién está feliz?"
+ },
+ {
+  "id": "8f31a613",
+  "lang": "es",
+  "text": "¿Quién está triste?"
+ },
+ {
+  "id": "1c604d22",
+  "lang": "es",
+  "text": "¿Quién va a jugar?"
+ },
+ {
+  "id": "c1b8b0a7",
+  "lang": "es",
+  "text": "A moverse"
+ },
+ {
+  "id": "11d7d442",
+  "lang": "es",
+  "text": "abeja"
+ },
+ {
+  "id": "5826aa26",
+  "lang": "es",
+  "text": "águila"
+ },
+ {
+  "id": "d428a289",
+  "lang": "es",
+  "text": "Ahora: ¡¿Dónde Está?!"
+ },
+ {
+  "id": "271f90bb",
+  "lang": "es",
+  "text": "Ahora: ¡Ayuda a un Amigo!"
+ },
+ {
+  "id": "83b40b60",
+  "lang": "es",
+  "text": "Ahora: ¡Casas de Animales!"
+ },
+ {
+  "id": "f15590a4",
+  "lang": "es",
+  "text": "Ahora: ¡Construye!"
+ },
+ {
+  "id": "595d994e",
+  "lang": "es",
+  "text": "Ahora: ¡Cópiame!"
+ },
+ {
+  "id": "2003720c",
+  "lang": "es",
+  "text": "Ahora: ¡Dales de Comer!"
+ },
+ {
+  "id": "a24ba609",
+  "lang": "es",
+  "text": "Ahora: ¡Figuras y Sombras!"
+ },
+ {
+  "id": "eda09f2a",
+  "lang": "es",
+  "text": "Ahora: ¡Laberinto Espacial!"
+ },
+ {
+  "id": "92ab0785",
+  "lang": "es",
+  "text": "Ahora: ¡Rescate Espacial!"
+ },
+ {
+  "id": "75bd98fc",
+  "lang": "es",
+  "text": "Ahora: ¡Revienta y Toca!"
+ },
+ {
+  "id": "46fd8552",
+  "lang": "es",
+  "text": "Ahora: ¡Traza Números!"
+ },
+ {
+  "id": "1ad98352",
+  "lang": "es",
+  "text": "amarillo"
+ },
+ {
+  "id": "65696cf3",
+  "lang": "es",
+  "text": "amarillos"
+ },
+ {
+  "id": "77172418",
+  "lang": "es",
+  "text": "anaranjado"
+ },
+ {
+  "id": "e46e5471",
+  "lang": "es",
+  "text": "anaranjados"
+ },
+ {
+  "id": "187897dd",
+  "lang": "es",
+  "text": "árbol"
+ },
+ {
+  "id": "460114e2",
+  "lang": "es",
+  "text": "ardilla"
+ },
+ {
+  "id": "ce4d1c6d",
+  "lang": "es",
+  "text": "asustado"
+ },
+ {
+  "id": "50bba4f6",
+  "lang": "es",
+  "text": "avión"
+ },
+ {
+  "id": "880740f8",
+  "lang": "es",
+  "text": "Ayuda a un Amigo"
+ },
+ {
+  "id": "a8b57f49",
+  "lang": "es",
+  "text": "azul"
+ },
+ {
+  "id": "2a640c95",
+  "lang": "es",
+  "text": "azules"
+ },
+ {
+  "id": "fa190260",
+  "lang": "es",
+  "text": "ballena"
+ },
+ {
+  "id": "e8816b12",
+  "lang": "es",
+  "text": "barco"
+ },
+ {
+  "id": "a23f5853",
+  "lang": "es",
+  "text": "bicicleta"
+ },
+ {
+  "id": "06024e34",
+  "lang": "es",
+  "text": "both"
+ },
+ {
+  "id": "c57bba26",
+  "lang": "es",
+  "text": "búho"
+ },
+ {
+  "id": "386f0537",
+  "lang": "es",
+  "text": "caballo"
+ },
+ {
+  "id": "d296b23e",
+  "lang": "es",
+  "text": "cangrejo"
+ },
+ {
+  "id": "6de1e2c8",
+  "lang": "es",
+  "text": "caracol"
+ },
+ {
+  "id": "7f9eaf90",
+  "lang": "es",
+  "text": "carro"
+ },
+ {
+  "id": "8d3b49e1",
+  "lang": "es",
+  "text": "Casas de Animales"
+ },
+ {
+  "id": "b0dd5aa6",
+  "lang": "es",
+  "text": "cebra"
+ },
+ {
+  "id": "0b1d610e",
+  "lang": "es",
+  "text": "cerdo"
+ },
+ {
+  "id": "981982f4",
+  "lang": "es",
+  "text": "cero"
+ },
+ {
+  "id": "65f45e93",
+  "lang": "es",
+  "text": "cielo"
+ },
+ {
+  "id": "60326465",
+  "lang": "es",
+  "text": "cinco"
+ },
+ {
+  "id": "6b2c617a",
+  "lang": "es",
+  "text": "círculo"
+ },
+ {
+  "id": "b2a4dfa4",
+  "lang": "es",
+  "text": "Clasificar y lógica"
+ },
+ {
+  "id": "e8eb0310",
+  "lang": "es",
+  "text": "Colores y contar"
+ },
+ {
+  "id": "04346c68",
+  "lang": "es",
+  "text": "comida"
+ },
+ {
+  "id": "c81d63bb",
+  "lang": "es",
+  "text": "conejo"
+ },
+ {
+  "id": "db82790d",
+  "lang": "es",
+  "text": "Construye"
+ },
+ {
+  "id": "001f3536",
+  "lang": "es",
+  "text": "Contar y comparar"
+ },
+ {
+  "id": "d41bf4bb",
+  "lang": "es",
+  "text": "Cópiame"
+ },
+ {
+  "id": "c8975523",
+  "lang": "es",
+  "text": "corazón"
+ },
+ {
+  "id": "76dbbaad",
+  "lang": "es",
+  "text": "Creatividad y construir"
+ },
+ {
+  "id": "7bc8f5bd",
+  "lang": "es",
+  "text": "cruz"
+ },
+ {
+  "id": "d1ba6022",
+  "lang": "es",
+  "text": "cuadrado"
+ },
+ {
+  "id": "122db539",
+  "lang": "es",
+  "text": "cuatro"
+ },
+ {
+  "id": "0fed5e45",
+  "lang": "es",
+  "text": "Dales de Comer"
+ },
+ {
+  "id": "43399909",
+  "lang": "es",
+  "text": "delfín"
+ },
+ {
+  "id": "668413d7",
+  "lang": "es",
+  "text": "diez"
+ },
+ {
+  "id": "cf503feb",
+  "lang": "es",
+  "text": "dos"
+ },
+ {
+  "id": "5aef27a5",
+  "lang": "es",
+  "text": "Ejercicio Mental"
+ },
+ {
+  "id": "b8334729",
+  "lang": "es",
+  "text": "El conejo se lastimó"
+ },
+ {
+  "id": "fd5155f5",
+  "lang": "es",
+  "text": "El conejo tiene frío, ¡brrr!"
+ },
+ {
+  "id": "0f4b0bda",
+  "lang": "es",
+  "text": "El conejo tiene hambre"
+ },
+ {
+  "id": "9040121d",
+  "lang": "es",
+  "text": "El conejo tiene sed"
+ },
+ {
+  "id": "49cff7fa",
+  "lang": "es",
+  "text": "El conejo tiene sueño"
+ },
+ {
+  "id": "4322e877",
+  "lang": "es",
+  "text": "El gatito se lastimó"
+ },
+ {
+  "id": "ff569ccf",
+  "lang": "es",
+  "text": "El gatito tiene frío, ¡brrr!"
+ },
+ {
+  "id": "7560a388",
+  "lang": "es",
+  "text": "El gatito tiene hambre"
+ },
+ {
+  "id": "a58e79e3",
+  "lang": "es",
+  "text": "El gatito tiene sed"
+ },
+ {
+  "id": "73755a64",
+  "lang": "es",
+  "text": "El gatito tiene sueño"
+ },
+ {
+  "id": "5572331c",
+  "lang": "es",
+  "text": "El oso se lastimó"
+ },
+ {
+  "id": "3f4d64d0",
+  "lang": "es",
+  "text": "El oso tiene frío, ¡brrr!"
+ },
+ {
+  "id": "4bf013d3",
+  "lang": "es",
+  "text": "El oso tiene hambre"
+ },
+ {
+  "id": "6871646a",
+  "lang": "es",
+  "text": "El oso tiene sed"
+ },
+ {
+  "id": "0cc6a381",
+  "lang": "es",
+  "text": "El oso tiene sueño"
+ },
+ {
+  "id": "a66422d9",
+  "lang": "es",
+  "text": "El panda se lastimó"
+ },
+ {
+  "id": "4aed4b85",
+  "lang": "es",
+  "text": "El panda tiene frío, ¡brrr!"
+ },
+ {
+  "id": "5432d7ca",
+  "lang": "es",
+  "text": "El panda tiene hambre"
+ },
+ {
+  "id": "8e4365ad",
+  "lang": "es",
+  "text": "El panda tiene sed"
+ },
+ {
+  "id": "dd8cda0a",
+  "lang": "es",
+  "text": "El panda tiene sueño"
+ },
+ {
+  "id": "e792036c",
+  "lang": "es",
+  "text": "El perrito se lastimó"
+ },
+ {
+  "id": "b82b4940",
+  "lang": "es",
+  "text": "El perrito tiene frío, ¡brrr!"
+ },
+ {
+  "id": "ec2843a3",
+  "lang": "es",
+  "text": "El perrito tiene hambre"
+ },
+ {
+  "id": "29f0c21a",
+  "lang": "es",
+  "text": "El perrito tiene sed"
+ },
+ {
+  "id": "e58ccbb1",
+  "lang": "es",
+  "text": "El perrito tiene sueño"
+ },
+ {
+  "id": "be0af855",
+  "lang": "es",
+  "text": "El zorro se lastimó"
+ },
+ {
+  "id": "36b106c1",
+  "lang": "es",
+  "text": "El zorro tiene frío, ¡brrr!"
+ },
+ {
+  "id": "cd318096",
+  "lang": "es",
+  "text": "El zorro tiene hambre"
+ },
+ {
+  "id": "c9c334b1",
+  "lang": "es",
+  "text": "El zorro tiene sed"
+ },
+ {
+  "id": "06928c26",
+  "lang": "es",
+  "text": "El zorro tiene sueño"
+ },
+ {
+  "id": "b6afeed1",
+  "lang": "es",
+  "text": "elefante"
+ },
+ {
+  "id": "76b3c8c0",
+  "lang": "es",
+  "text": "Emociones y bondad"
+ },
+ {
+  "id": "4d781a81",
+  "lang": "es",
+  "text": "en el árbol"
+ },
+ {
+  "id": "f5317fdf",
+  "lang": "es",
+  "text": "en el cielo"
+ },
+ {
+  "id": "98600c71",
+  "lang": "es",
+  "text": "en el mar"
+ },
+ {
+  "id": "9174d5ee",
+  "lang": "es",
+  "text": "en la granja"
+ },
+ {
+  "id": "e35bffd5",
+  "lang": "es",
+  "text": "English"
+ },
+ {
+  "id": "9f49a355",
+  "lang": "es",
+  "text": "enojado"
+ },
+ {
+  "id": "9c73a1bf",
+  "lang": "es",
+  "text": "Es hora de apagar el iPad. ¡Adiós!"
+ },
+ {
+  "id": "1bcc01cd",
+  "lang": "es",
+  "text": "Esa es amarilla."
+ },
+ {
+  "id": "983f37ba",
+  "lang": "es",
+  "text": "Esa es azul."
+ },
+ {
+  "id": "0fded120",
+  "lang": "es",
+  "text": "Esa es la abeja."
+ },
+ {
+  "id": "fb17e34e",
+  "lang": "es",
+  "text": "Esa es la ballena."
+ },
+ {
+  "id": "d4f392f4",
+  "lang": "es",
+  "text": "Esa es la cebra."
+ },
+ {
+  "id": "a8bd8a93",
+  "lang": "es",
+  "text": "Esa es la gallina."
+ },
+ {
+  "id": "6068b480",
+  "lang": "es",
+  "text": "Esa es la jirafa."
+ },
+ {
+  "id": "89001595",
+  "lang": "es",
+  "text": "Esa es la mariposa."
+ },
+ {
+  "id": "5db7e0da",
+  "lang": "es",
+  "text": "Esa es la oveja."
+ },
+ {
+  "id": "ab0ae9b7",
+  "lang": "es",
+  "text": "Esa es la rana."
+ },
+ {
+  "id": "5ef05207",
+  "lang": "es",
+  "text": "Esa es la tortuga."
+ },
+ {
+  "id": "bff609a8",
+  "lang": "es",
+  "text": "Esa es la vaca."
+ },
+ {
+  "id": "6c99bc5a",
+  "lang": "es",
+  "text": "Esa es morada."
+ },
+ {
+  "id": "762f9dfe",
+  "lang": "es",
+  "text": "Esa es roja."
+ },
+ {
+  "id": "44df457a",
+  "lang": "es",
+  "text": "Esa es verde."
+ },
+ {
+  "id": "2345a611",
+  "lang": "es",
+  "text": "Escuchar y vocabulario"
+ },
+ {
+  "id": "d4622862",
+  "lang": "es",
+  "text": "Ese es el búho."
+ },
+ {
+  "id": "dacf51c9",
+  "lang": "es",
+  "text": "Ese es el caballo."
+ },
+ {
+  "id": "18afaa94",
+  "lang": "es",
+  "text": "Ese es el caracol."
+ },
+ {
+  "id": "b737bf06",
+  "lang": "es",
+  "text": "Ese es el cerdo."
+ },
+ {
+  "id": "223d975d",
+  "lang": "es",
+  "text": "Ese es el cinco. ¡Necesitamos el cuatro!"
+ },
+ {
+  "id": "8bf19a41",
+  "lang": "es",
+  "text": "Ese es el cinco. ¡Necesitamos el dos!"
+ },
+ {
+  "id": "7181b97d",
+  "lang": "es",
+  "text": "Ese es el cinco. ¡Necesitamos el tres!"
+ },
+ {
+  "id": "3720c43b",
+  "lang": "es",
+  "text": "Ese es el cinco. ¡Necesitamos el uno!"
+ },
+ {
+  "id": "cd3df061",
+  "lang": "es",
+  "text": "Ese es el conejo."
+ },
+ {
+  "id": "b2458437",
+  "lang": "es",
+  "text": "Ese es el cuatro. ¡Necesitamos el cinco!"
+ },
+ {
+  "id": "f90cf47d",
+  "lang": "es",
+  "text": "Ese es el cuatro. ¡Necesitamos el dos!"
+ },
+ {
+  "id": "cab4f921",
+  "lang": "es",
+  "text": "Ese es el cuatro. ¡Necesitamos el tres!"
+ },
+ {
+  "id": "ad9c41ff",
+  "lang": "es",
+  "text": "Ese es el cuatro. ¡Necesitamos el uno!"
+ },
+ {
+  "id": "e70b4b51",
+  "lang": "es",
+  "text": "Ese es el dos. ¡Necesitamos el cinco!"
+ },
+ {
+  "id": "cd5e1a9b",
+  "lang": "es",
+  "text": "Ese es el dos. ¡Necesitamos el cuatro!"
+ },
+ {
+  "id": "eed7a1e7",
+  "lang": "es",
+  "text": "Ese es el dos. ¡Necesitamos el tres!"
+ },
+ {
+  "id": "efb8b3b9",
+  "lang": "es",
+  "text": "Ese es el dos. ¡Necesitamos el uno!"
+ },
+ {
+  "id": "d2ff9773",
+  "lang": "es",
+  "text": "Ese es el elefante."
+ },
+ {
+  "id": "6710c126",
+  "lang": "es",
+  "text": "Ese es el gato."
+ },
+ {
+  "id": "7e23e62b",
+  "lang": "es",
+  "text": "Ese es el león."
+ },
+ {
+  "id": "7e205dc4",
+  "lang": "es",
+  "text": "Ese es el mono."
+ },
+ {
+  "id": "8a1b33fa",
+  "lang": "es",
+  "text": "Ese es el oso."
+ },
+ {
+  "id": "8226e31b",
+  "lang": "es",
+  "text": "Ese es el pato."
+ },
+ {
+  "id": "a4f1f973",
+  "lang": "es",
+  "text": "Ese es el perro."
+ },
+ {
+  "id": "a7cfaf5e",
+  "lang": "es",
+  "text": "Ese es el pez."
+ },
+ {
+  "id": "6e4b8287",
+  "lang": "es",
+  "text": "Ese es el tres. ¡Necesitamos el cinco!"
+ },
+ {
+  "id": "6f137379",
+  "lang": "es",
+  "text": "Ese es el tres. ¡Necesitamos el cuatro!"
+ },
+ {
+  "id": "0a3f9f6d",
+  "lang": "es",
+  "text": "Ese es el tres. ¡Necesitamos el dos!"
+ },
+ {
+  "id": "a5a4d42f",
+  "lang": "es",
+  "text": "Ese es el tres. ¡Necesitamos el uno!"
+ },
+ {
+  "id": "cc50637b",
+  "lang": "es",
+  "text": "Ese es el uno. ¡Necesitamos el cinco!"
+ },
+ {
+  "id": "7bdf2d0d",
+  "lang": "es",
+  "text": "Ese es el uno. ¡Necesitamos el cuatro!"
+ },
+ {
+  "id": "77111611",
+  "lang": "es",
+  "text": "Ese es el uno. ¡Necesitamos el dos!"
+ },
+ {
+  "id": "f249ea2d",
+  "lang": "es",
+  "text": "Ese es el uno. ¡Necesitamos el tres!"
+ },
+ {
+  "id": "46241682",
+  "lang": "es",
+  "text": "Ese es un círculo. No cabe."
+ },
+ {
+  "id": "bd5b9943",
+  "lang": "es",
+  "text": "Ese es un corazón. No cabe."
+ },
+ {
+  "id": "4ac889ea",
+  "lang": "es",
+  "text": "Ese es un cuadrado. No cabe."
+ },
+ {
+  "id": "c13309d7",
+  "lang": "es",
+  "text": "Ese es un estrella. No cabe."
+ },
+ {
+  "id": "a061cb6a",
+  "lang": "es",
+  "text": "Ese es un triángulo. No cabe."
+ },
+ {
+  "id": "95ce9ec5",
+  "lang": "es",
+  "text": "Ese está asustado."
+ },
+ {
+  "id": "fc84172d",
+  "lang": "es",
+  "text": "Ese está enojado."
+ },
+ {
+  "id": "55c58b29",
+  "lang": "es",
+  "text": "Ese está feliz."
+ },
+ {
+  "id": "df7bd62c",
+  "lang": "es",
+  "text": "Ese está triste."
+ },
+ {
+  "id": "fa9f9c63",
+  "lang": "es",
+  "text": "Ese plato tiene menos. ¡Mira otra vez!"
+ },
+ {
+  "id": "1f47b5dc",
+  "lang": "es",
+  "text": "Español"
+ },
+ {
+  "id": "0d3839ef",
+  "lang": "es",
+  "text": "estrella"
+ },
+ {
+  "id": "51c38f21",
+  "lang": "es",
+  "text": "feliz"
+ },
+ {
+  "id": "a5ca5603",
+  "lang": "es",
+  "text": "Figuras y motricidad"
+ },
+ {
+  "id": "e4aa5d32",
+  "lang": "es",
+  "text": "Figuras y Sombras"
+ },
+ {
+  "id": "4cd44df4",
+  "lang": "es",
+  "text": "foca"
+ },
+ {
+  "id": "b811d37e",
+  "lang": "es",
+  "text": "fresa"
+ },
+ {
+  "id": "fa8d6bab",
+  "lang": "es",
+  "text": "gallina"
+ },
+ {
+  "id": "046ba33c",
+  "lang": "es",
+  "text": "gallo"
+ },
+ {
+  "id": "28e54b95",
+  "lang": "es",
+  "text": "gatito"
+ },
+ {
+  "id": "2a043f16",
+  "lang": "es",
+  "text": "gato"
+ },
+ {
+  "id": "07fa3e5a",
+  "lang": "es",
+  "text": "globo"
+ },
+ {
+  "id": "12568db8",
+  "lang": "es",
+  "text": "granja"
+ },
+ {
+  "id": "88fe8ad0",
+  "lang": "es",
+  "text": "guitarra"
+ },
+ {
+  "id": "5c11be07",
+  "lang": "es",
+  "text": "helicóptero"
+ },
+ {
+  "id": "0db734e6",
+  "lang": "es",
+  "text": "hexágono"
+ },
+ {
+  "id": "3c6702fa",
+  "lang": "es",
+  "text": "jirafa"
+ },
+ {
+  "id": "9f677825",
+  "lang": "es",
+  "text": "La aventura de hoy"
+ },
+ {
+  "id": "925e29af",
+  "lang": "es",
+  "text": "Laberinto Espacial"
+ },
+ {
+  "id": "052c9971",
+  "lang": "es",
+  "text": "león"
+ },
+ {
+  "id": "65cc416d",
+  "lang": "es",
+  "text": "luna"
+ },
+ {
+  "id": "f4b43d35",
+  "lang": "es",
+  "text": "mar"
+ },
+ {
+  "id": "d5aeaa0d",
+  "lang": "es",
+  "text": "mariposa"
+ },
+ {
+  "id": "8109325b",
+  "lang": "es",
+  "text": "Memoria"
+ },
+ {
+  "id": "0d6dfc7b",
+  "lang": "es",
+  "text": "Mis calcomanías"
+ },
+ {
+  "id": "0ce7b03c",
+  "lang": "es",
+  "text": "Mmm, ¿el conejo necesita eso?"
+ },
+ {
+  "id": "8b27753e",
+  "lang": "es",
+  "text": "Mmm, ¿el gatito necesita eso?"
+ },
+ {
+  "id": "12e03123",
+  "lang": "es",
+  "text": "Mmm, ¿el oso necesita eso?"
+ },
+ {
+  "id": "669c20e8",
+  "lang": "es",
+  "text": "Mmm, ¿el panda necesita eso?"
+ },
+ {
+  "id": "fb0bac63",
+  "lang": "es",
+  "text": "Mmm, ¿el perrito necesita eso?"
+ },
+ {
+  "id": "d623866c",
+  "lang": "es",
+  "text": "Mmm, ¿el zorro necesita eso?"
+ },
+ {
+  "id": "868e1b0f",
+  "lang": "es",
+  "text": "Mmm, ¿necesita eso?"
+ },
+ {
+  "id": "de7bf988",
+  "lang": "es",
+  "text": "Mmm, ese no."
+ },
+ {
+  "id": "6d296730",
+  "lang": "es",
+  "text": "mono"
+ },
+ {
+  "id": "5da33b03",
+  "lang": "es",
+  "text": "morado"
+ },
+ {
+  "id": "d7f69150",
+  "lang": "es",
+  "text": "morados"
+ },
+ {
+  "id": "cfa223e4",
+  "lang": "es",
+  "text": "No cabe. ¡Prueba en otro lugar!"
+ },
+ {
+  "id": "7507a554",
+  "lang": "es",
+  "text": "nueve"
+ },
+ {
+  "id": "faa110da",
+  "lang": "es",
+  "text": "Números y motricidad fina"
+ },
+ {
+  "id": "109d82c4",
+  "lang": "es",
+  "text": "ocho"
+ },
+ {
+  "id": "9c46bfc9",
+  "lang": "es",
+  "text": "osito"
+ },
+ {
+  "id": "0eb2b4b2",
+  "lang": "es",
+  "text": "oso"
+ },
+ {
+  "id": "ceb3a2e6",
+  "lang": "es",
+  "text": "oso polar"
+ },
+ {
+  "id": "c0085dac",
+  "lang": "es",
+  "text": "Otra vez"
+ },
+ {
+  "id": "b65bc297",
+  "lang": "es",
+  "text": "Otros juegos"
+ },
+ {
+  "id": "b89049ac",
+  "lang": "es",
+  "text": "óvalo"
+ },
+ {
+  "id": "57348354",
+  "lang": "es",
+  "text": "oveja"
+ },
+ {
+  "id": "c83aaf19",
+  "lang": "es",
+  "text": "pajarito"
+ },
+ {
+  "id": "47826b5d",
+  "lang": "es",
+  "text": "panda"
+ },
+ {
+  "id": "de232b1d",
+  "lang": "es",
+  "text": "papalote"
+ },
+ {
+  "id": "554d3785",
+  "lang": "es",
+  "text": "paraguas"
+ },
+ {
+  "id": "9c36548b",
+  "lang": "es",
+  "text": "Parar por ahora"
+ },
+ {
+  "id": "c9512cab",
+  "lang": "es",
+  "text": "patín"
+ },
+ {
+  "id": "9536b18d",
+  "lang": "es",
+  "text": "pato"
+ },
+ {
+  "id": "e9293874",
+  "lang": "es",
+  "text": "pentágono"
+ },
+ {
+  "id": "e4296cb6",
+  "lang": "es",
+  "text": "Pequeños Pensadores"
+ },
+ {
+  "id": "f136c9ad",
+  "lang": "es",
+  "text": "pera"
+ },
+ {
+  "id": "4ef9f61c",
+  "lang": "es",
+  "text": "perezoso"
+ },
+ {
+  "id": "a7a9d057",
+  "lang": "es",
+  "text": "perico"
+ },
+ {
+  "id": "1bfbf7c2",
+  "lang": "es",
+  "text": "perrito"
+ },
+ {
+  "id": "7b103e31",
+  "lang": "es",
+  "text": "perro"
+ },
+ {
+  "id": "482a0346",
+  "lang": "es",
+  "text": "pez"
+ },
+ {
+  "id": "0b6f2c92",
+  "lang": "es",
+  "text": "piña"
+ },
+ {
+  "id": "5d1c621b",
+  "lang": "es",
+  "text": "pingüino"
+ },
+ {
+  "id": "e313cf7a",
+  "lang": "es",
+  "text": "plátano"
+ },
+ {
+  "id": "0c7066e1",
+  "lang": "es",
+  "text": "pulpo"
+ },
+ {
+  "id": "5523cc0f",
+  "lang": "es",
+  "text": "rana"
+ },
+ {
+  "id": "8560cd93",
+  "lang": "es",
+  "text": "rectángulo"
+ },
+ {
+  "id": "f98a8706",
+  "lang": "es",
+  "text": "Rescate Espacial"
+ },
+ {
+  "id": "442eb52e",
+  "lang": "es",
+  "text": "Resolver problemas"
+ },
+ {
+  "id": "175d6b15",
+  "lang": "es",
+  "text": "Revienta y Toca"
+ },
+ {
+  "id": "342b59bb",
+  "lang": "es",
+  "text": "rojo"
+ },
+ {
+  "id": "e83e55d8",
+  "lang": "es",
+  "text": "rojos"
+ },
+ {
+  "id": "3c23c468",
+  "lang": "es",
+  "text": "rombo"
+ },
+ {
+  "id": "2619fa90",
+  "lang": "es",
+  "text": "rosa"
+ },
+ {
+  "id": "dde5f359",
+  "lang": "es",
+  "text": "rosas"
+ },
+ {
+  "id": "d4f91a4b",
+  "lang": "es",
+  "text": "sandía"
+ },
+ {
+  "id": "db10e670",
+  "lang": "es",
+  "text": "se lastimó"
+ },
+ {
+  "id": "48fc3a2c",
+  "lang": "es",
+  "text": "Seguir"
+ },
+ {
+  "id": "fe0d06d7",
+  "lang": "es",
+  "text": "seis"
+ },
+ {
+  "id": "73999550",
+  "lang": "es",
+  "text": "serpiente"
+ },
+ {
+  "id": "93a4e409",
+  "lang": "es",
+  "text": "siete"
+ },
+ {
+  "id": "629ceef6",
+  "lang": "es",
+  "text": "tambor"
+ },
+ {
+  "id": "e6e84634",
+  "lang": "es",
+  "text": "tiene frío, ¡brrr!"
+ },
+ {
+  "id": "57cba207",
+  "lang": "es",
+  "text": "tiene hambre"
+ },
+ {
+  "id": "4a514e36",
+  "lang": "es",
+  "text": "tiene sed"
+ },
+ {
+  "id": "6785bdd5",
+  "lang": "es",
+  "text": "tiene sueño"
+ },
+ {
+  "id": "3b3133b8",
+  "lang": "es",
+  "text": "tigre"
+ },
+ {
+  "id": "dcd2793f",
+  "lang": "es",
+  "text": "Todo junto"
+ },
+ {
+  "id": "8c4fb4a7",
+  "lang": "es",
+  "text": "tortuga"
+ },
+ {
+  "id": "c1aedd67",
+  "lang": "es",
+  "text": "Traza Números"
+ },
+ {
+  "id": "152581fe",
+  "lang": "es",
+  "text": "tren"
+ },
+ {
+  "id": "22259675",
+  "lang": "es",
+  "text": "tres"
+ },
+ {
+  "id": "99542a62",
+  "lang": "es",
+  "text": "triángulo"
+ },
+ {
+  "id": "8d2b82c6",
+  "lang": "es",
+  "text": "triste"
+ },
+ {
+  "id": "78507312",
+  "lang": "es",
+  "text": "Un extraterrestre quiere venir también. Pero se lastimó"
+ },
+ {
+  "id": "71228d5a",
+  "lang": "es",
+  "text": "Un extraterrestre quiere venir también. Pero tiene frío, ¡brrr!"
+ },
+ {
+  "id": "baa37619",
+  "lang": "es",
+  "text": "Un extraterrestre quiere venir también. Pero tiene hambre"
+ },
+ {
+  "id": "c08058d0",
+  "lang": "es",
+  "text": "Un extraterrestre quiere venir también. Pero tiene sed"
+ },
+ {
+  "id": "5c3a3b8b",
+  "lang": "es",
+  "text": "Un extraterrestre quiere venir también. Pero tiene sueño"
+ },
+ {
+  "id": "8b827a5f",
+  "lang": "es",
+  "text": "un globo"
+ },
+ {
+  "id": "3a3c9768",
+  "lang": "es",
+  "text": "un osito"
+ },
+ {
+  "id": "2bf6c546",
+  "lang": "es",
+  "text": "un papalote"
+ },
+ {
+  "id": "53cc3664",
+  "lang": "es",
+  "text": "un vaso de agua"
+ },
+ {
+  "id": "0209abe4",
+  "lang": "es",
+  "text": "una camita"
+ },
+ {
+  "id": "cf71962e",
+  "lang": "es",
+  "text": "una chamarra calientita"
+ },
+ {
+  "id": "87f9ad97",
+  "lang": "es",
+  "text": "una curita"
+ },
+ {
+  "id": "79345cfe",
+  "lang": "es",
+  "text": "una guitarra"
+ },
+ {
+  "id": "52007808",
+  "lang": "es",
+  "text": "una pelota"
+ },
+ {
+  "id": "1e6dd95d",
+  "lang": "es",
+  "text": "uno"
+ },
+ {
+  "id": "412e5d08",
+  "lang": "es",
+  "text": "uvas"
+ },
+ {
+  "id": "360c1d22",
+  "lang": "es",
+  "text": "vaca"
+ },
+ {
+  "id": "9974f8c3",
+  "lang": "es",
+  "text": "verde"
+ },
+ {
+  "id": "43237d10",
+  "lang": "es",
+  "text": "verdes"
+ },
+ {
+  "id": "4497d30a",
+  "lang": "es",
+  "text": "zanahoria"
+ },
+ {
+  "id": "070890d9",
+  "lang": "es",
+  "text": "zorro"
+ }
+]

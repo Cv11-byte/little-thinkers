@@ -1,0 +1,26 @@
+import type { KidId } from '../engine/storage';
+import type { GameDef } from './types';
+import { rocketMaze } from './maze/RocketMaze';
+import { popBalloons } from './balloons/PopBalloons';
+import { traceNumbers } from './trace/TraceNumbers';
+import { animalHomes } from './homes/AnimalHomes';
+import { feedTheBear } from './feed/FeedTheBear';
+import { whoSays } from './sounds/WhoSays';
+import { copyMe } from './pattern/CopyMe';
+import { shapePuzzle } from './shapes/ShapePuzzle';
+import { helpAFriend } from './kindness/HelpAFriend';
+import { blockBuilder } from './blocks/BlockBuilder';
+import { rocketRescue } from './boss/RocketRescue';
+
+export const GAMES: GameDef[] = [rocketMaze, popBalloons, traceNumbers, animalHomes, feedTheBear, whoSays, copyMe, shapePuzzle, helpAFriend, blockBuilder];
+
+/** The boss game is only reached through the Brain Workout. */
+export const BOSS = rocketRescue;
+
+export const GAME_BY_ID: Record<string, GameDef> = Object.fromEntries([...GAMES, BOSS].map((g) => [g.id, g]));
+
+/** Menu order per kid: easiest-to-start games first for the younger one. */
+export const MENU_ORDER: Record<KidId, string[]> = {
+  kid1: ['rocket-maze', 'pop-balloons', 'trace-numbers', 'animal-homes', 'feed-the-bear', 'who-says', 'copy-me', 'shape-puzzle', 'help-a-friend', 'block-builder'],
+  kid2: ['pop-balloons', 'who-says', 'feed-the-bear', 'animal-homes', 'shape-puzzle', 'block-builder', 'copy-me', 'rocket-maze', 'trace-numbers', 'help-a-friend'],
+};
