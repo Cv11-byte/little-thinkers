@@ -22,7 +22,7 @@ const LIMIT = Number(process.env.LIMIT || 0);
 const NAMES = (process.env.NAMES || '').split(',').map((s) => s.trim()).filter(Boolean);
 
 if (!KEY || !VOICES.en || !VOICES.es) {
-  console.error('Missing ELEVENLABS_API_KEY, VOICE_ID_EN or VOICE_ID_ES.');
+  console.error('::error title=Voice recording failed::Missing ELEVENLABS_API_KEY, VOICE_ID_EN or VOICE_ID_ES.');
   process.exit(1);
 }
 
@@ -112,7 +112,14 @@ async function worker() {
     if (done % 25 === 0 || done === batch.length) console.log(`  ${done}/${batch.length}`);
   }
 }
-await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+try {
+  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+} catch (e) {
+  // show the reason on the workflow summary (GitHub annotation)
+  const msg = String(e?.message || e).replace(/\s+/g, ' ').slice(0, 900);
+  console.error(`::error title=Voice recording failed::${msg}`);
+  process.exit(1);
+}
 
 // manifest: every line that has a recording, with its text (used by the voice check screen)
 const clips = lines.filter((l) => existsSync(`public/voices/${l.lang}/${l.id}.mp3`));
