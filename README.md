@@ -72,8 +72,9 @@ The app plays recorded clips when they exist and uses the iPad's built-in voice 
 
 1. In ElevenLabs, pick one English and one Spanish voice in the Voice Library (warm / gentle / storyteller), and copy
    each **Voice ID**. Create an **API key** (Profile → API Keys).
-2. In the GitHub repo: **Settings → Secrets and variables → Actions → New repository secret**, add:
-   `ELEVENLABS_API_KEY`, `VOICE_ID_EN`, `VOICE_ID_ES`.
+2. In the GitHub repo: **Settings → Secrets and variables → Actions → New repository secret**, add
+   `ELEVENLABS_API_KEY`. The two chosen voices are already set in `.github/workflows/voices.yml`
+   (add `VOICE_ID_EN` / `VOICE_ID_ES` secrets to switch voices without editing it).
 3. **Actions → "Record voices (ElevenLabs)" → Run workflow.** Type `20` in "limit" the first time for a cheap sample,
    listen on the iPad, then run it again with "limit" empty to record everything (~1,150 lines, about 30,000 characters).
 4. The workflow saves the clips to the repo and republishes the app. On the iPad, grown-up corner → Voices →

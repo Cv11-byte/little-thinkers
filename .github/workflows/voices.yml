@@ -1,7 +1,7 @@
 name: Record voices (ElevenLabs)
 
 # Run from GitHub: Actions → "Record voices" → Run workflow.
-# Needs repository secrets: ELEVENLABS_API_KEY, VOICE_ID_EN, VOICE_ID_ES
+# Needs one repository secret: ELEVENLABS_API_KEY (Settings → Secrets and variables → Actions)
 on:
   workflow_dispatch:
     inputs:
@@ -43,8 +43,9 @@ jobs:
         run: npm run voices
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          VOICE_ID_EN: ${{ secrets.VOICE_ID_EN }}
-          VOICE_ID_ES: ${{ secrets.VOICE_ID_ES }}
+          # the chosen voices (not secret); a VOICE_ID_EN / VOICE_ID_ES secret overrides them
+          VOICE_ID_EN: ${{ secrets.VOICE_ID_EN || 'WyxfC66zZ4F16RqcMMHI' }}
+          VOICE_ID_ES: ${{ secrets.VOICE_ID_ES || 'IdhxxSTaAg80CTeSgScm' }}
           LIMIT: ${{ inputs.limit }}
           REDO: ${{ inputs.redo }}
           NAMES: ${{ inputs.names }}
