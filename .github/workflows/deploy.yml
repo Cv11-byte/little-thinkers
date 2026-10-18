@@ -3,6 +3,8 @@ name: Test and deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    # a voice request records first, then deploys by itself
+    paths-ignore: ['voices/request.json']
   workflow_dispatch:
   workflow_call:
 

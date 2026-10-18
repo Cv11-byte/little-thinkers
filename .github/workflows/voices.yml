@@ -1,8 +1,12 @@
 name: Record voices (ElevenLabs)
 
-# Run from GitHub: Actions → "Record voices" → Run workflow.
+# Run from GitHub: Actions → "Record voices" → Run workflow,
+# or by pushing a change to voices/request.json ({"limit": 20, "redo": "", "names": ""}).
 # Needs one repository secret: ELEVENLABS_API_KEY (Settings → Secrets and variables → Actions)
 on:
+  push:
+    branches: [main]
+    paths: ['voices/request.json']
   workflow_dispatch:
     inputs:
       limit:
@@ -39,6 +43,18 @@ jobs:
       - run: npm ci
       - run: sudo apt-get install -y ffmpeg >/dev/null || true
       - run: npm run phrases
+      - name: Read options
+        id: opts
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && [ -f voices/request.json ]; then
+            echo "limit=$(node -p "require('./voices/request.json').limit ?? ''")" >> "$GITHUB_OUTPUT"
+            echo "redo=$(node -p "require('./voices/request.json').redo ?? ''")" >> "$GITHUB_OUTPUT"
+            echo "names=$(node -p "require('./voices/request.json').names ?? ''")" >> "$GITHUB_OUTPUT"
+          else
+            echo "limit=${{ inputs.limit }}" >> "$GITHUB_OUTPUT"
+            echo "redo=${{ inputs.redo }}" >> "$GITHUB_OUTPUT"
+            echo "names=${{ inputs.names }}" >> "$GITHUB_OUTPUT"
+          fi
       - name: Record new lines
         run: npm run voices
         env:
@@ -46,15 +62,16 @@ jobs:
           # the chosen voices (not secret); a VOICE_ID_EN / VOICE_ID_ES secret overrides them
           VOICE_ID_EN: ${{ secrets.VOICE_ID_EN || 'WyxfC66zZ4F16RqcMMHI' }}
           VOICE_ID_ES: ${{ secrets.VOICE_ID_ES || 'IdhxxSTaAg80CTeSgScm' }}
-          LIMIT: ${{ inputs.limit }}
-          REDO: ${{ inputs.redo }}
-          NAMES: ${{ inputs.names }}
+          LIMIT: ${{ steps.opts.outputs.limit }}
+          REDO: ${{ steps.opts.outputs.redo }}
+          NAMES: ${{ steps.opts.outputs.names }}
       - name: Save recordings to the repo
         run: |
           git config user.name "voice-bot"
           git config user.email "voice-bot@users.noreply.github.com"
           git add voices/phrases.json public/voices
           git diff --cached --quiet || git commit -m "Record voices"
+          git pull --rebase origin main
           git push
 
   deploy:
