@@ -1,9 +1,28 @@
 // Shared visual effects drawn inside the SVG stage.
 
 import { useEffect, useState, type CSSProperties } from 'react';
+import { artFor } from '../engine/art';
+import { DRAWN } from './drawn';
 
-/** Emoji drawn as SVG text, centered on (x, y). */
-export function Emoji({ ch, x, y, size, style, className }: { ch: string; x: number; y: number; size: number; style?: CSSProperties; className?: string }) {
+/**
+ * Emoji drawn as SVG text, centered on (x, y).
+ * If a picture was added for it (src/art/...), the picture is shown instead;
+ * '#name' glyphs use a built-in drawing.
+ */
+export function Emoji({ ch, x, y, size, style, className, filter }: { ch: string; x: number; y: number; size: number; style?: CSSProperties; className?: string; filter?: string }) {
+  const url = artFor(ch);
+  if (url) {
+    const s = size * 1.08;
+    return <image href={url} x={x - s / 2} y={y - s / 2} width={s} height={s} className={'art ' + (className ?? '')} style={style} filter={filter} preserveAspectRatio="xMidYMid meet" />;
+  }
+  const draw = DRAWN[ch];
+  if (draw) {
+    return (
+      <g className={className} style={style} filter={filter}>
+        <g transform={`translate(${x} ${y}) scale(${size / 100})`}>{draw()}</g>
+      </g>
+    );
+  }
   return (
     <text
       x={x}
@@ -13,6 +32,7 @@ export function Emoji({ ch, x, y, size, style, className }: { ch: string; x: num
       dominantBaseline="central"
       className={'emoji ' + (className ?? '')}
       style={style}
+      filter={filter}
     >
       {ch}
     </text>

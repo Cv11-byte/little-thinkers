@@ -11,7 +11,7 @@ describe('navigation', () => {
     render(<App repo={repo} />);
     fireEvent.click(screen.getByTestId('kid-kid1'));
     expect(screen.getByTestId('menu-screen')).toBeTruthy();
-    expect(screen.getAllByTestId(/^tile-/)).toHaveLength(10);
+    expect(screen.getAllByTestId(/^tile-/)).toHaveLength(11);
     fireEvent.click(screen.getByTestId('stickers'));
     expect(screen.getByTestId('sticker-screen')).toBeTruthy();
     fireEvent.click(screen.getByTestId('back'));

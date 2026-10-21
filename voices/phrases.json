@@ -5,6 +5,11 @@
   "text": "a ball"
  },
  {
+  "id": "39f87c4d",
+  "lang": "en",
+  "text": "A ball!"
+ },
+ {
   "id": "b7cc363e",
   "lang": "en",
   "text": "a balloon"
@@ -30,6 +35,16 @@
   "text": "A cozy bed!"
  },
  {
+  "id": "c21ee50d",
+  "lang": "en",
+  "text": "a flashlight"
+ },
+ {
+  "id": "98ae11e4",
+  "lang": "en",
+  "text": "A flashlight!"
+ },
+ {
   "id": "300d328d",
   "lang": "en",
   "text": "a glass of water"
@@ -43,6 +58,11 @@
   "id": "5f5a60bd",
   "lang": "en",
   "text": "a guitar"
+ },
+ {
+  "id": "560cbc8d",
+  "lang": "en",
+  "text": "A is for airplane!"
  },
  {
   "id": "b080e648",
@@ -80,6 +100,16 @@
   "text": "a teddy bear"
  },
  {
+  "id": "9631f34d",
+  "lang": "en",
+  "text": "a toothbrush"
+ },
+ {
+  "id": "2d6960a4",
+  "lang": "en",
+  "text": "A toothbrush!"
+ },
+ {
   "id": "927b0a48",
   "lang": "en",
   "text": "a warm jacket"
@@ -88,6 +118,11 @@
   "id": "fb61ea6b",
   "lang": "en",
   "text": "A warm jacket!"
+ },
+ {
+  "id": "3b6e8d48",
+  "lang": "en",
+  "text": "A!"
  },
  {
   "id": "db6e4c58",
@@ -115,6 +150,21 @@
   "text": "Amazing!"
  },
  {
+  "id": "98f2532c",
+  "lang": "en",
+  "text": "ambulance"
+ },
+ {
+  "id": "e87c7be7",
+  "lang": "en",
+  "text": "an umbrella"
+ },
+ {
+  "id": "530fc152",
+  "lang": "en",
+  "text": "An umbrella!"
+ },
+ {
   "id": "9351d1af",
   "lang": "en",
   "text": "angry"
@@ -125,14 +175,64 @@
   "text": "Animal Homes"
  },
  {
+  "id": "59ab9fdc",
+  "lang": "en",
+  "text": "Animal Homes: all done!"
+ },
+ {
+  "id": "435c414f",
+  "lang": "en",
+  "text": "Animals"
+ },
+ {
+  "id": "81118cd6",
+  "lang": "en",
+  "text": "apple"
+ },
+ {
+  "id": "8d9756f5",
+  "lang": "en",
+  "text": "astronaut"
+ },
+ {
+  "id": "3bcc77df",
+  "lang": "en",
+  "text": "avocado"
+ },
+ {
   "id": "b051c3b8",
   "lang": "en",
   "text": "Awesome!"
  },
  {
+  "id": "f7b96cbf",
+  "lang": "en",
+  "text": "B is for ball!"
+ },
+ {
+  "id": "0b6785f3",
+  "lang": "en",
+  "text": "B!"
+ },
+ {
   "id": "01c9d6e8",
   "lang": "en",
   "text": "Baa! Baa!"
+ },
+ {
+  "id": "5f487aee",
+  "lang": "en",
+  "text": "baby"
+ },
+ {
+  "id": "8ef749fc",
+  "lang": "en",
+  "text": "backpack"
+ },
+ {
+  "id": "506af593",
+  "lang": "en",
+  "text": "ball"
  },
  {
   "id": "1a1dce7d",
@@ -145,9 +245,29 @@
   "text": "banana"
  },
  {
+  "id": "100171e8",
+  "lang": "en",
+  "text": "bandage"
+ },
+ {
+  "id": "b4c52b72",
+  "lang": "en",
+  "text": "bathtub"
+ },
+ {
+  "id": "7fec023d",
+  "lang": "en",
+  "text": "beans"
+ },
+ {
   "id": "16a97bb8",
   "lang": "en",
   "text": "bear"
+ },
+ {
+  "id": "369ac361",
+  "lang": "en",
+  "text": "bed"
  },
  {
   "id": "359ac1ce",
@@ -165,6 +285,11 @@
   "text": "bird"
  },
  {
+  "id": "51f66c09",
+  "lang": "en",
+  "text": "blanket"
+ },
+ {
   "id": "3cd515fc",
   "lang": "en",
   "text": "Blast off!"
@@ -178,6 +303,16 @@
   "id": "ecb697c0",
   "lang": "en",
   "text": "Block Builder"
+ },
+ {
+  "id": "32d7f6aa",
+  "lang": "en",
+  "text": "Block Builder: all done!"
+ },
+ {
+  "id": "6bf4657c",
+  "lang": "en",
+  "text": "blocks"
  },
  {
   "id": "f77bd1d2",
@@ -195,14 +330,69 @@
   "text": "boat"
  },
  {
+  "id": "4bd38484",
+  "lang": "en",
+  "text": "bone"
+ },
+ {
+  "id": "69cfe227",
+  "lang": "en",
+  "text": "book"
+ },
+ {
+  "id": "e5fe644f",
+  "lang": "en",
+  "text": "boots"
+ },
+ {
+  "id": "fb5f7082",
+  "lang": "en",
+  "text": "bottle"
+ },
+ {
+  "id": "66bc55b6",
+  "lang": "en",
+  "text": "bowl"
+ },
+ {
   "id": "95d53521",
   "lang": "en",
   "text": "Brain Workout"
  },
  {
+  "id": "222beb94",
+  "lang": "en",
+  "text": "bread"
+ },
+ {
+  "id": "7b917851",
+  "lang": "en",
+  "text": "broccoli"
+ },
+ {
+  "id": "a9248d03",
+  "lang": "en",
+  "text": "broom"
+ },
+ {
+  "id": "d8671aa4",
+  "lang": "en",
+  "text": "brother"
+ },
+ {
+  "id": "1fb8fda5",
+  "lang": "en",
+  "text": "bubbles"
+ },
+ {
   "id": "37b363c0",
   "lang": "en",
   "text": "Build a house! Can you put a roof on top?"
+ },
+ {
+  "id": "1f12c517",
+  "lang": "en",
+  "text": "bulldozer"
  },
  {
   "id": "07da94ba",
@@ -220,6 +410,31 @@
   "text": "Buzz!"
  },
  {
+  "id": "4b70755f",
+  "lang": "en",
+  "text": "C is for car!"
+ },
+ {
+  "id": "2f69fd36",
+  "lang": "en",
+  "text": "C!"
+ },
+ {
+  "id": "2a816ec6",
+  "lang": "en",
+  "text": "cake"
+ },
+ {
+  "id": "d2b74864",
+  "lang": "en",
+  "text": "can't see in the dark"
+ },
+ {
+  "id": "85728552",
+  "lang": "en",
+  "text": "cap"
+ },
+ {
   "id": "8372822c",
   "lang": "en",
   "text": "car"
@@ -235,6 +450,26 @@
   "text": "cat"
  },
  {
+  "id": "3cdfad17",
+  "lang": "en",
+  "text": "cement mixer"
+ },
+ {
+  "id": "3ef73adb",
+  "lang": "en",
+  "text": "chair"
+ },
+ {
+  "id": "14f3ef17",
+  "lang": "en",
+  "text": "cheese"
+ },
+ {
+  "id": "0ccfddbe",
+  "lang": "en",
+  "text": "chef"
+ },
+ {
   "id": "6d6c585d",
   "lang": "en",
   "text": "chicken"
@@ -243,6 +478,11 @@
   "id": "acbd6c7a",
   "lang": "en",
   "text": "circle"
+ },
+ {
+  "id": "82d13b7c",
+  "lang": "en",
+  "text": "clock"
  },
  {
   "id": "4f672f0d",
@@ -260,9 +500,34 @@
   "text": "Colors & counting"
  },
  {
+  "id": "97bb85db",
+  "lang": "en",
+  "text": "comb"
+ },
+ {
+  "id": "b6577bef",
+  "lang": "en",
+  "text": "construction worker"
+ },
+ {
+  "id": "bf0706f0",
+  "lang": "en",
+  "text": "cookie"
+ },
+ {
   "id": "0d4b4c8f",
   "lang": "en",
   "text": "Copy Me"
+ },
+ {
+  "id": "f2dcf35f",
+  "lang": "en",
+  "text": "Copy Me: all done!"
+ },
+ {
+  "id": "918db134",
+  "lang": "en",
+  "text": "corn"
  },
  {
   "id": "f8850dbd",
@@ -280,9 +545,24 @@
   "text": "crab"
  },
  {
+  "id": "462a9c57",
+  "lang": "en",
+  "text": "crane"
+ },
+ {
+  "id": "ea20c7e1",
+  "lang": "en",
+  "text": "crayons"
+ },
+ {
   "id": "70214e02",
   "lang": "en",
   "text": "Creativity & building"
+ },
+ {
+  "id": "ca72249a",
+  "lang": "en",
+  "text": "crocodile"
  },
  {
   "id": "8e45b882",
@@ -290,9 +570,54 @@
   "text": "cross"
  },
  {
+  "id": "7d5463a6",
+  "lang": "en",
+  "text": "cup"
+ },
+ {
+  "id": "660c02a7",
+  "lang": "en",
+  "text": "D is for dinosaur!"
+ },
+ {
+  "id": "af75ffa9",
+  "lang": "en",
+  "text": "D!"
+ },
+ {
+  "id": "0b7f0f90",
+  "lang": "en",
+  "text": "daddy"
+ },
+ {
+  "id": "9e925086",
+  "lang": "en",
+  "text": "deer"
+ },
+ {
+  "id": "8442b405",
+  "lang": "en",
+  "text": "dentist"
+ },
+ {
   "id": "154f27a2",
   "lang": "en",
   "text": "diamond"
+ },
+ {
+  "id": "01acefa7",
+  "lang": "en",
+  "text": "diaper"
+ },
+ {
+  "id": "e4f4ba5d",
+  "lang": "en",
+  "text": "dinosaur"
+ },
+ {
+  "id": "07223035",
+  "lang": "en",
+  "text": "doctor"
  },
  {
   "id": "91b134a0",
@@ -310,6 +635,16 @@
   "text": "Done for today! See you tomorrow."
  },
  {
+  "id": "236287d2",
+  "lang": "en",
+  "text": "donkey"
+ },
+ {
+  "id": "3c09c77e",
+  "lang": "en",
+  "text": "door"
+ },
+ {
   "id": "34db70f4",
   "lang": "en",
   "text": "Drag it to the plate!"
@@ -325,9 +660,29 @@
   "text": "duck"
  },
  {
+  "id": "d1e58efb",
+  "lang": "en",
+  "text": "dump truck"
+ },
+ {
+  "id": "4b235878",
+  "lang": "en",
+  "text": "E is for elephant!"
+ },
+ {
+  "id": "1378dbac",
+  "lang": "en",
+  "text": "E!"
+ },
+ {
   "id": "01025da6",
   "lang": "en",
   "text": "eagle"
+ },
+ {
+  "id": "fdd63a53",
+  "lang": "en",
+  "text": "egg"
  },
  {
   "id": "a98748d5",
@@ -375,14 +730,39 @@
   "text": "Everything together"
  },
  {
+  "id": "75a2f27b",
+  "lang": "en",
+  "text": "excavator"
+ },
+ {
+  "id": "0a75f0c1",
+  "lang": "en",
+  "text": "F is for flower!"
+ },
+ {
+  "id": "a3716f97",
+  "lang": "en",
+  "text": "F!"
+ },
+ {
   "id": "ce8dd176",
   "lang": "en",
   "text": "farm"
  },
  {
+  "id": "73f35401",
+  "lang": "en",
+  "text": "farmer"
+ },
+ {
   "id": "3b0f6388",
   "lang": "en",
   "text": "Feed the Animals"
+ },
+ {
+  "id": "72c34eb2",
+  "lang": "en",
+  "text": "Feed the Animals: all done!"
  },
  {
   "id": "e4162066",
@@ -398,6 +778,16 @@
   "id": "dbc656f5",
   "lang": "en",
   "text": "Find green!"
+ },
+ {
+  "id": "dc2ed1e2",
+  "lang": "en",
+  "text": "Find It"
+ },
+ {
+  "id": "074d7744",
+  "lang": "en",
+  "text": "Find It: all done!"
  },
  {
   "id": "cae15fcc",
@@ -420,14 +810,24 @@
   "text": "Find red!"
  },
  {
-  "id": "c12ac3ca",
-  "lang": "en",
-  "text": "Find the Animal"
- },
- {
   "id": "b1ede6ce",
   "lang": "en",
   "text": "Find yellow!"
+ },
+ {
+  "id": "ff8ee94f",
+  "lang": "en",
+  "text": "Finished!"
+ },
+ {
+  "id": "73bb13cd",
+  "lang": "en",
+  "text": "fire truck"
+ },
+ {
+  "id": "d9cd8157",
+  "lang": "en",
+  "text": "firefighter"
  },
  {
   "id": "d067fa17",
@@ -470,6 +870,26 @@
   "text": "Flap your arms like a little bird!"
  },
  {
+  "id": "fbc5fa0c",
+  "lang": "en",
+  "text": "flashlight"
+ },
+ {
+  "id": "c2e7f949",
+  "lang": "en",
+  "text": "flower"
+ },
+ {
+  "id": "e6193352",
+  "lang": "en",
+  "text": "Food"
+ },
+ {
+  "id": "8656dece",
+  "lang": "en",
+  "text": "fork"
+ },
+ {
   "id": "755902a2",
   "lang": "en",
   "text": "four"
@@ -483,6 +903,26 @@
   "id": "eec2c5b8",
   "lang": "en",
   "text": "frog"
+ },
+ {
+  "id": "373eaa13",
+  "lang": "en",
+  "text": "G is for gorilla!"
+ },
+ {
+  "id": "c773e6da",
+  "lang": "en",
+  "text": "G!"
+ },
+ {
+  "id": "302d4106",
+  "lang": "en",
+  "text": "garbage collector"
+ },
+ {
+  "id": "597d1e06",
+  "lang": "en",
+  "text": "garbage truck"
  },
  {
   "id": "74f4019a",
@@ -590,9 +1030,39 @@
   "text": "Give the puppy 5 bones!"
  },
  {
+  "id": "96ee2884",
+  "lang": "en",
+  "text": "glass of water"
+ },
+ {
+  "id": "fb568c7e",
+  "lang": "en",
+  "text": "glasses"
+ },
+ {
+  "id": "a2402795",
+  "lang": "en",
+  "text": "goat"
+ },
+ {
+  "id": "1778a6f4",
+  "lang": "en",
+  "text": "gorilla"
+ },
+ {
   "id": "dc042896",
   "lang": "en",
   "text": "got a boo-boo"
+ },
+ {
+  "id": "aad0a1c2",
+  "lang": "en",
+  "text": "grandma"
+ },
+ {
+  "id": "9ed74aa3",
+  "lang": "en",
+  "text": "grandpa"
  },
  {
   "id": "3789fd4e",
@@ -608,6 +1078,11 @@
   "id": "60fcc653",
   "lang": "en",
   "text": "Great job!"
+ },
+ {
+  "id": "fcfeb5c6",
+  "lang": "en",
+  "text": "Great moving!"
  },
  {
   "id": "7cd6ecf8",
@@ -635,6 +1110,21 @@
   "text": "guitar"
  },
  {
+  "id": "bf4b6d29",
+  "lang": "en",
+  "text": "H is for helicopter!"
+ },
+ {
+  "id": "477fe94d",
+  "lang": "en",
+  "text": "H!"
+ },
+ {
+  "id": "f7cb9e4c",
+  "lang": "en",
+  "text": "hammer"
+ },
+ {
   "id": "9e2ef864",
   "lang": "en",
   "text": "happy"
@@ -653,6 +1143,11 @@
   "id": "38e18b9a",
   "lang": "en",
   "text": "Help a Friend"
+ },
+ {
+  "id": "46df0e9c",
+  "lang": "en",
+  "text": "Help a Friend: all done!"
  },
  {
   "id": "20c0f081",
@@ -678,6 +1173,11 @@
   "id": "4585da68",
   "lang": "en",
   "text": "Hi! What do you want to play?"
+ },
+ {
+  "id": "77547db6",
+  "lang": "en",
+  "text": "hippo"
  },
  {
   "id": "3f566736",
@@ -740,6 +1240,26 @@
   "text": "How can we help?"
  },
  {
+  "id": "6e0babce",
+  "lang": "en",
+  "text": "I is for iguana!"
+ },
+ {
+  "id": "ab82c550",
+  "lang": "en",
+  "text": "I!"
+ },
+ {
+  "id": "9fe2b737",
+  "lang": "en",
+  "text": "ice cream"
+ },
+ {
+  "id": "74d8d1d5",
+  "lang": "en",
+  "text": "iguana"
+ },
+ {
   "id": "675f0704",
   "lang": "en",
   "text": "in the ocean"
@@ -755,9 +1275,19 @@
   "text": "in the tree"
  },
  {
+  "id": "19bbc1d9",
+  "lang": "en",
+  "text": "is all dirty"
+ },
+ {
   "id": "f05ef5f3",
   "lang": "en",
   "text": "is cold, brrr!"
+ },
+ {
+  "id": "3c0733f8",
+  "lang": "en",
+  "text": "is getting wet in the rain"
  },
  {
   "id": "7d816e17",
@@ -780,9 +1310,54 @@
   "text": "It's time to turn off the iPad. Bye bye!"
  },
  {
+  "id": "0b2e1b2a",
+  "lang": "en",
+  "text": "J is for jaguar!"
+ },
+ {
+  "id": "3b7b593b",
+  "lang": "en",
+  "text": "J!"
+ },
+ {
+  "id": "74c7d8a0",
+  "lang": "en",
+  "text": "jacket"
+ },
+ {
+  "id": "fd521b4c",
+  "lang": "en",
+  "text": "jaguar"
+ },
+ {
+  "id": "3d58f9da",
+  "lang": "en",
+  "text": "juice"
+ },
+ {
+  "id": "31a07c13",
+  "lang": "en",
+  "text": "K is for koala!"
+ },
+ {
+  "id": "1f7d6bbe",
+  "lang": "en",
+  "text": "K!"
+ },
+ {
+  "id": "8d9ae210",
+  "lang": "en",
+  "text": "kangaroo"
+ },
+ {
   "id": "7413771d",
   "lang": "en",
   "text": "Keep going"
+ },
+ {
+  "id": "ef8e6429",
+  "lang": "en",
+  "text": "key"
  },
  {
   "id": "61c047a9",
@@ -793,6 +1368,31 @@
   "id": "bd863e4d",
   "lang": "en",
   "text": "kitty"
+ },
+ {
+  "id": "eadccaf3",
+  "lang": "en",
+  "text": "knight"
+ },
+ {
+  "id": "25478020",
+  "lang": "en",
+  "text": "koala"
+ },
+ {
+  "id": "93284a20",
+  "lang": "en",
+  "text": "L is for lion!"
+ },
+ {
+  "id": "1f8a37b1",
+  "lang": "en",
+  "text": "L!"
+ },
+ {
+  "id": "32207d98",
+  "lang": "en",
+  "text": "ladybug"
  },
  {
   "id": "d51b21de",
@@ -815,6 +1415,16 @@
   "text": "Let's go!"
  },
  {
+  "id": "f74020ed",
+  "lang": "en",
+  "text": "Letters & first sounds"
+ },
+ {
+  "id": "79326886",
+  "lang": "en",
+  "text": "light"
+ },
+ {
   "id": "16dd2a64",
   "lang": "en",
   "text": "lion"
@@ -830,9 +1440,29 @@
   "text": "Little Thinkers"
  },
  {
+  "id": "95ae409c",
+  "lang": "en",
+  "text": "M is for monkey!"
+ },
+ {
+  "id": "438caef4",
+  "lang": "en",
+  "text": "M!"
+ },
+ {
+  "id": "a46282f9",
+  "lang": "en",
+  "text": "mail carrier"
+ },
+ {
   "id": "0abbcf88",
   "lang": "en",
   "text": "Match each one to its shadow!"
+ },
+ {
+  "id": "75eb7d98",
+  "lang": "en",
+  "text": "mechanic"
  },
  {
   "id": "94de582d",
@@ -843,6 +1473,16 @@
   "id": "74c6a3f5",
   "lang": "en",
   "text": "Meow!"
+ },
+ {
+  "id": "12e94bc1",
+  "lang": "en",
+  "text": "milk"
+ },
+ {
+  "id": "84aad927",
+  "lang": "en",
+  "text": "mommy"
  },
  {
   "id": "a9279317",
@@ -860,6 +1500,16 @@
   "text": "moon"
  },
  {
+  "id": "7560fa33",
+  "lang": "en",
+  "text": "motorcycle"
+ },
+ {
+  "id": "68a5a2e1",
+  "lang": "en",
+  "text": "mouse"
+ },
+ {
   "id": "0107c080",
   "lang": "en",
   "text": "Move break"
@@ -870,9 +1520,44 @@
   "text": "My stickers"
  },
  {
+  "id": "1cef6fc2",
+  "lang": "en",
+  "text": "N is for nest!"
+ },
+ {
+  "id": "d6105d48",
+  "lang": "en",
+  "text": "Ñ, like in piña. Piña means pineapple!"
+ },
+ {
+  "id": "9384de1f",
+  "lang": "en",
+  "text": "N!"
+ },
+ {
+  "id": "9cd36858",
+  "lang": "en",
+  "text": "Ñ!"
+ },
+ {
+  "id": "763c0b8e",
+  "lang": "en",
+  "text": "needs to brush his teeth"
+ },
+ {
   "id": "63cd7d28",
   "lang": "en",
   "text": "Neigh!"
+ },
+ {
+  "id": "9468af1c",
+  "lang": "en",
+  "text": "nest"
+ },
+ {
+  "id": "1929aadf",
+  "lang": "en",
+  "text": "Next"
  },
  {
   "id": "81baf6e2",
@@ -900,9 +1585,9 @@
   "text": "Next: Feed the Animals!"
  },
  {
-  "id": "28013f86",
+  "id": "5212cefe",
   "lang": "en",
-  "text": "Next: Find the Animal!"
+  "text": "Next: Find It!"
  },
  {
   "id": "fe1a05a6",
@@ -928,6 +1613,11 @@
   "id": "3a9285cb",
   "lang": "en",
   "text": "Next: Shapes & Shadows!"
+ },
+ {
+  "id": "26986ef2",
+  "lang": "en",
+  "text": "Next: Trace Letters!"
  },
  {
   "id": "2da08f5f",
@@ -958,6 +1648,21 @@
   "id": "baa35252",
   "lang": "en",
   "text": "Numbers & finger control"
+ },
+ {
+  "id": "2994d8ef",
+  "lang": "en",
+  "text": "nurse"
+ },
+ {
+  "id": "05d02fe7",
+  "lang": "en",
+  "text": "O is for ocean!"
+ },
+ {
+  "id": "b7875562",
+  "lang": "en",
+  "text": "O!"
  },
  {
   "id": "1eb86fc0",
@@ -1015,9 +1720,29 @@
   "text": "owl"
  },
  {
+  "id": "3a81344c",
+  "lang": "en",
+  "text": "P is for penguin!"
+ },
+ {
+  "id": "b7942155",
+  "lang": "en",
+  "text": "P!"
+ },
+ {
+  "id": "a7e29057",
+  "lang": "en",
+  "text": "pajamas"
+ },
+ {
   "id": "13d75b3a",
   "lang": "en",
   "text": "panda"
+ },
+ {
+  "id": "01ffe154",
+  "lang": "en",
+  "text": "pants"
  },
  {
   "id": "f3dad64e",
@@ -1040,9 +1765,29 @@
   "text": "pentagon"
  },
  {
+  "id": "1fe06e61",
+  "lang": "en",
+  "text": "People"
+ },
+ {
+  "id": "68f794e2",
+  "lang": "en",
+  "text": "phone"
+ },
+ {
   "id": "bd1b47de",
   "lang": "en",
   "text": "pig"
+ },
+ {
+  "id": "579d6523",
+  "lang": "en",
+  "text": "pillow"
+ },
+ {
+  "id": "c0754160",
+  "lang": "en",
+  "text": "pilot"
  },
  {
   "id": "910d381c",
@@ -1055,6 +1800,21 @@
   "text": "pink"
  },
  {
+  "id": "3a1994cf",
+  "lang": "en",
+  "text": "pirate"
+ },
+ {
+  "id": "40849c94",
+  "lang": "en",
+  "text": "pizza"
+ },
+ {
+  "id": "6fbcc3aa",
+  "lang": "en",
+  "text": "plate"
+ },
+ {
   "id": "686de9f8",
   "lang": "en",
   "text": "Play again"
@@ -1065,9 +1825,24 @@
   "text": "polar bear"
  },
  {
+  "id": "beffdc5e",
+  "lang": "en",
+  "text": "police car"
+ },
+ {
+  "id": "964309c6",
+  "lang": "en",
+  "text": "police officer"
+ },
+ {
   "id": "834e2b7a",
   "lang": "en",
   "text": "Pop & Tap"
+ },
+ {
+  "id": "7aff3bfc",
+  "lang": "en",
+  "text": "Pop & Tap: all done!"
  },
  {
   "id": "3f8dba82",
@@ -1210,6 +1985,16 @@
   "text": "Pop 5 yellow balloons!"
  },
  {
+  "id": "6c23aed6",
+  "lang": "en",
+  "text": "potty"
+ },
+ {
+  "id": "3ece9a4b",
+  "lang": "en",
+  "text": "Press the green button to start!"
+ },
+ {
   "id": "bdeab9b8",
   "lang": "en",
   "text": "Problem-solving"
@@ -1235,9 +2020,34 @@
   "text": "Put each shape in its place!"
  },
  {
+  "id": "c8f07e18",
+  "lang": "en",
+  "text": "Q is for quesadilla!"
+ },
+ {
+  "id": "9b9633d8",
+  "lang": "en",
+  "text": "Q!"
+ },
+ {
   "id": "5efb9e4e",
   "lang": "en",
   "text": "Quack! Quack!"
+ },
+ {
+  "id": "e9c13667",
+  "lang": "en",
+  "text": "quesadilla"
+ },
+ {
+  "id": "9a6977ea",
+  "lang": "en",
+  "text": "R is for robot!"
+ },
+ {
+  "id": "2b8ec7c3",
+  "lang": "en",
+  "text": "R!"
  },
  {
   "id": "687456fe",
@@ -1245,9 +2055,9 @@
   "text": "rabbit"
  },
  {
-  "id": "07479a4c",
+  "id": "922b93d9",
   "lang": "en",
-  "text": "Ready? Press go!"
+  "text": "race car"
  },
  {
   "id": "054bb783",
@@ -1265,9 +2075,19 @@
   "text": "red! Glug, glug, glug!"
  },
  {
+  "id": "b72674f8",
+  "lang": "en",
+  "text": "rhino"
+ },
+ {
   "id": "1fc04bb6",
   "lang": "en",
   "text": "Ribbit! Ribbit!"
+ },
+ {
+  "id": "0c6a7dd7",
+  "lang": "en",
+  "text": "rice"
  },
  {
   "id": "1ee655d9",
@@ -1275,9 +2095,24 @@
   "text": "Roar!"
  },
  {
+  "id": "ab43eba6",
+  "lang": "en",
+  "text": "robot"
+ },
+ {
+  "id": "8f02da22",
+  "lang": "en",
+  "text": "rocket"
+ },
+ {
   "id": "9bff8ce1",
   "lang": "en",
   "text": "Rocket Maze"
+ },
+ {
+  "id": "63737ec1",
+  "lang": "en",
+  "text": "Rocket Maze: all done!"
  },
  {
   "id": "f4156dfb",
@@ -1285,9 +2120,24 @@
   "text": "Rocket Rescue"
  },
  {
+  "id": "482a2013",
+  "lang": "en",
+  "text": "Rocket Rescue: all done!"
+ },
+ {
   "id": "55016f9a",
   "lang": "en",
   "text": "rooster"
+ },
+ {
+  "id": "637b5989",
+  "lang": "en",
+  "text": "S is for snake!"
+ },
+ {
+  "id": "8f91a3c6",
+  "lang": "en",
+  "text": "S!"
  },
  {
   "id": "411a9ca6",
@@ -1295,9 +2145,154 @@
   "text": "sad"
  },
  {
+  "id": "7beee9a4",
+  "lang": "en",
+  "text": "Say it with me: A!"
+ },
+ {
+  "id": "0be77d8f",
+  "lang": "en",
+  "text": "Say it with me: B!"
+ },
+ {
+  "id": "6fea5992",
+  "lang": "en",
+  "text": "Say it with me: C!"
+ },
+ {
+  "id": "ffe2ed7d",
+  "lang": "en",
+  "text": "Say it with me: D!"
+ },
+ {
+  "id": "e3e50000",
+  "lang": "en",
+  "text": "Say it with me: E!"
+ },
+ {
+  "id": "73dd93eb",
+  "lang": "en",
+  "text": "Say it with me: F!"
+ },
+ {
+  "id": "97e00b2e",
+  "lang": "en",
+  "text": "Say it with me: G!"
+ },
+ {
+  "id": "67d903d9",
+  "lang": "en",
+  "text": "Say it with me: H!"
+ },
+ {
+  "id": "8bdb7b1c",
+  "lang": "en",
+  "text": "Say it with me: I!"
+ },
+ {
+  "id": "1bd40f07",
+  "lang": "en",
+  "text": "Say it with me: J!"
+ },
+ {
+  "id": "ffd6218a",
+  "lang": "en",
+  "text": "Say it with me: K!"
+ },
+ {
+  "id": "8fceb575",
+  "lang": "en",
+  "text": "Say it with me: L!"
+ },
+ {
+  "id": "f3d19178",
+  "lang": "en",
+  "text": "Say it with me: M!"
+ },
+ {
+  "id": "83ca2563",
+  "lang": "en",
+  "text": "Say it with me: N!"
+ },
+ {
+  "id": "1a8a0e94",
+  "lang": "en",
+  "text": "Say it with me: Ñ!"
+ },
+ {
+  "id": "67cc37e6",
+  "lang": "en",
+  "text": "Say it with me: O!"
+ },
+ {
+  "id": "f7c4cbd1",
+  "lang": "en",
+  "text": "Say it with me: P!"
+ },
+ {
+  "id": "1bc74314",
+  "lang": "en",
+  "text": "Say it with me: Q!"
+ },
+ {
+  "id": "ebc03bbf",
+  "lang": "en",
+  "text": "Say it with me: R!"
+ },
+ {
+  "id": "0fc2b302",
+  "lang": "en",
+  "text": "Say it with me: S!"
+ },
+ {
+  "id": "9fbb46ed",
+  "lang": "en",
+  "text": "Say it with me: T!"
+ },
+ {
+  "id": "83bd5970",
+  "lang": "en",
+  "text": "Say it with me: U!"
+ },
+ {
+  "id": "13b5ed5b",
+  "lang": "en",
+  "text": "Say it with me: V!"
+ },
+ {
+  "id": "77b8c95e",
+  "lang": "en",
+  "text": "Say it with me: W!"
+ },
+ {
+  "id": "07b15d49",
+  "lang": "en",
+  "text": "Say it with me: X!"
+ },
+ {
+  "id": "ebb36fcc",
+  "lang": "en",
+  "text": "Say it with me: Y!"
+ },
+ {
+  "id": "7bac03b7",
+  "lang": "en",
+  "text": "Say it with me: Z!"
+ },
+ {
   "id": "424fb9d2",
   "lang": "en",
   "text": "scared"
+ },
+ {
+  "id": "0375d844",
+  "lang": "en",
+  "text": "school bus"
+ },
+ {
+  "id": "56e28b3c",
+  "lang": "en",
+  "text": "scientist"
  },
  {
   "id": "f2f4fdb1",
@@ -1330,9 +2325,34 @@
   "text": "Shapes & Shadows"
  },
  {
+  "id": "670ce00b",
+  "lang": "en",
+  "text": "Shapes & Shadows: all done!"
+ },
+ {
+  "id": "8db4c917",
+  "lang": "en",
+  "text": "shark"
+ },
+ {
   "id": "55a6bad1",
   "lang": "en",
   "text": "sheep"
+ },
+ {
+  "id": "0999efee",
+  "lang": "en",
+  "text": "shirt"
+ },
+ {
+  "id": "9a8157fa",
+  "lang": "en",
+  "text": "shoes"
+ },
+ {
+  "id": "bbad814d",
+  "lang": "en",
+  "text": "shovel"
  },
  {
   "id": "5d2e5072",
@@ -1360,6 +2380,21 @@
   "text": "snake"
  },
  {
+  "id": "a731b0bd",
+  "lang": "en",
+  "text": "soap"
+ },
+ {
+  "id": "eaeb56de",
+  "lang": "en",
+  "text": "soccer player"
+ },
+ {
+  "id": "d206e05b",
+  "lang": "en",
+  "text": "socks"
+ },
+ {
   "id": "716d334e",
   "lang": "en",
   "text": "some food"
@@ -1370,9 +2405,24 @@
   "text": "Some food!"
  },
  {
+  "id": "e4752841",
+  "lang": "en",
+  "text": "some soap"
+ },
+ {
+  "id": "2afc3b40",
+  "lang": "en",
+  "text": "Some soap!"
+ },
+ {
   "id": "2caa76c2",
   "lang": "en",
   "text": "Sorting & logic"
+ },
+ {
+  "id": "4977e0ab",
+  "lang": "en",
+  "text": "spoon"
  },
  {
   "id": "e6430711",
@@ -1423,6 +2473,36 @@
   "id": "45f0ebfb",
   "lang": "en",
   "text": "strawberry"
+ },
+ {
+  "id": "279fca5e",
+  "lang": "en",
+  "text": "submarine"
+ },
+ {
+  "id": "edacd0c5",
+  "lang": "en",
+  "text": "superhero"
+ },
+ {
+  "id": "47a71ca2",
+  "lang": "en",
+  "text": "T is for train!"
+ },
+ {
+  "id": "0f9da639",
+  "lang": "en",
+  "text": "T!"
+ },
+ {
+  "id": "d5fee1cf",
+  "lang": "en",
+  "text": "T. rex"
+ },
+ {
+  "id": "fce6c573",
+  "lang": "en",
+  "text": "taco"
  },
  {
   "id": "dec08618",
@@ -1705,6 +2785,11 @@
   "text": "Tap 5 yellow soccer balls!"
  },
  {
+  "id": "8f019504",
+  "lang": "en",
+  "text": "teacher"
+ },
+ {
   "id": "7121f392",
   "lang": "en",
   "text": "teddy bear"
@@ -1900,14 +2985,119 @@
   "text": "That's a triangle. It doesn't fit."
  },
  {
+  "id": "f1a52c36",
+  "lang": "en",
+  "text": "That's the airplane."
+ },
+ {
+  "id": "80c584f2",
+  "lang": "en",
+  "text": "That's the ambulance."
+ },
+ {
+  "id": "1809b44c",
+  "lang": "en",
+  "text": "That's the apple."
+ },
+ {
+  "id": "aa3aeddd",
+  "lang": "en",
+  "text": "That's the astronaut."
+ },
+ {
+  "id": "f476bc17",
+  "lang": "en",
+  "text": "That's the avocado."
+ },
+ {
+  "id": "9f026aa2",
+  "lang": "en",
+  "text": "That's the backpack."
+ },
+ {
+  "id": "ccacb1e3",
+  "lang": "en",
+  "text": "That's the ball."
+ },
+ {
+  "id": "8eb0abb5",
+  "lang": "en",
+  "text": "That's the balloon."
+ },
+ {
+  "id": "6c110def",
+  "lang": "en",
+  "text": "That's the banana."
+ },
+ {
+  "id": "52051e56",
+  "lang": "en",
+  "text": "That's the bandage."
+ },
+ {
+  "id": "11918940",
+  "lang": "en",
+  "text": "That's the bathtub."
+ },
+ {
   "id": "e4f7cde6",
   "lang": "en",
   "text": "That's the bear."
  },
  {
+  "id": "e0ee82c1",
+  "lang": "en",
+  "text": "That's the bed."
+ },
+ {
   "id": "beec0ea4",
   "lang": "en",
   "text": "That's the bee."
+ },
+ {
+  "id": "e7a6df57",
+  "lang": "en",
+  "text": "That's the bike."
+ },
+ {
+  "id": "63a2a4b9",
+  "lang": "en",
+  "text": "That's the blanket."
+ },
+ {
+  "id": "36c94806",
+  "lang": "en",
+  "text": "That's the boat."
+ },
+ {
+  "id": "2d6ea4d7",
+  "lang": "en",
+  "text": "That's the book."
+ },
+ {
+  "id": "14c42dfc",
+  "lang": "en",
+  "text": "That's the bowl."
+ },
+ {
+  "id": "bc25d2e2",
+  "lang": "en",
+  "text": "That's the bread."
+ },
+ {
+  "id": "44d0e9c1",
+  "lang": "en",
+  "text": "That's the broccoli."
+ },
+ {
+  "id": "af4aed23",
+  "lang": "en",
+  "text": "That's the broom."
+ },
+ {
+  "id": "2e3afbaf",
+  "lang": "en",
+  "text": "That's the bulldozer."
  },
  {
   "id": "c32f5d78",
@@ -1920,9 +3110,49 @@
   "text": "That's the butterfly."
  },
  {
+  "id": "2bb46c4c",
+  "lang": "en",
+  "text": "That's the cake."
+ },
+ {
+  "id": "f26744c8",
+  "lang": "en",
+  "text": "That's the cap."
+ },
+ {
+  "id": "f262c79a",
+  "lang": "en",
+  "text": "That's the car."
+ },
+ {
+  "id": "ea12ec79",
+  "lang": "en",
+  "text": "That's the carrot."
+ },
+ {
   "id": "d2719fc4",
   "lang": "en",
   "text": "That's the cat."
+ },
+ {
+  "id": "86291e8f",
+  "lang": "en",
+  "text": "That's the cement mixer."
+ },
+ {
+  "id": "1e1bc563",
+  "lang": "en",
+  "text": "That's the chair."
+ },
+ {
+  "id": "e1b1e18f",
+  "lang": "en",
+  "text": "That's the cheese."
+ },
+ {
+  "id": "02cd3d9c",
+  "lang": "en",
+  "text": "That's the chef."
  },
  {
   "id": "20371f4d",
@@ -1930,9 +3160,59 @@
   "text": "That's the chicken."
  },
  {
+  "id": "28a0628a",
+  "lang": "en",
+  "text": "That's the clock."
+ },
+ {
+  "id": "2613ef8b",
+  "lang": "en",
+  "text": "That's the comb."
+ },
+ {
+  "id": "aff8bce7",
+  "lang": "en",
+  "text": "That's the construction worker."
+ },
+ {
+  "id": "d5bdc1ce",
+  "lang": "en",
+  "text": "That's the cookie."
+ },
+ {
+  "id": "1244606a",
+  "lang": "en",
+  "text": "That's the corn."
+ },
+ {
   "id": "2da7bbd9",
   "lang": "en",
   "text": "That's the cow."
+ },
+ {
+  "id": "f8560cef",
+  "lang": "en",
+  "text": "That's the crane."
+ },
+ {
+  "id": "5061b444",
+  "lang": "en",
+  "text": "That's the cup."
+ },
+ {
+  "id": "8224333d",
+  "lang": "en",
+  "text": "That's the dentist."
+ },
+ {
+  "id": "bb9630a5",
+  "lang": "en",
+  "text": "That's the dinosaur."
+ },
+ {
+  "id": "ae73d2dd",
+  "lang": "en",
+  "text": "That's the doctor."
  },
  {
   "id": "16323a86",
@@ -1940,9 +3220,29 @@
   "text": "That's the dog."
  },
  {
+  "id": "808cfc24",
+  "lang": "en",
+  "text": "That's the door."
+ },
+ {
+  "id": "578cadec",
+  "lang": "en",
+  "text": "That's the drum."
+ },
+ {
   "id": "bed1974b",
   "lang": "en",
   "text": "That's the duck."
+ },
+ {
+  "id": "eef4c7b3",
+  "lang": "en",
+  "text": "That's the dump truck."
+ },
+ {
+  "id": "60ef30a3",
+  "lang": "en",
+  "text": "That's the egg."
  },
  {
   "id": "5dc8cabb",
@@ -1950,9 +3250,39 @@
   "text": "That's the elephant."
  },
  {
+  "id": "fb6f1323",
+  "lang": "en",
+  "text": "That's the excavator."
+ },
+ {
+  "id": "8338e351",
+  "lang": "en",
+  "text": "That's the farmer."
+ },
+ {
+  "id": "16fe4505",
+  "lang": "en",
+  "text": "That's the fire truck."
+ },
+ {
+  "id": "39b9f34f",
+  "lang": "en",
+  "text": "That's the firefighter."
+ },
+ {
   "id": "8be7d5f2",
   "lang": "en",
   "text": "That's the fish."
+ },
+ {
+  "id": "9f50014a",
+  "lang": "en",
+  "text": "That's the flashlight."
+ },
+ {
+  "id": "c0d597cc",
+  "lang": "en",
+  "text": "That's the fork."
  },
  {
   "id": "b82c0926",
@@ -1960,9 +3290,39 @@
   "text": "That's the frog."
  },
  {
+  "id": "6ada8e54",
+  "lang": "en",
+  "text": "That's the garbage collector."
+ },
+ {
+  "id": "093c2334",
+  "lang": "en",
+  "text": "That's the garbage truck."
+ },
+ {
   "id": "6730fb50",
   "lang": "en",
   "text": "That's the giraffe."
+ },
+ {
+  "id": "490e32ca",
+  "lang": "en",
+  "text": "That's the guitar."
+ },
+ {
+  "id": "3f066d1a",
+  "lang": "en",
+  "text": "That's the hammer."
+ },
+ {
+  "id": "7525d1ef",
+  "lang": "en",
+  "text": "That's the helicopter."
+ },
+ {
+  "id": "a0cf7df4",
+  "lang": "en",
+  "text": "That's the hippo."
  },
  {
   "id": "58fad437",
@@ -1970,9 +3330,54 @@
   "text": "That's the horse."
  },
  {
+  "id": "5537eaa7",
+  "lang": "en",
+  "text": "That's the ice cream."
+ },
+ {
+  "id": "e1025446",
+  "lang": "en",
+  "text": "That's the jacket."
+ },
+ {
+  "id": "99a7e410",
+  "lang": "en",
+  "text": "That's the juice."
+ },
+ {
+  "id": "c1b41a01",
+  "lang": "en",
+  "text": "That's the key."
+ },
+ {
+  "id": "55767431",
+  "lang": "en",
+  "text": "That's the kite."
+ },
+ {
+  "id": "361970ab",
+  "lang": "en",
+  "text": "That's the knight."
+ },
+ {
   "id": "e4fa2e72",
   "lang": "en",
   "text": "That's the lion."
+ },
+ {
+  "id": "2f6f5629",
+  "lang": "en",
+  "text": "That's the mail carrier."
+ },
+ {
+  "id": "4d114026",
+  "lang": "en",
+  "text": "That's the mechanic."
+ },
+ {
+  "id": "6afadb19",
+  "lang": "en",
+  "text": "That's the milk."
  },
  {
   "id": "fcca5eb7",
@@ -1980,9 +3385,44 @@
   "text": "That's the monkey."
  },
  {
+  "id": "5d538593",
+  "lang": "en",
+  "text": "That's the motorcycle."
+ },
+ {
+  "id": "ef61b1ff",
+  "lang": "en",
+  "text": "That's the octopus."
+ },
+ {
+  "id": "f2de68d2",
+  "lang": "en",
+  "text": "That's the orange."
+ },
+ {
   "id": "eb01930a",
   "lang": "en",
   "text": "That's the owl."
+ },
+ {
+  "id": "1dc4de67",
+  "lang": "en",
+  "text": "That's the pajamas."
+ },
+ {
+  "id": "33b805a4",
+  "lang": "en",
+  "text": "That's the pear."
+ },
+ {
+  "id": "dd1eb148",
+  "lang": "en",
+  "text": "That's the penguin."
+ },
+ {
+  "id": "a56861f0",
+  "lang": "en",
+  "text": "That's the phone."
  },
  {
   "id": "ae7a4c8c",
@@ -1990,9 +3430,99 @@
   "text": "That's the pig."
  },
  {
+  "id": "019896a3",
+  "lang": "en",
+  "text": "That's the pillow."
+ },
+ {
+  "id": "f8b2e946",
+  "lang": "en",
+  "text": "That's the pilot."
+ },
+ {
+  "id": "c52bb54a",
+  "lang": "en",
+  "text": "That's the pineapple."
+ },
+ {
+  "id": "94dde74f",
+  "lang": "en",
+  "text": "That's the pirate."
+ },
+ {
+  "id": "b0b29062",
+  "lang": "en",
+  "text": "That's the pizza."
+ },
+ {
+  "id": "cd5c6cc8",
+  "lang": "en",
+  "text": "That's the plate."
+ },
+ {
+  "id": "ba990034",
+  "lang": "en",
+  "text": "That's the police car."
+ },
+ {
+  "id": "d14dea0c",
+  "lang": "en",
+  "text": "That's the police officer."
+ },
+ {
+  "id": "47eb0e39",
+  "lang": "en",
+  "text": "That's the race car."
+ },
+ {
+  "id": "9230d13f",
+  "lang": "en",
+  "text": "That's the rice."
+ },
+ {
+  "id": "69739244",
+  "lang": "en",
+  "text": "That's the robot."
+ },
+ {
+  "id": "db4cd718",
+  "lang": "en",
+  "text": "That's the rocket."
+ },
+ {
+  "id": "052c2eea",
+  "lang": "en",
+  "text": "That's the school bus."
+ },
+ {
+  "id": "be49a6ea",
+  "lang": "en",
+  "text": "That's the scientist."
+ },
+ {
+  "id": "7dfdc5a1",
+  "lang": "en",
+  "text": "That's the scooter."
+ },
+ {
+  "id": "163d2acf",
+  "lang": "en",
+  "text": "That's the shark."
+ },
+ {
   "id": "addbb691",
   "lang": "en",
   "text": "That's the sheep."
+ },
+ {
+  "id": "95f5561c",
+  "lang": "en",
+  "text": "That's the shirt."
+ },
+ {
+  "id": "065d8725",
+  "lang": "en",
+  "text": "That's the shovel."
  },
  {
   "id": "626e9b4f",
@@ -2000,9 +3530,114 @@
   "text": "That's the snail."
  },
  {
+  "id": "2de0accd",
+  "lang": "en",
+  "text": "That's the soap."
+ },
+ {
+  "id": "9f5bf2f4",
+  "lang": "en",
+  "text": "That's the soccer player."
+ },
+ {
+  "id": "85ffc4eb",
+  "lang": "en",
+  "text": "That's the spoon."
+ },
+ {
+  "id": "dd7e7003",
+  "lang": "en",
+  "text": "That's the strawberry."
+ },
+ {
+  "id": "1376e384",
+  "lang": "en",
+  "text": "That's the submarine."
+ },
+ {
+  "id": "bddc5515",
+  "lang": "en",
+  "text": "That's the superhero."
+ },
+ {
+  "id": "8ea50577",
+  "lang": "en",
+  "text": "That's the T. rex."
+ },
+ {
+  "id": "28e0e473",
+  "lang": "en",
+  "text": "That's the taco."
+ },
+ {
+  "id": "2aca225a",
+  "lang": "en",
+  "text": "That's the teacher."
+ },
+ {
+  "id": "3e0acda8",
+  "lang": "en",
+  "text": "That's the teddy bear."
+ },
+ {
+  "id": "02ea15ad",
+  "lang": "en",
+  "text": "That's the tiger."
+ },
+ {
+  "id": "6b5c45aa",
+  "lang": "en",
+  "text": "That's the tomato."
+ },
+ {
+  "id": "c0b5d482",
+  "lang": "en",
+  "text": "That's the toothbrush."
+ },
+ {
+  "id": "406df24b",
+  "lang": "en",
+  "text": "That's the tortilla."
+ },
+ {
+  "id": "796ba711",
+  "lang": "en",
+  "text": "That's the towel."
+ },
+ {
+  "id": "131cc759",
+  "lang": "en",
+  "text": "That's the tractor."
+ },
+ {
+  "id": "1735022e",
+  "lang": "en",
+  "text": "That's the train."
+ },
+ {
+  "id": "7c68041d",
+  "lang": "en",
+  "text": "That's the truck."
+ },
+ {
   "id": "fc2ed076",
   "lang": "en",
   "text": "That's the turtle."
+ },
+ {
+  "id": "a9584fb2",
+  "lang": "en",
+  "text": "That's the TV."
+ },
+ {
+  "id": "2ed26c9c",
+  "lang": "en",
+  "text": "That's the umbrella."
+ },
+ {
+  "id": "3c84862a",
+  "lang": "en",
+  "text": "That's the watermelon."
  },
  {
   "id": "098916cf",
@@ -2010,9 +3645,79 @@
   "text": "That's the whale."
  },
  {
+  "id": "f21a2cf4",
+  "lang": "en",
+  "text": "That's the window."
+ },
+ {
   "id": "ca771250",
   "lang": "en",
   "text": "That's the zebra."
+ },
+ {
+  "id": "ebf56644",
+  "lang": "en",
+  "text": "The airplane!"
+ },
+ {
+  "id": "d583b796",
+  "lang": "en",
+  "text": "The ambulance!"
+ },
+ {
+  "id": "3856c940",
+  "lang": "en",
+  "text": "The apple!"
+ },
+ {
+  "id": "6b18958d",
+  "lang": "en",
+  "text": "The astronaut!"
+ },
+ {
+  "id": "dd0773a3",
+  "lang": "en",
+  "text": "The avocado!"
+ },
+ {
+  "id": "44d72284",
+  "lang": "en",
+  "text": "The backpack!"
+ },
+ {
+  "id": "78ec16b5",
+  "lang": "en",
+  "text": "The ball!"
+ },
+ {
+  "id": "ed1abbf5",
+  "lang": "en",
+  "text": "The balloon!"
+ },
+ {
+  "id": "2d69bff1",
+  "lang": "en",
+  "text": "The banana!"
+ },
+ {
+  "id": "a86c0c12",
+  "lang": "en",
+  "text": "The bandage!"
+ },
+ {
+  "id": "ebd3ef34",
+  "lang": "en",
+  "text": "The bathtub!"
+ },
+ {
+  "id": "5a2c74b9",
+  "lang": "en",
+  "text": "The beans!"
+ },
+ {
+  "id": "ef2882f3",
+  "lang": "en",
+  "text": "The bear can't see in the dark"
  },
  {
   "id": "1c5af1c5",
@@ -2020,9 +3725,19 @@
   "text": "The bear got a boo-boo"
  },
  {
+  "id": "f2d88ca4",
+  "lang": "en",
+  "text": "The bear is all dirty"
+ },
+ {
   "id": "f9f0a69e",
   "lang": "en",
   "text": "The bear is cold, brrr!"
+ },
+ {
+  "id": "8784bfa1",
+  "lang": "en",
+  "text": "The bear is getting wet in the rain"
  },
  {
   "id": "40a0c21c",
@@ -2040,9 +3755,24 @@
   "text": "The bear is thirsty"
  },
  {
+  "id": "9731070f",
+  "lang": "en",
+  "text": "The bear needs to brush his teeth"
+ },
+ {
+  "id": "573e274f",
+  "lang": "en",
+  "text": "The bear wants to play"
+ },
+ {
   "id": "fbd9a8c0",
   "lang": "en",
   "text": "The bear!"
+ },
+ {
+  "id": "83a3e599",
+  "lang": "en",
+  "text": "The bed!"
  },
  {
   "id": "24cdaa8e",
@@ -2055,9 +3785,74 @@
   "text": "The bee!"
  },
  {
+  "id": "5346e78d",
+  "lang": "en",
+  "text": "The bike!"
+ },
+ {
   "id": "eb648b27",
   "lang": "en",
   "text": "The bird lives in the sky!"
+ },
+ {
+  "id": "0ece035d",
+  "lang": "en",
+  "text": "The blanket!"
+ },
+ {
+  "id": "8c753364",
+  "lang": "en",
+  "text": "The blocks!"
+ },
+ {
+  "id": "f923f690",
+  "lang": "en",
+  "text": "The boat!"
+ },
+ {
+  "id": "82d3a69d",
+  "lang": "en",
+  "text": "The book!"
+ },
+ {
+  "id": "914e6c3f",
+  "lang": "en",
+  "text": "The boots!"
+ },
+ {
+  "id": "094a6c3a",
+  "lang": "en",
+  "text": "The bowl!"
+ },
+ {
+  "id": "9642b322",
+  "lang": "en",
+  "text": "The bread!"
+ },
+ {
+  "id": "c8903a4b",
+  "lang": "en",
+  "text": "The broccoli!"
+ },
+ {
+  "id": "7d64578f",
+  "lang": "en",
+  "text": "The broom!"
+ },
+ {
+  "id": "1dba72b5",
+  "lang": "en",
+  "text": "The bubbles!"
+ },
+ {
+  "id": "2712d0f7",
+  "lang": "en",
+  "text": "The bulldozer!"
+ },
+ {
+  "id": "e7dadddf",
+  "lang": "en",
+  "text": "The bunny can't see in the dark"
  },
  {
   "id": "be560369",
@@ -2065,9 +3860,19 @@
   "text": "The bunny got a boo-boo"
  },
  {
+  "id": "a739ab80",
+  "lang": "en",
+  "text": "The bunny is all dirty"
+ },
+ {
   "id": "a1a35d0a",
   "lang": "en",
   "text": "The bunny is cold, brrr!"
+ },
+ {
+  "id": "cc210af5",
+  "lang": "en",
+  "text": "The bunny is getting wet in the rain"
  },
  {
   "id": "03b92e98",
@@ -2085,6 +3890,16 @@
   "text": "The bunny is thirsty"
  },
  {
+  "id": "08bf7993",
+  "lang": "en",
+  "text": "The bunny needs to brush his teeth"
+ },
+ {
+  "id": "9a00d493",
+  "lang": "en",
+  "text": "The bunny wants to play"
+ },
+ {
   "id": "a519678c",
   "lang": "en",
   "text": "The bunny!"
@@ -2100,9 +3915,49 @@
   "text": "The butterfly!"
  },
  {
+  "id": "215c7cb2",
+  "lang": "en",
+  "text": "The cake!"
+ },
+ {
+  "id": "36b200f8",
+  "lang": "en",
+  "text": "The cap!"
+ },
+ {
+  "id": "aaaca766",
+  "lang": "en",
+  "text": "The car!"
+ },
+ {
+  "id": "fce1d2a3",
+  "lang": "en",
+  "text": "The carrot!"
+ },
+ {
   "id": "cebbea9c",
   "lang": "en",
   "text": "The cat!"
+ },
+ {
+  "id": "5573cc55",
+  "lang": "en",
+  "text": "The cement mixer!"
+ },
+ {
+  "id": "16923a07",
+  "lang": "en",
+  "text": "The chair!"
+ },
+ {
+  "id": "f1fb89bd",
+  "lang": "en",
+  "text": "The cheese!"
+ },
+ {
+  "id": "31158de6",
+  "lang": "en",
+  "text": "The chef!"
  },
  {
   "id": "19c56302",
@@ -2120,6 +3975,31 @@
   "text": "The circle fits!"
  },
  {
+  "id": "eabf1e22",
+  "lang": "en",
+  "text": "The clock!"
+ },
+ {
+  "id": "a787e845",
+  "lang": "en",
+  "text": "The comb!"
+ },
+ {
+  "id": "798c1ff3",
+  "lang": "en",
+  "text": "The construction worker!"
+ },
+ {
+  "id": "f4777824",
+  "lang": "en",
+  "text": "The cookie!"
+ },
+ {
+  "id": "7a1ca9c8",
+  "lang": "en",
+  "text": "The corn!"
+ },
+ {
   "id": "6e86b65a",
   "lang": "en",
   "text": "The cow lives on the farm!"
@@ -2133,6 +4013,36 @@
   "id": "1ab9bc3b",
   "lang": "en",
   "text": "The crab lives in the ocean!"
+ },
+ {
+  "id": "a1e97367",
+  "lang": "en",
+  "text": "The crane!"
+ },
+ {
+  "id": "ba1def31",
+  "lang": "en",
+  "text": "The crayons!"
+ },
+ {
+  "id": "4391e794",
+  "lang": "en",
+  "text": "The cup!"
+ },
+ {
+  "id": "44c2fa2d",
+  "lang": "en",
+  "text": "The dentist!"
+ },
+ {
+  "id": "f7402633",
+  "lang": "en",
+  "text": "The dinosaur!"
+ },
+ {
+  "id": "df553083",
+  "lang": "en",
+  "text": "The doctor!"
  },
  {
   "id": "84af7dfe",
@@ -2150,14 +4060,54 @@
   "text": "The door is missing! Which piece fits the door?"
  },
  {
+  "id": "3fe36796",
+  "lang": "en",
+  "text": "The door!"
+ },
+ {
+  "id": "54192192",
+  "lang": "en",
+  "text": "The drum!"
+ },
+ {
   "id": "f57bdbf5",
   "lang": "en",
   "text": "The duck!"
  },
  {
+  "id": "2bb06191",
+  "lang": "en",
+  "text": "The dump truck!"
+ },
+ {
+  "id": "ed4f80eb",
+  "lang": "en",
+  "text": "The egg!"
+ },
+ {
   "id": "4d41a9ed",
   "lang": "en",
   "text": "The elephant!"
+ },
+ {
+  "id": "ebedc9b3",
+  "lang": "en",
+  "text": "The excavator!"
+ },
+ {
+  "id": "e4e7976f",
+  "lang": "en",
+  "text": "The farmer!"
+ },
+ {
+  "id": "f1abacc3",
+  "lang": "en",
+  "text": "The fire truck!"
+ },
+ {
+  "id": "c2a82bef",
+  "lang": "en",
+  "text": "The firefighter!"
  },
  {
   "id": "299f928f",
@@ -2170,14 +4120,39 @@
   "text": "The fish!"
  },
  {
+  "id": "ea037adc",
+  "lang": "en",
+  "text": "The flashlight!"
+ },
+ {
+  "id": "0f9af292",
+  "lang": "en",
+  "text": "The fork!"
+ },
+ {
+  "id": "02dfbada",
+  "lang": "en",
+  "text": "The fox can't see in the dark"
+ },
+ {
   "id": "8c3fbc10",
   "lang": "en",
   "text": "The fox got a boo-boo"
  },
  {
+  "id": "cf547fd7",
+  "lang": "en",
+  "text": "The fox is all dirty"
+ },
+ {
   "id": "f68998ad",
   "lang": "en",
   "text": "The fox is cold, brrr!"
+ },
+ {
+  "id": "cba47b8e",
+  "lang": "en",
+  "text": "The fox is getting wet in the rain"
  },
  {
   "id": "439971c1",
@@ -2195,9 +4170,29 @@
   "text": "The fox is thirsty"
  },
  {
+  "id": "55509fa8",
+  "lang": "en",
+  "text": "The fox needs to brush his teeth"
+ },
+ {
+  "id": "957a3676",
+  "lang": "en",
+  "text": "The fox wants to play"
+ },
+ {
   "id": "bbc38e04",
   "lang": "en",
   "text": "The frog!"
+ },
+ {
+  "id": "a2c139f0",
+  "lang": "en",
+  "text": "The garbage collector!"
+ },
+ {
+  "id": "3aa2883c",
+  "lang": "en",
+  "text": "The garbage truck!"
  },
  {
   "id": "0d332ab0",
@@ -2205,9 +4200,39 @@
   "text": "The giraffe!"
  },
  {
+  "id": "92403cec",
+  "lang": "en",
+  "text": "The glasses!"
+ },
+ {
+  "id": "087c32a6",
+  "lang": "en",
+  "text": "The grapes!"
+ },
+ {
+  "id": "3518cccc",
+  "lang": "en",
+  "text": "The guitar!"
+ },
+ {
+  "id": "f6f7a7e8",
+  "lang": "en",
+  "text": "The hammer!"
+ },
+ {
   "id": "67177e06",
   "lang": "en",
   "text": "The heart fits!"
+ },
+ {
+  "id": "d0ea45b1",
+  "lang": "en",
+  "text": "The helicopter!"
+ },
+ {
+  "id": "3d1e4c7c",
+  "lang": "en",
+  "text": "The hippo!"
  },
  {
   "id": "a73e77bc",
@@ -2220,14 +4245,54 @@
   "text": "The horse!"
  },
  {
+  "id": "7e925e87",
+  "lang": "en",
+  "text": "The ice cream!"
+ },
+ {
+  "id": "095f35dc",
+  "lang": "en",
+  "text": "The jacket!"
+ },
+ {
+  "id": "0362ee10",
+  "lang": "en",
+  "text": "The juice!"
+ },
+ {
+  "id": "04866991",
+  "lang": "en",
+  "text": "The key!"
+ },
+ {
+  "id": "76527313",
+  "lang": "en",
+  "text": "The kite!"
+ },
+ {
+  "id": "cd4b30ec",
+  "lang": "en",
+  "text": "The kitty can't see in the dark"
+ },
+ {
   "id": "2c5278ae",
   "lang": "en",
   "text": "The kitty got a boo-boo"
  },
  {
+  "id": "65df0931",
+  "lang": "en",
+  "text": "The kitty is all dirty"
+ },
+ {
   "id": "6a2f72bb",
   "lang": "en",
   "text": "The kitty is cold, brrr!"
+ },
+ {
+  "id": "7ee30b00",
+  "lang": "en",
+  "text": "The kitty is getting wet in the rain"
  },
  {
   "id": "b748d30f",
@@ -2245,6 +4310,21 @@
   "text": "The kitty is thirsty"
  },
  {
+  "id": "d617a816",
+  "lang": "en",
+  "text": "The kitty needs to brush his teeth"
+ },
+ {
+  "id": "3f364e9c",
+  "lang": "en",
+  "text": "The kitty wants to play"
+ },
+ {
+  "id": "5563cf5d",
+  "lang": "en",
+  "text": "The knight!"
+ },
+ {
   "id": "81f232e6",
   "lang": "en",
   "text": "The lights work!"
@@ -2253,6 +4333,21 @@
   "id": "e2c647fc",
   "lang": "en",
   "text": "The lion!"
+ },
+ {
+  "id": "4bb0a743",
+  "lang": "en",
+  "text": "The mail carrier!"
+ },
+ {
+  "id": "35da6cb0",
+  "lang": "en",
+  "text": "The mechanic!"
+ },
+ {
+  "id": "efceac07",
+  "lang": "en",
+  "text": "The milk!"
  },
  {
   "id": "8302fa9c",
@@ -2265,9 +4360,24 @@
   "text": "The monkey!"
  },
  {
+  "id": "64a16675",
+  "lang": "en",
+  "text": "The motorcycle!"
+ },
+ {
   "id": "6981ae5e",
   "lang": "en",
   "text": "The octopus lives in the ocean!"
+ },
+ {
+  "id": "b89c979b",
+  "lang": "en",
+  "text": "The octopus!"
+ },
+ {
+  "id": "0f5b98c8",
+  "lang": "en",
+  "text": "The orange!"
  },
  {
   "id": "0cca03ca",
@@ -2275,14 +4385,34 @@
   "text": "The owl!"
  },
  {
+  "id": "eb66163b",
+  "lang": "en",
+  "text": "The pajamas!"
+ },
+ {
+  "id": "7362537b",
+  "lang": "en",
+  "text": "The panda can't see in the dark"
+ },
+ {
   "id": "9bf2a9fd",
   "lang": "en",
   "text": "The panda got a boo-boo"
  },
  {
+  "id": "80f722dc",
+  "lang": "en",
+  "text": "The panda is all dirty"
+ },
+ {
   "id": "58620746",
   "lang": "en",
   "text": "The panda is cold, brrr!"
+ },
+ {
+  "id": "31543d09",
+  "lang": "en",
+  "text": "The panda is getting wet in the rain"
  },
  {
   "id": "65789874",
@@ -2300,6 +4430,36 @@
   "text": "The panda is thirsty"
  },
  {
+  "id": "908e7e17",
+  "lang": "en",
+  "text": "The panda needs to brush his teeth"
+ },
+ {
+  "id": "44006c27",
+  "lang": "en",
+  "text": "The panda wants to play"
+ },
+ {
+  "id": "b426b056",
+  "lang": "en",
+  "text": "The pants!"
+ },
+ {
+  "id": "111afc72",
+  "lang": "en",
+  "text": "The pear!"
+ },
+ {
+  "id": "3c07d00c",
+  "lang": "en",
+  "text": "The penguin!"
+ },
+ {
+  "id": "b6988840",
+  "lang": "en",
+  "text": "The phone!"
+ },
+ {
   "id": "f4c50e43",
   "lang": "en",
   "text": "The pig lives on the farm!"
@@ -2310,14 +4470,69 @@
   "text": "The pig!"
  },
  {
+  "id": "a67054f5",
+  "lang": "en",
+  "text": "The pillow!"
+ },
+ {
+  "id": "a90562aa",
+  "lang": "en",
+  "text": "The pilot!"
+ },
+ {
+  "id": "9947c032",
+  "lang": "en",
+  "text": "The pineapple!"
+ },
+ {
+  "id": "6c8b14e9",
+  "lang": "en",
+  "text": "The pirate!"
+ },
+ {
+  "id": "deee8882",
+  "lang": "en",
+  "text": "The pizza!"
+ },
+ {
+  "id": "cda5d044",
+  "lang": "en",
+  "text": "The plate!"
+ },
+ {
+  "id": "599074d6",
+  "lang": "en",
+  "text": "The police car!"
+ },
+ {
+  "id": "9025f14a",
+  "lang": "en",
+  "text": "The police officer!"
+ },
+ {
+  "id": "d918a8ed",
+  "lang": "en",
+  "text": "The puppy can't see in the dark"
+ },
+ {
   "id": "586223cb",
   "lang": "en",
   "text": "The puppy got a boo-boo"
  },
  {
+  "id": "6510550e",
+  "lang": "en",
+  "text": "The puppy is all dirty"
+ },
+ {
   "id": "b76fb144",
   "lang": "en",
   "text": "The puppy is cold, brrr!"
+ },
+ {
+  "id": "4d54b7a3",
+  "lang": "en",
+  "text": "The puppy is getting wet in the rain"
  },
  {
   "id": "389d5ca2",
@@ -2333,6 +4548,31 @@
   "id": "733fedd6",
   "lang": "en",
   "text": "The puppy is thirsty"
+ },
+ {
+  "id": "af007b55",
+  "lang": "en",
+  "text": "The puppy needs to brush his teeth"
+ },
+ {
+  "id": "1581cf5d",
+  "lang": "en",
+  "text": "The puppy wants to play"
+ },
+ {
+  "id": "a101362f",
+  "lang": "en",
+  "text": "The race car!"
+ },
+ {
+  "id": "76c62875",
+  "lang": "en",
+  "text": "The rice!"
+ },
+ {
+  "id": "e3471c48",
+  "lang": "en",
+  "text": "The robot!"
  },
  {
   "id": "d15132b2",
@@ -2355,6 +4595,31 @@
   "text": "The rocket needs star power! Tap 5 stars."
  },
  {
+  "id": "1d7eaeae",
+  "lang": "en",
+  "text": "The rocket!"
+ },
+ {
+  "id": "c6b38a68",
+  "lang": "en",
+  "text": "The school bus!"
+ },
+ {
+  "id": "a678ce76",
+  "lang": "en",
+  "text": "The scientist!"
+ },
+ {
+  "id": "0fd6a8a9",
+  "lang": "en",
+  "text": "The scooter!"
+ },
+ {
+  "id": "35b6b153",
+  "lang": "en",
+  "text": "The shark!"
+ },
+ {
   "id": "4a2ff3be",
   "lang": "en",
   "text": "The sheep lives on the farm!"
@@ -2365,6 +4630,21 @@
   "text": "The sheep!"
  },
  {
+  "id": "a8d9577c",
+  "lang": "en",
+  "text": "The shirt!"
+ },
+ {
+  "id": "cca87808",
+  "lang": "en",
+  "text": "The shoes!"
+ },
+ {
+  "id": "b06d28ab",
+  "lang": "en",
+  "text": "The shovel!"
+ },
+ {
   "id": "f13f09f5",
   "lang": "en",
   "text": "The sloth lives in the tree!"
@@ -2373,6 +4653,26 @@
   "id": "cb9d0597",
   "lang": "en",
   "text": "The snail!"
+ },
+ {
+  "id": "547b8f77",
+  "lang": "en",
+  "text": "The soap!"
+ },
+ {
+  "id": "b00615d4",
+  "lang": "en",
+  "text": "The soccer player!"
+ },
+ {
+  "id": "fd9b5ba3",
+  "lang": "en",
+  "text": "The socks!"
+ },
+ {
+  "id": "6e70b43b",
+  "lang": "en",
+  "text": "The spoon!"
  },
  {
   "id": "a7eff61b",
@@ -2390,14 +4690,104 @@
   "text": "The star fits!"
  },
  {
+  "id": "06b67f99",
+  "lang": "en",
+  "text": "The strawberry!"
+ },
+ {
+  "id": "83f60738",
+  "lang": "en",
+  "text": "The submarine!"
+ },
+ {
+  "id": "034fb9fd",
+  "lang": "en",
+  "text": "The superhero!"
+ },
+ {
+  "id": "1ae1c7ed",
+  "lang": "en",
+  "text": "The T. rex!"
+ },
+ {
+  "id": "87d554f5",
+  "lang": "en",
+  "text": "The taco!"
+ },
+ {
+  "id": "ffcf5c5a",
+  "lang": "en",
+  "text": "The teacher!"
+ },
+ {
+  "id": "85e69c2a",
+  "lang": "en",
+  "text": "The teddy bear!"
+ },
+ {
+  "id": "030d7da9",
+  "lang": "en",
+  "text": "The tiger!"
+ },
+ {
+  "id": "27f11150",
+  "lang": "en",
+  "text": "The tomato!"
+ },
+ {
+  "id": "0bc2a7ac",
+  "lang": "en",
+  "text": "The toothbrush!"
+ },
+ {
+  "id": "767d677d",
+  "lang": "en",
+  "text": "The tortilla!"
+ },
+ {
+  "id": "0cda1a69",
+  "lang": "en",
+  "text": "The towel!"
+ },
+ {
+  "id": "98f916d1",
+  "lang": "en",
+  "text": "The tractor!"
+ },
+ {
+  "id": "bf1b6b36",
+  "lang": "en",
+  "text": "The train!"
+ },
+ {
   "id": "a821613c",
   "lang": "en",
   "text": "The triangle fits!"
  },
  {
+  "id": "444b3c95",
+  "lang": "en",
+  "text": "The truck!"
+ },
+ {
   "id": "d8b032d0",
   "lang": "en",
   "text": "The turtle!"
+ },
+ {
+  "id": "58146238",
+  "lang": "en",
+  "text": "The TV!"
+ },
+ {
+  "id": "da958bb6",
+  "lang": "en",
+  "text": "The umbrella!"
+ },
+ {
+  "id": "f9adf36c",
+  "lang": "en",
+  "text": "The watermelon!"
  },
  {
   "id": "694d047a",
@@ -2410,9 +4800,69 @@
   "text": "The whale!"
  },
  {
+  "id": "412c00be",
+  "lang": "en",
+  "text": "The window!"
+ },
+ {
   "id": "63629dc4",
   "lang": "en",
   "text": "The zebra!"
+ },
+ {
+  "id": "b0befef3",
+  "lang": "en",
+  "text": "Things"
+ },
+ {
+  "id": "244be52d",
+  "lang": "en",
+  "text": "Those are the beans."
+ },
+ {
+  "id": "b333c6e2",
+  "lang": "en",
+  "text": "Those are the blocks."
+ },
+ {
+  "id": "24a3d45f",
+  "lang": "en",
+  "text": "Those are the boots."
+ },
+ {
+  "id": "59a6418d",
+  "lang": "en",
+  "text": "Those are the bubbles."
+ },
+ {
+  "id": "a686fc31",
+  "lang": "en",
+  "text": "Those are the crayons."
+ },
+ {
+  "id": "424cb30c",
+  "lang": "en",
+  "text": "Those are the glasses."
+ },
+ {
+  "id": "3a74deac",
+  "lang": "en",
+  "text": "Those are the grapes."
+ },
+ {
+  "id": "2cb292a2",
+  "lang": "en",
+  "text": "Those are the pants."
+ },
+ {
+  "id": "e80c32f0",
+  "lang": "en",
+  "text": "Those are the shoes."
+ },
+ {
+  "id": "c0a4ffcb",
+  "lang": "en",
+  "text": "Those are the socks."
  },
  {
   "id": "377774a2",
@@ -2440,14 +4890,184 @@
   "text": "Today's adventure"
  },
  {
+  "id": "0fbb2ccc",
+  "lang": "en",
+  "text": "tomato"
+ },
+ {
   "id": "8969809e",
   "lang": "en",
   "text": "Too tall! Try another spot."
  },
  {
+  "id": "45fc1584",
+  "lang": "en",
+  "text": "toothbrush"
+ },
+ {
+  "id": "fff38b53",
+  "lang": "en",
+  "text": "tortilla"
+ },
+ {
+  "id": "c287db09",
+  "lang": "en",
+  "text": "towel"
+ },
+ {
+  "id": "c3c8e492",
+  "lang": "en",
+  "text": "Trace Letters"
+ },
+ {
+  "id": "41701fb4",
+  "lang": "en",
+  "text": "Trace Letters: all done!"
+ },
+ {
   "id": "9b498121",
   "lang": "en",
   "text": "Trace Numbers"
+ },
+ {
+  "id": "a9a37601",
+  "lang": "en",
+  "text": "Trace Numbers: all done!"
+ },
+ {
+  "id": "003fe2b2",
+  "lang": "en",
+  "text": "Trace the letter A!"
+ },
+ {
+  "id": "28426041",
+  "lang": "en",
+  "text": "Trace the letter B!"
+ },
+ {
+  "id": "8c453c44",
+  "lang": "en",
+  "text": "Trace the letter C!"
+ },
+ {
+  "id": "8433e68b",
+  "lang": "en",
+  "text": "Trace the letter D!"
+ },
+ {
+  "id": "a8365dce",
+  "lang": "en",
+  "text": "Trace the letter E!"
+ },
+ {
+  "id": "9038769d",
+  "lang": "en",
+  "text": "Trace the letter F!"
+ },
+ {
+  "id": "f43b52a0",
+  "lang": "en",
+  "text": "Trace the letter G!"
+ },
+ {
+  "id": "ac299827",
+  "lang": "en",
+  "text": "Trace the letter H!"
+ },
+ {
+  "id": "102c742a",
+  "lang": "en",
+  "text": "Trace the letter I!"
+ },
+ {
+  "id": "f82e8cf9",
+  "lang": "en",
+  "text": "Trace the letter J!"
+ },
+ {
+  "id": "1c31043c",
+  "lang": "en",
+  "text": "Trace the letter K!"
+ },
+ {
+  "id": "141fae83",
+  "lang": "en",
+  "text": "Trace the letter L!"
+ },
+ {
+  "id": "78228a86",
+  "lang": "en",
+  "text": "Trace the letter M!"
+ },
+ {
+  "id": "a0250815",
+  "lang": "en",
+  "text": "Trace the letter N!"
+ },
+ {
+  "id": "9edb07a2",
+  "lang": "en",
+  "text": "Trace the letter Ñ!"
+ },
+ {
+  "id": "84271a98",
+  "lang": "en",
+  "text": "Trace the letter O!"
+ },
+ {
+  "id": "7c15c4df",
+  "lang": "en",
+  "text": "Trace the letter P!"
+ },
+ {
+  "id": "a0183c22",
+  "lang": "en",
+  "text": "Trace the letter Q!"
+ },
+ {
+  "id": "081b1e71",
+  "lang": "en",
+  "text": "Trace the letter R!"
+ },
+ {
+  "id": "2c1d95b4",
+  "lang": "en",
+  "text": "Trace the letter S!"
+ },
+ {
+  "id": "240c3ffb",
+  "lang": "en",
+  "text": "Trace the letter T!"
+ },
+ {
+  "id": "080e527e",
+  "lang": "en",
+  "text": "Trace the letter U!"
+ },
+ {
+  "id": "3010d00d",
+  "lang": "en",
+  "text": "Trace the letter V!"
+ },
+ {
+  "id": "9413ac10",
+  "lang": "en",
+  "text": "Trace the letter W!"
+ },
+ {
+  "id": "8c025657",
+  "lang": "en",
+  "text": "Trace the letter X!"
+ },
+ {
+  "id": "b004cd9a",
+  "lang": "en",
+  "text": "Trace the letter Y!"
+ },
+ {
+  "id": "9806e669",
+  "lang": "en",
+  "text": "Trace the letter Z!"
  },
  {
   "id": "170d2ff9",
@@ -2500,6 +5120,11 @@
   "text": "Trace the number 9!"
  },
  {
+  "id": "98eefbe1",
+  "lang": "en",
+  "text": "tractor"
+ },
+ {
   "id": "af578530",
   "lang": "en",
   "text": "train"
@@ -2515,6 +5140,11 @@
   "text": "triangle"
  },
  {
+  "id": "996ee1ad",
+  "lang": "en",
+  "text": "truck"
+ },
+ {
   "id": "dff2c636",
   "lang": "en",
   "text": "Try again!"
@@ -2525,14 +5155,74 @@
   "text": "turtle"
  },
  {
+  "id": "809e581c",
+  "lang": "en",
+  "text": "TV"
+ },
+ {
   "id": "696cffc0",
   "lang": "en",
   "text": "two"
  },
  {
+  "id": "c24083d7",
+  "lang": "en",
+  "text": "U is for unicorn!"
+ },
+ {
+  "id": "33a01d7c",
+  "lang": "en",
+  "text": "U!"
+ },
+ {
   "id": "6d4e85b6",
   "lang": "en",
   "text": "umbrella"
+ },
+ {
+  "id": "b7c5e472",
+  "lang": "en",
+  "text": "unicorn"
+ },
+ {
+  "id": "9f99c648",
+  "lang": "en",
+  "text": "V is for volcano!"
+ },
+ {
+  "id": "c398b167",
+  "lang": "en",
+  "text": "V!"
+ },
+ {
+  "id": "cac97c97",
+  "lang": "en",
+  "text": "Vehicles"
+ },
+ {
+  "id": "858105b4",
+  "lang": "en",
+  "text": "volcano"
+ },
+ {
+  "id": "abefa394",
+  "lang": "en",
+  "text": "W is for waffle!"
+ },
+ {
+  "id": "279b8d6a",
+  "lang": "en",
+  "text": "W!"
+ },
+ {
+  "id": "8cd5c0a1",
+  "lang": "en",
+  "text": "waffle"
+ },
+ {
+  "id": "d7107704",
+  "lang": "en",
+  "text": "wants to play"
  },
  {
   "id": "8e850592",
@@ -2568,6 +5258,61 @@
   "id": "47ff6f96",
   "lang": "en",
   "text": "What do you want to play?"
+ },
+ {
+  "id": "368757d5",
+  "lang": "en",
+  "text": "When you are ready, press the green button to start!"
+ },
+ {
+  "id": "cdb15a5c",
+  "lang": "en",
+  "text": "Where are the beans?"
+ },
+ {
+  "id": "d557cba3",
+  "lang": "en",
+  "text": "Where are the blocks?"
+ },
+ {
+  "id": "8b0b2642",
+  "lang": "en",
+  "text": "Where are the boots?"
+ },
+ {
+  "id": "a1e07900",
+  "lang": "en",
+  "text": "Where are the bubbles?"
+ },
+ {
+  "id": "519225c8",
+  "lang": "en",
+  "text": "Where are the crayons?"
+ },
+ {
+  "id": "3dc8a70d",
+  "lang": "en",
+  "text": "Where are the glasses?"
+ },
+ {
+  "id": "89259a85",
+  "lang": "en",
+  "text": "Where are the grapes?"
+ },
+ {
+  "id": "84f12f8b",
+  "lang": "en",
+  "text": "Where are the pants?"
+ },
+ {
+  "id": "55e91a05",
+  "lang": "en",
+  "text": "Where are the shoes?"
+ },
+ {
+  "id": "9a27c0b2",
+  "lang": "en",
+  "text": "Where are the socks?"
  },
  {
   "id": "f13d9136",
@@ -2650,14 +5395,119 @@
   "text": "Where does the whale live?"
  },
  {
+  "id": "9b960f1f",
+  "lang": "en",
+  "text": "Where is the airplane?"
+ },
+ {
+  "id": "cc3ff9db",
+  "lang": "en",
+  "text": "Where is the ambulance?"
+ },
+ {
+  "id": "ca3ebe81",
+  "lang": "en",
+  "text": "Where is the apple?"
+ },
+ {
+  "id": "5f3e1124",
+  "lang": "en",
+  "text": "Where is the astronaut?"
+ },
+ {
+  "id": "40e0955e",
+  "lang": "en",
+  "text": "Where is the avocado?"
+ },
+ {
+  "id": "e4713a47",
+  "lang": "en",
+  "text": "Where is the backpack?"
+ },
+ {
+  "id": "9353705a",
+  "lang": "en",
+  "text": "Where is the ball?"
+ },
+ {
+  "id": "83925c94",
+  "lang": "en",
+  "text": "Where is the balloon?"
+ },
+ {
+  "id": "2eda6286",
+  "lang": "en",
+  "text": "Where is the banana?"
+ },
+ {
+  "id": "f0bbe9ef",
+  "lang": "en",
+  "text": "Where is the bandage?"
+ },
+ {
+  "id": "800567cd",
+  "lang": "en",
+  "text": "Where is the bathtub?"
+ },
+ {
   "id": "ffd8c1a7",
   "lang": "en",
   "text": "Where is the bear?"
  },
  {
+  "id": "d56a837c",
+  "lang": "en",
+  "text": "Where is the bed?"
+ },
+ {
   "id": "d56844e5",
   "lang": "en",
   "text": "Where is the bee?"
+ },
+ {
+  "id": "65cebd52",
+  "lang": "en",
+  "text": "Where is the bike?"
+ },
+ {
+  "id": "5f98926c",
+  "lang": "en",
+  "text": "Where is the blanket?"
+ },
+ {
+  "id": "2e1b98bf",
+  "lang": "en",
+  "text": "Where is the boat?"
+ },
+ {
+  "id": "3967348a",
+  "lang": "en",
+  "text": "Where is the book?"
+ },
+ {
+  "id": "f0201ba9",
+  "lang": "en",
+  "text": "Where is the bowl?"
+ },
+ {
+  "id": "6c637a27",
+  "lang": "en",
+  "text": "Where is the bread?"
+ },
+ {
+  "id": "023d89a4",
+  "lang": "en",
+  "text": "Where is the broccoli?"
+ },
+ {
+  "id": "9c9cbef2",
+  "lang": "en",
+  "text": "Where is the broom?"
+ },
+ {
+  "id": "d2559dae",
+  "lang": "en",
+  "text": "Where is the bulldozer?"
  },
  {
   "id": "0b9f2811",
@@ -2670,9 +5520,49 @@
   "text": "Where is the butterfly?"
  },
  {
+  "id": "caf65fb5",
+  "lang": "en",
+  "text": "Where is the cake?"
+ },
+ {
+  "id": "c9f04b39",
+  "lang": "en",
+  "text": "Where is the cap?"
+ },
+ {
+  "id": "49f591e7",
+  "lang": "en",
+  "text": "Where is the car?"
+ },
+ {
+  "id": "a897840c",
+  "lang": "en",
+  "text": "Where is the carrot?"
+ },
+ {
   "id": "49e6875d",
   "lang": "en",
   "text": "Where is the cat?"
+ },
+ {
+  "id": "555f7bb6",
+  "lang": "en",
+  "text": "Where is the cement mixer?"
+ },
+ {
+  "id": "827c86fa",
+  "lang": "en",
+  "text": "Where is the chair?"
+ },
+ {
+  "id": "5820eeb2",
+  "lang": "en",
+  "text": "Where is the cheese?"
+ },
+ {
+  "id": "203ccc05",
+  "lang": "en",
+  "text": "Where is the chef?"
  },
  {
   "id": "1e5bf94c",
@@ -2680,9 +5570,59 @@
   "text": "Where is the chicken?"
  },
  {
+  "id": "2758821f",
+  "lang": "en",
+  "text": "Where is the clock?"
+ },
+ {
+  "id": "048bca42",
+  "lang": "en",
+  "text": "Where is the comb?"
+ },
+ {
+  "id": "517ca1c2",
+  "lang": "en",
+  "text": "Where is the construction worker?"
+ },
+ {
+  "id": "306cff8f",
+  "lang": "en",
+  "text": "Where is the cookie?"
+ },
+ {
+  "id": "d7eb97cb",
+  "lang": "en",
+  "text": "Where is the corn?"
+ },
+ {
   "id": "07a46534",
   "lang": "en",
   "text": "Where is the cow?"
+ },
+ {
+  "id": "3656867a",
+  "lang": "en",
+  "text": "Where is the crane?"
+ },
+ {
+  "id": "655f8bf5",
+  "lang": "en",
+  "text": "Where is the cup?"
+ },
+ {
+  "id": "62a1ecdc",
+  "lang": "en",
+  "text": "Where is the dentist?"
+ },
+ {
+  "id": "d5675e18",
+  "lang": "en",
+  "text": "Where is the dinosaur?"
+ },
+ {
+  "id": "74a31bb0",
+  "lang": "en",
+  "text": "Where is the doctor?"
  },
  {
   "id": "b1ed8bbb",
@@ -2690,9 +5630,29 @@
   "text": "Where is the dog?"
  },
  {
+  "id": "046bd161",
+  "lang": "en",
+  "text": "Where is the door?"
+ },
+ {
+  "id": "f5a19621",
+  "lang": "en",
+  "text": "Where is the drum?"
+ },
+ {
   "id": "e2396aae",
   "lang": "en",
   "text": "Where is the duck?"
+ },
+ {
+  "id": "dfea70ca",
+  "lang": "en",
+  "text": "Where is the dump truck?"
+ },
+ {
+  "id": "c5ec1cc2",
+  "lang": "en",
+  "text": "Where is the egg?"
  },
  {
   "id": "cbe8871a",
@@ -2700,9 +5660,39 @@
   "text": "Where is the elephant?"
  },
  {
+  "id": "23ab6e8a",
+  "lang": "en",
+  "text": "Where is the excavator?"
+ },
+ {
+  "id": "cd8c0248",
+  "lang": "en",
+  "text": "Where is the farmer?"
+ },
+ {
+  "id": "f374b334",
+  "lang": "en",
+  "text": "Where is the fire truck?"
+ },
+ {
+  "id": "93ef7562",
+  "lang": "en",
+  "text": "Where is the firefighter?"
+ },
+ {
   "id": "c665d4d3",
   "lang": "en",
   "text": "Where is the fish?"
+ },
+ {
+  "id": "ca57e927",
+  "lang": "en",
+  "text": "Where is the flashlight?"
+ },
+ {
+  "id": "86694775",
+  "lang": "en",
+  "text": "Where is the fork?"
  },
  {
   "id": "4b9bb5d7",
@@ -2710,9 +5700,39 @@
   "text": "Where is the frog?"
  },
  {
+  "id": "62a6c45d",
+  "lang": "en",
+  "text": "Where is the garbage collector?"
+ },
+ {
+  "id": "beea59bd",
+  "lang": "en",
+  "text": "Where is the garbage truck?"
+ },
+ {
   "id": "11e27ffd",
   "lang": "en",
   "text": "Where is the giraffe?"
+ },
+ {
+  "id": "a840e32b",
+  "lang": "en",
+  "text": "Where is the guitar?"
+ },
+ {
+  "id": "b131f207",
+  "lang": "en",
+  "text": "Where is the hammer?"
+ },
+ {
+  "id": "71025566",
+  "lang": "en",
+  "text": "Where is the helicopter?"
+ },
+ {
+  "id": "6d2e0085",
+  "lang": "en",
+  "text": "Where is the hippo?"
  },
  {
   "id": "d53b09c2",
@@ -2720,9 +5740,54 @@
   "text": "Where is the horse?"
  },
  {
+  "id": "424a2c3a",
+  "lang": "en",
+  "text": "Where is the ice cream?"
+ },
+ {
+  "id": "0b451f43",
+  "lang": "en",
+  "text": "Where is the jacket?"
+ },
+ {
+  "id": "6d39eadd",
+  "lang": "en",
+  "text": "Where is the juice?"
+ },
+ {
+  "id": "7dc958dc",
+  "lang": "en",
+  "text": "Where is the key?"
+ },
+ {
+  "id": "d256a800",
+  "lang": "en",
+  "text": "Where is the kite?"
+ },
+ {
+  "id": "7f650e4a",
+  "lang": "en",
+  "text": "Where is the knight?"
+ },
+ {
   "id": "d9b65fcb",
   "lang": "en",
   "text": "Where is the lion?"
+ },
+ {
+  "id": "9cc48cbc",
+  "lang": "en",
+  "text": "Where is the mail carrier?"
+ },
+ {
+  "id": "f6d90593",
+  "lang": "en",
+  "text": "Where is the mechanic?"
+ },
+ {
+  "id": "5f3ccf28",
+  "lang": "en",
+  "text": "Where is the milk?"
  },
  {
   "id": "eb8a3bae",
@@ -2730,9 +5795,44 @@
   "text": "Where is the monkey?"
  },
  {
+  "id": "f2afb3e2",
+  "lang": "en",
+  "text": "Where is the motorcycle?"
+ },
+ {
+  "id": "fc177d2e",
+  "lang": "en",
+  "text": "Where is the octopus?"
+ },
+ {
+  "id": "b902fb0b",
+  "lang": "en",
+  "text": "Where is the orange?"
+ },
+ {
   "id": "b271acc7",
   "lang": "en",
   "text": "Where is the owl?"
+ },
+ {
+  "id": "ba128a76",
+  "lang": "en",
+  "text": "Where is the pajamas?"
+ },
+ {
+  "id": "84d978e9",
+  "lang": "en",
+  "text": "Where is the pear?"
+ },
+ {
+  "id": "7d41f331",
+  "lang": "en",
+  "text": "Where is the penguin?"
+ },
+ {
+  "id": "3f9d8f85",
+  "lang": "en",
+  "text": "Where is the phone?"
  },
  {
   "id": "ff26bbfd",
@@ -2740,9 +5840,99 @@
   "text": "Where is the pig?"
  },
  {
+  "id": "3db5b9d6",
+  "lang": "en",
+  "text": "Where is the pillow?"
+ },
+ {
+  "id": "d5be13ff",
+  "lang": "en",
+  "text": "Where is the pilot?"
+ },
+ {
+  "id": "66cbe763",
+  "lang": "en",
+  "text": "Where is the pineapple?"
+ },
+ {
+  "id": "328f2fa6",
+  "lang": "en",
+  "text": "Where is the pirate?"
+ },
+ {
+  "id": "96d46487",
+  "lang": "en",
+  "text": "Where is the pizza?"
+ },
+ {
+  "id": "f9f0f1d5",
+  "lang": "en",
+  "text": "Where is the plate?"
+ },
+ {
+  "id": "cac30e6d",
+  "lang": "en",
+  "text": "Where is the police car?"
+ },
+ {
+  "id": "62cdc921",
+  "lang": "en",
+  "text": "Where is the police officer?"
+ },
+ {
+  "id": "312a193c",
+  "lang": "en",
+  "text": "Where is the race car?"
+ },
+ {
+  "id": "a8526f6a",
+  "lang": "en",
+  "text": "Where is the rice?"
+ },
+ {
+  "id": "4bb0b601",
+  "lang": "en",
+  "text": "Where is the robot?"
+ },
+ {
+  "id": "24bf1541",
+  "lang": "en",
+  "text": "Where is the rocket?"
+ },
+ {
+  "id": "f47e16f3",
+  "lang": "en",
+  "text": "Where is the school bus?"
+ },
+ {
+  "id": "ab11feb7",
+  "lang": "en",
+  "text": "Where is the scientist?"
+ },
+ {
+  "id": "5cd00f5c",
+  "lang": "en",
+  "text": "Where is the scooter?"
+ },
+ {
+  "id": "f316fc12",
+  "lang": "en",
+  "text": "Where is the shark?"
+ },
+ {
   "id": "93bfc634",
   "lang": "en",
   "text": "Where is the sheep?"
+ },
+ {
+  "id": "3e2a58b9",
+  "lang": "en",
+  "text": "Where is the shirt?"
+ },
+ {
+  "id": "bf3f3f1c",
+  "lang": "en",
+  "text": "Where is the shovel?"
  },
  {
   "id": "d1a78306",
@@ -2750,14 +5940,124 @@
   "text": "Where is the snail?"
  },
  {
+  "id": "2b19ba40",
+  "lang": "en",
+  "text": "Where is the soap?"
+ },
+ {
+  "id": "3e4fec31",
+  "lang": "en",
+  "text": "Where is the soccer player?"
+ },
+ {
+  "id": "0414282a",
+  "lang": "en",
+  "text": "Where is the spoon?"
+ },
+ {
+  "id": "7f2bc0ce",
+  "lang": "en",
+  "text": "Where is the strawberry?"
+ },
+ {
+  "id": "86de3eb9",
+  "lang": "en",
+  "text": "Where is the submarine?"
+ },
+ {
+  "id": "2b8d9d2c",
+  "lang": "en",
+  "text": "Where is the superhero?"
+ },
+ {
+  "id": "0e960b72",
+  "lang": "en",
+  "text": "Where is the T. rex?"
+ },
+ {
+  "id": "3086340e",
+  "lang": "en",
+  "text": "Where is the taco?"
+ },
+ {
+  "id": "0abb84ef",
+  "lang": "en",
+  "text": "Where is the teacher?"
+ },
+ {
+  "id": "ce94ffc9",
+  "lang": "en",
+  "text": "Where is the teddy bear?"
+ },
+ {
+  "id": "fc9eca6c",
+  "lang": "en",
+  "text": "Where is the tiger?"
+ },
+ {
+  "id": "7510679b",
+  "lang": "en",
+  "text": "Where is the tomato?"
+ },
+ {
+  "id": "fe721777",
+  "lang": "en",
+  "text": "Where is the toothbrush?"
+ },
+ {
+  "id": "0190ae66",
+  "lang": "en",
+  "text": "Where is the tortilla?"
+ },
+ {
+  "id": "65dc6950",
+  "lang": "en",
+  "text": "Where is the towel?"
+ },
+ {
+  "id": "c820e068",
+  "lang": "en",
+  "text": "Where is the tractor?"
+ },
+ {
+  "id": "b3249adb",
+  "lang": "en",
+  "text": "Where is the train?"
+ },
+ {
+  "id": "68dccc48",
+  "lang": "en",
+  "text": "Where is the truck?"
+ },
+ {
   "id": "75e020db",
   "lang": "en",
   "text": "Where is the turtle?"
  },
  {
+  "id": "9ddd222f",
+  "lang": "en",
+  "text": "Where is the TV?"
+ },
+ {
+  "id": "0934db95",
+  "lang": "en",
+  "text": "Where is the umbrella?"
+ },
+ {
+  "id": "140c1d5b",
+  "lang": "en",
+  "text": "Where is the watermelon?"
+ },
+ {
   "id": "60ddd752",
   "lang": "en",
   "text": "Where is the whale?"
+ },
+ {
+  "id": "e5f5f00d",
+  "lang": "en",
+  "text": "Where is the window?"
  },
  {
   "id": "da2c6c09",
@@ -2810,6 +6110,16 @@
   "text": "Who is playing?"
  },
  {
+  "id": "ac1bbeae",
+  "lang": "en",
+  "text": "window"
+ },
+ {
+  "id": "bfa22b46",
+  "lang": "en",
+  "text": "wolf"
+ },
+ {
   "id": "27ed35ea",
   "lang": "en",
   "text": "Woof! Woof!"
@@ -2818,6 +6128,31 @@
   "id": "899ca1bc",
   "lang": "en",
   "text": "Wow!"
+ },
+ {
+  "id": "0d6e562e",
+  "lang": "en",
+  "text": "X is for xylophone!"
+ },
+ {
+  "id": "a7a78fdd",
+  "lang": "en",
+  "text": "X!"
+ },
+ {
+  "id": "587d44d8",
+  "lang": "en",
+  "text": "xylophone"
+ },
+ {
+  "id": "fc939566",
+  "lang": "en",
+  "text": "Y is for yo-yo!"
+ },
+ {
+  "id": "0baa6be0",
+  "lang": "en",
+  "text": "Y!"
  },
  {
   "id": "c5eb08d2",
@@ -2885,6 +6220,11 @@
   "text": "Yes! Scared!"
  },
  {
+  "id": "913e2721",
+  "lang": "en",
+  "text": "yo-yo"
+ },
+ {
   "id": "06b21f1c",
   "lang": "en",
   "text": "You already did your brain workout today!"
@@ -2905,6 +6245,16 @@
   "text": "Yum! Thank you!"
  },
  {
+  "id": "95700dc2",
+  "lang": "en",
+  "text": "Z is for zebra!"
+ },
+ {
+  "id": "9ba2ffcb",
+  "lang": "en",
+  "text": "Z!"
+ },
+ {
   "id": "b374d312",
   "lang": "en",
   "text": "zebra"
@@ -2915,9 +6265,24 @@
   "text": "zero"
  },
  {
+  "id": "a0c4d9ed",
+  "lang": "es",
+  "text": "¡¿Dónde Está?: terminado!"
+ },
+ {
   "id": "142081d8",
   "lang": "es",
   "text": "¡A construir! Arrastra los bloques."
+ },
+ {
+  "id": "676cb582",
+  "lang": "es",
+  "text": "¡A de avión!"
+ },
+ {
+  "id": "8d9388d0",
+  "lang": "es",
+  "text": "¡a!"
  },
  {
   "id": "85b0fd70",
@@ -2935,6 +6300,11 @@
   "text": "¡Amarilla! ¡Glu, glu, glu!"
  },
  {
+  "id": "72621026",
+  "lang": "es",
+  "text": "¡Aprieta el botón verde para empezar!"
+ },
+ {
   "id": "c68dc147",
   "lang": "es",
   "text": "¡Arrástrala al plato!"
@@ -2950,6 +6320,11 @@
   "text": "¡Ayuda a los animales a llegar a su casa!"
  },
  {
+  "id": "fab4dfaf",
+  "lang": "es",
+  "text": "¡Ayuda a un Amigo: terminado!"
+ },
+ {
   "id": "3b3af903",
   "lang": "es",
   "text": "¡Ayuda al astronauta a llegar a su cohete!"
@@ -2958,6 +6333,16 @@
   "id": "d3f142e5",
   "lang": "es",
   "text": "¡Azul! ¡Glu, glu, glu!"
+ },
+ {
+  "id": "b2bf032b",
+  "lang": "es",
+  "text": "¡Be de balón!"
+ },
+ {
+  "id": "7639ef12",
+  "lang": "es",
+  "text": "¡be!"
  },
  {
   "id": "66429f95",
@@ -3035,9 +6420,24 @@
   "text": "¡Bzzz!"
  },
  {
+  "id": "49830bd8",
+  "lang": "es",
+  "text": "¡Casas de Animales: terminado!"
+ },
+ {
   "id": "d7b8678f",
   "lang": "es",
   "text": "¡Casi! Intenta otra vez."
+ },
+ {
+  "id": "61cc5eaf",
+  "lang": "es",
+  "text": "¡Ce de carro!"
+ },
+ {
+  "id": "ea7d1671",
+  "lang": "es",
+  "text": "¡ce!"
  },
  {
   "id": "460029ba",
@@ -3055,14 +6455,39 @@
   "text": "¡Construye una casa! ¿Le pones un techo?"
  },
  {
+  "id": "4303d3d0",
+  "lang": "es",
+  "text": "¡Construye: terminado!"
+ },
+ {
+  "id": "e348d446",
+  "lang": "es",
+  "text": "¡Cópiame: terminado!"
+ },
+ {
   "id": "aa70f809",
   "lang": "es",
   "text": "¡Croac! ¡Croac!"
  },
  {
+  "id": "e15696b5",
+  "lang": "es",
+  "text": "¡Cu de quesadilla!"
+ },
+ {
+  "id": "0aa45841",
+  "lang": "es",
+  "text": "¡cu!"
+ },
+ {
   "id": "f8e60855",
   "lang": "es",
   "text": "¡Cuac! ¡Cuac!"
+ },
+ {
+  "id": "fbc0859d",
+  "lang": "es",
+  "text": "¡Cuando estés listo, aprieta el botón verde para empezar!"
  },
  {
   "id": "2e93b426",
@@ -3165,6 +6590,21 @@
   "text": "¡Dale una zanahoria al conejo!"
  },
  {
+  "id": "0429099e",
+  "lang": "es",
+  "text": "¡Dales de Comer: terminado!"
+ },
+ {
+  "id": "d847c6ca",
+  "lang": "es",
+  "text": "¡De de dinosaurio!"
+ },
+ {
+  "id": "afa1be14",
+  "lang": "es",
+  "text": "¡de!"
+ },
+ {
   "id": "ffeddf63",
   "lang": "es",
   "text": "¡Despegue!"
@@ -3175,9 +6615,229 @@
   "text": "¡Despegue! ¡Adiós, cohete!"
  },
  {
+  "id": "d0d7dc04",
+  "lang": "es",
+  "text": "¡Dilo conmigo: a!"
+ },
+ {
+  "id": "1eb4b1e6",
+  "lang": "es",
+  "text": "¡Dilo conmigo: be!"
+ },
+ {
+  "id": "92f7d945",
+  "lang": "es",
+  "text": "¡Dilo conmigo: ce!"
+ },
+ {
+  "id": "331fe495",
+  "lang": "es",
+  "text": "¡Dilo conmigo: cu!"
+ },
+ {
+  "id": "5f0be150",
+  "lang": "es",
+  "text": "¡Dilo conmigo: de!"
+ },
+ {
+  "id": "cb224b42",
+  "lang": "es",
+  "text": "¡Dilo conmigo: doble u!"
+ },
+ {
+  "id": "38cdf260",
+  "lang": "es",
+  "text": "¡Dilo conmigo: e!"
+ },
+ {
+  "id": "2bf90033",
+  "lang": "es",
+  "text": "¡Dilo conmigo: efe!"
+ },
+ {
+  "id": "e5ff6975",
+  "lang": "es",
+  "text": "¡Dilo conmigo: ele!"
+ },
+ {
+  "id": "f11da7d6",
+  "lang": "es",
+  "text": "¡Dilo conmigo: eme!"
+ },
+ {
+  "id": "232e9a8b",
+  "lang": "es",
+  "text": "¡Dilo conmigo: ene!"
+ },
+ {
+  "id": "8ee8b94a",
+  "lang": "es",
+  "text": "¡Dilo conmigo: eñe!"
+ },
+ {
+  "id": "789c1ec6",
+  "lang": "es",
+  "text": "¡Dilo conmigo: equis!"
+ },
+ {
+  "id": "fb7a5c57",
+  "lang": "es",
+  "text": "¡Dilo conmigo: erre!"
+ },
+ {
+  "id": "e8aa0cd8",
+  "lang": "es",
+  "text": "¡Dilo conmigo: ese!"
+ },
+ {
+  "id": "86d2a9e1",
+  "lang": "es",
+  "text": "¡Dilo conmigo: ge!"
+ },
+ {
+  "id": "ca6d7afc",
+  "lang": "es",
+  "text": "¡Dilo conmigo: hache!"
+ },
+ {
+  "id": "60c3a3fc",
+  "lang": "es",
+  "text": "¡Dilo conmigo: i!"
+ },
+ {
+  "id": "efca1269",
+  "lang": "es",
+  "text": "¡Dilo conmigo: jota!"
+ },
+ {
+  "id": "b46ac2d1",
+  "lang": "es",
+  "text": "¡Dilo conmigo: ka!"
+ },
+ {
+  "id": "bcb52a46",
+  "lang": "es",
+  "text": "¡Dilo conmigo: o!"
+ },
+ {
+  "id": "de2ab714",
+  "lang": "es",
+  "text": "¡Dilo conmigo: pe!"
+ },
+ {
+  "id": "71dde120",
+  "lang": "es",
+  "text": "¡Dilo conmigo: te!"
+ },
+ {
+  "id": "d8a64bd0",
+  "lang": "es",
+  "text": "¡Dilo conmigo: u!"
+ },
+ {
+  "id": "c6330073",
+  "lang": "es",
+  "text": "¡Dilo conmigo: uve!"
+ },
+ {
+  "id": "abc30b13",
+  "lang": "es",
+  "text": "¡Dilo conmigo: ye!"
+ },
+ {
+  "id": "9d38189f",
+  "lang": "es",
+  "text": "¡Dilo conmigo: zeta!"
+ },
+ {
+  "id": "6c0f6172",
+  "lang": "es",
+  "text": "¡Doble u de wafle!"
+ },
+ {
+  "id": "d729d536",
+  "lang": "es",
+  "text": "¡doble u!"
+ },
+ {
+  "id": "5da13199",
+  "lang": "es",
+  "text": "¡E de elefante!"
+ },
+ {
+  "id": "259d7274",
+  "lang": "es",
+  "text": "¡e!"
+ },
+ {
+  "id": "ffa3f16d",
+  "lang": "es",
+  "text": "¡Efe de flor!"
+ },
+ {
+  "id": "61244957",
+  "lang": "es",
+  "text": "¡efe!"
+ },
+ {
+  "id": "50b0861b",
+  "lang": "es",
+  "text": "¡El aguacate!"
+ },
+ {
+  "id": "4a3f9660",
+  "lang": "es",
+  "text": "¡El arroz!"
+ },
+ {
+  "id": "932bbde6",
+  "lang": "es",
+  "text": "¡El astronauta!"
+ },
+ {
+  "id": "e0b19162",
+  "lang": "es",
+  "text": "¡El autobús!"
+ },
+ {
+  "id": "fb68b6f3",
+  "lang": "es",
+  "text": "¡El avión!"
+ },
+ {
+  "id": "75876f13",
+  "lang": "es",
+  "text": "¡El barco!"
+ },
+ {
+  "id": "b360176d",
+  "lang": "es",
+  "text": "¡El basurero!"
+ },
+ {
+  "id": "d0d1056e",
+  "lang": "es",
+  "text": "¡El bombero!"
+ },
+ {
+  "id": "bc74d61a",
+  "lang": "es",
+  "text": "¡El brócoli!"
+ },
+ {
   "id": "d72c7577",
   "lang": "es",
   "text": "¡El búho!"
+ },
+ {
+  "id": "b8c14085",
+  "lang": "es",
+  "text": "¡El bulldozer!"
+ },
+ {
+  "id": "ee0c0a37",
+  "lang": "es",
+  "text": "¡El caballero!"
  },
  {
   "id": "42e4b39f",
@@ -3190,6 +6850,26 @@
   "text": "¡El caballo!"
  },
  {
+  "id": "4419d4e1",
+  "lang": "es",
+  "text": "¡El camión de bomberos!"
+ },
+ {
+  "id": "f1350a6b",
+  "lang": "es",
+  "text": "¡El camión de la basura!"
+ },
+ {
+  "id": "4f7d000b",
+  "lang": "es",
+  "text": "¡El camión de volteo!"
+ },
+ {
+  "id": "1dcd6ff9",
+  "lang": "es",
+  "text": "¡El camión!"
+ },
+ {
   "id": "c705e483",
   "lang": "es",
   "text": "¡El cangrejo vive en el mar!"
@@ -3198,6 +6878,26 @@
   "id": "746ddf05",
   "lang": "es",
   "text": "¡El caracol!"
+ },
+ {
+  "id": "888f732f",
+  "lang": "es",
+  "text": "¡El carro de carreras!"
+ },
+ {
+  "id": "dc55da15",
+  "lang": "es",
+  "text": "¡El carro!"
+ },
+ {
+  "id": "81c9ee8c",
+  "lang": "es",
+  "text": "¡El cartero!"
+ },
+ {
+  "id": "55d0184d",
+  "lang": "es",
+  "text": "¡El cepillo de dientes!"
  },
  {
   "id": "da7c0a4c",
@@ -3210,9 +6910,19 @@
   "text": "¡El cerdo!"
  },
  {
+  "id": "9eea0659",
+  "lang": "es",
+  "text": "¡El científico!"
+ },
+ {
   "id": "6b9327f4",
   "lang": "es",
   "text": "¡El círculo sí cabe!"
+ },
+ {
+  "id": "63894f50",
+  "lang": "es",
+  "text": "¡El cocinero!"
  },
  {
   "id": "f855a66f",
@@ -3235,9 +6945,19 @@
   "text": "¡El cohete necesita estrellas! Toca tres estrellas."
  },
  {
+  "id": "f28f10c2",
+  "lang": "es",
+  "text": "¡El cohete!"
+ },
+ {
   "id": "456a0a50",
   "lang": "es",
   "text": "¡El conejo!"
+ },
+ {
+  "id": "957ec5ee",
+  "lang": "es",
+  "text": "¡El constructor!"
  },
  {
   "id": "c1356497",
@@ -3255,9 +6975,29 @@
   "text": "¡El delfín vive en el mar!"
  },
  {
+  "id": "43c704fe",
+  "lang": "es",
+  "text": "¡El dentista!"
+ },
+ {
+  "id": "5315decd",
+  "lang": "es",
+  "text": "¡El dinosaurio!"
+ },
+ {
+  "id": "c576f775",
+  "lang": "es",
+  "text": "¡El doctor!"
+ },
+ {
   "id": "996eefd6",
   "lang": "es",
   "text": "¡El elefante!"
+ },
+ {
+  "id": "e6607d89",
+  "lang": "es",
+  "text": "¡El elote!"
  },
  {
   "id": "c9d150ef",
@@ -3265,14 +7005,74 @@
   "text": "¡El estrella sí cabe!"
  },
  {
+  "id": "3c447881",
+  "lang": "es",
+  "text": "¡El futbolista!"
+ },
+ {
   "id": "172ebad3",
   "lang": "es",
   "text": "¡El gato!"
  },
  {
+  "id": "859ec573",
+  "lang": "es",
+  "text": "¡El globo!"
+ },
+ {
+  "id": "60a83aa0",
+  "lang": "es",
+  "text": "¡El granjero!"
+ },
+ {
+  "id": "2225d143",
+  "lang": "es",
+  "text": "¡El helado!"
+ },
+ {
+  "id": "4ea7c754",
+  "lang": "es",
+  "text": "¡El helicóptero!"
+ },
+ {
+  "id": "1e10b770",
+  "lang": "es",
+  "text": "¡El hipopótamo!"
+ },
+ {
+  "id": "241bd6c9",
+  "lang": "es",
+  "text": "¡El huevo!"
+ },
+ {
+  "id": "7e06bffe",
+  "lang": "es",
+  "text": "¡El jabón!"
+ },
+ {
+  "id": "46345429",
+  "lang": "es",
+  "text": "¡El jugo!"
+ },
+ {
   "id": "532bfb4e",
   "lang": "es",
   "text": "¡El león!"
+ },
+ {
+  "id": "5b987b3e",
+  "lang": "es",
+  "text": "¡El libro!"
+ },
+ {
+  "id": "8d7b83c4",
+  "lang": "es",
+  "text": "¡El martillo!"
+ },
+ {
+  "id": "9d00ac8f",
+  "lang": "es",
+  "text": "¡El mecánico!"
  },
  {
   "id": "ea83f841",
@@ -3285,6 +7085,11 @@
   "text": "¡El mono!"
  },
  {
+  "id": "2d11c1c6",
+  "lang": "es",
+  "text": "¡El osito!"
+ },
+ {
   "id": "5662a19f",
   "lang": "es",
   "text": "¡El oso!"
@@ -3295,9 +7100,39 @@
   "text": "¡El pajarito vive en el cielo!"
  },
  {
+  "id": "ac1e38a3",
+  "lang": "es",
+  "text": "¡El pan!"
+ },
+ {
+  "id": "a068fd76",
+  "lang": "es",
+  "text": "¡El papalote!"
+ },
+ {
+  "id": "2193fd16",
+  "lang": "es",
+  "text": "¡El paraguas!"
+ },
+ {
+  "id": "44d0898b",
+  "lang": "es",
+  "text": "¡El pastel!"
+ },
+ {
+  "id": "cfbe3dcc",
+  "lang": "es",
+  "text": "¡El patín!"
+ },
+ {
   "id": "68a6a966",
   "lang": "es",
   "text": "¡El pato!"
+ },
+ {
+  "id": "acc07e83",
+  "lang": "es",
+  "text": "¡El peine!"
  },
  {
   "id": "aabc0205",
@@ -3320,9 +7155,124 @@
   "text": "¡El pez!"
  },
  {
+  "id": "5b7c741d",
+  "lang": "es",
+  "text": "¡El piloto!"
+ },
+ {
+  "id": "558383c4",
+  "lang": "es",
+  "text": "¡El pingüino!"
+ },
+ {
+  "id": "3cb1c5db",
+  "lang": "es",
+  "text": "¡El pirata!"
+ },
+ {
+  "id": "25a325e3",
+  "lang": "es",
+  "text": "¡El plátano!"
+ },
+ {
+  "id": "11a85fac",
+  "lang": "es",
+  "text": "¡El plato!"
+ },
+ {
+  "id": "3830bed1",
+  "lang": "es",
+  "text": "¡El policía!"
+ },
+ {
   "id": "7ef96984",
   "lang": "es",
   "text": "¡El pulpo vive en el mar!"
+ },
+ {
+  "id": "02c0078e",
+  "lang": "es",
+  "text": "¡El pulpo!"
+ },
+ {
+  "id": "ee174683",
+  "lang": "es",
+  "text": "¡El queso!"
+ },
+ {
+  "id": "ef6e128c",
+  "lang": "es",
+  "text": "¡El reloj!"
+ },
+ {
+  "id": "f461d246",
+  "lang": "es",
+  "text": "¡El robot!"
+ },
+ {
+  "id": "8e2b0dd0",
+  "lang": "es",
+  "text": "¡El submarino!"
+ },
+ {
+  "id": "9bf2a326",
+  "lang": "es",
+  "text": "¡El superhéroe!"
+ },
+ {
+  "id": "913586af",
+  "lang": "es",
+  "text": "¡El taco!"
+ },
+ {
+  "id": "0021dac7",
+  "lang": "es",
+  "text": "¡El tambor!"
+ },
+ {
+  "id": "3cfe4e94",
+  "lang": "es",
+  "text": "¡El tazón!"
+ },
+ {
+  "id": "94732cb0",
+  "lang": "es",
+  "text": "¡El teléfono!"
+ },
+ {
+  "id": "c23ae013",
+  "lang": "es",
+  "text": "¡El tenedor!"
+ },
+ {
+  "id": "758443dd",
+  "lang": "es",
+  "text": "¡El tiburón!"
+ },
+ {
+  "id": "38b6a9cd",
+  "lang": "es",
+  "text": "¡El tigre!"
+ },
+ {
+  "id": "d74cf582",
+  "lang": "es",
+  "text": "¡El tiranosaurio!"
+ },
+ {
+  "id": "741d20f4",
+  "lang": "es",
+  "text": "¡El tomate!"
+ },
+ {
+  "id": "c286f677",
+  "lang": "es",
+  "text": "¡El tractor!"
+ },
+ {
+  "id": "1ec4b733",
+  "lang": "es",
+  "text": "¡El tren!"
  },
  {
   "id": "e9792c74",
@@ -3335,6 +7285,81 @@
   "text": "¡El último! El cohete del astronauta está roto. ¡Vamos a arreglarlo!"
  },
  {
+  "id": "48999c0d",
+  "lang": "es",
+  "text": "¡El vaso!"
+ },
+ {
+  "id": "6986c4cc",
+  "lang": "es",
+  "text": "¡Ele de león!"
+ },
+ {
+  "id": "aae3af29",
+  "lang": "es",
+  "text": "¡ele!"
+ },
+ {
+  "id": "284cb670",
+  "lang": "es",
+  "text": "¡Eme de mono!"
+ },
+ {
+  "id": "36a087ca",
+  "lang": "es",
+  "text": "¡eme!"
+ },
+ {
+  "id": "3c47bbf0",
+  "lang": "es",
+  "text": "¡Ene de nido!"
+ },
+ {
+  "id": "5df86b90",
+  "lang": "es",
+  "text": "¡Eñe, como en piña!"
+ },
+ {
+  "id": "ea8d493f",
+  "lang": "es",
+  "text": "¡ene!"
+ },
+ {
+  "id": "7f88c156",
+  "lang": "es",
+  "text": "¡eñe!"
+ },
+ {
+  "id": "d6dc8f93",
+  "lang": "es",
+  "text": "¡Equis de xilófono!"
+ },
+ {
+  "id": "c7b417a2",
+  "lang": "es",
+  "text": "¡equis!"
+ },
+ {
+  "id": "6c687de6",
+  "lang": "es",
+  "text": "¡Erre de robot!"
+ },
+ {
+  "id": "d00cedab",
+  "lang": "es",
+  "text": "¡erre!"
+ },
+ {
+  "id": "ddce4500",
+  "lang": "es",
+  "text": "¡Ese de serpiente!"
+ },
+ {
+  "id": "79722034",
+  "lang": "es",
+  "text": "¡ese!"
+ },
+ {
   "id": "46f33f5c",
   "lang": "es",
   "text": "¡Excelente!"
@@ -3345,9 +7370,24 @@
   "text": "¡Falta la puerta! ¿Qué pieza le queda a la puerta?"
  },
  {
+  "id": "7811a78f",
+  "lang": "es",
+  "text": "¡Figuras y Sombras: terminado!"
+ },
+ {
   "id": "969a21d2",
   "lang": "es",
   "text": "¡Ganaste una calcomanía!"
+ },
+ {
+  "id": "f4cdc48e",
+  "lang": "es",
+  "text": "¡Ge de gorila!"
+ },
+ {
+  "id": "b4c6dbd5",
+  "lang": "es",
+  "text": "¡ge!"
  },
  {
   "id": "b3c5da20",
@@ -3370,6 +7410,16 @@
   "text": "¡Guau! ¡Guau!"
  },
  {
+  "id": "6bb754dd",
+  "lang": "es",
+  "text": "¡Hache de helicóptero!"
+ },
+ {
+  "id": "f92cbb30",
+  "lang": "es",
+  "text": "¡hache!"
+ },
+ {
   "id": "f60041c3",
   "lang": "es",
   "text": "¡Hola! ¡Es hora de tu ejercicio mental!"
@@ -3390,6 +7440,16 @@
   "text": "¡Hora de mover el cuerpo!"
  },
  {
+  "id": "9a50b006",
+  "lang": "es",
+  "text": "¡I de iguana!"
+ },
+ {
+  "id": "1d7f50c8",
+  "lang": "es",
+  "text": "¡i!"
+ },
+ {
   "id": "3ea2aa24",
   "lang": "es",
   "text": "¡Iiiii!"
@@ -3400,9 +7460,34 @@
   "text": "¡Increíble!"
  },
  {
+  "id": "737a7ac1",
+  "lang": "es",
+  "text": "¡Jabón!"
+ },
+ {
+  "id": "d9b246f4",
+  "lang": "es",
+  "text": "¡Jota de jaguar!"
+ },
+ {
+  "id": "5f45f9cd",
+  "lang": "es",
+  "text": "¡jota!"
+ },
+ {
   "id": "d907f8ab",
   "lang": "es",
   "text": "¡Jugaste muy bien hoy!"
+ },
+ {
+  "id": "c7784c42",
+  "lang": "es",
+  "text": "¡Ka de koala!"
+ },
+ {
+  "id": "9bdbc7f5",
+  "lang": "es",
+  "text": "¡ka!"
  },
  {
   "id": "94e1787b",
@@ -3413,6 +7498,16 @@
   "id": "bb9936ad",
   "lang": "es",
   "text": "¡La abeja!"
+ },
+ {
+  "id": "d0695e15",
+  "lang": "es",
+  "text": "¡La almohada!"
+ },
+ {
+  "id": "8251c6a1",
+  "lang": "es",
+  "text": "¡La ambulancia!"
  },
  {
   "id": "181b8721",
@@ -3430,9 +7525,64 @@
   "text": "¡La ballena!"
  },
  {
+  "id": "7f9d9c7a",
+  "lang": "es",
+  "text": "¡La bicicleta!"
+ },
+ {
+  "id": "f736b6e8",
+  "lang": "es",
+  "text": "¡La cama!"
+ },
+ {
+  "id": "f928126c",
+  "lang": "es",
+  "text": "¡La camisa!"
+ },
+ {
   "id": "1fd30f59",
   "lang": "es",
   "text": "¡La cebra!"
+ },
+ {
+  "id": "1d1f2f03",
+  "lang": "es",
+  "text": "¡La chamarra!"
+ },
+ {
+  "id": "68483a40",
+  "lang": "es",
+  "text": "¡La cobija!"
+ },
+ {
+  "id": "fb8d4091",
+  "lang": "es",
+  "text": "¡La cuchara!"
+ },
+ {
+  "id": "718646a8",
+  "lang": "es",
+  "text": "¡La curita!"
+ },
+ {
+  "id": "fc1cb917",
+  "lang": "es",
+  "text": "¡La escoba!"
+ },
+ {
+  "id": "d925fdae",
+  "lang": "es",
+  "text": "¡La excavadora!"
+ },
+ {
+  "id": "0dfabea9",
+  "lang": "es",
+  "text": "¡La fresa!"
+ },
+ {
+  "id": "7be90194",
+  "lang": "es",
+  "text": "¡La galleta!"
  },
  {
   "id": "fe3b28c5",
@@ -3445,9 +7595,49 @@
   "text": "¡La gallina!"
  },
  {
+  "id": "538f9b23",
+  "lang": "es",
+  "text": "¡La gorra!"
+ },
+ {
+  "id": "36ffcabe",
+  "lang": "es",
+  "text": "¡La grúa!"
+ },
+ {
+  "id": "f6c737ff",
+  "lang": "es",
+  "text": "¡La guitarra!"
+ },
+ {
   "id": "a64029cd",
   "lang": "es",
   "text": "¡La jirafa!"
+ },
+ {
+  "id": "d5f58f69",
+  "lang": "es",
+  "text": "¡La leche!"
+ },
+ {
+  "id": "e911a257",
+  "lang": "es",
+  "text": "¡La linterna!"
+ },
+ {
+  "id": "e66fa492",
+  "lang": "es",
+  "text": "¡La llave!"
+ },
+ {
+  "id": "97d22435",
+  "lang": "es",
+  "text": "¡La maestra!"
+ },
+ {
+  "id": "43449a24",
+  "lang": "es",
+  "text": "¡La manzana!"
  },
  {
   "id": "7f4902f0",
@@ -3460,6 +7650,21 @@
   "text": "¡La mariposa!"
  },
  {
+  "id": "fcd04e7b",
+  "lang": "es",
+  "text": "¡La mochila!"
+ },
+ {
+  "id": "a1540949",
+  "lang": "es",
+  "text": "¡La moto!"
+ },
+ {
+  "id": "ebf2c301",
+  "lang": "es",
+  "text": "¡La naranja!"
+ },
+ {
   "id": "04241394",
   "lang": "es",
   "text": "¡La oveja vive en la granja!"
@@ -3470,14 +7675,89 @@
   "text": "¡La oveja!"
  },
  {
+  "id": "f5f3b4fa",
+  "lang": "es",
+  "text": "¡La pala!"
+ },
+ {
+  "id": "799b29bf",
+  "lang": "es",
+  "text": "¡La patrulla!"
+ },
+ {
+  "id": "cd528c2d",
+  "lang": "es",
+  "text": "¡La pelota!"
+ },
+ {
+  "id": "3cb33f80",
+  "lang": "es",
+  "text": "¡La pera!"
+ },
+ {
+  "id": "901df85e",
+  "lang": "es",
+  "text": "¡La pijama!"
+ },
+ {
+  "id": "3d18a8ad",
+  "lang": "es",
+  "text": "¡La piña!"
+ },
+ {
+  "id": "57f95e6a",
+  "lang": "es",
+  "text": "¡La pizza!"
+ },
+ {
   "id": "9334fe58",
   "lang": "es",
   "text": "¡La próxima vez: un poquito más difícil!"
  },
  {
+  "id": "2d8a489f",
+  "lang": "es",
+  "text": "¡La puerta!"
+ },
+ {
   "id": "606c7116",
   "lang": "es",
   "text": "¡La rana!"
+ },
+ {
+  "id": "d1970fa1",
+  "lang": "es",
+  "text": "¡La revolvedora!"
+ },
+ {
+  "id": "3f79455a",
+  "lang": "es",
+  "text": "¡La sandía!"
+ },
+ {
+  "id": "bed889b5",
+  "lang": "es",
+  "text": "¡La silla!"
+ },
+ {
+  "id": "eaf367ee",
+  "lang": "es",
+  "text": "¡La tele!"
+ },
+ {
+  "id": "3c3dc70c",
+  "lang": "es",
+  "text": "¡La tina!"
+ },
+ {
+  "id": "9358ad17",
+  "lang": "es",
+  "text": "¡La toalla!"
+ },
+ {
+  "id": "c9c8d685",
+  "lang": "es",
+  "text": "¡La tortilla!"
  },
  {
   "id": "35bacba6",
@@ -3495,9 +7775,39 @@
   "text": "¡La vaca!"
  },
  {
+  "id": "ecd4dac5",
+  "lang": "es",
+  "text": "¡La ventana!"
+ },
+ {
+  "id": "e03982ad",
+  "lang": "es",
+  "text": "¡La zanahoria!"
+ },
+ {
+  "id": "c503bd98",
+  "lang": "es",
+  "text": "¡Laberinto Espacial: terminado!"
+ },
+ {
+  "id": "3a9c0d7a",
+  "lang": "es",
+  "text": "¡Las botas!"
+ },
+ {
+  "id": "3315f38f",
+  "lang": "es",
+  "text": "¡Las burbujas!"
+ },
+ {
   "id": "699042b0",
   "lang": "es",
   "text": "¡Las luces funcionan!"
+ },
+ {
+  "id": "c32c6438",
+  "lang": "es",
+  "text": "¡Las uvas!"
  },
  {
   "id": "45966c8e",
@@ -3513,6 +7823,41 @@
   "id": "90c2012d",
   "lang": "es",
   "text": "¡Lo lograste!"
+ },
+ {
+  "id": "f93b79b0",
+  "lang": "es",
+  "text": "¡Los bloques!"
+ },
+ {
+  "id": "c9a09762",
+  "lang": "es",
+  "text": "¡Los calcetines!"
+ },
+ {
+  "id": "7ac7b671",
+  "lang": "es",
+  "text": "¡Los crayones!"
+ },
+ {
+  "id": "4da52d73",
+  "lang": "es",
+  "text": "¡Los frijoles!"
+ },
+ {
+  "id": "afa64f20",
+  "lang": "es",
+  "text": "¡Los lentes!"
+ },
+ {
+  "id": "dd7010d4",
+  "lang": "es",
+  "text": "¡Los pantalones!"
+ },
+ {
+  "id": "bda5804b",
+  "lang": "es",
+  "text": "¡Los zapatos!"
  },
  {
   "id": "fe3121ad",
@@ -3550,6 +7895,11 @@
   "text": "¡Muy alto! Prueba en otro lugar."
  },
  {
+  "id": "8cc2badc",
+  "lang": "es",
+  "text": "¡Muy bien movido!"
+ },
+ {
   "id": "d584cbe6",
   "lang": "es",
   "text": "¡Muy bien!"
@@ -3568,6 +7918,16 @@
   "id": "e47f965c",
   "lang": "es",
   "text": "¡Nos vemos mañana!"
+ },
+ {
+  "id": "0e2a3604",
+  "lang": "es",
+  "text": "¡O de océano!"
+ },
+ {
+  "id": "a984aa5a",
+  "lang": "es",
+  "text": "¡o!"
  },
  {
   "id": "da5b589f",
@@ -3593,6 +7953,16 @@
   "id": "a41b5c4b",
   "lang": "es",
   "text": "¡Párate! ¡Salta como una rana!"
+ },
+ {
+  "id": "b1abdf9f",
+  "lang": "es",
+  "text": "¡Pe de pingüino!"
+ },
+ {
+  "id": "3082e850",
+  "lang": "es",
+  "text": "¡pe!"
  },
  {
   "id": "c6c4ba6a",
@@ -3648,6 +8018,11 @@
   "id": "7b9c14dd",
   "lang": "es",
   "text": "¡Quiquiriquí!"
+ },
+ {
+  "id": "5b01a921",
+  "lang": "es",
+  "text": "¡Rescate Espacial: terminado!"
  },
  {
   "id": "d516d807",
@@ -3790,6 +8165,11 @@
   "text": "¡Revienta tres globos verdes!"
  },
  {
+  "id": "83482c44",
+  "lang": "es",
+  "text": "¡Revienta y Toca: terminado!"
+ },
+ {
   "id": "f3112489",
   "lang": "es",
   "text": "¡Roja! ¡Glu, glu, glu!"
@@ -3853,6 +8233,21 @@
   "id": "7ea13eb0",
   "lang": "es",
   "text": "¡Sss!"
+ },
+ {
+  "id": "a0c58724",
+  "lang": "es",
+  "text": "¡Te de tren!"
+ },
+ {
+  "id": "5d6ebd44",
+  "lang": "es",
+  "text": "¡te!"
+ },
+ {
+  "id": "29b4550a",
+  "lang": "es",
+  "text": "¡Terminado!"
  },
  {
   "id": "fe8830dd",
@@ -4070,6 +8465,171 @@
   "text": "¡Traza el número uno!"
  },
  {
+  "id": "804c1d2d",
+  "lang": "es",
+  "text": "¡Traza la letra a!"
+ },
+ {
+  "id": "938e98d1",
+  "lang": "es",
+  "text": "¡Traza la letra be!"
+ },
+ {
+  "id": "1cd10872",
+  "lang": "es",
+  "text": "¡Traza la letra ce!"
+ },
+ {
+  "id": "bca961e2",
+  "lang": "es",
+  "text": "¡Traza la letra cu!"
+ },
+ {
+  "id": "9b078f4b",
+  "lang": "es",
+  "text": "¡Traza la letra de!"
+ },
+ {
+  "id": "8a84addb",
+  "lang": "es",
+  "text": "¡Traza la letra doble u!"
+ },
+ {
+  "id": "d855a211",
+  "lang": "es",
+  "text": "¡Traza la letra e!"
+ },
+ {
+  "id": "45c24db6",
+  "lang": "es",
+  "text": "¡Traza la letra efe!"
+ },
+ {
+  "id": "bc6d887c",
+  "lang": "es",
+  "text": "¡Traza la letra ele!"
+ },
+ {
+  "id": "03174593",
+  "lang": "es",
+  "text": "¡Traza la letra eme!"
+ },
+ {
+  "id": "cf2b4d9e",
+  "lang": "es",
+  "text": "¡Traza la letra ene!"
+ },
+ {
+  "id": "908ac037",
+  "lang": "es",
+  "text": "¡Traza la letra eñe!"
+ },
+ {
+  "id": "0da4dfaf",
+  "lang": "es",
+  "text": "¡Traza la letra equis!"
+ },
+ {
+  "id": "3de90f30",
+  "lang": "es",
+  "text": "¡Traza la letra erre!"
+ },
+ {
+  "id": "de26e461",
+  "lang": "es",
+  "text": "¡Traza la letra ese!"
+ },
+ {
+  "id": "68f69c96",
+  "lang": "es",
+  "text": "¡Traza la letra ge!"
+ },
+ {
+  "id": "97c46fc1",
+  "lang": "es",
+  "text": "¡Traza la letra hache!"
+ },
+ {
+  "id": "503849e5",
+  "lang": "es",
+  "text": "¡Traza la letra i!"
+ },
+ {
+  "id": "8c511ff6",
+  "lang": "es",
+  "text": "¡Traza la letra jota!"
+ },
+ {
+  "id": "cd91e936",
+  "lang": "es",
+  "text": "¡Traza la letra ka!"
+ },
+ {
+  "id": "5c3cd9f7",
+  "lang": "es",
+  "text": "¡Traza la letra o!"
+ },
+ {
+  "id": "bdebca17",
+  "lang": "es",
+  "text": "¡Traza la letra pe!"
+ },
+ {
+  "id": "8aaff87b",
+  "lang": "es",
+  "text": "¡Traza la letra te!"
+ },
+ {
+  "id": "787dad61",
+  "lang": "es",
+  "text": "¡Traza la letra u!"
+ },
+ {
+  "id": "c8fcec56",
+  "lang": "es",
+  "text": "¡Traza la letra uve!"
+ },
+ {
+  "id": "62fd6a98",
+  "lang": "es",
+  "text": "¡Traza la letra ye!"
+ },
+ {
+  "id": "29640d18",
+  "lang": "es",
+  "text": "¡Traza la letra zeta!"
+ },
+ {
+  "id": "0a596539",
+  "lang": "es",
+  "text": "¡Traza Letras: terminado!"
+ },
+ {
+  "id": "301ce702",
+  "lang": "es",
+  "text": "¡Traza Números: terminado!"
+ },
+ {
+  "id": "e595870b",
+  "lang": "es",
+  "text": "¡U de unicornio!"
+ },
+ {
+  "id": "85c51904",
+  "lang": "es",
+  "text": "¡u!"
+ },
+ {
+  "id": "202338f3",
+  "lang": "es",
+  "text": "¡Un cepillo de dientes!"
+ },
+ {
+  "id": "4f272ed0",
+  "lang": "es",
+  "text": "¡Un paraguas!"
+ },
+ {
   "id": "1da1f122",
   "lang": "es",
   "text": "¡Un vaso de agua!"
@@ -4090,6 +8650,16 @@
   "text": "¡Una curita!"
  },
  {
+  "id": "51e053be",
+  "lang": "es",
+  "text": "¡Una linterna!"
+ },
+ {
+  "id": "94ea42b0",
+  "lang": "es",
+  "text": "¡Una pelota!"
+ },
+ {
   "id": "200c0981",
   "lang": "es",
   "text": "¡Ups, no hay salida! Regresa."
@@ -4108,6 +8678,16 @@
   "id": "4a62c34d",
   "lang": "es",
   "text": "¡Uu! ¡Uu!"
+ },
+ {
+  "id": "fbe8543b",
+  "lang": "es",
+  "text": "¡Uve de volcán!"
+ },
+ {
+  "id": "ddbc9517",
+  "lang": "es",
+  "text": "¡uve!"
  },
  {
   "id": "b2b746bc",
@@ -4140,9 +8720,74 @@
   "text": "¡Ya terminamos! ¡Qué bien jugaste!"
  },
  {
+  "id": "e1fac20c",
+  "lang": "es",
+  "text": "¡Ye de yoyo!"
+ },
+ {
+  "id": "1e427e1f",
+  "lang": "es",
+  "text": "¡ye!"
+ },
+ {
+  "id": "464fb7ed",
+  "lang": "es",
+  "text": "¡Zeta de zapato!"
+ },
+ {
+  "id": "001a3673",
+  "lang": "es",
+  "text": "¡zeta!"
+ },
+ {
   "id": "8569ff35",
   "lang": "es",
   "text": "¿Cómo le ayudamos?"
+ },
+ {
+  "id": "df1153ec",
+  "lang": "es",
+  "text": "¿Dónde está el aguacate?"
+ },
+ {
+  "id": "63abbc09",
+  "lang": "es",
+  "text": "¿Dónde está el arroz?"
+ },
+ {
+  "id": "962ec4c5",
+  "lang": "es",
+  "text": "¿Dónde está el astronauta?"
+ },
+ {
+  "id": "91f69ccb",
+  "lang": "es",
+  "text": "¿Dónde está el autobús?"
+ },
+ {
+  "id": "ebf262ce",
+  "lang": "es",
+  "text": "¿Dónde está el avión?"
+ },
+ {
+  "id": "a41f09ba",
+  "lang": "es",
+  "text": "¿Dónde está el barco?"
+ },
+ {
+  "id": "3811da6e",
+  "lang": "es",
+  "text": "¿Dónde está el basurero?"
+ },
+ {
+  "id": "329aadbb",
+  "lang": "es",
+  "text": "¿Dónde está el bombero?"
+ },
+ {
+  "id": "903ca4ab",
+  "lang": "es",
+  "text": "¿Dónde está el brócoli?"
  },
  {
   "id": "7c3cf554",
@@ -4150,9 +8795,39 @@
   "text": "¿Dónde está el búho?"
  },
  {
+  "id": "446b6df4",
+  "lang": "es",
+  "text": "¿Dónde está el bulldozer?"
+ },
+ {
+  "id": "b5b4cc2e",
+  "lang": "es",
+  "text": "¿Dónde está el caballero?"
+ },
+ {
   "id": "a0881d69",
   "lang": "es",
   "text": "¿Dónde está el caballo?"
+ },
+ {
+  "id": "d25610ea",
+  "lang": "es",
+  "text": "¿Dónde está el camión de bomberos?"
+ },
+ {
+  "id": "df37cfae",
+  "lang": "es",
+  "text": "¿Dónde está el camión de la basura?"
+ },
+ {
+  "id": "1d9668f4",
+  "lang": "es",
+  "text": "¿Dónde está el camión de volteo?"
+ },
+ {
+  "id": "a8066d8a",
+  "lang": "es",
+  "text": "¿Dónde está el camión?"
  },
  {
   "id": "d2ae16dc",
@@ -4160,9 +8835,44 @@
   "text": "¿Dónde está el caracol?"
  },
  {
+  "id": "bd1374ce",
+  "lang": "es",
+  "text": "¿Dónde está el carro de carreras?"
+ },
+ {
+  "id": "0c4d6974",
+  "lang": "es",
+  "text": "¿Dónde está el carro?"
+ },
+ {
+  "id": "ea257a71",
+  "lang": "es",
+  "text": "¿Dónde está el cartero?"
+ },
+ {
+  "id": "74bdcc56",
+  "lang": "es",
+  "text": "¿Dónde está el cepillo de dientes?"
+ },
+ {
   "id": "08bc6af6",
   "lang": "es",
   "text": "¿Dónde está el cerdo?"
+ },
+ {
+  "id": "86e3d66e",
+  "lang": "es",
+  "text": "¿Dónde está el científico?"
+ },
+ {
+  "id": "88e48fab",
+  "lang": "es",
+  "text": "¿Dónde está el cocinero?"
+ },
+ {
+  "id": "54cc7631",
+  "lang": "es",
+  "text": "¿Dónde está el cohete?"
  },
  {
   "id": "beecb5b3",
@@ -4170,9 +8880,39 @@
   "text": "¿Dónde está el conejo?"
  },
  {
+  "id": "f53f71db",
+  "lang": "es",
+  "text": "¿Dónde está el constructor?"
+ },
+ {
+  "id": "f187a8c5",
+  "lang": "es",
+  "text": "¿Dónde está el dentista?"
+ },
+ {
+  "id": "90dfad6e",
+  "lang": "es",
+  "text": "¿Dónde está el dinosaurio?"
+ },
+ {
+  "id": "91ba7032",
+  "lang": "es",
+  "text": "¿Dónde está el doctor?"
+ },
+ {
   "id": "3d3bb5b9",
   "lang": "es",
   "text": "¿Dónde está el elefante?"
+ },
+ {
+  "id": "62f007ac",
+  "lang": "es",
+  "text": "¿Dónde está el elote?"
+ },
+ {
+  "id": "fed734f6",
+  "lang": "es",
+  "text": "¿Dónde está el futbolista?"
  },
  {
   "id": "b0de4c7c",
@@ -4180,9 +8920,64 @@
   "text": "¿Dónde está el gato?"
  },
  {
+  "id": "78513c52",
+  "lang": "es",
+  "text": "¿Dónde está el globo?"
+ },
+ {
+  "id": "216cda7f",
+  "lang": "es",
+  "text": "¿Dónde está el granjero?"
+ },
+ {
+  "id": "d742115c",
+  "lang": "es",
+  "text": "¿Dónde está el helado?"
+ },
+ {
+  "id": "c19ef465",
+  "lang": "es",
+  "text": "¿Dónde está el helicóptero?"
+ },
+ {
+  "id": "e90e6adf",
+  "lang": "es",
+  "text": "¿Dónde está el hipopótamo?"
+ },
+ {
+  "id": "737c4920",
+  "lang": "es",
+  "text": "¿Dónde está el huevo?"
+ },
+ {
+  "id": "6317942b",
+  "lang": "es",
+  "text": "¿Dónde está el jabón?"
+ },
+ {
+  "id": "260537f2",
+  "lang": "es",
+  "text": "¿Dónde está el jugo?"
+ },
+ {
   "id": "ff009ad5",
   "lang": "es",
   "text": "¿Dónde está el león?"
+ },
+ {
+  "id": "99e952b3",
+  "lang": "es",
+  "text": "¿Dónde está el libro?"
+ },
+ {
+  "id": "560b783b",
+  "lang": "es",
+  "text": "¿Dónde está el martillo?"
+ },
+ {
+  "id": "00f10218",
+  "lang": "es",
+  "text": "¿Dónde está el mecánico?"
  },
  {
   "id": "9f645942",
@@ -4190,14 +8985,49 @@
   "text": "¿Dónde está el mono?"
  },
  {
+  "id": "c3d460b3",
+  "lang": "es",
+  "text": "¿Dónde está el osito?"
+ },
+ {
   "id": "465d2fae",
   "lang": "es",
   "text": "¿Dónde está el oso?"
  },
  {
+  "id": "a067e97e",
+  "lang": "es",
+  "text": "¿Dónde está el pan?"
+ },
+ {
+  "id": "1e092c75",
+  "lang": "es",
+  "text": "¿Dónde está el papalote?"
+ },
+ {
+  "id": "77514d8d",
+  "lang": "es",
+  "text": "¿Dónde está el paraguas?"
+ },
+ {
+  "id": "b7bcbb38",
+  "lang": "es",
+  "text": "¿Dónde está el pastel?"
+ },
+ {
+  "id": "574453ed",
+  "lang": "es",
+  "text": "¿Dónde está el patín?"
+ },
+ {
   "id": "044e3195",
   "lang": "es",
   "text": "¿Dónde está el pato?"
+ },
+ {
+  "id": "3970b7fa",
+  "lang": "es",
+  "text": "¿Dónde está el peine?"
  },
  {
   "id": "c36ca413",
@@ -4210,9 +9040,139 @@
   "text": "¿Dónde está el pez?"
  },
  {
+  "id": "b185906a",
+  "lang": "es",
+  "text": "¿Dónde está el piloto?"
+ },
+ {
+  "id": "61d55197",
+  "lang": "es",
+  "text": "¿Dónde está el pingüino?"
+ },
+ {
+  "id": "ae3be9b0",
+  "lang": "es",
+  "text": "¿Dónde está el pirata?"
+ },
+ {
+  "id": "1ef0f402",
+  "lang": "es",
+  "text": "¿Dónde está el plátano?"
+ },
+ {
+  "id": "079d98fd",
+  "lang": "es",
+  "text": "¿Dónde está el plato?"
+ },
+ {
+  "id": "37f53f80",
+  "lang": "es",
+  "text": "¿Dónde está el policía?"
+ },
+ {
+  "id": "ee0607df",
+  "lang": "es",
+  "text": "¿Dónde está el pulpo?"
+ },
+ {
+  "id": "325d4daa",
+  "lang": "es",
+  "text": "¿Dónde está el queso?"
+ },
+ {
+  "id": "1af5e169",
+  "lang": "es",
+  "text": "¿Dónde está el reloj?"
+ },
+ {
+  "id": "6b8e3a4f",
+  "lang": "es",
+  "text": "¿Dónde está el robot?"
+ },
+ {
+  "id": "cb24ab39",
+  "lang": "es",
+  "text": "¿Dónde está el submarino?"
+ },
+ {
+  "id": "762a5d85",
+  "lang": "es",
+  "text": "¿Dónde está el superhéroe?"
+ },
+ {
+  "id": "61a1da78",
+  "lang": "es",
+  "text": "¿Dónde está el taco?"
+ },
+ {
+  "id": "ba677994",
+  "lang": "es",
+  "text": "¿Dónde está el tambor?"
+ },
+ {
+  "id": "b27b9ea9",
+  "lang": "es",
+  "text": "¿Dónde está el tazón?"
+ },
+ {
+  "id": "a1efc8a3",
+  "lang": "es",
+  "text": "¿Dónde está el teléfono?"
+ },
+ {
+  "id": "c53db72a",
+  "lang": "es",
+  "text": "¿Dónde está el tenedor?"
+ },
+ {
+  "id": "ffab636c",
+  "lang": "es",
+  "text": "¿Dónde está el tiburón?"
+ },
+ {
+  "id": "1a932a84",
+  "lang": "es",
+  "text": "¿Dónde está el tigre?"
+ },
+ {
+  "id": "7e7c9f79",
+  "lang": "es",
+  "text": "¿Dónde está el tiranosaurio?"
+ },
+ {
+  "id": "89f427cb",
+  "lang": "es",
+  "text": "¿Dónde está el tomate?"
+ },
+ {
+  "id": "1cbafa2e",
+  "lang": "es",
+  "text": "¿Dónde está el tractor?"
+ },
+ {
+  "id": "a248b7e0",
+  "lang": "es",
+  "text": "¿Dónde está el tren?"
+ },
+ {
+  "id": "11fe0a16",
+  "lang": "es",
+  "text": "¿Dónde está el vaso?"
+ },
+ {
   "id": "804cb390",
   "lang": "es",
   "text": "¿Dónde está la abeja?"
+ },
+ {
+  "id": "c641c05e",
+  "lang": "es",
+  "text": "¿Dónde está la almohada?"
+ },
+ {
+  "id": "4a690422",
+  "lang": "es",
+  "text": "¿Dónde está la ambulancia?"
  },
  {
   "id": "00cdf6e6",
@@ -4220,9 +9180,64 @@
   "text": "¿Dónde está la ballena?"
  },
  {
+  "id": "d18e968b",
+  "lang": "es",
+  "text": "¿Dónde está la bicicleta?"
+ },
+ {
+  "id": "c37be5db",
+  "lang": "es",
+  "text": "¿Dónde está la cama?"
+ },
+ {
+  "id": "7efc0467",
+  "lang": "es",
+  "text": "¿Dónde está la camisa?"
+ },
+ {
   "id": "24a5d578",
   "lang": "es",
   "text": "¿Dónde está la cebra?"
+ },
+ {
+  "id": "3c858cf4",
+  "lang": "es",
+  "text": "¿Dónde está la chamarra?"
+ },
+ {
+  "id": "a631ab97",
+  "lang": "es",
+  "text": "¿Dónde está la cobija?"
+ },
+ {
+  "id": "815a9b68",
+  "lang": "es",
+  "text": "¿Dónde está la cuchara?"
+ },
+ {
+  "id": "3517eee3",
+  "lang": "es",
+  "text": "¿Dónde está la curita?"
+ },
+ {
+  "id": "80573df4",
+  "lang": "es",
+  "text": "¿Dónde está la escoba?"
+ },
+ {
+  "id": "4f0d7d05",
+  "lang": "es",
+  "text": "¿Dónde está la excavadora?"
+ },
+ {
+  "id": "b78dbf3c",
+  "lang": "es",
+  "text": "¿Dónde está la fresa?"
+ },
+ {
+  "id": "06f086ad",
+  "lang": "es",
+  "text": "¿Dónde está la galleta?"
  },
  {
   "id": "3bffa22f",
@@ -4230,9 +9245,49 @@
   "text": "¿Dónde está la gallina?"
  },
  {
+  "id": "915e191e",
+  "lang": "es",
+  "text": "¿Dónde está la gorra?"
+ },
+ {
+  "id": "8adb9a4d",
+  "lang": "es",
+  "text": "¿Dónde está la grúa?"
+ },
+ {
+  "id": "613ebe40",
+  "lang": "es",
+  "text": "¿Dónde está la guitarra?"
+ },
+ {
   "id": "837262c2",
   "lang": "es",
   "text": "¿Dónde está la jirafa?"
+ },
+ {
+  "id": "083fa3ac",
+  "lang": "es",
+  "text": "¿Dónde está la leche?"
+ },
+ {
+  "id": "90047880",
+  "lang": "es",
+  "text": "¿Dónde está la linterna?"
+ },
+ {
+  "id": "f73cab67",
+  "lang": "es",
+  "text": "¿Dónde está la llave?"
+ },
+ {
+  "id": "be0c2ff8",
+  "lang": "es",
+  "text": "¿Dónde está la maestra?"
+ },
+ {
+  "id": "25959d65",
+  "lang": "es",
+  "text": "¿Dónde está la manzana?"
  },
  {
   "id": "601e78d7",
@@ -4240,14 +9295,104 @@
   "text": "¿Dónde está la mariposa?"
  },
  {
+  "id": "e7bd540a",
+  "lang": "es",
+  "text": "¿Dónde está la mochila?"
+ },
+ {
+  "id": "1786e61e",
+  "lang": "es",
+  "text": "¿Dónde está la moto?"
+ },
+ {
+  "id": "6a7536f8",
+  "lang": "es",
+  "text": "¿Dónde está la naranja?"
+ },
+ {
   "id": "460c9486",
   "lang": "es",
   "text": "¿Dónde está la oveja?"
  },
  {
+  "id": "9cd0a80d",
+  "lang": "es",
+  "text": "¿Dónde está la pala?"
+ },
+ {
+  "id": "42f76e80",
+  "lang": "es",
+  "text": "¿Dónde está la patrulla?"
+ },
+ {
+  "id": "40b2a216",
+  "lang": "es",
+  "text": "¿Dónde está la pelota?"
+ },
+ {
+  "id": "81c93fe3",
+  "lang": "es",
+  "text": "¿Dónde está la pera?"
+ },
+ {
+  "id": "5a3d3389",
+  "lang": "es",
+  "text": "¿Dónde está la pijama?"
+ },
+ {
+  "id": "0a2c30ea",
+  "lang": "es",
+  "text": "¿Dónde está la piña?"
+ },
+ {
+  "id": "c69b1dbf",
+  "lang": "es",
+  "text": "¿Dónde está la pizza?"
+ },
+ {
+  "id": "7faedc20",
+  "lang": "es",
+  "text": "¿Dónde está la puerta?"
+ },
+ {
   "id": "935c1189",
   "lang": "es",
   "text": "¿Dónde está la rana?"
+ },
+ {
+  "id": "4f1540c0",
+  "lang": "es",
+  "text": "¿Dónde está la revolvedora?"
+ },
+ {
+  "id": "ba44fb5d",
+  "lang": "es",
+  "text": "¿Dónde está la sandía?"
+ },
+ {
+  "id": "913b6de8",
+  "lang": "es",
+  "text": "¿Dónde está la silla?"
+ },
+ {
+  "id": "d4b73721",
+  "lang": "es",
+  "text": "¿Dónde está la tele?"
+ },
+ {
+  "id": "85b03f7f",
+  "lang": "es",
+  "text": "¿Dónde está la tina?"
+ },
+ {
+  "id": "44853358",
+  "lang": "es",
+  "text": "¿Dónde está la toalla?"
+ },
+ {
+  "id": "e109a91e",
+  "lang": "es",
+  "text": "¿Dónde está la tortilla?"
  },
  {
   "id": "3818c8b7",
@@ -4260,9 +9405,69 @@
   "text": "¿Dónde está la vaca?"
  },
  {
+  "id": "7f3412fc",
+  "lang": "es",
+  "text": "¿Dónde está la ventana?"
+ },
+ {
+  "id": "dc2b3b54",
+  "lang": "es",
+  "text": "¿Dónde está la zanahoria?"
+ },
+ {
   "id": "9ce5e732",
   "lang": "es",
   "text": "¿Dónde Está?"
+ },
+ {
+  "id": "c6205a7d",
+  "lang": "es",
+  "text": "¿Dónde están las botas?"
+ },
+ {
+  "id": "fd2cadaa",
+  "lang": "es",
+  "text": "¿Dónde están las burbujas?"
+ },
+ {
+  "id": "d9b4c4c9",
+  "lang": "es",
+  "text": "¿Dónde están las uvas?"
+ },
+ {
+  "id": "3e1cbaaf",
+  "lang": "es",
+  "text": "¿Dónde están los bloques?"
+ },
+ {
+  "id": "2a7471d7",
+  "lang": "es",
+  "text": "¿Dónde están los calcetines?"
+ },
+ {
+  "id": "c7ed383c",
+  "lang": "es",
+  "text": "¿Dónde están los crayones?"
+ },
+ {
+  "id": "81b9d0e6",
+  "lang": "es",
+  "text": "¿Dónde están los frijoles?"
+ },
+ {
+  "id": "5645c1b5",
+  "lang": "es",
+  "text": "¿Dónde están los lentes?"
+ },
+ {
+  "id": "c690a5f5",
+  "lang": "es",
+  "text": "¿Dónde están los pantalones?"
+ },
+ {
+  "id": "3f9cd590",
+  "lang": "es",
+  "text": "¿Dónde están los zapatos?"
  },
  {
   "id": "c611292e",
@@ -4345,11 +9550,6 @@
   "text": "¿Dónde vive la vaca?"
  },
  {
-  "id": "83a0f290",
-  "lang": "es",
-  "text": "¿Listo? ¡Aprieta vamos!"
- },
- {
   "id": "5af1fe99",
   "lang": "es",
   "text": "¿Qué plato tiene más huesos?"
@@ -4410,6 +9610,21 @@
   "text": "abeja"
  },
  {
+  "id": "8d29d6dd",
+  "lang": "es",
+  "text": "abuela"
+ },
+ {
+  "id": "7f29c0d3",
+  "lang": "es",
+  "text": "abuelo"
+ },
+ {
+  "id": "78866706",
+  "lang": "es",
+  "text": "aguacate"
+ },
+ {
   "id": "5826aa26",
   "lang": "es",
   "text": "águila"
@@ -4465,9 +9680,19 @@
   "text": "Ahora: ¡Revienta y Toca!"
  },
  {
+  "id": "6ffa6dd9",
+  "lang": "es",
+  "text": "Ahora: ¡Traza Letras!"
+ },
+ {
   "id": "46fd8552",
   "lang": "es",
   "text": "Ahora: ¡Traza Números!"
+ },
+ {
+  "id": "8be4bf8a",
+  "lang": "es",
+  "text": "almohada"
  },
  {
   "id": "1ad98352",
@@ -4480,6 +9705,11 @@
   "text": "amarillos"
  },
  {
+  "id": "cabc55ae",
+  "lang": "es",
+  "text": "ambulancia"
+ },
+ {
   "id": "77172418",
   "lang": "es",
   "text": "anaranjado"
@@ -4488,6 +9718,11 @@
   "id": "e46e5471",
   "lang": "es",
   "text": "anaranjados"
+ },
+ {
+  "id": "1cb43b0b",
+  "lang": "es",
+  "text": "Animales"
  },
  {
   "id": "187897dd",
@@ -4500,9 +9735,24 @@
   "text": "ardilla"
  },
  {
+  "id": "9e7cfceb",
+  "lang": "es",
+  "text": "arroz"
+ },
+ {
+  "id": "a21a8e11",
+  "lang": "es",
+  "text": "astronauta"
+ },
+ {
   "id": "ce4d1c6d",
   "lang": "es",
   "text": "asustado"
+ },
+ {
+  "id": "c13258c9",
+  "lang": "es",
+  "text": "autobús"
  },
  {
   "id": "50bba4f6",
@@ -4525,9 +9775,19 @@
   "text": "azules"
  },
  {
+  "id": "2643eedb",
+  "lang": "es",
+  "text": "bacinica"
+ },
+ {
   "id": "fa190260",
   "lang": "es",
   "text": "ballena"
+ },
+ {
+  "id": "2f3258ef",
+  "lang": "es",
+  "text": "balón"
  },
  {
   "id": "e8816b12",
@@ -4535,9 +9795,39 @@
   "text": "barco"
  },
  {
+  "id": "e4d94238",
+  "lang": "es",
+  "text": "basurero"
+ },
+ {
+  "id": "f961860f",
+  "lang": "es",
+  "text": "bebé"
+ },
+ {
+  "id": "068ece5e",
+  "lang": "es",
+  "text": "biberón"
+ },
+ {
   "id": "a23f5853",
   "lang": "es",
   "text": "bicicleta"
+ },
+ {
+  "id": "7e3b32f8",
+  "lang": "es",
+  "text": "bloques"
+ },
+ {
+  "id": "3006b349",
+  "lang": "es",
+  "text": "bombero"
+ },
+ {
+  "id": "cc9009d4",
+  "lang": "es",
+  "text": "botas"
  },
  {
   "id": "06024e34",
@@ -4545,9 +9835,34 @@
   "text": "both"
  },
  {
+  "id": "cf653b8d",
+  "lang": "es",
+  "text": "brócoli"
+ },
+ {
   "id": "c57bba26",
   "lang": "es",
   "text": "búho"
+ },
+ {
+  "id": "710fb650",
+  "lang": "es",
+  "text": "bulldozer"
+ },
+ {
+  "id": "8718b71d",
+  "lang": "es",
+  "text": "burbujas"
+ },
+ {
+  "id": "5ba3f6df",
+  "lang": "es",
+  "text": "burro"
+ },
+ {
+  "id": "19e9130e",
+  "lang": "es",
+  "text": "caballero"
  },
  {
   "id": "386f0537",
@@ -4555,9 +9870,49 @@
   "text": "caballo"
  },
  {
+  "id": "440ce930",
+  "lang": "es",
+  "text": "calcetines"
+ },
+ {
+  "id": "48837315",
+  "lang": "es",
+  "text": "cama"
+ },
+ {
+  "id": "3d5d68fc",
+  "lang": "es",
+  "text": "camión"
+ },
+ {
+  "id": "b358212c",
+  "lang": "es",
+  "text": "camión de bomberos"
+ },
+ {
+  "id": "9c8b9962",
+  "lang": "es",
+  "text": "camión de la basura"
+ },
+ {
+  "id": "2b02a81e",
+  "lang": "es",
+  "text": "camión de volteo"
+ },
+ {
+  "id": "459aa881",
+  "lang": "es",
+  "text": "camisa"
+ },
+ {
   "id": "d296b23e",
   "lang": "es",
   "text": "cangrejo"
+ },
+ {
+  "id": "d87fb12c",
+  "lang": "es",
+  "text": "canguro"
  },
  {
   "id": "6de1e2c8",
@@ -4570,14 +9925,34 @@
   "text": "carro"
  },
  {
+  "id": "8f03f752",
+  "lang": "es",
+  "text": "carro de carreras"
+ },
+ {
+  "id": "52fb7207",
+  "lang": "es",
+  "text": "cartero"
+ },
+ {
   "id": "8d3b49e1",
   "lang": "es",
   "text": "Casas de Animales"
  },
  {
+  "id": "f76b4798",
+  "lang": "es",
+  "text": "catarina"
+ },
+ {
   "id": "b0dd5aa6",
   "lang": "es",
   "text": "cebra"
+ },
+ {
+  "id": "ee7242cc",
+  "lang": "es",
+  "text": "cepillo de dientes"
  },
  {
   "id": "0b1d610e",
@@ -4590,9 +9965,24 @@
   "text": "cero"
  },
  {
+  "id": "f23921fc",
+  "lang": "es",
+  "text": "chamarra"
+ },
+ {
+  "id": "b8022a16",
+  "lang": "es",
+  "text": "chiva"
+ },
+ {
   "id": "65f45e93",
   "lang": "es",
   "text": "cielo"
+ },
+ {
+  "id": "da48594c",
+  "lang": "es",
+  "text": "científico"
  },
  {
   "id": "60326465",
@@ -4610,6 +10000,26 @@
   "text": "Clasificar y lógica"
  },
  {
+  "id": "30c6412d",
+  "lang": "es",
+  "text": "cobija"
+ },
+ {
+  "id": "5f60f247",
+  "lang": "es",
+  "text": "cocinero"
+ },
+ {
+  "id": "848ad61d",
+  "lang": "es",
+  "text": "cocodrilo"
+ },
+ {
+  "id": "be16dbdd",
+  "lang": "es",
+  "text": "cohete"
+ },
+ {
   "id": "e8eb0310",
   "lang": "es",
   "text": "Colores y contar"
@@ -4620,9 +10030,19 @@
   "text": "comida"
  },
  {
+  "id": "7686f788",
+  "lang": "es",
+  "text": "Comida"
+ },
+ {
   "id": "c81d63bb",
   "lang": "es",
   "text": "conejo"
+ },
+ {
+  "id": "3095eef5",
+  "lang": "es",
+  "text": "constructor"
  },
  {
   "id": "db82790d",
@@ -4645,6 +10065,16 @@
   "text": "corazón"
  },
  {
+  "id": "9d377d22",
+  "lang": "es",
+  "text": "Cosas"
+ },
+ {
+  "id": "0f2a5915",
+  "lang": "es",
+  "text": "crayones"
+ },
+ {
   "id": "76dbbaad",
   "lang": "es",
   "text": "Creatividad y construir"
@@ -4665,6 +10095,16 @@
   "text": "cuatro"
  },
  {
+  "id": "103c4a1e",
+  "lang": "es",
+  "text": "cuchara"
+ },
+ {
+  "id": "ce9293ad",
+  "lang": "es",
+  "text": "curita"
+ },
+ {
   "id": "0fed5e45",
   "lang": "es",
   "text": "Dales de Comer"
@@ -4675,9 +10115,24 @@
   "text": "delfín"
  },
  {
+  "id": "1e9014a1",
+  "lang": "es",
+  "text": "dentista"
+ },
+ {
   "id": "668413d7",
   "lang": "es",
   "text": "diez"
+ },
+ {
+  "id": "f82b0b30",
+  "lang": "es",
+  "text": "dinosaurio"
+ },
+ {
+  "id": "430155ec",
+  "lang": "es",
+  "text": "doctor"
  },
  {
   "id": "cf503feb",
@@ -4688,6 +10143,31 @@
   "id": "5aef27a5",
   "lang": "es",
   "text": "Ejercicio Mental"
+ },
+ {
+  "id": "b724aba2",
+  "lang": "es",
+  "text": "El conejo está todo sucio"
+ },
+ {
+  "id": "395e0992",
+  "lang": "es",
+  "text": "El conejo necesita lavarse los dientes"
+ },
+ {
+  "id": "cae7c226",
+  "lang": "es",
+  "text": "El conejo no ve nada en la oscuridad"
+ },
+ {
+  "id": "dce048aa",
+  "lang": "es",
+  "text": "El conejo quiere jugar"
+ },
+ {
+  "id": "27b16135",
+  "lang": "es",
+  "text": "El conejo se está mojando con la lluvia"
  },
  {
   "id": "b8334729",
@@ -4715,6 +10195,31 @@
   "text": "El conejo tiene sueño"
  },
  {
+  "id": "08766b00",
+  "lang": "es",
+  "text": "El gatito está todo sucio"
+ },
+ {
+  "id": "80df7f94",
+  "lang": "es",
+  "text": "El gatito necesita lavarse los dientes"
+ },
+ {
+  "id": "6fbdc92c",
+  "lang": "es",
+  "text": "El gatito no ve nada en la oscuridad"
+ },
+ {
+  "id": "7b406a24",
+  "lang": "es",
+  "text": "El gatito quiere jugar"
+ },
+ {
+  "id": "f8d4725b",
+  "lang": "es",
+  "text": "El gatito se está mojando con la lluvia"
+ },
+ {
   "id": "4322e877",
   "lang": "es",
   "text": "El gatito se lastimó"
@@ -4738,6 +10243,31 @@
   "id": "73755a64",
   "lang": "es",
   "text": "El gatito tiene sueño"
+ },
+ {
+  "id": "f0e94755",
+  "lang": "es",
+  "text": "El oso está todo sucio"
+ },
+ {
+  "id": "041a71f7",
+  "lang": "es",
+  "text": "El oso necesita lavarse los dientes"
+ },
+ {
+  "id": "c1e4e03b",
+  "lang": "es",
+  "text": "El oso no ve nada en la oscuridad"
+ },
+ {
+  "id": "48e1ffcb",
+  "lang": "es",
+  "text": "El oso quiere jugar"
+ },
+ {
+  "id": "8644a986",
+  "lang": "es",
+  "text": "El oso se está mojando con la lluvia"
  },
  {
   "id": "5572331c",
@@ -4765,6 +10295,31 @@
   "text": "El oso tiene sueño"
  },
  {
+  "id": "666d4112",
+  "lang": "es",
+  "text": "El panda está todo sucio"
+ },
+ {
+  "id": "7e16fc42",
+  "lang": "es",
+  "text": "El panda necesita lavarse los dientes"
+ },
+ {
+  "id": "38ba6796",
+  "lang": "es",
+  "text": "El panda no ve nada en la oscuridad"
+ },
+ {
+  "id": "bcc524fa",
+  "lang": "es",
+  "text": "El panda quiere jugar"
+ },
+ {
+  "id": "4bb445a5",
+  "lang": "es",
+  "text": "El panda se está mojando con la lluvia"
+ },
+ {
   "id": "a66422d9",
   "lang": "es",
   "text": "El panda se lastimó"
@@ -4790,6 +10345,31 @@
   "text": "El panda tiene sueño"
  },
  {
+  "id": "3b3c0ae5",
+  "lang": "es",
+  "text": "El perrito está todo sucio"
+ },
+ {
+  "id": "3bde7cc7",
+  "lang": "es",
+  "text": "El perrito necesita lavarse los dientes"
+ },
+ {
+  "id": "25b7dccb",
+  "lang": "es",
+  "text": "El perrito no ve nada en la oscuridad"
+ },
+ {
+  "id": "da6140fb",
+  "lang": "es",
+  "text": "El perrito quiere jugar"
+ },
+ {
+  "id": "b2c80316",
+  "lang": "es",
+  "text": "El perrito se está mojando con la lluvia"
+ },
+ {
   "id": "e792036c",
   "lang": "es",
   "text": "El perrito se lastimó"
@@ -4813,6 +10393,31 @@
   "id": "e58ccbb1",
   "lang": "es",
   "text": "El perrito tiene sueño"
+ },
+ {
+  "id": "c48ec426",
+  "lang": "es",
+  "text": "El zorro está todo sucio"
+ },
+ {
+  "id": "afd3d21e",
+  "lang": "es",
+  "text": "El zorro necesita lavarse los dientes"
+ },
+ {
+  "id": "31a871ea",
+  "lang": "es",
+  "text": "El zorro no ve nada en la oscuridad"
+ },
+ {
+  "id": "b7f1461e",
+  "lang": "es",
+  "text": "El zorro quiere jugar"
+ },
+ {
+  "id": "3d9dc401",
+  "lang": "es",
+  "text": "El zorro se está mojando con la lluvia"
  },
  {
   "id": "be0af855",
@@ -4845,6 +10450,11 @@
   "text": "elefante"
  },
  {
+  "id": "1622e008",
+  "lang": "es",
+  "text": "elote"
+ },
+ {
   "id": "76b3c8c0",
   "lang": "es",
   "text": "Emociones y bondad"
@@ -4868,6 +10478,11 @@
   "id": "9174d5ee",
   "lang": "es",
   "text": "en la granja"
+ },
+ {
+  "id": "9d568b3a",
+  "lang": "es",
+  "text": "enfermera"
  },
  {
   "id": "e35bffd5",
@@ -4900,9 +10515,34 @@
   "text": "Esa es la abeja."
  },
  {
+  "id": "3fe7f7d8",
+  "lang": "es",
+  "text": "Esa es la almohada."
+ },
+ {
+  "id": "347893ac",
+  "lang": "es",
+  "text": "Esa es la ambulancia."
+ },
+ {
   "id": "fb17e34e",
   "lang": "es",
   "text": "Esa es la ballena."
+ },
+ {
+  "id": "446155b3",
+  "lang": "es",
+  "text": "Esa es la bicicleta."
+ },
+ {
+  "id": "52b47145",
+  "lang": "es",
+  "text": "Esa es la cama."
+ },
+ {
+  "id": "7576ae01",
+  "lang": "es",
+  "text": "Esa es la camisa."
  },
  {
   "id": "d4f392f4",
@@ -4910,9 +10550,64 @@
   "text": "Esa es la cebra."
  },
  {
+  "id": "41ccb26a",
+  "lang": "es",
+  "text": "Esa es la chamarra."
+ },
+ {
+  "id": "195da30d",
+  "lang": "es",
+  "text": "Esa es la cobija."
+ },
+ {
+  "id": "be73f21c",
+  "lang": "es",
+  "text": "Esa es la cuchara."
+ },
+ {
+  "id": "826515e5",
+  "lang": "es",
+  "text": "Esa es la curita."
+ },
+ {
+  "id": "57191216",
+  "lang": "es",
+  "text": "Esa es la escoba."
+ },
+ {
+  "id": "6fe0ba5f",
+  "lang": "es",
+  "text": "Esa es la excavadora."
+ },
+ {
+  "id": "de5767e4",
+  "lang": "es",
+  "text": "Esa es la fresa."
+ },
+ {
+  "id": "bfe3c5d9",
+  "lang": "es",
+  "text": "Esa es la galleta."
+ },
+ {
   "id": "a8bd8a93",
   "lang": "es",
   "text": "Esa es la gallina."
+ },
+ {
+  "id": "40d0b12a",
+  "lang": "es",
+  "text": "Esa es la gorra."
+ },
+ {
+  "id": "749af84f",
+  "lang": "es",
+  "text": "Esa es la grúa."
+ },
+ {
+  "id": "7f130a4e",
+  "lang": "es",
+  "text": "Esa es la guitarra."
  },
  {
   "id": "6068b480",
@@ -4920,9 +10615,49 @@
   "text": "Esa es la jirafa."
  },
  {
+  "id": "b40e82e4",
+  "lang": "es",
+  "text": "Esa es la leche."
+ },
+ {
+  "id": "a9b47f36",
+  "lang": "es",
+  "text": "Esa es la linterna."
+ },
+ {
+  "id": "9b5ef7fb",
+  "lang": "es",
+  "text": "Esa es la llave."
+ },
+ {
+  "id": "e3febb78",
+  "lang": "es",
+  "text": "Esa es la maestra."
+ },
+ {
+  "id": "878669a9",
+  "lang": "es",
+  "text": "Esa es la manzana."
+ },
+ {
   "id": "89001595",
   "lang": "es",
   "text": "Esa es la mariposa."
+ },
+ {
+  "id": "270ae412",
+  "lang": "es",
+  "text": "Esa es la mochila."
+ },
+ {
+  "id": "a4473bc4",
+  "lang": "es",
+  "text": "Esa es la moto."
+ },
+ {
+  "id": "cf987a6c",
+  "lang": "es",
+  "text": "Esa es la naranja."
  },
  {
   "id": "5db7e0da",
@@ -4930,9 +10665,84 @@
   "text": "Esa es la oveja."
  },
  {
+  "id": "bf0af213",
+  "lang": "es",
+  "text": "Esa es la pala."
+ },
+ {
+  "id": "4ff8dc0e",
+  "lang": "es",
+  "text": "Esa es la patrulla."
+ },
+ {
+  "id": "ff444500",
+  "lang": "es",
+  "text": "Esa es la pelota."
+ },
+ {
+  "id": "2a6a55cd",
+  "lang": "es",
+  "text": "Esa es la pera."
+ },
+ {
+  "id": "cfd890cf",
+  "lang": "es",
+  "text": "Esa es la pijama."
+ },
+ {
+  "id": "66ba7a40",
+  "lang": "es",
+  "text": "Esa es la piña."
+ },
+ {
+  "id": "71e2a263",
+  "lang": "es",
+  "text": "Esa es la pizza."
+ },
+ {
+  "id": "81e94a2e",
+  "lang": "es",
+  "text": "Esa es la puerta."
+ },
+ {
   "id": "ab0ae9b7",
   "lang": "es",
   "text": "Esa es la rana."
+ },
+ {
+  "id": "9c45306c",
+  "lang": "es",
+  "text": "Esa es la revolvedora."
+ },
+ {
+  "id": "08a86873",
+  "lang": "es",
+  "text": "Esa es la sandía."
+ },
+ {
+  "id": "9d1c39f8",
+  "lang": "es",
+  "text": "Esa es la silla."
+ },
+ {
+  "id": "3d70b31f",
+  "lang": "es",
+  "text": "Esa es la tele."
+ },
+ {
+  "id": "2d167761",
+  "lang": "es",
+  "text": "Esa es la tina."
+ },
+ {
+  "id": "d0c776d6",
+  "lang": "es",
+  "text": "Esa es la toalla."
+ },
+ {
+  "id": "3a920aa8",
+  "lang": "es",
+  "text": "Esa es la tortilla."
  },
  {
   "id": "5ef05207",
@@ -4943,6 +10753,16 @@
   "id": "bff609a8",
   "lang": "es",
   "text": "Esa es la vaca."
+ },
+ {
+  "id": "43edf2e8",
+  "lang": "es",
+  "text": "Esa es la ventana."
+ },
+ {
+  "id": "958e9060",
+  "lang": "es",
+  "text": "Esa es la zanahoria."
  },
  {
   "id": "6c99bc5a",
@@ -4960,9 +10780,74 @@
   "text": "Esa es verde."
  },
  {
+  "id": "f0164cbc",
+  "lang": "es",
+  "text": "Esas son las botas."
+ },
+ {
+  "id": "ce3a8333",
+  "lang": "es",
+  "text": "Esas son las burbujas."
+ },
+ {
+  "id": "331b2940",
+  "lang": "es",
+  "text": "Esas son las uvas."
+ },
+ {
+  "id": "85566af0",
+  "lang": "es",
+  "text": "escoba"
+ },
+ {
   "id": "2345a611",
   "lang": "es",
   "text": "Escuchar y vocabulario"
+ },
+ {
+  "id": "812f6636",
+  "lang": "es",
+  "text": "Ese es el aguacate."
+ },
+ {
+  "id": "176f7011",
+  "lang": "es",
+  "text": "Ese es el arroz."
+ },
+ {
+  "id": "c0e51c13",
+  "lang": "es",
+  "text": "Ese es el astronauta."
+ },
+ {
+  "id": "81ac320f",
+  "lang": "es",
+  "text": "Ese es el autobús."
+ },
+ {
+  "id": "4db92e66",
+  "lang": "es",
+  "text": "Ese es el avión."
+ },
+ {
+  "id": "a592e10e",
+  "lang": "es",
+  "text": "Ese es el barco."
+ },
+ {
+  "id": "ca254dec",
+  "lang": "es",
+  "text": "Ese es el basurero."
+ },
+ {
+  "id": "b11be25b",
+  "lang": "es",
+  "text": "Ese es el bombero."
+ },
+ {
+  "id": "24e9e7cf",
+  "lang": "es",
+  "text": "Ese es el brócoli."
  },
  {
   "id": "d4622862",
@@ -4970,9 +10855,39 @@
   "text": "Ese es el búho."
  },
  {
+  "id": "6ca87194",
+  "lang": "es",
+  "text": "Ese es el bulldozer."
+ },
+ {
+  "id": "76aa6972",
+  "lang": "es",
+  "text": "Ese es el caballero."
+ },
+ {
   "id": "dacf51c9",
   "lang": "es",
   "text": "Ese es el caballo."
+ },
+ {
+  "id": "b632ee70",
+  "lang": "es",
+  "text": "Ese es el camión de bomberos."
+ },
+ {
+  "id": "33a6626e",
+  "lang": "es",
+  "text": "Ese es el camión de la basura."
+ },
+ {
+  "id": "e155aff6",
+  "lang": "es",
+  "text": "Ese es el camión de volteo."
+ },
+ {
+  "id": "055e32d8",
+  "lang": "es",
+  "text": "Ese es el camión."
  },
  {
   "id": "18afaa94",
@@ -4980,9 +10895,34 @@
   "text": "Ese es el caracol."
  },
  {
+  "id": "5978093a",
+  "lang": "es",
+  "text": "Ese es el carro de carreras."
+ },
+ {
+  "id": "a2efb4ac",
+  "lang": "es",
+  "text": "Ese es el carro."
+ },
+ {
+  "id": "45184325",
+  "lang": "es",
+  "text": "Ese es el cartero."
+ },
+ {
+  "id": "7d4f770c",
+  "lang": "es",
+  "text": "Ese es el cepillo de dientes."
+ },
+ {
   "id": "b737bf06",
   "lang": "es",
   "text": "Ese es el cerdo."
+ },
+ {
+  "id": "1279e158",
+  "lang": "es",
+  "text": "Ese es el científico."
  },
  {
   "id": "223d975d",
@@ -5005,9 +10945,24 @@
   "text": "Ese es el cinco. ¡Necesitamos el uno!"
  },
  {
+  "id": "a82783a1",
+  "lang": "es",
+  "text": "Ese es el cocinero."
+ },
+ {
+  "id": "874a0f4f",
+  "lang": "es",
+  "text": "Ese es el cohete."
+ },
+ {
   "id": "cd3df061",
   "lang": "es",
   "text": "Ese es el conejo."
+ },
+ {
+  "id": "7057c6cb",
+  "lang": "es",
+  "text": "Ese es el constructor."
  },
  {
   "id": "b2458437",
@@ -5028,6 +10983,21 @@
   "id": "ad9c41ff",
   "lang": "es",
   "text": "Ese es el cuatro. ¡Necesitamos el uno!"
+ },
+ {
+  "id": "cc91d75b",
+  "lang": "es",
+  "text": "Ese es el dentista."
+ },
+ {
+  "id": "e928bbdc",
+  "lang": "es",
+  "text": "Ese es el dinosaurio."
+ },
+ {
+  "id": "a144f2cc",
+  "lang": "es",
+  "text": "Ese es el doctor."
  },
  {
   "id": "e70b4b51",
@@ -5055,9 +11025,59 @@
   "text": "Ese es el elefante."
  },
  {
+  "id": "87584668",
+  "lang": "es",
+  "text": "Ese es el elote."
+ },
+ {
+  "id": "c097f620",
+  "lang": "es",
+  "text": "Ese es el futbolista."
+ },
+ {
   "id": "6710c126",
   "lang": "es",
   "text": "Ese es el gato."
+ },
+ {
+  "id": "81462a06",
+  "lang": "es",
+  "text": "Ese es el globo."
+ },
+ {
+  "id": "e0f4c621",
+  "lang": "es",
+  "text": "Ese es el granjero."
+ },
+ {
+  "id": "a28d655e",
+  "lang": "es",
+  "text": "Ese es el helado."
+ },
+ {
+  "id": "c96bd87d",
+  "lang": "es",
+  "text": "Ese es el helicóptero."
+ },
+ {
+  "id": "2b7793a1",
+  "lang": "es",
+  "text": "Ese es el hipopótamo."
+ },
+ {
+  "id": "61a29750",
+  "lang": "es",
+  "text": "Ese es el huevo."
+ },
+ {
+  "id": "7ec39223",
+  "lang": "es",
+  "text": "Ese es el jabón."
+ },
+ {
+  "id": "37e766b0",
+  "lang": "es",
+  "text": "Ese es el jugo."
  },
  {
   "id": "7e23e62b",
@@ -5065,9 +11085,29 @@
   "text": "Ese es el león."
  },
  {
+  "id": "fd64c6eb",
+  "lang": "es",
+  "text": "Ese es el libro."
+ },
+ {
+  "id": "6918ead5",
+  "lang": "es",
+  "text": "Ese es el martillo."
+ },
+ {
+  "id": "3a685da2",
+  "lang": "es",
+  "text": "Ese es el mecánico."
+ },
+ {
   "id": "7e205dc4",
   "lang": "es",
   "text": "Ese es el mono."
+ },
+ {
+  "id": "0510b15b",
+  "lang": "es",
+  "text": "Ese es el osito."
  },
  {
   "id": "8a1b33fa",
@@ -5075,9 +11115,39 @@
   "text": "Ese es el oso."
  },
  {
+  "id": "dc3a423e",
+  "lang": "es",
+  "text": "Ese es el pan."
+ },
+ {
+  "id": "b713fd0b",
+  "lang": "es",
+  "text": "Ese es el papalote."
+ },
+ {
+  "id": "5f907c4b",
+  "lang": "es",
+  "text": "Ese es el paraguas."
+ },
+ {
+  "id": "7a99b5ee",
+  "lang": "es",
+  "text": "Ese es el pastel."
+ },
+ {
+  "id": "467e3665",
+  "lang": "es",
+  "text": "Ese es el patín."
+ },
+ {
   "id": "8226e31b",
   "lang": "es",
   "text": "Ese es el pato."
+ },
+ {
+  "id": "7c74f6ce",
+  "lang": "es",
+  "text": "Ese es el peine."
  },
  {
   "id": "a4f1f973",
@@ -5088,6 +11158,121 @@
   "id": "a7cfaf5e",
   "lang": "es",
   "text": "Ese es el pez."
+ },
+ {
+  "id": "0c2c89a4",
+  "lang": "es",
+  "text": "Ese es el piloto."
+ },
+ {
+  "id": "27dd64d5",
+  "lang": "es",
+  "text": "Ese es el pingüino."
+ },
+ {
+  "id": "4a517eae",
+  "lang": "es",
+  "text": "Ese es el pirata."
+ },
+ {
+  "id": "b77b0c06",
+  "lang": "es",
+  "text": "Ese es el plátano."
+ },
+ {
+  "id": "3ce39785",
+  "lang": "es",
+  "text": "Ese es el plato."
+ },
+ {
+  "id": "2a5021e0",
+  "lang": "es",
+  "text": "Ese es el policía."
+ },
+ {
+  "id": "9d38a183",
+  "lang": "es",
+  "text": "Ese es el pulpo."
+ },
+ {
+  "id": "08ebb4ce",
+  "lang": "es",
+  "text": "Ese es el queso."
+ },
+ {
+  "id": "fe4715e5",
+  "lang": "es",
+  "text": "Ese es el reloj."
+ },
+ {
+  "id": "5b6b542b",
+  "lang": "es",
+  "text": "Ese es el robot."
+ },
+ {
+  "id": "b2332ef9",
+  "lang": "es",
+  "text": "Ese es el submarino."
+ },
+ {
+  "id": "a86d5e2b",
+  "lang": "es",
+  "text": "Ese es el superhéroe."
+ },
+ {
+  "id": "a287bcc2",
+  "lang": "es",
+  "text": "Ese es el taco."
+ },
+ {
+  "id": "7f418da2",
+  "lang": "es",
+  "text": "Ese es el tambor."
+ },
+ {
+  "id": "b67a16f5",
+  "lang": "es",
+  "text": "Ese es el tazón."
+ },
+ {
+  "id": "5a8b8879",
+  "lang": "es",
+  "text": "Ese es el teléfono."
+ },
+ {
+  "id": "cdfd87c6",
+  "lang": "es",
+  "text": "Ese es el tenedor."
+ },
+ {
+  "id": "498612b4",
+  "lang": "es",
+  "text": "Ese es el tiburón."
+ },
+ {
+  "id": "de5cb0a4",
+  "lang": "es",
+  "text": "Ese es el tigre."
+ },
+ {
+  "id": "cb977b57",
+  "lang": "es",
+  "text": "Ese es el tiranosaurio."
+ },
+ {
+  "id": "88d34095",
+  "lang": "es",
+  "text": "Ese es el tomate."
+ },
+ {
+  "id": "d88374da",
+  "lang": "es",
+  "text": "Ese es el tractor."
+ },
+ {
+  "id": "eb10b476",
+  "lang": "es",
+  "text": "Ese es el tren."
  },
  {
   "id": "6e4b8287",
@@ -5128,6 +11313,11 @@
   "id": "f249ea2d",
   "lang": "es",
   "text": "Ese es el uno. ¡Necesitamos el tres!"
+ },
+ {
+  "id": "525427c4",
+  "lang": "es",
+  "text": "Ese es el vaso."
  },
  {
   "id": "46241682",
@@ -5180,14 +11370,59 @@
   "text": "Ese plato tiene menos. ¡Mira otra vez!"
  },
  {
+  "id": "68923c50",
+  "lang": "es",
+  "text": "Esos son los bloques."
+ },
+ {
+  "id": "6e5878a8",
+  "lang": "es",
+  "text": "Esos son los calcetines."
+ },
+ {
+  "id": "224ca673",
+  "lang": "es",
+  "text": "Esos son los crayones."
+ },
+ {
+  "id": "7c765635",
+  "lang": "es",
+  "text": "Esos son los frijoles."
+ },
+ {
+  "id": "943a4216",
+  "lang": "es",
+  "text": "Esos son los lentes."
+ },
+ {
+  "id": "a2c0fdde",
+  "lang": "es",
+  "text": "Esos son los pantalones."
+ },
+ {
+  "id": "9f9acfb7",
+  "lang": "es",
+  "text": "Esos son los zapatos."
+ },
+ {
   "id": "1f47b5dc",
   "lang": "es",
   "text": "Español"
  },
  {
+  "id": "12090ae1",
+  "lang": "es",
+  "text": "está todo sucio"
+ },
+ {
   "id": "0d3839ef",
   "lang": "es",
   "text": "estrella"
+ },
+ {
+  "id": "811b8d5f",
+  "lang": "es",
+  "text": "excavadora"
  },
  {
   "id": "51c38f21",
@@ -5205,6 +11440,11 @@
   "text": "Figuras y Sombras"
  },
  {
+  "id": "83507224",
+  "lang": "es",
+  "text": "flor"
+ },
+ {
   "id": "4cd44df4",
   "lang": "es",
   "text": "foca"
@@ -5213,6 +11453,21 @@
   "id": "b811d37e",
   "lang": "es",
   "text": "fresa"
+ },
+ {
+  "id": "95c4121f",
+  "lang": "es",
+  "text": "frijoles"
+ },
+ {
+  "id": "12d62250",
+  "lang": "es",
+  "text": "futbolista"
+ },
+ {
+  "id": "176080f1",
+  "lang": "es",
+  "text": "galleta"
  },
  {
   "id": "fa8d6bab",
@@ -5240,9 +11495,29 @@
   "text": "globo"
  },
  {
+  "id": "d501749b",
+  "lang": "es",
+  "text": "gorila"
+ },
+ {
+  "id": "9d6936dc",
+  "lang": "es",
+  "text": "gorra"
+ },
+ {
   "id": "12568db8",
   "lang": "es",
   "text": "granja"
+ },
+ {
+  "id": "042eff57",
+  "lang": "es",
+  "text": "granjero"
+ },
+ {
+  "id": "af43b6d7",
+  "lang": "es",
+  "text": "grúa"
  },
  {
   "id": "88fe8ad0",
@@ -5250,9 +11525,19 @@
   "text": "guitarra"
  },
  {
+  "id": "1c27f0ea",
+  "lang": "es",
+  "text": "helado"
+ },
+ {
   "id": "5c11be07",
   "lang": "es",
   "text": "helicóptero"
+ },
+ {
+  "id": "33f865ff",
+  "lang": "es",
+  "text": "hermano"
  },
  {
   "id": "0db734e6",
@@ -5260,9 +11545,49 @@
   "text": "hexágono"
  },
  {
+  "id": "8085d45b",
+  "lang": "es",
+  "text": "hipopótamo"
+ },
+ {
+  "id": "4de83fc1",
+  "lang": "es",
+  "text": "hueso"
+ },
+ {
+  "id": "4ddff0fc",
+  "lang": "es",
+  "text": "huevo"
+ },
+ {
+  "id": "00c0f0f8",
+  "lang": "es",
+  "text": "iguana"
+ },
+ {
+  "id": "8fbe0f5d",
+  "lang": "es",
+  "text": "jabón"
+ },
+ {
+  "id": "81bb6225",
+  "lang": "es",
+  "text": "jaguar"
+ },
+ {
   "id": "3c6702fa",
   "lang": "es",
   "text": "jirafa"
+ },
+ {
+  "id": "2bc59d9c",
+  "lang": "es",
+  "text": "jugo"
+ },
+ {
+  "id": "0e247077",
+  "lang": "es",
+  "text": "koala"
  },
  {
   "id": "9f677825",
@@ -5275,14 +11600,69 @@
   "text": "Laberinto Espacial"
  },
  {
+  "id": "5e6022a6",
+  "lang": "es",
+  "text": "leche"
+ },
+ {
+  "id": "cd211b06",
+  "lang": "es",
+  "text": "lentes"
+ },
+ {
   "id": "052c9971",
   "lang": "es",
   "text": "león"
  },
  {
+  "id": "07d2bff1",
+  "lang": "es",
+  "text": "Letras y primeros sonidos"
+ },
+ {
+  "id": "e8efae19",
+  "lang": "es",
+  "text": "libro"
+ },
+ {
+  "id": "53a68dd8",
+  "lang": "es",
+  "text": "linterna"
+ },
+ {
+  "id": "b047cb03",
+  "lang": "es",
+  "text": "llave"
+ },
+ {
+  "id": "79f854dd",
+  "lang": "es",
+  "text": "lobo"
+ },
+ {
   "id": "65cc416d",
   "lang": "es",
   "text": "luna"
+ },
+ {
+  "id": "6778b01a",
+  "lang": "es",
+  "text": "luz"
+ },
+ {
+  "id": "ce59078a",
+  "lang": "es",
+  "text": "maestra"
+ },
+ {
+  "id": "1396fd7b",
+  "lang": "es",
+  "text": "mamá"
+ },
+ {
+  "id": "0be01641",
+  "lang": "es",
+  "text": "manzana"
  },
  {
   "id": "f4b43d35",
@@ -5293,6 +11673,16 @@
   "id": "d5aeaa0d",
   "lang": "es",
   "text": "mariposa"
+ },
+ {
+  "id": "25ad4023",
+  "lang": "es",
+  "text": "martillo"
+ },
+ {
+  "id": "2d8cafc2",
+  "lang": "es",
+  "text": "mecánico"
  },
  {
   "id": "8109325b",
@@ -5345,6 +11735,11 @@
   "text": "Mmm, ese no."
  },
  {
+  "id": "04f3549c",
+  "lang": "es",
+  "text": "mochila"
+ },
+ {
   "id": "6d296730",
   "lang": "es",
   "text": "mono"
@@ -5360,9 +11755,34 @@
   "text": "morados"
  },
  {
+  "id": "4d69dc26",
+  "lang": "es",
+  "text": "moto"
+ },
+ {
+  "id": "b0076666",
+  "lang": "es",
+  "text": "naranja"
+ },
+ {
+  "id": "9edff22b",
+  "lang": "es",
+  "text": "necesita lavarse los dientes"
+ },
+ {
+  "id": "9fab25c3",
+  "lang": "es",
+  "text": "nido"
+ },
+ {
   "id": "cfa223e4",
   "lang": "es",
   "text": "No cabe. ¡Prueba en otro lugar!"
+ },
+ {
+  "id": "fbc6d6d7",
+  "lang": "es",
+  "text": "no ve nada en la oscuridad"
  },
  {
   "id": "7507a554",
@@ -5373,6 +11793,11 @@
   "id": "faa110da",
   "lang": "es",
   "text": "Números y motricidad fina"
+ },
+ {
+  "id": "a4e5d468",
+  "lang": "es",
+  "text": "océano"
  },
  {
   "id": "109d82c4",
@@ -5420,9 +11845,34 @@
   "text": "pajarito"
  },
  {
+  "id": "97232cfb",
+  "lang": "es",
+  "text": "pala"
+ },
+ {
+  "id": "3c32eabe",
+  "lang": "es",
+  "text": "pan"
+ },
+ {
+  "id": "5c6bc6b2",
+  "lang": "es",
+  "text": "pañal"
+ },
+ {
   "id": "47826b5d",
   "lang": "es",
   "text": "panda"
+ },
+ {
+  "id": "b77f3ba6",
+  "lang": "es",
+  "text": "pantalones"
+ },
+ {
+  "id": "1f408527",
+  "lang": "es",
+  "text": "papá"
  },
  {
   "id": "de232b1d",
@@ -5440,6 +11890,11 @@
   "text": "Parar por ahora"
  },
  {
+  "id": "4a8a072a",
+  "lang": "es",
+  "text": "pastel"
+ },
+ {
   "id": "c9512cab",
   "lang": "es",
   "text": "patín"
@@ -5448,6 +11903,21 @@
   "id": "9536b18d",
   "lang": "es",
   "text": "pato"
+ },
+ {
+  "id": "b7b8a278",
+  "lang": "es",
+  "text": "patrulla"
+ },
+ {
+  "id": "8f0576d6",
+  "lang": "es",
+  "text": "peine"
+ },
+ {
+  "id": "851f88d2",
+  "lang": "es",
+  "text": "pelota"
  },
  {
   "id": "e9293874",
@@ -5485,9 +11955,24 @@
   "text": "perro"
  },
  {
+  "id": "526bb34e",
+  "lang": "es",
+  "text": "Personas"
+ },
+ {
   "id": "482a0346",
   "lang": "es",
   "text": "pez"
+ },
+ {
+  "id": "4038fdb7",
+  "lang": "es",
+  "text": "pijama"
+ },
+ {
+  "id": "953815ac",
+  "lang": "es",
+  "text": "piloto"
  },
  {
   "id": "0b6f2c92",
@@ -5500,9 +11985,34 @@
   "text": "pingüino"
  },
  {
+  "id": "2c94b36a",
+  "lang": "es",
+  "text": "pirata"
+ },
+ {
+  "id": "5846522b",
+  "lang": "es",
+  "text": "pizza"
+ },
+ {
   "id": "e313cf7a",
   "lang": "es",
   "text": "plátano"
+ },
+ {
+  "id": "eaee6eeb",
+  "lang": "es",
+  "text": "plato"
+ },
+ {
+  "id": "0fad68b4",
+  "lang": "es",
+  "text": "policía"
+ },
+ {
+  "id": "108bcfd0",
+  "lang": "es",
+  "text": "puerta"
  },
  {
   "id": "0c7066e1",
@@ -5510,14 +12020,39 @@
   "text": "pulpo"
  },
  {
+  "id": "8ea271fa",
+  "lang": "es",
+  "text": "quesadilla"
+ },
+ {
+  "id": "abe06b8a",
+  "lang": "es",
+  "text": "queso"
+ },
+ {
+  "id": "93d98fd7",
+  "lang": "es",
+  "text": "quiere jugar"
+ },
+ {
   "id": "5523cc0f",
   "lang": "es",
   "text": "rana"
  },
  {
+  "id": "2bbb1627",
+  "lang": "es",
+  "text": "ratón"
+ },
+ {
   "id": "8560cd93",
   "lang": "es",
   "text": "rectángulo"
+ },
+ {
+  "id": "6216d56b",
+  "lang": "es",
+  "text": "reloj"
  },
  {
   "id": "f98a8706",
@@ -5533,6 +12068,21 @@
   "id": "175d6b15",
   "lang": "es",
   "text": "Revienta y Toca"
+ },
+ {
+  "id": "7ca35ce6",
+  "lang": "es",
+  "text": "revolvedora"
+ },
+ {
+  "id": "f7daa44f",
+  "lang": "es",
+  "text": "rinoceronte"
+ },
+ {
+  "id": "45ae1f25",
+  "lang": "es",
+  "text": "robot"
  },
  {
   "id": "342b59bb",
@@ -5565,6 +12115,11 @@
   "text": "sandía"
  },
  {
+  "id": "6ca185ca",
+  "lang": "es",
+  "text": "se está mojando con la lluvia"
+ },
+ {
   "id": "db10e670",
   "lang": "es",
   "text": "se lastimó"
@@ -5590,9 +12145,59 @@
   "text": "siete"
  },
  {
+  "id": "36faba1e",
+  "lang": "es",
+  "text": "Sigue"
+ },
+ {
+  "id": "4b229a92",
+  "lang": "es",
+  "text": "silla"
+ },
+ {
+  "id": "efdfd48f",
+  "lang": "es",
+  "text": "submarino"
+ },
+ {
+  "id": "1fc50371",
+  "lang": "es",
+  "text": "superhéroe"
+ },
+ {
+  "id": "2067efc2",
+  "lang": "es",
+  "text": "taco"
+ },
+ {
   "id": "629ceef6",
   "lang": "es",
   "text": "tambor"
+ },
+ {
+  "id": "7a85bfcb",
+  "lang": "es",
+  "text": "tazón"
+ },
+ {
+  "id": "ab1a6d1f",
+  "lang": "es",
+  "text": "tele"
+ },
+ {
+  "id": "2cb90987",
+  "lang": "es",
+  "text": "teléfono"
+ },
+ {
+  "id": "b192013e",
+  "lang": "es",
+  "text": "tenedor"
+ },
+ {
+  "id": "c3c47b80",
+  "lang": "es",
+  "text": "tiburón"
  },
  {
   "id": "e6e84634",
@@ -5620,14 +12225,49 @@
   "text": "tigre"
  },
  {
+  "id": "5d912c59",
+  "lang": "es",
+  "text": "tina"
+ },
+ {
+  "id": "0b116295",
+  "lang": "es",
+  "text": "tiranosaurio"
+ },
+ {
+  "id": "e728b610",
+  "lang": "es",
+  "text": "toalla"
+ },
+ {
   "id": "dcd2793f",
   "lang": "es",
   "text": "Todo junto"
  },
  {
+  "id": "f819d537",
+  "lang": "es",
+  "text": "tomate"
+ },
+ {
+  "id": "f8264e32",
+  "lang": "es",
+  "text": "tortilla"
+ },
+ {
   "id": "8c4fb4a7",
   "lang": "es",
   "text": "tortuga"
+ },
+ {
+  "id": "302fde96",
+  "lang": "es",
+  "text": "tractor"
+ },
+ {
+  "id": "e505b7a2",
+  "lang": "es",
+  "text": "Traza Letras"
  },
  {
   "id": "c1aedd67",
@@ -5653,6 +12293,11 @@
   "id": "8d2b82c6",
   "lang": "es",
   "text": "triste"
+ },
+ {
+  "id": "ce968c47",
+  "lang": "es",
+  "text": "un cepillo de dientes"
  },
  {
   "id": "78507312",
@@ -5695,6 +12340,11 @@
   "text": "un papalote"
  },
  {
+  "id": "dada2b6e",
+  "lang": "es",
+  "text": "un paraguas"
+ },
+ {
   "id": "53cc3664",
   "lang": "es",
   "text": "un vaso de agua"
@@ -5720,9 +12370,19 @@
   "text": "una guitarra"
  },
  {
+  "id": "cb11b3de",
+  "lang": "es",
+  "text": "una linterna"
+ },
+ {
   "id": "52007808",
   "lang": "es",
   "text": "una pelota"
+ },
+ {
+  "id": "99fa93c5",
+  "lang": "es",
+  "text": "unicornio"
  },
  {
   "id": "1e6dd95d",
@@ -5740,6 +12400,31 @@
   "text": "vaca"
  },
  {
+  "id": "18349058",
+  "lang": "es",
+  "text": "vaso"
+ },
+ {
+  "id": "35bb836b",
+  "lang": "es",
+  "text": "vaso de agua"
+ },
+ {
+  "id": "82617c79",
+  "lang": "es",
+  "text": "Vehículos"
+ },
+ {
+  "id": "0c2cfbe2",
+  "lang": "es",
+  "text": "venado"
+ },
+ {
+  "id": "da56086a",
+  "lang": "es",
+  "text": "ventana"
+ },
+ {
   "id": "9974f8c3",
   "lang": "es",
   "text": "verde"
@@ -5750,9 +12435,39 @@
   "text": "verdes"
  },
  {
+  "id": "034f9e02",
+  "lang": "es",
+  "text": "volcán"
+ },
+ {
+  "id": "631a3d2c",
+  "lang": "es",
+  "text": "wafle"
+ },
+ {
+  "id": "3603786d",
+  "lang": "es",
+  "text": "xilófono"
+ },
+ {
+  "id": "3e8f5adf",
+  "lang": "es",
+  "text": "yoyo"
+ },
+ {
   "id": "4497d30a",
   "lang": "es",
   "text": "zanahoria"
+ },
+ {
+  "id": "0ec5060c",
+  "lang": "es",
+  "text": "zapato"
+ },
+ {
+  "id": "bf2939ed",
+  "lang": "es",
+  "text": "zapatos"
  },
  {
   "id": "070890d9",

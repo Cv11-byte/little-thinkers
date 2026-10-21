@@ -32,7 +32,9 @@ const stationIcon = (s: Station) => (s.kind === 'game' ? GAME_BY_ID[s.gameId].ic
 export function WorkoutScreen({ kid, data, update, lang, onLang, onQuit, onParent }: Props) {
   const minutes = data.settings.workout[kid];
   const stations = useMemo(() => buildWorkout(kid, minutes, data.settings.moveBreaks), [kid, minutes]); // eslint-disable-line react-hooks/exhaustive-deps
-  const boss = useMemo(() => bossLevel(data, kid, stations), []); // eslint-disable-line react-hooks/exhaustive-deps
+  /** 0 = automatic; 1–4 = the grown-up's chosen difficulty for every game */
+  const fixedLevel = data.settings.workoutLevel[kid];
+  const boss = useMemo(() => fixedLevel || bossLevel(data, kid, stations), []); // eslint-disable-line react-hooks/exhaustive-deps
   const [idx, setIdx] = useState(0);
   const [view, setView] = useState<View>('intro');
   const [paused, setPaused] = useState(false);
@@ -114,7 +116,8 @@ export function WorkoutScreen({ kid, data, update, lang, onLang, onQuit, onParen
           onBreak={() => undefined}
           workout={{
             rounds: station.kind === 'boss' ? BOSS.rounds(boss) : station.rounds,
-            level: station.kind === 'boss' ? boss : undefined,
+            level: station.kind === 'boss' ? boss : fixedLevel || undefined,
+            fixed: !!fixedLevel,
             onDone: station.kind === 'boss' ? finish : advance,
             onPause: () => setPaused(true),
           }}
@@ -149,7 +152,7 @@ function Intro({ name, lang, stations, onGo, onBack }: { name: string; lang: Lan
     void speak([
       L.workoutHi(name),
       p("We'll play games, move our bodies, and then fix a rocket!", '¡Vamos a jugar, a movernos y a arreglar un cohete!'),
-      p('Ready? Press go!', '¿Listo? ¡Aprieta vamos!'),
+      p('When you are ready, press the green button to start!', '¡Cuando estés listo, aprieta el botón verde para empezar!'),
     ]);
   }, [name]);
   return (
@@ -170,47 +173,81 @@ function Intro({ name, lang, stations, onGo, onBack }: { name: string; lang: Lan
           </span>
         ))}
       </div>
-      <button className="go-btn" data-testid="workout-go" onClick={onGo}>
-        <span>▶</span>
-        <Bi ph={p("Let's go!", '¡Vamos!')} mode={lang} />
-      </button>
+      <p className="wk-press" data-testid="workout-press">
+        <Bi ph={p('Press the green button to start!', '¡Aprieta el botón verde para empezar!')} mode={lang} />
+      </p>
+      <div className="go-wrap">
+        <button className="go-btn pulse-go" data-testid="workout-go" onClick={onGo}>
+          <span>▶</span>
+          <Bi ph={p("Let's go!", '¡Vamos!')} mode={lang} />
+        </button>
+        <span className="go-point" aria-hidden>
+          👆
+        </span>
+      </div>
     </div>
   );
 }
 
+/** How long the "next game" bar takes to fill; the game starts when it's full (and the words are done). */
+export const MAP_BAR_MS = 5500;
+
 function JourneyMap({ stations, current, lang, kid, onGo }: { stations: Station[]; current: number; lang: LangMode; kid: KidId; onGo: () => void }) {
   const s = stations[current];
+  const prev = current > 0 ? stations[current - 1] : null;
   const went = useRef(false);
+  const [barFull, setBarFull] = useState(false);
+  const [talked, setTalked] = useState(false);
+
   useEffect(() => {
     went.current = false;
+    setBarFull(false);
+    setTalked(false);
     const title = stationTitle(s);
-    const intro =
+    const lines: Phrase[] = [];
+    // say that the last stop is finished, so the switch is clear
+    if (prev && prev.kind === 'game') {
+      sfx.win();
+      lines.push(L.gameDone(GAME_BY_ID[prev.gameId].title));
+    } else if (prev && prev.kind === 'move') {
+      lines.push(p('Great moving!', '¡Muy bien movido!'));
+    }
+    lines.push(
       s.kind === 'boss'
         ? p("Last one! The astronaut's rocket is broken. Let's fix it!", '¡El último! El cohete del astronauta está roto. ¡Vamos a arreglarlo!')
         : s.kind === 'move'
           ? p('Time to move our bodies!', '¡Hora de mover el cuerpo!')
-          : L.next(title);
-    const goNow = () => {
-      if (!went.current) {
-        went.current = true;
-        onGo();
-      }
-    };
-    // move on by itself: after the intro is spoken, or after 5 s at most
-    let timer = 0;
-    const cap = window.setTimeout(goNow, 5000);
-    void speak(intro).then(() => {
-      timer = window.setTimeout(goNow, 900);
-    });
+          : L.next(title),
+    );
+    // the bar fills on its own; this only waits for the words (never more than 12 s)
+    const cap = window.setTimeout(() => setTalked(true), 12000);
+    void speak(lines).then(() => setTalked(true));
+    const bar = window.setTimeout(() => setBarFull(true), MAP_BAR_MS);
     return () => {
-      window.clearTimeout(timer);
       window.clearTimeout(cap);
+      window.clearTimeout(bar);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current]);
 
+  useEffect(() => {
+    if (barFull && talked && !went.current) {
+      went.current = true;
+      const t = window.setTimeout(onGo, 350);
+      return () => window.clearTimeout(t);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [barFull, talked]);
+
   return (
     <div className="journey">
+      {prev && prev.kind === 'game' && (
+        <div className="journey-done pop-in" data-testid="station-done">
+          <span className="jd-check">✔</span>
+          <span className="jd-icon">{stationIcon(prev)}</span>
+          <Bi ph={p('Finished!', '¡Terminado!')} mode={lang} />
+        </div>
+      )}
       <div className="journey-path">
         {stations.map((st, i) => {
           const state = i < current ? 'done' : i === current ? 'now' : 'later';
@@ -223,14 +260,22 @@ function JourneyMap({ stations, current, lang, kid, onGo }: { stations: Station[
         })}
       </div>
       <div className="journey-next">
+        <span className="jn-label">
+          <Bi ph={p('Next', 'Sigue')} mode={lang} />
+        </span>
         <span className="jn-icon">{stationIcon(s)}</span>
         <span className="jn-title">
           <Bi ph={stationTitle(s)} mode={lang} />
         </span>
+        {s.kind === 'game' && (
+          <span className="jn-skill">
+            <Bi ph={GAME_BY_ID[s.gameId].skill} mode={lang} />
+          </span>
+        )}
       </div>
-      {/* no button to press: the next stop starts by itself */}
-      <div className="auto-next" data-testid="station-countdown" aria-hidden>
-        <span />
+      {/* no button to press: the next stop starts when the bar is full */}
+      <div className="auto-next" data-testid="station-countdown" data-full={barFull} aria-hidden>
+        <span key={current} style={{ animationDuration: `${MAP_BAR_MS}ms` }} />
       </div>
     </div>
   );

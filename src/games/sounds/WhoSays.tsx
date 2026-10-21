@@ -1,4 +1,5 @@
-// Find the Animal: "¿Dónde está el perro?" — tap the animal you hear named.
+// Find It: "¿Dónde está el perro?" — tap the one you hear named.
+// Animals for the little one; the older child also gets vehicles, helpers, things and food.
 // Every round of a session asks for a different animal, and the choices are
 // picked to look clearly different from each other.
 
@@ -8,7 +9,9 @@ import { p } from '../../engine/i18n';
 import { makeRng, shuffle } from '../../engine/rng';
 import { sfx } from '../../engine/sfx';
 import { useStage, useTimers } from '../../engine/stage';
-import { ANIMALS, type Animal } from '../../engine/words';
+import { CATALOG, type Group, THING_BY_ID, type Thing } from '../../content/catalog';
+import { showable } from '../../engine/art';
+import { DRAWN } from '../../components/drawn';
 import { Emoji, makeBurst, useBursts } from '../../components/fx';
 import type { GameDef, RoundApi } from '../types';
 
@@ -16,7 +19,7 @@ import type { GameDef, RoundApi } from '../types';
 export const FIND_POOL: { id: string; group: string }[] = [
   { id: 'dog', group: 'pet' },
   { id: 'cat', group: 'pet' },
-  { id: 'bunny', group: 'pet' },
+  { id: 'rabbit', group: 'pet' },
   { id: 'cow', group: 'farm' },
   { id: 'pig', group: 'farm' },
   { id: 'horse', group: 'farm' },
@@ -24,36 +27,71 @@ export const FIND_POOL: { id: string; group: string }[] = [
   { id: 'chicken', group: 'bird' },
   { id: 'duck', group: 'bird' },
   { id: 'owl', group: 'bird' },
+  { id: 'penguin', group: 'bird' },
   { id: 'lion', group: 'wild' },
   { id: 'elephant', group: 'wild' },
   { id: 'monkey', group: 'wild' },
   { id: 'giraffe', group: 'wild' },
   { id: 'zebra', group: 'wild' },
   { id: 'bear', group: 'wild' },
+  { id: 'tiger', group: 'wild' },
+  { id: 'hippo', group: 'wild' },
   { id: 'fish', group: 'water' },
   { id: 'whale', group: 'water' },
   { id: 'turtle', group: 'water' },
+  { id: 'shark', group: 'water' },
+  { id: 'octopus', group: 'water' },
   { id: 'frog', group: 'small' },
   { id: 'butterfly', group: 'small' },
   { id: 'bee', group: 'small' },
   { id: 'snail', group: 'small' },
+  { id: 'trex', group: 'dino' },
+  { id: 'dinosaur', group: 'dino' },
 ];
 
+/** People and family words are left out of "Where is the…?" (they suit other games). */
+const NOT_FOR_FINDING = new Set(['mommy', 'daddy', 'grandma', 'grandpa', 'brother', 'baby', 'nurse', 'bone', 'water', 'lamp', 'bottle', 'diaper', 'potty']);
+
+/** Everything this game can ask for, by group (things that still need a picture appear once one is added). */
+export function findables(group: Group): Thing[] {
+  if (group === 'animals') return FIND_POOL.map((a) => THING_BY_ID[a.id]);
+  return CATALOG.filter((x) => x.group === group && !NOT_FOR_FINDING.has(x.id) && showable(x, DRAWN));
+}
+
+/** every non-animal the game could ever ask for, once pictures exist (for recording voices) */
+export function findableEver(): Thing[] {
+  return CATALOG.filter((x) => x.group !== 'animals' && !NOT_FOR_FINDING.has(x.id));
+}
+
 const CARD_COLORS = ['#FFE4B8', '#D9F0D2', '#D6E8FA', '#F8D9E6', '#EBE1FA', '#FFF0C2'];
+const OTHER_GROUPS: Group[] = ['vehicles', 'characters', 'items', 'food'];
+
+/** Which group a round asks about: animals for the little one; the older child also gets vehicles, helpers, things and food. */
+export function findGroup(level: number, sessionSeed: number, round: number): Group {
+  if (level <= 1 || round % 2 === 0) return 'animals';
+  const order = shuffle(OTHER_GROUPS, makeRng(sessionSeed + 5));
+  return order[Math.floor(round / 2) % order.length];
+}
 
 export function findPlan(level: number, sessionSeed: number, round: number) {
-  // a fixed shuffled order for the session, so each round asks for someone new
-  const order = shuffle(FIND_POOL, makeRng(sessionSeed));
-  const answer = order[round % order.length];
+  const group = findGroup(level, sessionSeed, round);
+  const pool = findables(group);
+  // a fixed shuffled order for the session, so each round asks for something new
+  const order = shuffle(pool, makeRng(sessionSeed + group.length));
+  const answer = order[Math.floor(round / (level <= 1 ? 1 : 2)) % order.length];
   const n = level <= 1 ? 2 : level === 2 ? 3 : level === 3 ? 4 : 6;
   const rng = makeRng(sessionSeed + round * 977 + level);
-  // distractors: prefer animals from other groups so they look clearly different
-  const others = shuffle(
-    FIND_POOL.filter((a) => a.id !== answer.id),
+  let others = shuffle(
+    pool.filter((a) => a.id !== answer.id),
     rng,
-  ).sort((a, b) => Number(a.group === answer.group) - Number(b.group === answer.group));
+  );
+  if (group === 'animals') {
+    // prefer animals from other families so they look clearly different
+    const fam = (id: string) => FIND_POOL.find((f) => f.id === id)?.group;
+    others = others.sort((a, b) => Number(fam(a.id) === fam(answer.id)) - Number(fam(b.id) === fam(answer.id)));
+  }
   const picks = [answer, ...others.slice(0, n - 1)];
-  return { answer: ANIMALS[answer.id], choices: shuffle(picks, rng).map((a) => ANIMALS[a.id]) };
+  return { group, answer, choices: shuffle(picks, rng) };
 }
 
 function FindAnimal({ api }: { api: RoundApi }) {
@@ -85,7 +123,7 @@ function FindAnimal({ api }: { api: RoundApi }) {
     return () => window.clearTimeout(t);
   }, [api.hint]);
 
-  const choose = (a: Animal, cx: number, cy: number) => {
+  const choose = (a: Thing, cx: number, cy: number) => {
     if (found) return;
     if (a.id !== plan.answer.id) {
       sfx.nope();
@@ -102,7 +140,7 @@ function FindAnimal({ api }: { api: RoundApi }) {
   };
 
   return (
-    <g data-testid="who-says" data-answer={plan.answer.id}>
+    <g data-testid="who-says" data-answer={plan.answer.id} data-group={plan.group}>
       <rect width={W} height={H} rx={28} fill="#F3F7EC" />
       {plan.choices.map((a, i) => {
         const col = i % cols;
@@ -141,8 +179,8 @@ function FindAnimal({ api }: { api: RoundApi }) {
 
 export const whoSays: GameDef = {
   id: 'who-says',
-  title: p('Find the Animal', '¿Dónde Está?'),
-  icon: '🐘',
+  title: p('Find It', '¿Dónde Está?'),
+  icon: '🔎',
   skill: p('Listening & words', 'Escuchar y vocabulario'),
   tint: '#4CB86A',
   rounds: () => 4,

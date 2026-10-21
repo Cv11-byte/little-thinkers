@@ -21,6 +21,15 @@ const LANGS: [LangMode, string][] = [
   ['es', 'Español'],
 ];
 
+/** Brain Workout difficulty choices: 0 = automatic */
+const WORKOUT_DIFFICULTY: [number, string][] = [
+  [0, 'Auto'],
+  [1, 'Easy'],
+  [2, 'Medium'],
+  [3, 'Hard'],
+  [4, 'Expert'],
+];
+
 export function ParentScreen({ data, update, onReset, onClose }: Props) {
   const [kid, setKid] = useState<KidId>('kid1');
   const [confirm, setConfirm] = useState<KidId | 'all' | null>(null);
@@ -139,7 +148,25 @@ export function ParentScreen({ data, update, onReset, onClose }: Props) {
                   ))}
                 </div>
               </div>
+              <div className="wk-parent-head">
+                <span className="note">Difficulty</span>
+                <div className="seg">
+                  {WORKOUT_DIFFICULTY.map(([lvl, label]) => (
+                    <button
+                      key={lvl}
+                      className={data.settings.workoutLevel[id] === lvl ? 'on' : ''}
+                      data-testid={`p-wk-level-${id}-${lvl}`}
+                      onClick={() => update((d) => ({ ...d, settings: { ...d.settings, workoutLevel: { ...d.settings.workoutLevel, [id]: lvl } } }))}
+                    >
+                      {label}
+                    </button>
+                  ))}
+                </div>
+              </div>
               <p className="note">
+                {data.settings.workoutLevel[id]
+                  ? `Every workout game plays at level ${data.settings.workoutLevel[id]} and stays there. `
+                  : 'Auto: each game uses its own level, which moves up after 3 solo wins in a row. '}
                 Today: {doneToday ? 'finished ✅' : 'not yet'} · Total days: {data.kids[id].workouts.length} ·{' '}
                 {plan
                   .filter((x) => x.kind === 'game')

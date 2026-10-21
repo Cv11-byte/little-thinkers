@@ -33,7 +33,7 @@ const ONE_TO_TEN = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 export function traceSettings(level: number): TraceSettings {
   switch (level) {
     case 1:
-      return { tolerance: 95, finishAt: 0.95, lookAhead: 6, numbers: [1, 2, 3, 4, 5] };
+      return { tolerance: 95, finishAt: 0.95, lookAhead: 6, numbers: ONE_TO_TEN };
     case 2:
       return { tolerance: 72, finishAt: 0.97, lookAhead: 5, numbers: ONE_TO_TEN };
     case 3:

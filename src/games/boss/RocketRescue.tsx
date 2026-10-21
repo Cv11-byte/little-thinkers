@@ -13,6 +13,9 @@ import { useStage, useTimers } from '../../engine/stage';
 import { Emoji, makeBurst, useBursts } from '../../components/fx';
 import { SHAPES, Shape, type ShapeId } from '../shapes/shapes';
 import { NEEDS, NeedFriend, TOYS } from '../../components/needs';
+
+/** what the sad alien can need (clear, everyday needs) */
+export const BOSS_NEEDS = ['cold', 'hungry', 'sleepy', 'hurt', 'thirsty'] as const;
 import type { GameDef, RoundApi } from '../types';
 
 export const BOSS_STEPS = ['fuel', 'stars', 'door', 'lights', 'friend', 'countdown'] as const;
@@ -36,7 +39,7 @@ export function bossPlan(level: number, seed: number) {
     const k = Math.floor(rng() * lights);
     if (!seq.length || seq[seq.length - 1] !== k) seq.push(k);
   }
-  const needs = (['cold', 'hungry', 'sleepy', 'hurt'] as const)[Math.floor(rng() * 4)];
+  const needs = BOSS_NEEDS[Math.floor(rng() * BOSS_NEEDS.length)];
   const countFrom = level <= 1 ? 0 : level >= 4 ? 5 : 3;
   return { fuel, fuelTarget, stars, doors, door, lights, seq, needs, countFrom, nChoices };
 }

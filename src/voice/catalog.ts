@@ -7,12 +7,14 @@ import { L } from '../engine/lines';
 import { ANIMALS } from '../engine/words';
 import { GAMES, BOSS } from '../games/registry';
 import { HOMES } from '../games/homes/AnimalHomes';
-import { FIND_POOL } from '../games/sounds/WhoSays';
+import { FIND_POOL, findableEver } from '../games/sounds/WhoSays';
+import { CATALOG, THING_BY_ID } from '../content/catalog';
 import { FRIENDS, NEED_ORDER, FEELINGS } from '../games/kindness/HelpAFriend';
 import { NEEDS } from '../components/needs';
 import { EATERS } from '../games/feed/FeedTheBear';
 import { THEMES, THING } from '../games/balloons/PopBalloons';
-import { FUEL_COLORS, DOOR_SHAPES, fuelEs } from '../games/boss/RocketRescue';
+import { BOSS_NEEDS, FUEL_COLORS, DOOR_SHAPES, fuelEs } from '../games/boss/RocketRescue';
+import { LETTER_STROKES, letterLines } from '../games/trace/letters';
 import { SHAPES } from '../games/shapes/shapes';
 
 export function dynamicPhrases(): Phrase[] {
@@ -22,17 +24,23 @@ export function dynamicPhrases(): Phrase[] {
   // praise etc. without a name (named versions fall back to these)
   for (let i = 0; i < 3; i++) add(L.praise('', i));
   add(L.hi(''), L.alreadyWorkout(''), L.allDone(''), L.workoutHi(''), L.workoutBye(''));
-  for (const g of [...GAMES, BOSS]) add(L.next(g.title), g.title);
+  for (const g of [...GAMES, BOSS]) add(L.next(g.title), L.gameDone(g.title), g.title, g.skill);
+
+  // letters
+  for (const l of Object.keys(LETTER_STROKES)) add(letterLines.trace(l), letterLines.name(l), letterLines.sayIt(l), letterLines.isFor(l));
 
   for (let n = 1; n <= 10; n++) add(L.traceNumber(n), num(n));
   add(...NUMBER_WORDS);
 
   // animals
   for (const a of Object.values(ANIMALS)) add(a.name);
+  for (const x of CATALOG) add(x.name);
   for (const { id } of FIND_POOL) {
-    const a = ANIMALS[id];
+    const a = THING_BY_ID[id];
     add(L.whereIs(a), L.thatsThe(a), L.theAnimal(a));
   }
+  // vehicles, helpers, things, food (including ones waiting for a picture)
+  for (const a of findableEver()) add(L.whereIs(a), L.thatsThe(a), L.theAnimal(a));
   for (const h of HOMES)
     for (const id of h.animals) {
       const a = ANIMALS[id];
@@ -45,7 +53,8 @@ export function dynamicPhrases(): Phrase[] {
     add(L.doesNeed(a));
     for (const nid of NEED_ORDER) add(L.friendFeels(a, NEEDS[nid].feel));
   }
-  for (const n of Object.values(NEEDS)) add(L.helperYes(n.helper.name), L.alienFeels(n.feel));
+  for (const n of Object.values(NEEDS)) add(L.helperYes(n.helper.name));
+  for (const id of BOSS_NEEDS) add(L.alienFeels(NEEDS[id].feel));
   for (const f of FEELINGS) add(L.whoFeels(f.name), L.thatFeels(f.name), L.yesFeels(f.name));
 
   // feeding

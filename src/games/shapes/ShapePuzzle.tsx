@@ -5,7 +5,7 @@
 
 import { useEffect, useMemo, useRef } from 'react';
 import { type Phrase, p } from '../../engine/i18n';
-import { type Piece, usePieces } from '../../engine/pieces';
+import { type Piece, pieceTransform, usePieces } from '../../engine/pieces';
 import { makeRng, shuffle } from '../../engine/rng';
 import { sfx } from '../../engine/sfx';
 import { useStage, useTimers } from '../../engine/stage';
@@ -164,10 +164,8 @@ function ShapePuzzle({ api }: { api: RoundApi }) {
         return plan.kind === 'board' ? { ...base, shape: k as ShapeId } : { ...base, item: plan.items.find((it) => it.ch === k) };
       }),
     ({ piece, tap }) => {
-      if (tap) {
-        if (api.level <= 1) return snap(piece);
-        return 'home';
-      }
+      // the child has to carry it there: a tap never places a piece
+      if (tap) return 'home';
       let best: string | null = null;
       let bestD = Infinity;
       for (const k of keys) {
@@ -262,9 +260,7 @@ function ShapePuzzle({ api }: { api: RoundApi }) {
             ) : (
               <>
                 <circle r={r * 1.15} fill="#fff" opacity={0.55} />
-                <text fontSize={r * 1.55} textAnchor="middle" dominantBaseline="central" filter="url(#silhouette)" className="emoji">
-                  {k}
-                </text>
+                <Emoji ch={k} x={0} y={0} size={r * 1.55} filter="url(#silhouette)" />
               </>
             )}
           </g>
@@ -275,7 +271,7 @@ function ShapePuzzle({ api }: { api: RoundApi }) {
           key={pc.id}
           {...bind(pc.id)}
           className={'piece' + (pc.dragging ? ' dragging' : '') + (pc.placed ? ' placed' : '')}
-          style={{ transform: `translate(${pc.x}px, ${pc.y}px)` }}
+          transform={pieceTransform(pc)}
           data-testid={plan.kind === 'board' ? `shape-${pc.key}` : `item-${i}`}
           data-key={pc.key}
           data-placed={pc.placed}
@@ -284,7 +280,12 @@ function ShapePuzzle({ api }: { api: RoundApi }) {
             <g key={pc.wrong} className={pc.wrong ? 'wiggle' : ''}>
               <circle r={r * 1.25} fill="transparent" />
               {pc.shape ? (
-                <g filter={pc.placed ? undefined : 'url(#piece-shadow)'}>
+                <g>
+                  {!pc.placed && (
+                    <g transform={`translate(0 ${pc.dragging ? 14 : 7})`} opacity={0.18}>
+                      <Shape id={pc.shape} r={r * 0.98} fill="#000" />
+                    </g>
+                  )}
                   <Shape id={pc.shape} r={r * 0.98} fill={plan.wood ? '#F0D3A8' : SHAPES[pc.shape].color} stroke={plan.wood ? '#C9A06C' : SHAPES[pc.shape].dark} sw={6} />
                   <g transform={`translate(${-r * 0.28} ${-r * 0.3})`} opacity={0.3}>
                     <Shape id={pc.shape} r={r * 0.28} fill="#fff" />

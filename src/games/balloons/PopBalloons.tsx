@@ -22,6 +22,9 @@ export const THING: Record<Theme, { en: [string, string]; es: [string, string]; 
 };
 
 /** level → [targets, total objects, colors] */
+const REVEAL_MS = 260;
+const COUNT_MS = 480;
+
 const SIZES: Record<number, [number, number, number]> = { 1: [2, 6, 2], 2: [3, 10, 4], 3: [4, 12, 5], 4: [5, 14, 6] };
 
 export function popPlan(level: number, sessionSeed: number, round: number) {
@@ -85,6 +88,10 @@ function PopBalloons({ api }: { api: RoundApi }) {
   const [got, setGot] = useState(0);
   const gotRef = useRef(0);
   const [done, setDone] = useState(false);
+  /** objects float in one by one; only shown ones can be tapped */
+  const [shown, setShown] = useState(0);
+  /** after the last pop, the tray counts itself: 1, 2, 3 */
+  const [counted, setCounted] = useState(0);
   const [hintOn, setHintOn] = useState(false);
   const wrongs = useRef(0);
   const t = THING[plan.theme];
@@ -98,6 +105,16 @@ function PopBalloons({ api }: { api: RoundApi }) {
   }, []);
 
   useEffect(() => {
+    for (let i = 1; i <= n; i++) {
+      later(() => {
+        setShown(i);
+        sfx.tap();
+      }, 350 + i * REVEAL_MS);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
     if (!api.hint) return;
     setHintOn(true);
     const tm = window.setTimeout(() => setHintOn(false), 4000);
@@ -105,7 +122,7 @@ function PopBalloons({ api }: { api: RoundApi }) {
   }, [api.hint]);
 
   const tap = (b: Thing) => {
-    if (b.popped || done) return;
+    if (b.popped || done || b.id >= shown) return;
     if (b.color !== plan.target) {
       sfx.nope();
       wrongs.current += 1;
@@ -123,7 +140,14 @@ function PopBalloons({ api }: { api: RoundApi }) {
     later(() => sfx.count(gotRef.current - 1), 120);
     if (gotRef.current === plan.nTarget) {
       setDone(true);
-      later(() => api.solved(), 1100);
+      // slow, satisfying finish: count the tray 1-2-3, the others float away, then next round
+      for (let k = 1; k <= plan.nTarget; k++) {
+        later(() => {
+          setCounted(k);
+          sfx.count(k - 1);
+        }, 700 + k * COUNT_MS);
+      }
+      later(() => api.solved(), 700 + plan.nTarget * COUNT_MS + 1500);
     }
   };
 
@@ -156,25 +180,33 @@ function PopBalloons({ api }: { api: RoundApi }) {
           const cx = 15 + i * (slot + 14) + (slot + 14) / 2;
           const cy = (slot + 26) / 2;
           const filled = i < got;
+          const counting = i < counted;
           return (
             <g key={i} transform={`translate(${cx} ${cy})`} data-testid="tray-slot" data-filled={filled}>
+            <g key={counting ? 'c' : 'n'} className={counting ? 'bounce' : ''}>
               <circle r={slot / 2} fill={filled ? c.hex : 'none'} stroke={filled ? c.dark : '#C9D3DC'} strokeWidth={4} strokeDasharray={filled ? 'none' : '6 6'} className={filled ? 'pop-in' : ''} />
-              {filled && <path d={`M ${-slot * 0.2} 0 L ${-slot * 0.04} ${slot * 0.16} L ${slot * 0.22} ${-slot * 0.16}`} stroke="#fff" strokeWidth={6} fill="none" strokeLinecap="round" strokeLinejoin="round" className="pop-in" />}
+              {filled && !counting && <path d={`M ${-slot * 0.2} 0 L ${-slot * 0.04} ${slot * 0.16} L ${slot * 0.22} ${-slot * 0.16}`} stroke="#fff" strokeWidth={6} fill="none" strokeLinecap="round" strokeLinejoin="round" className="pop-in" />}
+              {counting && (
+                <text fontSize={slot * 0.55} fontWeight={900} fill="#fff" textAnchor="middle" dominantBaseline="central">
+                  {i + 1}
+                </text>
+              )}
               {!filled && (
                 <text fontSize={slot * 0.42} fontWeight={800} fill="#B8C4CF" textAnchor="middle" dominantBaseline="central">
                   {i + 1}
                 </text>
               )}
             </g>
+            </g>
           );
         })}
       </g>
       </g>
-      {things.map((b, i) => (
+      {things.filter((b) => b.id < shown).map((b) => (
         <g
           key={b.id}
           className={'balloon' + (b.popped ? ' popped' : '') + (done && !b.popped ? ' fly' : '')}
-          style={{ transformOrigin: `${b.x}px ${b.y}px` }}
+          style={{ transformOrigin: `${b.x}px ${b.y}px`, animationDelay: done ? `${(700 + plan.nTarget * COUNT_MS) / 1000}s` : undefined }}
           data-testid={`balloon-${b.color}`}
           data-popped={b.popped}
           onPointerDown={(e) => {
@@ -182,8 +214,8 @@ function PopBalloons({ api }: { api: RoundApi }) {
             tap(b);
           }}
         >
-          <g className="reveal" style={{ animationDelay: `${i * 60}ms` }}>
-            <g className={plan.drifting ? 'drift' : 'bob'} style={{ animationDelay: `${-(i % 5) * 0.7}s`, transformOrigin: `${b.x}px ${b.y}px` }}>
+          <g className="reveal">
+            <g className={plan.drifting ? 'drift' : 'bob'} style={{ animationDelay: `${-(b.id % 5) * 0.7}s`, transformOrigin: `${b.x}px ${b.y}px` }}>
               <g key={b.wiggle} className={b.wiggle ? 'wiggle' : ''} style={{ transformOrigin: `${b.x}px ${b.y}px` }}>
                 {hintOn && !b.popped && b.color === plan.target && <circle cx={b.x} cy={b.y} r={r * 1.25} className="glow-ring" data-testid="hint-glow" />}
                 <Thing theme={plan.theme} x={b.x} y={b.y} r={r} color={b.color} />

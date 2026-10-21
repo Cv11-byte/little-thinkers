@@ -24,7 +24,7 @@ interface Props {
   onBreak: () => void;
   onLang: (m: LangMode) => void;
   /** set when the game is one stop of the Brain Workout */
-  workout?: { rounds: number; level?: number; onDone: () => void; onPause: () => void };
+  workout?: { rounds: number; level?: number; /** grown-up picked the difficulty: don't change the level */ fixed?: boolean; onDone: () => void; onPause: () => void };
 }
 
 type Phase = 'play' | 'between' | 'end';
@@ -114,7 +114,7 @@ export function GameScreen({ kid, gameId, data, update, lang, onHome, timeUp, on
     s.mistakes += result.mistakes;
     if (result.hints === 0 && result.mistakes <= 1) s.independent += 1;
     s.lastPlayed = Date.now();
-    if (def.adaptive) {
+    if (def.adaptive && !workout?.fixed) {
       // the round was played at `level`; adapt from there
       const u = applyRound({ ...levelState(s), level }, result);
       s.level = u.state.level;
@@ -181,6 +181,7 @@ export function GameScreen({ kid, gameId, data, update, lang, onHome, timeUp, on
     level,
     seed: seedBase + round * 101 + level * 7,
     round,
+    totalRounds: total,
     sessionSeed: seedBase,
     kid,
     name,

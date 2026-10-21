@@ -83,7 +83,7 @@ describe('Trace Numbers', () => {
     // a single move can only advance a short way, so the child must follow the line
     for (const l of [1, 2, 3, 4]) expect(traceSettings(l).lookAhead * 8).toBeLessThanOrEqual(48);
     expect(traceSettings(2).numbers).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-    expect(traceSettings(1).numbers).toEqual([1, 2, 3, 4, 5]);
+    expect(traceSettings(1).numbers).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
   });
 });
 
@@ -210,9 +210,9 @@ describe('puzzle plans are valid at every level', () => {
 });
 
 describe('registry', () => {
-  it('has 10 games covering each learning goal', () => {
-    expect(GAMES).toHaveLength(10);
-    expect(new Set(GAMES.map((g) => g.id)).size).toBe(10);
+  it('has 11 games covering each learning goal', () => {
+    expect(GAMES).toHaveLength(11);
+    expect(new Set(GAMES.map((g) => g.id)).size).toBe(11);
     for (const g of GAMES) {
       expect(g.title.en && g.title.es).toBeTruthy();
       expect(g.rounds(1)).toBeGreaterThan(0);

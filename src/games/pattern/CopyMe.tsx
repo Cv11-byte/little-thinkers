@@ -21,16 +21,30 @@ const PADS: { color: ColorId; animal: string }[] = [
   { color: 'red', animal: 'crab' },
 ];
 
-export function patternPlan(level: number, seed: number) {
+/** patterns shown recently, so the next one is always different */
+const recent: string[] = [];
+
+/** pattern length grows a little within a session: the last round is one step longer */
+export function patternPlan(level: number, seed: number, round = 0, totalRounds = 3) {
   const rng = makeRng(seed);
   const pads = level <= 1 ? 2 : level === 2 ? 3 : 4;
-  const steps = level <= 1 ? 1 : level === 2 ? 2 : level === 3 ? 3 : 4;
-  const seq: number[] = [];
-  while (seq.length < steps) {
-    const k = Math.floor(rng() * pads);
-    if (seq.length && seq[seq.length - 1] === k) continue;
-    seq.push(k);
+  const base = level <= 1 ? 1 : level === 2 ? 2 : level === 3 ? 3 : 4;
+  const steps = base + (level >= 2 && round === totalRounds - 1 ? 1 : 0);
+  let seq: number[] = [];
+  for (let tries = 0; tries < 40; tries++) {
+    seq = [];
+    while (seq.length < steps) {
+      const k = Math.floor(rng() * pads);
+      if (seq.length && seq[seq.length - 1] === k) continue;
+      seq.push(k);
+    }
+    // never the same pattern as the last few rounds, and never starting with the same pad as last time
+    const key = seq.join(',');
+    const last = recent[recent.length - 1];
+    if (!recent.includes(key) && (!last || last[0] !== key[0] || pads <= 2)) break;
   }
+  recent.push(seq.join(','));
+  if (recent.length > 4) recent.shift();
   return { pads, seq };
 }
 
@@ -40,7 +54,7 @@ function CopyMe({ api }: { api: RoundApi }) {
   const { W, H } = useStage();
   const later = useTimers();
   const bursts = useBursts();
-  const plan = useMemo(() => patternPlan(api.level, api.seed), [api.level, api.seed]);
+  const plan = useMemo(() => patternPlan(api.level, api.seed, api.round, api.totalRounds), [api.level, api.seed]); // eslint-disable-line react-hooks/exhaustive-deps
   const [phase, setPhase] = useState<'intro' | 'watch' | 'play' | 'done'>('intro');
   const phaseRef = useRef(phase);
   phaseRef.current = phase;

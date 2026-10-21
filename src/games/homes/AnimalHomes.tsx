@@ -5,7 +5,7 @@
 import { useEffect, useMemo, useRef } from 'react';
 import { L } from '../../engine/lines';
 import { type Phrase, p } from '../../engine/i18n';
-import { type Piece, usePieces } from '../../engine/pieces';
+import { type Piece, pieceTransform, usePieces } from '../../engine/pieces';
 import { makeRng, shuffle } from '../../engine/rng';
 import { sfx } from '../../engine/sfx';
 import { useStage, useTimers } from '../../engine/stage';
@@ -152,7 +152,7 @@ function AnimalHomes({ api }: { api: RoundApi }) {
           key={pc.id}
           {...bind(pc.id)}
           className={'piece' + (pc.dragging ? ' dragging' : '') + (pc.placed ? ' placed' : '')}
-          style={{ transform: `translate(${pc.x}px, ${pc.y}px)` }}
+          transform={pieceTransform(pc)}
           data-testid={`animal-${pc.id}`}
           data-home={pc.home}
           data-placed={pc.placed}

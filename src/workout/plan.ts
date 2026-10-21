@@ -27,7 +27,8 @@ const MOVE_ORDER: MoveId[] = ['frog', 'giraffe', 'elephant', 'bird'];
 
 /** Games in the order a workout visits them: warm-up first, the trickiest near the end. */
 export const WORKOUT_ORDER: Record<KidId, string[]> = {
-  kid1: ['pop-balloons', 'who-says', 'shape-puzzle', 'feed-the-bear', 'copy-me', 'animal-homes', 'trace-numbers', 'help-a-friend', 'rocket-maze'],
+  // 'trace' = numbers one day, letters the next
+  kid1: ['pop-balloons', 'who-says', 'trace', 'shape-puzzle', 'feed-the-bear', 'copy-me', 'help-a-friend', 'animal-homes', 'rocket-maze'],
   kid2: ['pop-balloons', 'who-says', 'feed-the-bear', 'animal-homes', 'shape-puzzle', 'copy-me', 'help-a-friend'],
 };
 
@@ -38,9 +39,15 @@ const SHAPE: Record<number, [number, number, number]> = {
   30: [9, 4, 3],
 };
 
-export function buildWorkout(kid: KidId, minutes: number, moveBreaks = true): Station[] {
+/** Tracing alternates by day: numbers on even days, letters on odd days. */
+export function traceGameFor(day: Date): string {
+  const n = Math.floor(Date.UTC(day.getFullYear(), day.getMonth(), day.getDate()) / 86_400_000);
+  return n % 2 === 0 ? 'trace-numbers' : 'trace-letters';
+}
+
+export function buildWorkout(kid: KidId, minutes: number, moveBreaks = true, day = new Date()): Station[] {
   const [nGames, rounds, every] = SHAPE[minutes] ?? SHAPE[20];
-  const games = WORKOUT_ORDER[kid].slice(0, nGames);
+  const games = WORKOUT_ORDER[kid].slice(0, nGames).map((g) => (g === 'trace' ? traceGameFor(day) : g));
   const out: Station[] = [];
   let moves = 0;
   games.forEach((gameId, i) => {

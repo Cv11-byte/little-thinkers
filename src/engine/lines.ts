@@ -6,6 +6,13 @@
 import { type ColorId, COLORS, type Phrase, num, p } from './i18n';
 import { type Animal, cap } from './words';
 
+/** anything with a name and a Spanish article (animals, vehicles, things...) */
+interface Named {
+  name: Phrase;
+  es: string;
+  plural?: boolean;
+}
+
 const withName = (name: string, build: (comma: string, space: string) => Phrase): Phrase => {
   const line = build(name ? `, ${name}` : '', name ? ` ${name}` : '');
   return name ? { ...line, alt: build('', '') } : line;
@@ -23,15 +30,20 @@ export const L = {
     withName(name, (_c, s) => p(`Hi${s}! It's time for your brain workout!`, `¡Hola${s}! ¡Es hora de tu ejercicio mental!`)),
   workoutBye: (name: string) =>
     withName(name, (c) => p(`Great job today${c}! Your brain did a big workout.`, `¡Muy buen trabajo hoy${c}! Tu cerebro hizo mucho ejercicio.`)),
+  gameDone: (title: Phrase) => p(`${title.en}: all done!`, `¡${title.es}: terminado!`),
   next: (title: Phrase) => p(`Next: ${title.en}!`, `Ahora: ¡${title.es}!`),
 
   // ---- trace ----
   traceNumber: (n: number) => p(`Trace the number ${n}!`, `¡Traza el número ${num(n).es}!`),
 
   // ---- animals ----
-  whereIs: (a: Animal) => p(`Where is the ${a.name.en}?`, `¿Dónde está ${a.es}?`),
-  thatsThe: (a: Animal) => p(`That's the ${a.name.en}.`, `${a.es.startsWith('la ') ? 'Esa' : 'Ese'} es ${a.es}.`),
-  theAnimal: (a: Animal) => p(`The ${a.name.en}!`, `¡${cap(a.es)}!`),
+  whereIs: (a: Named) =>
+    a.plural ? p(`Where are the ${a.name.en}?`, `¿Dónde están ${a.es}?`) : p(`Where is the ${a.name.en}?`, `¿Dónde está ${a.es}?`),
+  thatsThe: (a: Named) =>
+    a.plural
+      ? p(`Those are the ${a.name.en}.`, `${a.es.startsWith('las ') ? 'Esas' : 'Esos'} son ${a.es}.`)
+      : p(`That's the ${a.name.en}.`, `${a.es.startsWith('la ') ? 'Esa' : 'Ese'} es ${a.es}.`),
+  theAnimal: (a: Named) => p(`The ${a.name.en}!`, `¡${cap(a.es)}!`),
   whereLive: (a: Animal) => p(`Where does the ${a.name.en} live?`, `¿Dónde vive ${a.es}?`),
   livesIn: (a: Animal, where: Phrase) => p(`The ${a.name.en} lives ${where.en}!`, `¡${cap(a.es)} vive ${where.es}!`),
 

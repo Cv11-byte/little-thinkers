@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { L } from '../../engine/lines';
 import { num, p } from '../../engine/i18n';
-import { type Piece, usePieces } from '../../engine/pieces';
+import { type Piece, pieceTransform, usePieces } from '../../engine/pieces';
 import { makeRng, shuffle } from '../../engine/rng';
 import { sfx } from '../../engine/sfx';
 import { useStage, useTimers } from '../../engine/stage';
@@ -162,7 +162,7 @@ function Feed({ api, plan }: { api: RoundApi; plan: ReturnType<typeof feedPlan> 
           key={pc.id}
           {...bind(pc.id)}
           className={'piece' + (pc.dragging ? ' dragging' : '') + (pc.placed ? ' placed' : '') + (eating && pc.placed ? ' eaten' : '')}
-          style={{ transform: `translate(${pc.x}px, ${pc.y}px)` }}
+          transform={pieceTransform(pc)}
           data-testid="food"
           data-placed={pc.placed}
         >

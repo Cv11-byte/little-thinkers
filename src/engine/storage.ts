@@ -34,6 +34,8 @@ export interface Settings {
   workout: Record<KidId, number>;
   /** "stand up and move" breaks inside the Brain Workout */
   moveBreaks: boolean;
+  /** Brain Workout difficulty per kid: 0 = automatic (each game's own level), 1–4 = fixed for every game */
+  workoutLevel: Record<KidId, number>;
   /** the children's names, typed in the grown-up corner (kept only on this device) */
   names: Record<KidId, string>;
 }
@@ -51,7 +53,7 @@ export const STORAGE_KEY = 'little-thinkers:v1';
 export const DEFAULT_START_LEVEL: Record<KidId, number> = { kid1: 2, kid2: 1 };
 
 export function defaultSettings(): Settings {
-  return { lang: 'both', voice: true, sounds: true, playLimit: 0, workout: { kid1: 20, kid2: 10 }, moveBreaks: true, names: { kid1: '', kid2: '' } };
+  return { lang: 'both', voice: true, sounds: true, playLimit: 0, workout: { kid1: 20, kid2: 10 }, moveBreaks: true, workoutLevel: { kid1: 0, kid2: 0 }, names: { kid1: '', kid2: '' } };
 }
 
 export function defaultData(): AppData {
@@ -136,6 +138,12 @@ export function sanitize(raw: unknown): AppData {
       for (const k of ['kid1', 'kid2'] as KidId[]) {
         const n = s.names[k];
         if (typeof n === 'string') d.settings.names[k] = cleanName(n);
+      }
+    }
+    if (isObj(s.workoutLevel)) {
+      for (const k of ['kid1', 'kid2'] as KidId[]) {
+        const m = s.workoutLevel[k];
+        if (typeof m === 'number' && [0, 1, 2, 3, 4].includes(m)) d.settings.workoutLevel[k] = m;
       }
     }
     if (isObj(s.workout)) {

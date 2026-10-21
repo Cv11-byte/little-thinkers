@@ -9,11 +9,14 @@ export async function solveCurrent(page: Page) {
     await page.mouse.click(c.x, c.y);
   };
   if (await page.getByTestId('balloons').count()) {
-    const target = await page.getByTestId('balloons').getAttribute('data-target');
+    const g = page.getByTestId('balloons');
+    const target = await g.getAttribute('data-target');
+    const need = Number(await g.getAttribute('data-need'));
     const sel = target === 'any' ? '[data-testid^=balloon-][data-popped=false]' : `[data-testid=balloon-${target}][data-popped=false]`;
-    while (await page.locator(sel).count()) {
-      await tap(sel);
-      await page.waitForTimeout(120);
+    // balloons float in one by one: keep popping until the tray is full
+    for (let guard = 0; guard < 80 && Number(await g.getAttribute('data-got')) < need; guard++) {
+      if (await page.locator(sel).count()) await tap(sel);
+      await page.waitForTimeout(150);
     }
     return;
   }

@@ -9,13 +9,14 @@ No ads, no accounts, no internet needed after the first visit. Everything is sav
 |---|---|---|
 | 🚀 Rocket Maze · Laberinto Espacial | Problem-solving | Drag the astronaut along the road to the rocket. Dead ends say "no way out". |
 | 🎈 Pop & Tap · Revienta y Toca | Colors & counting | "Pop 3 red balloons": exactly 3 red ones, a tray fills one slot per pop. Rounds switch between balloons, soccer balls and footballs. |
-| ✍️ Trace Numbers · Traza Números | Numbers & finger control | Numbers 1–10 (1–5 at level 1), picking up where the child left off; it glows, finishes itself near the end, then counts objects. |
+| ✍️ Trace Numbers · Traza Números | Numbers & finger control | Numbers 1–10, picking up where the child left off. The finger has to drag the star all the way to the 🏁, then the app counts objects. |
+| 🔤 Trace Letters · Traza Letras | Letters & first sounds | Vowels first (levels 1–2), then A–Z (Ñ in Spanish). Trace, "¡Dilo conmigo!", then a picture word: "¡A de avión!" |
 | 🏡 Animal Homes · Casas de Animales | Sorting & logic | Drag animals to drawn scenes: ocean, farm, tree, sky. Only obvious pairs. |
 | 🍎 Feed the Animals · Dales de Comer | Counting & comparing | "Give the bear 2 apples." Top level: "Which plate has more?" |
-| 🐘 Find the Animal · ¿Dónde Está? | Listening & words | "¿Dónde está el perro?" Tap the animal; a new one every round, from 23 animals. |
+| 🔎 Find It · ¿Dónde Está? | Listening & words | "¿Dónde está el perro?" Animals for the little one; the older child also gets vehicles, helpers, things and food. |
 | 🎶 Copy Me · Cópiame | Memory | "Mírame primero y luego tú": a helper hand shows the pattern while the pads are locked, then "¡Ahora tú!". |
 | 🔷 Shapes & Shadows · Figuras y Sombras | Shapes & fine motor | Alternates a wooden shape board (12 shapes, look-alikes at the top level) with matching fruit, vehicles, animals or toys to their shadows. |
-| 🤗 Help a Friend · Ayuda a un Amigo | Feelings & kindness | A friend shows what they need (shivering in snow → jacket, a plate in their thought bubble → food). Also "Who feels sad?" |
+| 🤗 Help a Friend · Ayuda a un Amigo | Feelings & kindness | A friend shows what they need: cold → jacket, thirsty → water, wants to play → ball, dirty → soap, rain → umbrella, dark → flashlight, teeth → toothbrush… Also "Who feels sad?" |
 | 🧱 Block Builder · Construye | Creativity | Free building with stacking blocks, counted out loud. |
 
 ### Toddler guardrails
@@ -49,7 +50,8 @@ The big blue card at the top of each child's menu. A guided session with no choo
    count stars, find the shape that fits the door, copy the lights, help a sad alien, then count down 3-2-1).
 5. A goodbye screen: "All done for today, see you tomorrow, time to turn off the iPad." Only a grown-up can close it.
 
-Length is set per child in the grown-up corner (10 / 20 / 30 min; defaults: older child 20, younger child 10). If a session runs long,
+Length and difficulty are set per child in the grown-up corner (10 / 20 / 30 min; Auto, Easy, Medium, Hard, Expert).
+Tracing alternates by day: numbers one day, letters the next. If a session runs long,
 it skips ahead to the finale. It can be done once a day; the grown-up corner can allow another one.
 
 ### Languages
@@ -57,6 +59,23 @@ it skips ahead to the finale. It can be done once a day; the grown-up corner can
 The flag button (home, menus and inside every game) switches English → Español → Both with one tap.
 "Both" shows Spanish on top and English underneath, and says each instruction in Spanish, then English.
 Voices are the iPad's built-in voices (Spanish uses a Mexican voice when available).
+
+## Pictures instead of emoji
+
+Everything a child sees and names is listed in `src/content/catalog.ts` in five groups
+(animals, characters, vehicles, items, food), ~180 entries with English and Spanish names.
+
+To replace an emoji with your own picture, add a file named after its id to the group's folder:
+
+```
+src/art/animals/lion.png
+src/art/vehicles/firetruck.png
+src/art/characters/firefighter.png
+```
+
+Every 🦁 in every game then shows that picture. Square, transparent background, 512×512 PNG or WebP works best.
+Entries marked `'#id'` in the catalog (excavator, garbage truck, mail carrier…) have no good emoji: they appear in the
+games once a picture is added (a few have a simple built-in drawing until then).
 
 ## Put it on the iPad
 

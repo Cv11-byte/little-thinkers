@@ -1,3 +1,4 @@
+import { solveCurrent } from './solver';
 import { expect, test } from '@playwright/test';
 import { center, drag, dragPath, openGame, ready, seedLevels, solveShapes, toClient, waitRoundDone } from './helpers';
 
@@ -217,6 +218,46 @@ test.describe('games are playable with a finger on iPad size', () => {
       const el = document.querySelector('[data-testid=shape-puzzle]');
       return !!el && el.getAttribute('data-kind') !== k;
     }, kind0, { timeout: 10000 }).catch(() => undefined);
+  });
+
+  test('Shapes & Shadows: the piece follows the finger while dragging, and goes back if dropped away', async ({ page }) => {
+    await seedLevels(page, 'kid1', { 'shape-puzzle': 2 });
+    await openGame(page, 'kid1', 'shape-puzzle');
+    const piece = page.locator('[data-testid=shape-puzzle] g[data-placed=false]').first();
+    const key = (await piece.getAttribute('data-key'))!;
+    const sel = `g[data-placed][data-key="${key}"]`;
+    const start = (await page.locator(sel).boundingBox())!;
+    const from = { x: start.x + start.width / 2, y: start.y + start.height / 2 };
+    // a tap never places it
+    await page.mouse.click(from.x, from.y);
+    await page.waitForTimeout(500);
+    await expect(page.locator(sel)).toHaveAttribute('data-placed', 'false');
+    // press and move: the piece moves with the finger before letting go
+    await page.mouse.move(from.x, from.y);
+    await page.mouse.down();
+    for (let i = 1; i <= 10; i++) await page.mouse.move(from.x - i * 25, from.y + i * 6);
+    const mid = (await page.locator(sel).boundingBox())!;
+    expect(from.x - (mid.x + mid.width / 2)).toBeGreaterThan(150);
+    // let go in an empty spot: back to where it started
+    await page.mouse.up();
+    await page.waitForTimeout(700);
+    const back = (await page.locator(sel).boundingBox())!;
+    expect(Math.abs(back.x + back.width / 2 - from.x)).toBeLessThan(12);
+    await expect(page.locator(sel)).toHaveAttribute('data-placed', 'false');
+  });
+
+  test('Trace Letters: trace, say it, then the picture word', async ({ page }) => {
+    await seedLevels(page, 'kid1', { 'trace-letters': 2 });
+    await openGame(page, 'kid1', 'trace-letters');
+    const t = page.getByTestId('trace');
+    await expect(t).toHaveAttribute('data-letter', /^[AEIOU]$/);
+    const first = await t.getAttribute('data-letter');
+    await solveCurrent(page);
+    await expect(t).toHaveAttribute('data-finished', 'true');
+    await expect(page.getByTestId('letter-word')).toBeVisible({ timeout: 15000 });
+    await waitRoundDone(page, 0);
+    // the next letter continues the vowels
+    await expect(page.getByTestId('trace')).not.toHaveAttribute('data-letter', first!, { timeout: 10000 });
   });
 
   test('Help a Friend: the helpful thing is the one that works', async ({ page }) => {

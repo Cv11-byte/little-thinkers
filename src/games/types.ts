@@ -9,6 +9,8 @@ export interface RoundApi {
   seed: number;
   /** 0-based index of this round inside the play session */
   round: number;
+  /** how many rounds this session has */
+  totalRounds: number;
   /** same for every round of one session (pick a different answer each round from it) */
   sessionSeed: number;
   kid: KidId;

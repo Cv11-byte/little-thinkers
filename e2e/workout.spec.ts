@@ -2,6 +2,7 @@ import { expect, test } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { holdHome, seedLevels } from './helpers';
 import { seedWorkout, solveCurrent } from './solver';
+import { traceGameFor } from '../src/workout/plan';
 
 test('language button cycles English → Español → Both, and Both shows two lines', async ({ page }) => {
   await seedLevels(page, 'kid1', {});
@@ -38,10 +39,17 @@ test('Brain Workout: games, a move break, the boss, then goodbye; once a day', a
   await page.getByTestId('workout-go').click({ force: true });
 
   const seen = new Set<string>();
+  let checkedMap = false;
   for (let guard = 0; guard < 600; guard++) {
     if (await page.getByTestId('workout-goodbye').count()) break;
     if (await page.getByTestId('workout-map').count()) {
-      // the map moves on by itself
+      // after a game, the map says it's finished, and waits for the bar to fill before the next game
+      if (!checkedMap && seen.size > 0 && (await page.getByTestId('station-done').count())) {
+        checkedMap = true;
+        await expect(page.getByTestId('station-countdown')).toHaveAttribute('data-full', 'false');
+        await page.waitForTimeout(2500);
+        await expect(page.getByTestId('workout-map')).toBeVisible();
+      }
       await page.waitForTimeout(300);
       continue;
     }
@@ -72,7 +80,8 @@ test('Brain Workout: games, a move break, the boss, then goodbye; once a day', a
     await page.waitForTimeout(300);
   }
   await expect(page.getByTestId('workout-goodbye')).toBeVisible();
-  expect([...seen].sort()).toEqual(['feed-the-bear', 'move', 'pop-balloons', 'rocket-rescue', 'shape-puzzle', 'who-says'].sort());
+  expect(checkedMap).toBe(true);
+  expect([...seen].sort()).toEqual(['move', 'pop-balloons', 'rocket-rescue', 'shape-puzzle', traceGameFor(new Date()), 'who-says'].sort());
 
   // finished today is saved; the goodbye screen only opens for a grown-up
   const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('little-thinkers:v1')!));

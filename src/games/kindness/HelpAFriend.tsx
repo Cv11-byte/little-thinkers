@@ -10,11 +10,11 @@ import { sfx } from '../../engine/sfx';
 import { useStage, useTimers } from '../../engine/stage';
 import { ANIMALS } from '../../engine/words';
 import { Emoji, makeBurst, useBursts } from '../../components/fx';
-import { NEEDS, type NeedId, NeedFriend, TOYS } from '../../components/needs';
+import { NEEDS, type NeedId, NeedFriend, NOT_TOYS, TOYS } from '../../components/needs';
 import type { GameDef, RoundApi } from '../types';
 
 export const FRIENDS = ['puppy', 'bear', 'bunny', 'kitty', 'panda', 'fox'];
-export const NEED_ORDER: NeedId[] = ['cold', 'hungry', 'hurt', 'sleepy', 'thirsty'];
+export const NEED_ORDER: NeedId[] = ['cold', 'hungry', 'hurt', 'sleepy', 'thirsty', 'play', 'dirty', 'rain', 'dark', 'teeth'];
 
 export const FEELINGS: { face: string; name: Phrase }[] = [
   { face: '😊', name: p('happy', 'feliz') },
@@ -35,7 +35,9 @@ export function kindPlan(level: number, sessionSeed: number, round: number) {
   const need = NEEDS[order[round % order.length]];
   const friend = FRIENDS[(sessionSeed + round) % FRIENDS.length];
   const n = level <= 1 ? 2 : 3;
-  const toys = pickN(TOYS, n - 1, rng).map((t) => ({ emoji: t.emoji, right: false }));
+  // wrong choices are toys (or, when the friend wants to play, things that aren't toys)
+  const pool = (need.id === 'play' ? NOT_TOYS : TOYS).filter((t) => t.emoji !== need.helper.emoji);
+  const toys = pickN(pool, n - 1, rng).map((t) => ({ emoji: t.emoji, right: false }));
   const choices = shuffle([{ emoji: need.helper.emoji, right: true }, ...toys], rng);
   return { mode: 'help' as const, need, friend, choices, faces: [] as typeof FEELINGS, answer: FEELINGS[0] };
 }
@@ -77,7 +79,7 @@ function Help({ api, plan }: { api: RoundApi; plan: ReturnType<typeof kindPlan> 
 
   return (
     <g data-testid="help-friend" data-needs={need.id}>
-      <rect width={W} height={H} rx={28} fill={need.id === 'cold' && !helped ? '#E8F1FB' : '#FFF1F3'} style={{ transition: 'fill 0.6s' }} />
+      <rect width={W} height={H} rx={28} fill={helped ? '#FFF1F3' : need.id === 'cold' || need.id === 'rain' ? '#E8F1FB' : need.id === 'dark' ? '#565C80' : '#FFF1F3'} style={{ transition: 'fill 0.6s' }} />
       <NeedFriend emoji={friend.emoji} need={need} x={fx} y={fy} size={fsize} helped={helped} />
       {helped && <Emoji ch={need.helper.emoji} x={fx - fsize * 0.38} y={fy + fsize * 0.32} size={fsize * 0.26} className="pop-in" />}
       {plan.choices.map((c, i) => {
