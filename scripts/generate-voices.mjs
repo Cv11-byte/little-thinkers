@@ -19,6 +19,8 @@ const VOICES = { en: process.env.VOICE_ID_EN, es: process.env.VOICE_ID_ES };
 const MODEL = process.env.ELEVEN_MODEL || 'eleven_multilingual_v2';
 const REDO = new Set((process.env.REDO || '').split(/[\s,]+/).filter(Boolean));
 const LIMIT = Number(process.env.LIMIT || 0);
+/** stop before using more than this many characters (ElevenLabs credits) in one run; 0 = no limit */
+const MAX_CHARS = Number(process.env.MAX_CHARS || 0);
 const NAMES = (process.env.NAMES || '').split(',').map((s) => s.trim()).filter(Boolean);
 
 if (!KEY || !VOICES.en || !VOICES.es) {
@@ -91,7 +93,11 @@ function polish(file) {
 }
 
 const todo = lines.filter((l) => REDO.has(l.id) || !existsSync(`public/voices/${l.lang}/${l.id}.mp3`));
-const batch = LIMIT ? todo.slice(0, LIMIT) : todo;
+let batch = LIMIT ? todo.slice(0, LIMIT) : todo;
+if (MAX_CHARS) {
+  let used = 0;
+  batch = batch.filter((l) => (used + l.text.length <= MAX_CHARS ? ((used += l.text.length), true) : false));
+}
 console.log(`${lines.length} lines, ${lines.length - todo.length} already recorded, recording ${batch.length} now (model ${MODEL}).`);
 const chars = batch.reduce((n, l) => n + l.text.length, 0);
 console.log(`About ${chars} characters of ElevenLabs credit.`);
@@ -112,13 +118,11 @@ async function worker() {
     if (done % 25 === 0 || done === batch.length) console.log(`  ${done}/${batch.length}`);
   }
 }
+let failure = null;
 try {
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
 } catch (e) {
-  // show the reason on the workflow summary (GitHub annotation)
-  const msg = String(e?.message || e).replace(/\s+/g, ' ').slice(0, 900);
-  console.error(`::error title=Voice recording failed::${msg}`);
-  process.exit(1);
+  failure = String(e?.message || e).replace(/\s+/g, ' ').slice(0, 900);
 }
 
 // manifest: every line that has a recording, with its text (used by the voice check screen)
@@ -129,3 +133,11 @@ writeFileSync(
   JSON.stringify({ generated: new Date().toISOString(), model: MODEL, clips: [...unique.keys()], text: Object.fromEntries(unique) }) + '\n',
 );
 console.log(`manifest: ${unique.size} recorded lines.`);
+console.log(`::notice title=Voices::${unique.size} of ${lines.length} lines recorded (${lines.length - unique.size} still use the iPad voice).`);
+
+if (failure) {
+  // out of monthly credits: keep what was recorded, finish the rest next month
+  const quota = /quota|credits|exceed/i.test(failure);
+  console.error(`::${quota ? 'warning' : 'error'} title=${quota ? 'Out of ElevenLabs credits for now' : 'Voice recording failed'}::${failure}`);
+  if (!quota) process.exit(1);
+}

@@ -50,6 +50,7 @@ jobs:
             echo "limit=$(node -p "require('./voices/request.json').limit ?? ''")" >> "$GITHUB_OUTPUT"
             echo "redo=$(node -p "require('./voices/request.json').redo ?? ''")" >> "$GITHUB_OUTPUT"
             echo "names=$(node -p "require('./voices/request.json').names ?? ''")" >> "$GITHUB_OUTPUT"
+            echo "maxchars=$(node -p "require('./voices/request.json').maxChars ?? ''")" >> "$GITHUB_OUTPUT"
           else
             echo "limit=${{ inputs.limit }}" >> "$GITHUB_OUTPUT"
             echo "redo=${{ inputs.redo }}" >> "$GITHUB_OUTPUT"
@@ -60,12 +61,14 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           # the chosen voices (not secret); a VOICE_ID_EN / VOICE_ID_ES secret overrides them
-          VOICE_ID_EN: ${{ secrets.VOICE_ID_EN || 'WyxfC66zZ4F16RqcMMHI' }}
-          VOICE_ID_ES: ${{ secrets.VOICE_ID_ES || 'IdhxxSTaAg80CTeSgScm' }}
+          VOICE_ID_EN: ${{ secrets.VOICE_ID_EN || 'yj30vwTGJxSHezdAGsv9' }}
+          VOICE_ID_ES: ${{ secrets.VOICE_ID_ES || 'zl1Ut8dvwcVSuQSB9XkG' }}
           LIMIT: ${{ steps.opts.outputs.limit }}
           REDO: ${{ steps.opts.outputs.redo }}
           NAMES: ${{ steps.opts.outputs.names }}
+          MAX_CHARS: ${{ steps.opts.outputs.maxchars }}
       - name: Save recordings to the repo
+        if: always()
         run: |
           git config user.name "voice-bot"
           git config user.email "voice-bot@users.noreply.github.com"
