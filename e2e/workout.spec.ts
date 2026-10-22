@@ -110,26 +110,21 @@ test('Brain Workout: games, a move break, the boss, then goodbye; once a day', a
   await expect(page.getByTestId('menu-screen')).toBeVisible();
 });
 
-test('Mix-Up: random games at different levels, then back to the games', async ({ page }) => {
-  test.setTimeout(300_000);
+test('Mix-Up: random games at different levels; can stop anytime', async ({ page }) => {
+  test.setTimeout(240_000);
   await seedLevels(page, 'kid1', {});
   await page.goto('/');
   await page.getByTestId('kid-kid1').click();
   await page.getByTestId('mix-start').click();
+  await expect(page.getByTestId('workout-intro')).toBeVisible();
   await page.getByTestId('workout-go').click({ force: true });
-  const levels = new Set<string>();
   const games: string[] = [];
-  for (let guard = 0; guard < 900; guard++) {
-    if (await page.getByTestId('mix-done').count()) break;
-    if (await page.getByTestId('station-level').count()) {
-      levels.add((await page.getByTestId('station-level').textContent()) ?? '');
-    }
+  // play the first three stops (the full 8-game plan is checked in the unit tests)
+  for (let guard = 0; guard < 600 && games.length < 3; guard++) {
     const gs = page.getByTestId('game-screen');
-    if (!(await page.getByTestId('workout-map').count()) && !(await page.getByTestId('move-break').count()) && (await gs.count())) {
-      if ((await gs.getAttribute('data-phase')) !== 'play') {
-        await page.waitForTimeout(300);
-        continue;
-      }
+    if (await page.getByTestId('workout-map').count()) {
+      await expect(page.getByTestId('station-level')).toBeVisible();
+    } else if (!(await page.getByTestId('move-break').count()) && (await gs.count()) && (await gs.getAttribute('data-phase')) === 'play') {
       const g = (await gs.getAttribute('data-game'))!;
       if (games[games.length - 1] !== g) games.push(g);
       const round = await gs.getAttribute('data-round');
@@ -146,10 +141,11 @@ test('Mix-Up: random games at different levels, then back to the games', async (
     }
     await page.waitForTimeout(300);
   }
-  await expect(page.getByTestId('mix-done')).toBeVisible();
-  expect(games.length).toBeGreaterThanOrEqual(8);
-  expect(levels.size).toBeGreaterThan(1);
-  await page.getByTestId('mix-back').click({ force: true });
+  expect(games.length).toBe(3);
+  expect(games[1]).not.toBe(games[0]);
+  await page.getByTestId('game-screen').waitFor();
+  await holdHome(page);
+  await page.getByTestId('quit-workout').click();
   await expect(page.getByTestId('menu-screen')).toBeVisible();
 });
 
