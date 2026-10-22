@@ -240,9 +240,12 @@ test.describe('games are playable with a finger on iPad size', () => {
     expect(from.x - (mid.x + mid.width / 2)).toBeGreaterThan(150);
     // let go in an empty spot: back to where it started
     await page.mouse.up();
-    await page.waitForTimeout(700);
-    const back = (await page.locator(sel).boundingBox())!;
-    expect(Math.abs(back.x + back.width / 2 - from.x)).toBeLessThan(12);
+    await expect
+      .poll(async () => {
+        const back = (await page.locator(sel).boundingBox())!;
+        return Math.abs(back.x + back.width / 2 - from.x);
+      }, { timeout: 5000 })
+      .toBeLessThan(12);
     await expect(page.locator(sel)).toHaveAttribute('data-placed', 'false');
   });
 
