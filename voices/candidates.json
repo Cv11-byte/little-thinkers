@@ -1,1 +1,12 @@
-[]
+{
+ "log": [
+  "page_size=40&sort=usage_character_count_1y&language=es&gender=female → 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission voices_read to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"ace5bf68af61549ee833b5215ee17182\"}}",
+  "page_size=40&sort=usage_character_count_1y&search=mexican+spanish → 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission voices_read to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"6f997cd1958ff0e42789b62fc32a18c1\"}}",
+  "page_size=40&sort=usage_character_count_1y&language=es&accent=mexican&gender=female → 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission voices_read to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"83987b65affdb643e833b5215ee17893\"}}",
+  "page_size=40&sort=usage_character_count_1y&language=es&accent=latin+american&gender=female → 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission voices_read to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"d4c4d43af514a15b2789b62fc32a163c\"}}",
+  "page_size=40&sort=usage_character_count_1y&language=es&search=mexicana&gender=female → 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission voices_read to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"0155d99fbead2d95e833b5215ee178b1\"}}",
+  "page_size=40&sort=usage_character_count_1y&language=es&search=mexican&gender=female → 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission voices_read to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"60d59fe37a9c7a772789b62fc32a19c6\"}}",
+  "page_size=40&sort=usage_character_count_1y&language=es&search=latina&gender=female → 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission voices_read to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"c48de478309571f8e833b5215ee178de\"}}"
+ ],
+ "voices": []
+}
