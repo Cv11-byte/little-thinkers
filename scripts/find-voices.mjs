@@ -9,6 +9,8 @@ if (!KEY) {
 }
 
 const queries = [
+  { language: 'es', gender: 'female' },
+  { search: 'mexican spanish' },
   { language: 'es', accent: 'mexican', gender: 'female' },
   { language: 'es', accent: 'latin american', gender: 'female' },
   { language: 'es', search: 'mexicana', gender: 'female' },
@@ -17,14 +19,16 @@ const queries = [
 ];
 
 const seen = new Map();
+const log = [];
 for (const q of queries) {
   const params = new URLSearchParams({ page_size: '40', sort: 'usage_character_count_1y', ...q });
   const r = await fetch(`https://api.elevenlabs.io/v1/shared-voices?${params}`, { headers: { 'xi-api-key': KEY } });
   if (!r.ok) {
-    console.log(`query ${params} → ${r.status} ${(await r.text()).slice(0, 200)}`);
+    log.push(`${params} → ${r.status} ${(await r.text()).slice(0, 300)}`);
     continue;
   }
   const j = await r.json();
+  log.push(`${params} → ${(j.voices ?? []).length} voices`);
   for (const v of j.voices ?? []) {
     if (seen.has(v.voice_id)) continue;
     seen.set(v.voice_id, {
@@ -45,5 +49,5 @@ for (const q of queries) {
   }
 }
 const list = [...seen.values()].sort((a, b) => (b.uses ?? 0) - (a.uses ?? 0));
-writeFileSync('voices/candidates.json', JSON.stringify(list, null, 1) + '\n');
+writeFileSync('voices/candidates.json', JSON.stringify({ log, voices: list }, null, 1) + '\n');
 console.log(`::notice title=Find voices::${list.length} voices found`);
