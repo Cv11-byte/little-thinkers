@@ -28,7 +28,8 @@ type Screen =
   | { name: 'stickers'; kid: KidId }
   | { name: 'parent' }
   | { name: 'break' }
-  | { name: 'workout'; kid: KidId };
+  | { name: 'workout'; kid: KidId }
+  | { name: 'mix'; kid: KidId };
 
 export function App({ repo }: { repo?: ProgressRepository }) {
   const store = useMemo(() => repo ?? new LocalStorageRepository(), [repo]);
@@ -122,7 +123,7 @@ export function App({ repo }: { repo?: ProgressRepository }) {
 
   const startWorkout = (kid: KidId) => {
     sfx.tap();
-    if (workoutDoneToday(data, kid)) {
+    if (data.settings.workoutOncePerDay && workoutDoneToday(data, kid)) {
       void speak([
         L.alreadyWorkout(KIDS[kid].name),
         { en: 'See you tomorrow!', es: '¡Nos vemos mañana!' },
@@ -156,6 +157,11 @@ export function App({ repo }: { repo?: ProgressRepository }) {
           onBack={() => go({ name: 'home' })}
           onStickers={() => go({ name: 'stickers', kid: screen.kid })}
           onWorkout={() => startWorkout(screen.kid)}
+          onMix={() => {
+            sfx.tap();
+            go({ name: 'mix', kid: screen.kid });
+          }}
+          onLevel={(l) => update((d) => ({ ...d, settings: { ...d.settings, playLevel: { ...d.settings.playLevel, [screen.kid]: l } } }))}
           onLang={setLang}
         />
       );
@@ -195,6 +201,21 @@ export function App({ repo }: { repo?: ProgressRepository }) {
           onLang={setLang}
           onQuit={() => go({ name: 'menu', kid: screen.kid })}
           onParent={() => setGate('bye')}
+        />
+      );
+      break;
+    case 'mix':
+      body = (
+        <WorkoutScreen
+          key={'mix-' + screen.kid}
+          mode="mix"
+          kid={screen.kid}
+          data={data}
+          update={update}
+          lang={lang}
+          onLang={setLang}
+          onQuit={() => go({ name: 'menu', kid: screen.kid })}
+          onParent={() => go({ name: 'menu', kid: screen.kid })}
         />
       );
       break;

@@ -93,7 +93,9 @@ function polish(file) {
 }
 
 // most-used lines first, English and Spanish taking turns, so a short budget covers both languages evenly
-const missingLines = lines.filter((l) => REDO.has(l.id) || !existsSync(`public/voices/${l.lang}/${l.id}.mp3`));
+// REDO can name lines (es/1a2b3c4d or 1a2b3c4d) or a whole language (es/*), e.g. after changing a voice
+const redo = (l) => REDO.has(l.id) || REDO.has(`${l.lang}/${l.id}`) || REDO.has(`${l.lang}/*`);
+const missingLines = lines.filter((l) => redo(l) || !existsSync(`public/voices/${l.lang}/${l.id}.mp3`));
 const rank = new Map();
 const counters = {};
 for (const l of [...missingLines].sort((a, b) => (a.priority ?? 1) - (b.priority ?? 1))) {

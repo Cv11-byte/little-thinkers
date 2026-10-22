@@ -19,7 +19,7 @@ const a = (id: string, emoji: string, en: string, esArt: string, sound?: Phrase)
 
 export const ANIMALS: Record<string, Animal> = {
   cow: a('cow', '🐄', 'cow', 'la vaca', p('Moo! Moo!', '¡Mu! ¡Mu!')),
-  pig: a('pig', '🐖', 'pig', 'el cerdo', p('Oink! Oink!', '¡Oinc! ¡Oinc!')),
+  pig: a('pig', '🐖', 'pig', 'el cochinito', p('Oink! Oink!', '¡Oinc! ¡Oinc!')),
   chicken: a('chicken', '🐔', 'chicken', 'la gallina', p('Cluck, cluck!', '¡Coc, coc, coc!')),
   sheep: a('sheep', '🐑', 'sheep', 'la oveja', p('Baa! Baa!', '¡Bee! ¡Bee!')),
   horse: a('horse', '🐴', 'horse', 'el caballo', p('Neigh!', '¡Iiiii!')),

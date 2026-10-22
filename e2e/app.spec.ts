@@ -13,11 +13,11 @@ test('home shows both kids and the language choice is remembered', async ({ page
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Little Thinkers');
 });
 
-test('menu lists all 11 games and each one opens and closes', async ({ page }) => {
+test('menu lists all 13 games and each one opens and closes', async ({ page }) => {
   await page.goto('/');
   await page.getByTestId('kid-kid1').click();
   const tiles = page.locator('[data-testid^=tile-]');
-  await expect(tiles).toHaveCount(11);
+  await expect(tiles).toHaveCount(13);
   const ids = await tiles.evaluateAll((els) => els.map((e) => e.getAttribute('data-testid')!.replace('tile-', '')));
   for (const id of ids) {
     await page.getByTestId(`tile-${id}`).click();
@@ -147,7 +147,7 @@ test('broken saved data does not crash the app', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByTestId('kid-kid1')).toBeVisible();
   await page.getByTestId('kid-kid1').click();
-  await expect(page.locator('[data-testid^=tile-]')).toHaveCount(11);
+  await expect(page.locator('[data-testid^=tile-]')).toHaveCount(13);
 });
 
 test.describe('portrait iPad', () => {

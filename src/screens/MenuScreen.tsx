@@ -3,6 +3,7 @@ import { Bi, LangToggle } from '../components/lang';
 import { type AppData, type KidId, getStats, workoutDoneToday } from '../engine/storage';
 import { GAME_BY_ID, MENU_ORDER } from '../games/registry';
 import { KIDS } from '../app/kids';
+import { LevelPicker } from '../components/LevelPicker';
 
 interface Props {
   kid: KidId;
@@ -12,14 +13,20 @@ interface Props {
   onBack: () => void;
   onStickers: () => void;
   onWorkout: () => void;
+  onMix: () => void;
+  onLevel: (l: number) => void;
   onLang: (m: LangMode) => void;
 }
 
 export const WORKOUT_TITLE = p('Brain Workout', 'Ejercicio Mental');
+export const MIX_TITLE = p('Mix-Up', 'Mezcla Sorpresa');
 
-export function MenuScreen({ kid, data, lang, onGame, onBack, onStickers, onWorkout, onLang }: Props) {
+export function MenuScreen({ kid, data, lang, onGame, onBack, onStickers, onWorkout, onMix, onLevel, onLang }: Props) {
   const k = KIDS[kid];
-  const done = workoutDoneToday(data, kid);
+  const doneToday = workoutDoneToday(data, kid);
+  // "done" only blocks the card when the grown-up turned on once-a-day
+  const done = doneToday && data.settings.workoutOncePerDay;
+  const chosen = data.settings.playLevel[kid];
   const days = data.kids[kid].workouts.length;
   return (
     <div className="menu-screen" data-testid="menu-screen" style={{ ['--kid' as string]: k.color, ['--kid-soft' as string]: k.soft }}>
@@ -34,6 +41,7 @@ export function MenuScreen({ kid, data, lang, onGame, onBack, onStickers, onWork
           <span className="menu-name">{k.name}</span>
         </div>
         <div className="menu-right">
+          <LevelPicker level={chosen} onChange={onLevel} lang={lang} />
           <LangToggle mode={lang} onChange={onLang} />
           <button className="sticker-btn" data-testid="stickers" onClick={onStickers} aria-label={UI.stickers.en}>
             <span>🏅</span>
@@ -48,7 +56,10 @@ export function MenuScreen({ kid, data, lang, onGame, onBack, onStickers, onWork
             <Bi ph={WORKOUT_TITLE} mode={lang} />
           </span>
           <span className="wk-sub">
-            <Bi ph={done ? p('Done for today! See you tomorrow.', '¡Listo por hoy! Nos vemos mañana.') : p("Today's adventure", 'La aventura de hoy')} mode={lang} />
+            <Bi
+              ph={done ? p('Done for today! See you tomorrow.', '¡Listo por hoy! Nos vemos mañana.') : doneToday ? p('Play it again!', '¡Otra vez!') : p("Today's adventure", 'La aventura de hoy')}
+              mode={lang}
+            />
           </span>
         </span>
         <span className="wk-trophies" aria-label={`${days} workouts finished`}>
@@ -56,10 +67,22 @@ export function MenuScreen({ kid, data, lang, onGame, onBack, onStickers, onWork
         </span>
         {!done && <span className="wk-go">▶</span>}
       </button>
+      <button className="mix-card" data-testid="mix-start" onClick={onMix}>
+        <span className="mix-icon">🎲</span>
+        <span className="wk-text">
+          <span className="wk-title">
+            <Bi ph={MIX_TITLE} mode={lang} />
+          </span>
+          <span className="wk-sub">
+            <Bi ph={p('Every game a surprise', 'Cada juego es una sorpresa')} mode={lang} />
+          </span>
+        </span>
+        <span className="wk-go">▶</span>
+      </button>
       <div className="game-grid">
         {MENU_ORDER[kid].map((id) => {
           const g = GAME_BY_ID[id];
-          const lvl = getStats(data, kid, id).level;
+          const lvl = chosen || getStats(data, kid, id).level;
           return (
             <button key={id} className="game-tile" data-testid={`tile-${id}`} style={{ ['--tint' as string]: g.tint }} onClick={() => onGame(id)}>
               <span className="tile-icon">{g.icon}</span>

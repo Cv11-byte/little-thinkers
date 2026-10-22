@@ -25,6 +25,26 @@
   "text": "A bandage!"
  },
  {
+  "id": "b8b9ecd8",
+  "lang": "en",
+  "text": "A boat!"
+ },
+ {
+  "id": "05de8ad7",
+  "lang": "en",
+  "text": "A box!"
+ },
+ {
+  "id": "8cfc3fd9",
+  "lang": "en",
+  "text": "A bridge!"
+ },
+ {
+  "id": "1d62a542",
+  "lang": "en",
+  "text": "A castle!"
+ },
+ {
   "id": "c41197f3",
   "lang": "en",
   "text": "a cozy bed"
@@ -58,6 +78,11 @@
   "id": "5f5a60bd",
   "lang": "en",
   "text": "a guitar"
+ },
+ {
+  "id": "1c83a76c",
+  "lang": "en",
+  "text": "A house!"
  },
  {
   "id": "560cbc8d",
@@ -95,6 +120,16 @@
   "text": "A little alien wants to come too. But he is thirsty"
  },
  {
+  "id": "a022c9c6",
+  "lang": "en",
+  "text": "A rocket!"
+ },
+ {
+  "id": "b4f54074",
+  "lang": "en",
+  "text": "A table!"
+ },
+ {
   "id": "3f374ec7",
   "lang": "en",
   "text": "a teddy bear"
@@ -110,6 +145,26 @@
   "text": "A toothbrush!"
  },
  {
+  "id": "d1dd4003",
+  "lang": "en",
+  "text": "A tower!"
+ },
+ {
+  "id": "e50f2362",
+  "lang": "en",
+  "text": "A tree!"
+ },
+ {
+  "id": "88b5fd2d",
+  "lang": "en",
+  "text": "A truck!"
+ },
+ {
+  "id": "47ec541a",
+  "lang": "en",
+  "text": "A wall!"
+ },
+ {
   "id": "927b0a48",
   "lang": "en",
   "text": "a warm jacket"
@@ -118,6 +173,11 @@
   "id": "fb61ea6b",
   "lang": "en",
   "text": "A warm jacket!"
+ },
+ {
+  "id": "41122a26",
+  "lang": "en",
+  "text": "A window!"
  },
  {
   "id": "3b6e8d48",
@@ -198,6 +258,11 @@
   "priority": 2
  },
  {
+  "id": "d885384d",
+  "lang": "en",
+  "text": "Auto"
+ },
+ {
   "id": "3bcc77df",
   "lang": "en",
   "text": "avocado",
@@ -230,6 +295,11 @@
   "lang": "en",
   "text": "baby",
   "priority": 2
+ },
+ {
+  "id": "ec8ee471",
+  "lang": "en",
+  "text": "Back to games"
  },
  {
   "id": "8ef749fc",
@@ -313,14 +383,14 @@
   "text": "Blast off! Bye bye, rocket!"
  },
  {
-  "id": "ecb697c0",
+  "id": "1a36270d",
   "lang": "en",
-  "text": "Block Builder"
+  "text": "Block Puzzle"
  },
  {
-  "id": "32d7f6aa",
+  "id": "40815215",
   "lang": "en",
-  "text": "Block Builder: all done!"
+  "text": "Block Puzzle: all done!"
  },
  {
   "id": "6bf4657c",
@@ -540,6 +610,11 @@
   "priority": 2
  },
  {
+  "id": "34088b56",
+  "lang": "en",
+  "text": "Comparing & taking away"
+ },
+ {
   "id": "b6577bef",
   "lang": "en",
   "text": "construction worker",
@@ -593,6 +668,11 @@
   "lang": "en",
   "text": "crayons",
   "priority": 2
+ },
+ {
+  "id": "eabe74c0",
+  "lang": "en",
+  "text": "Creativity"
  },
  {
   "id": "70214e02",
@@ -724,9 +804,19 @@
   "text": "E!"
  },
  {
+  "id": "370530d5",
+  "lang": "en",
+  "text": "Each game moves up on its own"
+ },
+ {
   "id": "01025da6",
   "lang": "en",
   "text": "eagle"
+ },
+ {
+  "id": "0687eb5c",
+  "lang": "en",
+  "text": "Easy"
  },
  {
   "id": "fdd63a53",
@@ -760,6 +850,11 @@
   "text": "Español"
  },
  {
+  "id": "a7c2590d",
+  "lang": "en",
+  "text": "Every game a surprise"
+ },
+ {
   "id": "a20cdab1",
   "lang": "en",
   "text": "Everything is fixed! Count down to blast off. Tap 3, 2, 1!"
@@ -784,6 +879,11 @@
   "lang": "en",
   "text": "excavator",
   "priority": 2
+ },
+ {
+  "id": "0b9a52f6",
+  "lang": "en",
+  "text": "Expert"
  },
  {
   "id": "0a75f0c1",
@@ -867,6 +967,11 @@
   "id": "b1ede6ce",
   "lang": "en",
   "text": "Find yellow!"
+ },
+ {
+  "id": "24af18ca",
+  "lang": "en",
+  "text": "Finger control"
  },
  {
   "id": "ff8ee94f",
@@ -956,6 +1061,16 @@
   "id": "cb4f8f13",
   "lang": "en",
   "text": "fox"
+ },
+ {
+  "id": "05b87798",
+  "lang": "en",
+  "text": "Free Build"
+ },
+ {
+  "id": "aa508e82",
+  "lang": "en",
+  "text": "Free Build: all done!"
  },
  {
   "id": "eec2c5b8",
@@ -1161,6 +1276,11 @@
   "text": "Great playing today!"
  },
  {
+  "id": "74403968",
+  "lang": "en",
+  "text": "Great playing!"
+ },
+ {
   "id": "fe6fcd25",
   "lang": "en",
   "text": "green"
@@ -1197,6 +1317,11 @@
   "id": "9e2ef864",
   "lang": "en",
   "text": "happy"
+ },
+ {
+  "id": "cc061aab",
+  "lang": "en",
+  "text": "Hard"
  },
  {
   "id": "e3eccc66",
@@ -1309,6 +1434,16 @@
   "text": "How can we help?"
  },
  {
+  "id": "67035972",
+  "lang": "en",
+  "text": "How hard?"
+ },
+ {
+  "id": "9b3fde37",
+  "lang": "en",
+  "text": "How many are left?"
+ },
+ {
   "id": "6e0babce",
   "lang": "en",
   "text": "I is for iguana!"
@@ -1373,6 +1508,16 @@
   "id": "ca0981f1",
   "lang": "en",
   "text": "is thirsty"
+ },
+ {
+  "id": "2a5a9407",
+  "lang": "en",
+  "text": "It doesn't fit there. Try another spot!"
+ },
+ {
+  "id": "702fe1fa",
+  "lang": "en",
+  "text": "It's Mix-Up time! Every game is a surprise."
  },
  {
   "id": "92e1f991",
@@ -1480,6 +1625,76 @@
   "text": "Last one! The astronaut's rocket is broken. Let's fix it!"
  },
  {
+  "id": "cff0f064",
+  "lang": "en",
+  "text": "Let's build a boat! Fill every square."
+ },
+ {
+  "id": "7f1b3e5f",
+  "lang": "en",
+  "text": "Let's build a box! Fill every square."
+ },
+ {
+  "id": "6bec70c3",
+  "lang": "en",
+  "text": "Let's build a bridge! Fill every square."
+ },
+ {
+  "id": "d1009a42",
+  "lang": "en",
+  "text": "Let's build a castle! Fill every square."
+ },
+ {
+  "id": "b3db2d7e",
+  "lang": "en",
+  "text": "Let's build a house! Fill every square."
+ },
+ {
+  "id": "a62e1306",
+  "lang": "en",
+  "text": "Let's build a rocket! Fill every square."
+ },
+ {
+  "id": "be1912da",
+  "lang": "en",
+  "text": "Let's build a table! Fill every square."
+ },
+ {
+  "id": "63599fcf",
+  "lang": "en",
+  "text": "Let's build a tower! Fill every square."
+ },
+ {
+  "id": "351ff9aa",
+  "lang": "en",
+  "text": "Let's build a tree! Fill every square."
+ },
+ {
+  "id": "cf42b0cd",
+  "lang": "en",
+  "text": "Let's build a truck! Fill every square."
+ },
+ {
+  "id": "0f09098e",
+  "lang": "en",
+  "text": "Let's build a wall! Fill every square."
+ },
+ {
+  "id": "bb9d77aa",
+  "lang": "en",
+  "text": "Let's build a window! Fill every square."
+ },
+ {
+  "id": "09cc65df",
+  "lang": "en",
+  "text": "Let's build some stairs! Fill every square."
+ },
+ {
+  "id": "8941ac20",
+  "lang": "en",
+  "text": "Let's build some steps! Fill every square."
+ },
+ {
   "id": "07d4a099",
   "lang": "en",
   "text": "Let's build! Drag the blocks."
@@ -1493,6 +1708,11 @@
   "id": "ae77537c",
   "lang": "en",
   "text": "Let's go!"
+ },
+ {
+  "id": "425399b7",
+  "lang": "en",
+  "text": "Letters"
  },
  {
   "id": "f74020ed",
@@ -1519,6 +1739,11 @@
   "id": "293856e6",
   "lang": "en",
   "text": "Little Thinkers"
+ },
+ {
+  "id": "ff16aaf7",
+  "lang": "en",
+  "text": "Look-alikes · longest puzzles"
  },
  {
   "id": "95ae409c",
@@ -1550,9 +1775,19 @@
   "priority": 2
  },
  {
+  "id": "921b2b91",
+  "lang": "en",
+  "text": "Medium"
+ },
+ {
   "id": "94de582d",
   "lang": "en",
   "text": "Memory"
+ },
+ {
+  "id": "7a19689d",
+  "lang": "en",
+  "text": "Memory & attention"
  },
  {
   "id": "74c6a3f5",
@@ -1564,6 +1799,21 @@
   "lang": "en",
   "text": "milk",
   "priority": 2
+ },
+ {
+  "id": "fedf7a26",
+  "lang": "en",
+  "text": "Mix-Up"
+ },
+ {
+  "id": "3401a221",
+  "lang": "en",
+  "text": "Mix-Up done!"
+ },
+ {
+  "id": "b4e1216d",
+  "lang": "en",
+  "text": "Mix-Up done! Great playing!"
  },
  {
   "id": "84aad927",
@@ -1585,6 +1835,21 @@
   "id": "3edf90cf",
   "lang": "en",
   "text": "moon"
+ },
+ {
+  "id": "5121eba1",
+  "lang": "en",
+  "text": "More or Less"
+ },
+ {
+  "id": "15751981",
+  "lang": "en",
+  "text": "More or Less: all done!"
+ },
+ {
+  "id": "6c56039b",
+  "lang": "en",
+  "text": "More pieces · 4 choices"
  },
  {
   "id": "7560fa33",
@@ -1661,9 +1926,9 @@
   "text": "Next: Animal Homes!"
  },
  {
-  "id": "5ee29fb0",
+  "id": "4c871c49",
   "lang": "en",
-  "text": "Next: Block Builder!"
+  "text": "Next: Block Puzzle!"
  },
  {
   "id": "509279d1",
@@ -1681,9 +1946,19 @@
   "text": "Next: Find It!"
  },
  {
+  "id": "9cc93cf2",
+  "lang": "en",
+  "text": "Next: Free Build!"
+ },
+ {
   "id": "fe1a05a6",
   "lang": "en",
   "text": "Next: Help a Friend!"
+ },
+ {
+  "id": "2bda7269",
+  "lang": "en",
+  "text": "Next: More or Less!"
  },
  {
   "id": "27057332",
@@ -1739,6 +2014,21 @@
   "id": "baa35252",
   "lang": "en",
   "text": "Numbers & finger control"
+ },
+ {
+  "id": "80549760",
+  "lang": "en",
+  "text": "Numbers & math"
+ },
+ {
+  "id": "97867282",
+  "lang": "en",
+  "text": "Numbers to 10 · 3 choices"
+ },
+ {
+  "id": "b96769bd",
+  "lang": "en",
+  "text": "Numbers to 5 · 2 choices"
  },
  {
   "id": "2994d8ef",
@@ -1911,6 +2201,11 @@
   "priority": 2
  },
  {
+  "id": "c2dd743f",
+  "lang": "en",
+  "text": "Planning & spatial thinking"
+ },
+ {
   "id": "6fbcc3aa",
   "lang": "en",
   "text": "plate",
@@ -1920,6 +2215,11 @@
   "id": "686de9f8",
   "lang": "en",
   "text": "Play again"
+ },
+ {
+  "id": "1c96b920",
+  "lang": "en",
+  "text": "Play it again!"
  },
  {
   "id": "0bc5babc",
@@ -2098,6 +2398,11 @@
   "id": "3ece9a4b",
   "lang": "en",
   "text": "Press the green button to start!"
+ },
+ {
+  "id": "6b428449",
+  "lang": "en",
+  "text": "Problem solving"
  },
  {
   "id": "bdeab9b8",
@@ -2539,6 +2844,11 @@
   "priority": 2
  },
  {
+  "id": "5e97bc81",
+  "lang": "en",
+  "text": "Some are easy, some are tricky!"
+ },
+ {
   "id": "716d334e",
   "lang": "en",
   "text": "some food"
@@ -2557,6 +2867,16 @@
   "id": "2afc3b40",
   "lang": "en",
   "text": "Some soap!"
+ },
+ {
+  "id": "c3254f93",
+  "lang": "en",
+  "text": "Some stairs!"
+ },
+ {
+  "id": "cb97f704",
+  "lang": "en",
+  "text": "Some steps!"
  },
  {
   "id": "2caa76c2",
@@ -2933,6 +3253,11 @@
   "id": "773348f0",
   "lang": "en",
   "text": "Tap 5 yellow soccer balls!"
+ },
+ {
+  "id": "072f0703",
+  "lang": "en",
+  "text": "Tap a piece to turn it."
  },
  {
   "id": "8f019504",
@@ -3987,6 +4312,26 @@
   "text": "The bear can't see in the dark"
  },
  {
+  "id": "9375a0db",
+  "lang": "en",
+  "text": "The bear eats 1 apple."
+ },
+ {
+  "id": "e6e47997",
+  "lang": "en",
+  "text": "The bear eats 2 apples."
+ },
+ {
+  "id": "6f629c04",
+  "lang": "en",
+  "text": "The bear eats 3 apples."
+ },
+ {
+  "id": "e31c5475",
+  "lang": "en",
+  "text": "The bear eats 4 apples."
+ },
+ {
   "id": "1c5af1c5",
   "lang": "en",
   "text": "The bear got a boo-boo"
@@ -4133,6 +4478,26 @@
   "id": "e7dadddf",
   "lang": "en",
   "text": "The bunny can't see in the dark"
+ },
+ {
+  "id": "2586a320",
+  "lang": "en",
+  "text": "The bunny eats 1 carrot."
+ },
+ {
+  "id": "ce5e0b40",
+  "lang": "en",
+  "text": "The bunny eats 2 carrots."
+ },
+ {
+  "id": "049ca905",
+  "lang": "en",
+  "text": "The bunny eats 3 carrots."
+ },
+ {
+  "id": "1e77a8f2",
+  "lang": "en",
+  "text": "The bunny eats 4 carrots."
  },
  {
   "id": "be560369",
@@ -4674,6 +5039,26 @@
   "priority": 2
  },
  {
+  "id": "d2ecb847",
+  "lang": "en",
+  "text": "The monkey eats 1 banana."
+ },
+ {
+  "id": "70efcd3d",
+  "lang": "en",
+  "text": "The monkey eats 2 bananas."
+ },
+ {
+  "id": "da104034",
+  "lang": "en",
+  "text": "The monkey eats 3 bananas."
+ },
+ {
+  "id": "e69dd117",
+  "lang": "en",
+  "text": "The monkey eats 4 bananas."
+ },
+ {
   "id": "8302fa9c",
   "lang": "en",
   "text": "The monkey lives in the tree!"
@@ -4851,6 +5236,26 @@
   "id": "d918a8ed",
   "lang": "en",
   "text": "The puppy can't see in the dark"
+ },
+ {
+  "id": "7050a7c1",
+  "lang": "en",
+  "text": "The puppy eats 1 bone."
+ },
+ {
+  "id": "fdac9d5f",
+  "lang": "en",
+  "text": "The puppy eats 2 bones."
+ },
+ {
+  "id": "18263b56",
+  "lang": "en",
+  "text": "The puppy eats 3 bones."
+ },
+ {
+  "id": "d490cee1",
+  "lang": "en",
+  "text": "The puppy eats 4 bones."
  },
  {
   "id": "586223cb",
@@ -5177,6 +5582,146 @@
   "id": "63629dc4",
   "lang": "en",
   "text": "The zebra!"
+ },
+ {
+  "id": "0a229b8a",
+  "lang": "en",
+  "text": "There are 3 apples."
+ },
+ {
+  "id": "acc27ff9",
+  "lang": "en",
+  "text": "There are 3 bananas."
+ },
+ {
+  "id": "e7c02d0a",
+  "lang": "en",
+  "text": "There are 3 bones."
+ },
+ {
+  "id": "5aaf4c5b",
+  "lang": "en",
+  "text": "There are 3 carrots."
+ },
+ {
+  "id": "984ba28f",
+  "lang": "en",
+  "text": "There are 4 apples."
+ },
+ {
+  "id": "77073fc2",
+  "lang": "en",
+  "text": "There are 4 bananas."
+ },
+ {
+  "id": "699e750d",
+  "lang": "en",
+  "text": "There are 4 bones."
+ },
+ {
+  "id": "f5a0e89c",
+  "lang": "en",
+  "text": "There are 4 carrots."
+ },
+ {
+  "id": "2c452b1c",
+  "lang": "en",
+  "text": "There are 5 apples."
+ },
+ {
+  "id": "a1d5498b",
+  "lang": "en",
+  "text": "There are 5 bananas."
+ },
+ {
+  "id": "e7ef660c",
+  "lang": "en",
+  "text": "There are 5 bones."
+ },
+ {
+  "id": "6fda9fa1",
+  "lang": "en",
+  "text": "There are 5 carrots."
+ },
+ {
+  "id": "4f19d401",
+  "lang": "en",
+  "text": "There are 6 apples."
+ },
+ {
+  "id": "f4d9af8c",
+  "lang": "en",
+  "text": "There are 6 bananas."
+ },
+ {
+  "id": "329d8e77",
+  "lang": "en",
+  "text": "There are 6 bones."
+ },
+ {
+  "id": "21cce5c2",
+  "lang": "en",
+  "text": "There are 6 carrots."
+ },
+ {
+  "id": "f1047cbe",
+  "lang": "en",
+  "text": "There are 7 apples."
+ },
+ {
+  "id": "9321c295",
+  "lang": "en",
+  "text": "There are 7 bananas."
+ },
+ {
+  "id": "80813f6e",
+  "lang": "en",
+  "text": "There are 7 bones."
+ },
+ {
+  "id": "2b890f87",
+  "lang": "en",
+  "text": "There are 7 carrots."
+ },
+ {
+  "id": "78583983",
+  "lang": "en",
+  "text": "There are 8 apples."
+ },
+ {
+  "id": "c38a55ae",
+  "lang": "en",
+  "text": "There are 8 bananas."
+ },
+ {
+  "id": "76cce661",
+  "lang": "en",
+  "text": "There are 8 bones."
+ },
+ {
+  "id": "1acb7268",
+  "lang": "en",
+  "text": "There are 8 carrots."
+ },
+ {
+  "id": "84d90350",
+  "lang": "en",
+  "text": "There are 9 apples."
+ },
+ {
+  "id": "df20c1b7",
+  "lang": "en",
+  "text": "There are 9 bananas."
+ },
+ {
+  "id": "1cf20c90",
+  "lang": "en",
+  "text": "There are 9 bones."
+ },
+ {
+  "id": "40b7da6d",
+  "lang": "en",
+  "text": "There are 9 carrots."
  },
  {
   "id": "b0befef3",
@@ -6591,6 +7136,16 @@
   "text": "Where is the zebra?"
  },
  {
+  "id": "803975d1",
+  "lang": "en",
+  "text": "Which one has less?"
+ },
+ {
+  "id": "5a0b7681",
+  "lang": "en",
+  "text": "Which one has more?"
+ },
+ {
   "id": "484c0d6a",
   "lang": "en",
   "text": "Which plate has more apples?"
@@ -6652,6 +7207,11 @@
   "text": "Woof! Woof!"
  },
  {
+  "id": "e30ce44c",
+  "lang": "en",
+  "text": "Words & listening"
+ },
+ {
   "id": "899ca1bc",
   "lang": "en",
   "text": "Wow!"
@@ -6701,9 +7261,39 @@
   "text": "Yes! 1 is more!"
  },
  {
+  "id": "47a3419b",
+  "lang": "en",
+  "text": "Yes! 1 less!"
+ },
+ {
+  "id": "c0985893",
+  "lang": "en",
+  "text": "Yes! 1 more!"
+ },
+ {
+  "id": "4fd16ef8",
+  "lang": "en",
+  "text": "Yes! 2 are left!"
+ },
+ {
   "id": "dca30912",
   "lang": "en",
   "text": "Yes! 2 is more!"
+ },
+ {
+  "id": "a9af2322",
+  "lang": "en",
+  "text": "Yes! 2 less!"
+ },
+ {
+  "id": "94afa42a",
+  "lang": "en",
+  "text": "Yes! 2 more!"
+ },
+ {
+  "id": "4d0413bb",
+  "lang": "en",
+  "text": "Yes! 3 are left!"
  },
  {
   "id": "bfe52c1f",
@@ -6711,9 +7301,39 @@
   "text": "Yes! 3 is more!"
  },
  {
+  "id": "d137a001",
+  "lang": "en",
+  "text": "Yes! 3 less!"
+ },
+ {
+  "id": "6e53bc19",
+  "lang": "en",
+  "text": "Yes! 3 more!"
+ },
+ {
+  "id": "ff90e1be",
+  "lang": "en",
+  "text": "Yes! 4 are left!"
+ },
+ {
   "id": "363ac960",
   "lang": "en",
   "text": "Yes! 4 is more!"
+ },
+ {
+  "id": "17810c90",
+  "lang": "en",
+  "text": "Yes! 4 less!"
+ },
+ {
+  "id": "76d13ab8",
+  "lang": "en",
+  "text": "Yes! 4 more!"
+ },
+ {
+  "id": "50f5d7a9",
+  "lang": "en",
+  "text": "Yes! 5 are left!"
  },
  {
   "id": "cb081bb5",
@@ -6721,14 +7341,79 @@
   "text": "Yes! 5 is more!"
  },
  {
+  "id": "7073599f",
+  "lang": "en",
+  "text": "Yes! 5 less!"
+ },
+ {
+  "id": "6d683fcf",
+  "lang": "en",
+  "text": "Yes! 5 more!"
+ },
+ {
+  "id": "aebabc04",
+  "lang": "en",
+  "text": "Yes! 6 are left!"
+ },
+ {
   "id": "f5ce3986",
   "lang": "en",
   "text": "Yes! 6 is more!"
  },
  {
+  "id": "db5d24d6",
+  "lang": "en",
+  "text": "Yes! 6 less!"
+ },
+ {
+  "id": "741837f6",
+  "lang": "en",
+  "text": "Yes! 6 more!"
+ },
+ {
+  "id": "684ee027",
+  "lang": "en",
+  "text": "Yes! 7 are left!"
+ },
+ {
   "id": "27cc4c13",
   "lang": "en",
   "text": "Yes! 7 is more!"
+ },
+ {
+  "id": "a1a7ab65",
+  "lang": "en",
+  "text": "Yes! 7 less!"
+ },
+ {
+  "id": "3f67e025",
+  "lang": "en",
+  "text": "Yes! 7 more!"
+ },
+ {
+  "id": "ea3ec09a",
+  "lang": "en",
+  "text": "Yes! 8 are left!"
+ },
+ {
+  "id": "84b89024",
+  "lang": "en",
+  "text": "Yes! 8 less!"
+ },
+ {
+  "id": "2e6e7d54",
+  "lang": "en",
+  "text": "Yes! 8 more!"
+ },
+ {
+  "id": "eec43d73",
+  "lang": "en",
+  "text": "Yes! 9 less!"
+ },
+ {
+  "id": "9646893b",
+  "lang": "en",
+  "text": "Yes! 9 more!"
  },
  {
   "id": "0e82ed70",
@@ -6739,6 +7424,11 @@
   "id": "8cfd08f9",
   "lang": "en",
   "text": "Yes! Happy!"
+ },
+ {
+  "id": "26765ce8",
+  "lang": "en",
+  "text": "Yes! One is left!"
  },
  {
   "id": "e4b57773",
@@ -6987,14 +7677,19 @@
   "text": "¡Comida!"
  },
  {
+  "id": "3684ddd1",
+  "lang": "es",
+  "text": "¡Construir: terminado!"
+ },
+ {
+  "id": "4b5d7dce",
+  "lang": "es",
+  "text": "¡Construye Libre: terminado!"
+ },
+ {
   "id": "c6e28107",
   "lang": "es",
   "text": "¡Construye una casa! ¿Le pones un techo?"
- },
- {
-  "id": "4303d3d0",
-  "lang": "es",
-  "text": "¡Construye: terminado!"
  },
  {
   "id": "e348d446",
@@ -7295,9 +7990,9 @@
   "text": "¡Dilo conmigo: u!"
  },
  {
-  "id": "c6330073",
+  "id": "a4c2e812",
   "lang": "es",
-  "text": "¡Dilo conmigo: uve!",
+  "text": "¡Dilo conmigo: ve!",
   "priority": 2
  },
  {
@@ -7486,16 +8181,6 @@
   "priority": 2
  },
  {
-  "id": "da7c0a4c",
-  "lang": "es",
-  "text": "¡El cerdo vive en la granja!"
- },
- {
-  "id": "df28237b",
-  "lang": "es",
-  "text": "¡El cerdo!"
- },
- {
   "id": "9eea0659",
   "lang": "es",
   "text": "¡El científico!",
@@ -7505,6 +8190,16 @@
   "id": "6b9327f4",
   "lang": "es",
   "text": "¡El círculo sí cabe!"
+ },
+ {
+  "id": "f9e344f5",
+  "lang": "es",
+  "text": "¡El cochinito vive en la granja!"
+ },
+ {
+  "id": "edb0be4a",
+  "lang": "es",
+  "text": "¡El cochinito!"
  },
  {
   "id": "63894f50",
@@ -7989,6 +8684,11 @@
   "lang": "es",
   "text": "¡erre!",
   "priority": 2
+ },
+ {
+  "id": "ae5291c6",
+  "lang": "es",
+  "text": "¡Es hora de la Mezcla Sorpresa! Cada juego es una sorpresa."
  },
  {
   "id": "ddce4500",
@@ -8562,6 +9262,11 @@
   "priority": 2
  },
  {
+  "id": "fbdb5664",
+  "lang": "es",
+  "text": "¡Más o Menos: terminado!"
+ },
+ {
   "id": "fe3121ad",
   "lang": "es",
   "text": "¡Miau!"
@@ -8712,6 +9417,11 @@
   "id": "fd5880a5",
   "lang": "es",
   "text": "¡Primero, gasolina! Toca la lata verde."
+ },
+ {
+  "id": "eb40b231",
+  "lang": "es",
+  "text": "¡Qué bien jugaste!"
  },
  {
   "id": "31d310c2",
@@ -8884,6 +9594,36 @@
   "text": "¡Sí! ¡Asustado!"
  },
  {
+  "id": "96edaffc",
+  "lang": "es",
+  "text": "¡Sí! ¡Cinco más!"
+ },
+ {
+  "id": "fd39fcf7",
+  "lang": "es",
+  "text": "¡Sí! ¡Cinco menos!"
+ },
+ {
+  "id": "1fdfe99a",
+  "lang": "es",
+  "text": "¡Sí! ¡Cuatro más!"
+ },
+ {
+  "id": "7c28c885",
+  "lang": "es",
+  "text": "¡Sí! ¡Cuatro menos!"
+ },
+ {
+  "id": "f089d7d6",
+  "lang": "es",
+  "text": "¡Sí! ¡Dos más!"
+ },
+ {
+  "id": "e976c569",
+  "lang": "es",
+  "text": "¡Sí! ¡Dos menos!"
+ },
+ {
   "id": "183429b1",
   "lang": "es",
   "text": "¡Sí! ¡Enojado!"
@@ -8894,9 +9634,114 @@
   "text": "¡Sí! ¡Feliz!"
  },
  {
+  "id": "4c934d7b",
+  "lang": "es",
+  "text": "¡Sí! ¡Nueve más!"
+ },
+ {
+  "id": "de93ba44",
+  "lang": "es",
+  "text": "¡Sí! ¡Nueve menos!"
+ },
+ {
+  "id": "d277bf49",
+  "lang": "es",
+  "text": "¡Sí! ¡Ocho más!"
+ },
+ {
+  "id": "8f64cca2",
+  "lang": "es",
+  "text": "¡Sí! ¡Ocho menos!"
+ },
+ {
+  "id": "0fec16cd",
+  "lang": "es",
+  "text": "¡Sí! ¡Queda una!"
+ },
+ {
+  "id": "6bdd9d17",
+  "lang": "es",
+  "text": "¡Sí! ¡Queda uno!"
+ },
+ {
+  "id": "2d04fdad",
+  "lang": "es",
+  "text": "¡Sí! ¡Quedan cinco!"
+ },
+ {
+  "id": "a9159fd7",
+  "lang": "es",
+  "text": "¡Sí! ¡Quedan cuatro!"
+ },
+ {
+  "id": "e1119f6b",
+  "lang": "es",
+  "text": "¡Sí! ¡Quedan dos!"
+ },
+ {
+  "id": "2515c0c4",
+  "lang": "es",
+  "text": "¡Sí! ¡Quedan ocho!"
+ },
+ {
+  "id": "6c405d69",
+  "lang": "es",
+  "text": "¡Sí! ¡Quedan seis!"
+ },
+ {
+  "id": "504fa1d9",
+  "lang": "es",
+  "text": "¡Sí! ¡Quedan siete!"
+ },
+ {
+  "id": "ce17676b",
+  "lang": "es",
+  "text": "¡Sí! ¡Quedan tres!"
+ },
+ {
+  "id": "1c67bab0",
+  "lang": "es",
+  "text": "¡Sí! ¡Seis más!"
+ },
+ {
+  "id": "b9d0c923",
+  "lang": "es",
+  "text": "¡Sí! ¡Seis menos!"
+ },
+ {
+  "id": "e69591d0",
+  "lang": "es",
+  "text": "¡Sí! ¡Siete más!"
+ },
+ {
+  "id": "a01debc3",
+  "lang": "es",
+  "text": "¡Sí! ¡Siete menos!"
+ },
+ {
+  "id": "39e1ebb6",
+  "lang": "es",
+  "text": "¡Sí! ¡Tres más!"
+ },
+ {
+  "id": "4cadbc49",
+  "lang": "es",
+  "text": "¡Sí! ¡Tres menos!"
+ },
+ {
   "id": "8e67dff2",
   "lang": "es",
   "text": "¡Sí! ¡Triste!"
+ },
+ {
+  "id": "0d58188c",
+  "lang": "es",
+  "text": "¡Sí! ¡Uno más!"
+ },
+ {
+  "id": "e3f4f547",
+  "lang": "es",
+  "text": "¡Sí! ¡Uno menos!"
  },
  {
   "id": "0f9be4ce",
@@ -8954,6 +9799,16 @@
   "id": "29b4550a",
   "lang": "es",
   "text": "¡Terminado!"
+ },
+ {
+  "id": "dab3c543",
+  "lang": "es",
+  "text": "¡Terminamos la Mezcla!"
+ },
+ {
+  "id": "1254940f",
+  "lang": "es",
+  "text": "¡Terminamos la Mezcla! ¡Qué bien jugaste!"
  },
  {
   "id": "fe8830dd",
@@ -9310,9 +10165,9 @@
   "text": "¡Traza la letra u!"
  },
  {
-  "id": "c8fcec56",
+  "id": "8d812c25",
   "lang": "es",
-  "text": "¡Traza la letra uve!",
+  "text": "¡Traza la letra ve!",
   "priority": 2
  },
  {
@@ -9348,9 +10203,34 @@
   "text": "¡u!"
  },
  {
+  "id": "7fc007e0",
+  "lang": "es",
+  "text": "¡Un árbol!"
+ },
+ {
+  "id": "178867bd",
+  "lang": "es",
+  "text": "¡Un barco!"
+ },
+ {
+  "id": "2571e10b",
+  "lang": "es",
+  "text": "¡Un camión!"
+ },
+ {
+  "id": "8d94945b",
+  "lang": "es",
+  "text": "¡Un castillo!"
+ },
+ {
   "id": "202338f3",
   "lang": "es",
   "text": "¡Un cepillo de dientes!"
+ },
+ {
+  "id": "d14faa08",
+  "lang": "es",
+  "text": "¡Un cohete!"
  },
  {
   "id": "4f272ed0",
@@ -9358,14 +10238,29 @@
   "text": "¡Un paraguas!"
  },
  {
+  "id": "4d62c7c7",
+  "lang": "es",
+  "text": "¡Un puente!"
+ },
+ {
   "id": "1da1f122",
   "lang": "es",
   "text": "¡Un vaso de agua!"
  },
  {
+  "id": "e99fecc4",
+  "lang": "es",
+  "text": "¡Una caja!"
+ },
+ {
   "id": "2a9e92b0",
   "lang": "es",
   "text": "¡Una camita!"
+ },
+ {
+  "id": "d47a143b",
+  "lang": "es",
+  "text": "¡Una casa!"
  },
  {
   "id": "e9ca66c0",
@@ -9378,14 +10273,49 @@
   "text": "¡Una curita!"
  },
  {
+  "id": "d97ab391",
+  "lang": "es",
+  "text": "¡Una escalera!"
+ },
+ {
+  "id": "6ba30b38",
+  "lang": "es",
+  "text": "¡Una escalerita!"
+ },
+ {
   "id": "51e053be",
   "lang": "es",
   "text": "¡Una linterna!"
  },
  {
+  "id": "c24e79d9",
+  "lang": "es",
+  "text": "¡Una mesa!"
+ },
+ {
+  "id": "d91611d1",
+  "lang": "es",
+  "text": "¡Una pared!"
+ },
+ {
   "id": "94ea42b0",
   "lang": "es",
   "text": "¡Una pelota!"
+ },
+ {
+  "id": "4da627a7",
+  "lang": "es",
+  "text": "¡Una torre!"
+ },
+ {
+  "id": "bb2938ca",
+  "lang": "es",
+  "text": "¡Una ventana!"
+ },
+ {
+  "id": "5929f447",
+  "lang": "es",
+  "text": "¡Unos son fáciles y otros son difíciles!"
  },
  {
   "id": "200c0981",
@@ -9408,16 +10338,74 @@
   "text": "¡Uu! ¡Uu!"
  },
  {
-  "id": "fbe8543b",
+  "id": "159330cc",
   "lang": "es",
-  "text": "¡Uve de volcán!",
-  "priority": 2
+  "text": "¡Vamos a construir un árbol! Llena todos los cuadros."
  },
  {
-  "id": "ddbc9517",
+  "id": "8420a673",
   "lang": "es",
-  "text": "¡uve!",
-  "priority": 2
+  "text": "¡Vamos a construir un barco! Llena todos los cuadros."
+ },
+ {
+  "id": "8a903b19",
+  "lang": "es",
+  "text": "¡Vamos a construir un camión! Llena todos los cuadros."
+ },
+ {
+  "id": "0a16dad9",
+  "lang": "es",
+  "text": "¡Vamos a construir un castillo! Llena todos los cuadros."
+ },
+ {
+  "id": "cf1e56a4",
+  "lang": "es",
+  "text": "¡Vamos a construir un cohete! Llena todos los cuadros."
+ },
+ {
+  "id": "dd2b982d",
+  "lang": "es",
+  "text": "¡Vamos a construir un puente! Llena todos los cuadros."
+ },
+ {
+  "id": "b40c3b58",
+  "lang": "es",
+  "text": "¡Vamos a construir una caja! Llena todos los cuadros."
+ },
+ {
+  "id": "65cb2209",
+  "lang": "es",
+  "text": "¡Vamos a construir una casa! Llena todos los cuadros."
+ },
+ {
+  "id": "b297cb2f",
+  "lang": "es",
+  "text": "¡Vamos a construir una escalera! Llena todos los cuadros."
+ },
+ {
+  "id": "edf10e44",
+  "lang": "es",
+  "text": "¡Vamos a construir una escalerita! Llena todos los cuadros."
+ },
+ {
+  "id": "cc3af437",
+  "lang": "es",
+  "text": "¡Vamos a construir una mesa! Llena todos los cuadros."
+ },
+ {
+  "id": "40e5b10f",
+  "lang": "es",
+  "text": "¡Vamos a construir una pared! Llena todos los cuadros."
+ },
+ {
+  "id": "9d75de0d",
+  "lang": "es",
+  "text": "¡Vamos a construir una torre! Llena todos los cuadros."
+ },
+ {
+  "id": "8e04cde6",
+  "lang": "es",
+  "text": "¡Vamos a construir una ventana! Llena todos los cuadros."
  },
  {
   "id": "b2b746bc",
@@ -9428,6 +10416,18 @@
   "id": "ad9a7b6b",
   "lang": "es",
   "text": "¡Vamos!"
+ },
+ {
+  "id": "d3322f86",
+  "lang": "es",
+  "text": "¡Ve de volcán!",
+  "priority": 2
+ },
+ {
+  "id": "f02bb8e6",
+  "lang": "es",
+  "text": "¡ve!",
+  "priority": 2
  },
  {
   "id": "f40afc05",
@@ -9477,6 +10477,26 @@
   "id": "8569ff35",
   "lang": "es",
   "text": "¿Cómo le ayudamos?"
+ },
+ {
+  "id": "a0ccf006",
+  "lang": "es",
+  "text": "¿Cuál tiene más?"
+ },
+ {
+  "id": "20d5e151",
+  "lang": "es",
+  "text": "¿Cuál tiene menos?"
+ },
+ {
+  "id": "76b5974c",
+  "lang": "es",
+  "text": "¿Cuántas quedan?"
+ },
+ {
+  "id": "a9d1b1e6",
+  "lang": "es",
+  "text": "¿Cuántos quedan?"
  },
  {
   "id": "df1153ec",
@@ -9608,15 +10628,15 @@
   "priority": 2
  },
  {
-  "id": "08bc6af6",
-  "lang": "es",
-  "text": "¿Dónde está el cerdo?"
- },
- {
   "id": "86e3d66e",
   "lang": "es",
   "text": "¿Dónde está el científico?",
   "priority": 2
+ },
+ {
+  "id": "d986391b",
+  "lang": "es",
+  "text": "¿Dónde está el cochinito?"
  },
  {
   "id": "88e48fab",
@@ -10328,9 +11348,9 @@
   "text": "¿Dónde vive el cangrejo?"
  },
  {
-  "id": "b849cc71",
+  "id": "4910cd34",
   "lang": "es",
-  "text": "¿Dónde vive el cerdo?"
+  "text": "¿Dónde vive el cochinito?"
  },
  {
   "id": "634dfda0",
@@ -10423,6 +11443,11 @@
   "text": "¿Qué quieres jugar?"
  },
  {
+  "id": "ebf53b69",
+  "lang": "es",
+  "text": "¿Qué tan difícil?"
+ },
+ {
   "id": "c25b036e",
   "lang": "es",
   "text": "¿Quién está asustado?"
@@ -10481,6 +11506,11 @@
   "text": "águila"
  },
  {
+  "id": "a0a655a0",
+  "lang": "es",
+  "text": "Ahí no cabe. ¡Prueba en otro lugar!"
+ },
+ {
   "id": "d428a289",
   "lang": "es",
   "text": "Ahora: ¡¿Dónde Está?!"
@@ -10496,9 +11526,14 @@
   "text": "Ahora: ¡Casas de Animales!"
  },
  {
-  "id": "f15590a4",
+  "id": "192542cb",
   "lang": "es",
-  "text": "Ahora: ¡Construye!"
+  "text": "Ahora: ¡Construir!"
+ },
+ {
+  "id": "5a85f046",
+  "lang": "es",
+  "text": "Ahora: ¡Construye Libre!"
  },
  {
   "id": "595d994e",
@@ -10519,6 +11554,11 @@
   "id": "eda09f2a",
   "lang": "es",
   "text": "Ahora: ¡Laberinto Espacial!"
+ },
+ {
+  "id": "af15d200",
+  "lang": "es",
+  "text": "Ahora: ¡Más o Menos!"
  },
  {
   "id": "92ab0785",
@@ -10605,6 +11645,11 @@
   "text": "asustado"
  },
  {
+  "id": "897c511c",
+  "lang": "es",
+  "text": "Auto"
+ },
+ {
   "id": "c13258c9",
   "lang": "es",
   "text": "autobús",
@@ -10661,12 +11706,6 @@
   "id": "f961860f",
   "lang": "es",
   "text": "bebé",
-  "priority": 2
- },
- {
-  "id": "068ece5e",
-  "lang": "es",
-  "text": "biberón",
   "priority": 2
  },
  {
@@ -10735,6 +11774,16 @@
   "id": "386f0537",
   "lang": "es",
   "text": "caballo"
+ },
+ {
+  "id": "3d828f6d",
+  "lang": "es",
+  "text": "Cada juego es una sorpresa"
+ },
+ {
+  "id": "bdb0877e",
+  "lang": "es",
+  "text": "Cada juego sube solo"
  },
  {
   "id": "440ce930",
@@ -10832,11 +11881,6 @@
   "priority": 2
  },
  {
-  "id": "0b1d610e",
-  "lang": "es",
-  "text": "cerdo"
- },
- {
   "id": "981982f4",
   "lang": "es",
   "text": "cero"
@@ -10885,6 +11929,11 @@
   "priority": 2
  },
  {
+  "id": "42048a4d",
+  "lang": "es",
+  "text": "cochinito"
+ },
+ {
   "id": "5f60f247",
   "lang": "es",
   "text": "cocinero",
@@ -10917,6 +11966,11 @@
   "text": "Comida"
  },
  {
+  "id": "c314e0f9",
+  "lang": "es",
+  "text": "Comparar y quitar"
+ },
+ {
   "id": "c81d63bb",
   "lang": "es",
   "text": "conejo"
@@ -10928,9 +11982,14 @@
   "priority": 2
  },
  {
-  "id": "db82790d",
+  "id": "c45b4568",
   "lang": "es",
-  "text": "Construye"
+  "text": "Construir"
+ },
+ {
+  "id": "ab716da3",
+  "lang": "es",
+  "text": "Construye Libre"
  },
  {
   "id": "001f3536",
@@ -10957,6 +12016,11 @@
   "lang": "es",
   "text": "crayones",
   "priority": 2
+ },
+ {
+  "id": "93336417",
+  "lang": "es",
+  "text": "Creatividad"
  },
  {
   "id": "76dbbaad",
@@ -11012,6 +12076,11 @@
   "text": "diez"
  },
  {
+  "id": "e9b728d7",
+  "lang": "es",
+  "text": "Difícil"
+ },
+ {
   "id": "f82b0b30",
   "lang": "es",
   "text": "dinosaurio"
@@ -11051,6 +12120,26 @@
   "id": "dce048aa",
   "lang": "es",
   "text": "El conejo quiere jugar"
+ },
+ {
+  "id": "c44089de",
+  "lang": "es",
+  "text": "El conejo se come cuatro."
+ },
+ {
+  "id": "37246e1a",
+  "lang": "es",
+  "text": "El conejo se come dos."
+ },
+ {
+  "id": "b72a32fa",
+  "lang": "es",
+  "text": "El conejo se come tres."
+ },
+ {
+  "id": "4955014e",
+  "lang": "es",
+  "text": "El conejo se come una."
  },
  {
   "id": "27b16135",
@@ -11133,6 +12222,26 @@
   "text": "El gatito tiene sueño"
  },
  {
+  "id": "fb21939d",
+  "lang": "es",
+  "text": "El mono se come cuatro."
+ },
+ {
+  "id": "ff848057",
+  "lang": "es",
+  "text": "El mono se come dos."
+ },
+ {
+  "id": "68647019",
+  "lang": "es",
+  "text": "El mono se come tres."
+ },
+ {
+  "id": "b43f49b1",
+  "lang": "es",
+  "text": "El mono se come uno."
+ },
+ {
   "id": "f0e94755",
   "lang": "es",
   "text": "El oso está todo sucio"
@@ -11151,6 +12260,26 @@
   "id": "48e1ffcb",
   "lang": "es",
   "text": "El oso quiere jugar"
+ },
+ {
+  "id": "746cc371",
+  "lang": "es",
+  "text": "El oso se come cuatro."
+ },
+ {
+  "id": "deb39f4b",
+  "lang": "es",
+  "text": "El oso se come dos."
+ },
+ {
+  "id": "6549c335",
+  "lang": "es",
+  "text": "El oso se come tres."
+ },
+ {
+  "id": "acecb073",
+  "lang": "es",
+  "text": "El oso se come una."
  },
  {
   "id": "8644a986",
@@ -11251,6 +12380,26 @@
   "id": "da6140fb",
   "lang": "es",
   "text": "El perrito quiere jugar"
+ },
+ {
+  "id": "4d567061",
+  "lang": "es",
+  "text": "El perrito se come cuatro."
+ },
+ {
+  "id": "1b8cd99b",
+  "lang": "es",
+  "text": "El perrito se come dos."
+ },
+ {
+  "id": "fe0e84e5",
+  "lang": "es",
+  "text": "El perrito se come tres."
+ },
+ {
+  "id": "6bd3604d",
+  "lang": "es",
+  "text": "El perrito se come uno."
  },
  {
   "id": "b2c80316",
@@ -11869,11 +13018,6 @@
   "priority": 2
  },
  {
-  "id": "b737bf06",
-  "lang": "es",
-  "text": "Ese es el cerdo."
- },
- {
   "id": "1279e158",
   "lang": "es",
   "text": "Ese es el científico.",
@@ -11898,6 +13042,11 @@
   "id": "3720c43b",
   "lang": "es",
   "text": "Ese es el cinco. ¡Necesitamos el uno!"
+ },
+ {
+  "id": "7ca7f9bf",
+  "lang": "es",
+  "text": "Ese es el cochinito."
  },
  {
   "id": "a82783a1",
@@ -12431,6 +13580,16 @@
   "priority": 2
  },
  {
+  "id": "427dd1f0",
+  "lang": "es",
+  "text": "Experto"
+ },
+ {
+  "id": "e102e912",
+  "lang": "es",
+  "text": "Fácil"
+ },
+ {
   "id": "51c38f21",
   "lang": "es",
   "text": "feliz"
@@ -12537,6 +13696,146 @@
   "text": "guitarra"
  },
  {
+  "id": "d973339a",
+  "lang": "es",
+  "text": "Hay cinco huesos."
+ },
+ {
+  "id": "5d648a46",
+  "lang": "es",
+  "text": "Hay cinco manzanas."
+ },
+ {
+  "id": "9af1af31",
+  "lang": "es",
+  "text": "Hay cinco plátanos."
+ },
+ {
+  "id": "c320c711",
+  "lang": "es",
+  "text": "Hay cinco zanahorias."
+ },
+ {
+  "id": "d8f65d8e",
+  "lang": "es",
+  "text": "Hay cuatro huesos."
+ },
+ {
+  "id": "5f3f784a",
+  "lang": "es",
+  "text": "Hay cuatro manzanas."
+ },
+ {
+  "id": "28c317ad",
+  "lang": "es",
+  "text": "Hay cuatro plátanos."
+ },
+ {
+  "id": "fcb689dd",
+  "lang": "es",
+  "text": "Hay cuatro zanahorias."
+ },
+ {
+  "id": "e4d4f7db",
+  "lang": "es",
+  "text": "Hay nueve huesos."
+ },
+ {
+  "id": "724c1fb3",
+  "lang": "es",
+  "text": "Hay nueve manzanas."
+ },
+ {
+  "id": "1250a564",
+  "lang": "es",
+  "text": "Hay nueve plátanos."
+ },
+ {
+  "id": "7824d12c",
+  "lang": "es",
+  "text": "Hay nueve zanahorias."
+ },
+ {
+  "id": "d70217db",
+  "lang": "es",
+  "text": "Hay ocho huesos."
+ },
+ {
+  "id": "880e3fb3",
+  "lang": "es",
+  "text": "Hay ocho manzanas."
+ },
+ {
+  "id": "2812c564",
+  "lang": "es",
+  "text": "Hay ocho plátanos."
+ },
+ {
+  "id": "2803f12c",
+  "lang": "es",
+  "text": "Hay ocho zanahorias."
+ },
+ {
+  "id": "61e497e0",
+  "lang": "es",
+  "text": "Hay seis huesos."
+ },
+ {
+  "id": "ad02ace0",
+  "lang": "es",
+  "text": "Hay seis manzanas."
+ },
+ {
+  "id": "77352ae7",
+  "lang": "es",
+  "text": "Hay seis plátanos."
+ },
+ {
+  "id": "6bcabfd7",
+  "lang": "es",
+  "text": "Hay seis zanahorias."
+ },
+ {
+  "id": "3bf65ce2",
+  "lang": "es",
+  "text": "Hay siete huesos."
+ },
+ {
+  "id": "3891032e",
+  "lang": "es",
+  "text": "Hay siete manzanas."
+ },
+ {
+  "id": "7b2cc549",
+  "lang": "es",
+  "text": "Hay siete plátanos."
+ },
+ {
+  "id": "c58cffe9",
+  "lang": "es",
+  "text": "Hay siete zanahorias."
+ },
+ {
+  "id": "85f4d01e",
+  "lang": "es",
+  "text": "Hay tres huesos."
+ },
+ {
+  "id": "45456a3a",
+  "lang": "es",
+  "text": "Hay tres manzanas."
+ },
+ {
+  "id": "a9d484fd",
+  "lang": "es",
+  "text": "Hay tres plátanos."
+ },
+ {
+  "id": "fc28676d",
+  "lang": "es",
+  "text": "Hay tres zanahorias."
+ },
+ {
   "id": "1c27f0ea",
   "lang": "es",
   "text": "helado",
@@ -12634,6 +13933,11 @@
   "text": "león"
  },
  {
+  "id": "9be8a1d2",
+  "lang": "es",
+  "text": "Letras"
+ },
+ {
   "id": "07d2bff1",
   "lang": "es",
   "text": "Letras y primeros sonidos"
@@ -12685,6 +13989,12 @@
   "priority": 2
  },
  {
+  "id": "9d050bb4",
+  "lang": "es",
+  "text": "mamila",
+  "priority": 2
+ },
+ {
   "id": "0be01641",
   "lang": "es",
   "text": "manzana",
@@ -12707,15 +14017,40 @@
   "priority": 2
  },
  {
+  "id": "b01d1381",
+  "lang": "es",
+  "text": "Más o Menos"
+ },
+ {
+  "id": "ab6b319b",
+  "lang": "es",
+  "text": "Más piezas · 4 opciones"
+ },
+ {
   "id": "2d8cafc2",
   "lang": "es",
   "text": "mecánico",
   "priority": 2
  },
  {
+  "id": "a1b87bff",
+  "lang": "es",
+  "text": "Medio"
+ },
+ {
   "id": "8109325b",
   "lang": "es",
   "text": "Memoria"
+ },
+ {
+  "id": "c421b2db",
+  "lang": "es",
+  "text": "Memoria y atención"
+ },
+ {
+  "id": "7a89c95e",
+  "lang": "es",
+  "text": "Mezcla Sorpresa"
  },
  {
   "id": "0d6dfc7b",
@@ -12790,6 +14125,11 @@
   "priority": 2
  },
  {
+  "id": "32b5a593",
+  "lang": "es",
+  "text": "Motricidad fina"
+ },
+ {
   "id": "b0076666",
   "lang": "es",
   "text": "naranja",
@@ -12819,6 +14159,21 @@
   "id": "7507a554",
   "lang": "es",
   "text": "nueve"
+ },
+ {
+  "id": "2c1e9421",
+  "lang": "es",
+  "text": "Números hasta 10 · 3 opciones"
+ },
+ {
+  "id": "93223276",
+  "lang": "es",
+  "text": "Números hasta 5 · 2 opciones"
+ },
+ {
+  "id": "a2b53061",
+  "lang": "es",
+  "text": "Números y matemáticas"
  },
  {
   "id": "faa110da",
@@ -12882,6 +14237,11 @@
   "priority": 2
  },
  {
+  "id": "6a5d2628",
+  "lang": "es",
+  "text": "Palabras y escuchar"
+ },
+ {
   "id": "3c32eabe",
   "lang": "es",
   "text": "pan",
@@ -12924,6 +14284,11 @@
   "id": "9c36548b",
   "lang": "es",
   "text": "Parar por ahora"
+ },
+ {
+  "id": "91e3b769",
+  "lang": "es",
+  "text": "Parecidos · los más largos"
  },
  {
   "id": "4a8a072a",
@@ -13037,6 +14402,11 @@
   "lang": "es",
   "text": "pizza",
   "priority": 2
+ },
+ {
+  "id": "31e95422",
+  "lang": "es",
+  "text": "Planear y pensar en el espacio"
  },
  {
   "id": "e313cf7a",
@@ -13300,6 +14670,11 @@
   "priority": 2
  },
  {
+  "id": "3ce07ead",
+  "lang": "es",
+  "text": "Toca una pieza para girarla."
+ },
+ {
   "id": "dcd2793f",
   "lang": "es",
   "text": "Todo junto"
@@ -13504,6 +14879,11 @@
   "id": "034f9e02",
   "lang": "es",
   "text": "volcán"
+ },
+ {
+  "id": "5690d8f3",
+  "lang": "es",
+  "text": "Volver a los juegos"
  },
  {
   "id": "631a3d2c",

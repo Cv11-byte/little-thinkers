@@ -210,9 +210,9 @@ describe('puzzle plans are valid at every level', () => {
 });
 
 describe('registry', () => {
-  it('has 11 games covering each learning goal', () => {
-    expect(GAMES).toHaveLength(11);
-    expect(new Set(GAMES.map((g) => g.id)).size).toBe(11);
+  it('has 13 games covering each learning goal', () => {
+    expect(GAMES).toHaveLength(13);
+    expect(new Set(GAMES.map((g) => g.id)).size).toBe(13);
     for (const g of GAMES) {
       expect(g.title.en && g.title.es).toBeTruthy();
       expect(g.rounds(1)).toBeGreaterThan(0);

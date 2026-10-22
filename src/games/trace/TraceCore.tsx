@@ -1,5 +1,5 @@
 // The finger-tracing engine shared by Trace Numbers and Trace Letters.
-// The child must touch the star and drag it along the line, all the way to the 🏁.
+// The child must touch the star and drag it along the line, all the way to its star-shaped home.
 
 import { type CSSProperties, type ReactNode, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { sfx } from '../../engine/sfx';
@@ -7,6 +7,7 @@ import { useStage, useTimers } from '../../engine/stage';
 import { useDrag } from '../../engine/useDrag';
 import { makeBurst, useBursts } from '../../components/fx';
 import type { RoundApi } from '../types';
+import { shapePath } from '../shapes/shapes';
 import { GLYPH_H, GLYPH_W, type Pt2, type TraceSettings, advance, nearHead } from './glyphs';
 
 const STEP = 8; // sample spacing in glyph units
@@ -228,10 +229,14 @@ export function TraceCore({ api, glyphKey, strokes, cfg, onTraced, side, data }:
             const q = samples[stroke][idx + k];
             return q ? <circle key={k} cx={q.x} cy={q.y} r={14 - i * 3} fill="#4CB86A" opacity={0.75 - i * 0.2} className="lead-dot" style={{ animationDelay: `${i * 0.15}s` }} /> : null;
           })}
+        {/* the star's "home": a star-shaped slot at the end of the line, so it's clear where to drag it */}
         {!finished && samples[stroke]?.length ? (
-          <text x={samples[stroke][samples[stroke].length - 1].x} y={samples[stroke][samples[stroke].length - 1].y} fontSize={60} textAnchor="middle" dominantBaseline="central" opacity={0.85}>
-            🏁
-          </text>
+          <g transform={`translate(${samples[stroke][samples[stroke].length - 1].x} ${samples[stroke][samples[stroke].length - 1].y})`} data-testid="trace-goal" pointerEvents="none">
+            <g className="goal-pulse">
+              <circle r={62} fill="#FFF3C4" opacity={0.85} />
+              <path d={shapePath('star', 50)} fill="#FFFBEA" stroke="#F5A623" strokeWidth={7} strokeDasharray="14 9" strokeLinejoin="round" />
+            </g>
+          </g>
         ) : null}
         {/* the star the child drags along the line */}
         {!finished && head && (

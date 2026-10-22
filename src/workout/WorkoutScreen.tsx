@@ -8,8 +8,10 @@ import { BOSS, GAME_BY_ID } from '../games/registry';
 import { GameScreen } from '../screens/GameScreen';
 import { Bi, LangToggle } from '../components/lang';
 import { KIDS } from '../app/kids';
-import { MOVES, type MoveId, type Station, bossLevel, buildWorkout, nextIndex } from './plan';
-import { WORKOUT_TITLE } from '../screens/MenuScreen';
+import { MOVES, type MoveId, type Station, bossLevel, buildMix, buildWorkout, nextIndex } from './plan';
+import { MENU_ORDER } from '../games/registry';
+import { LevelPicker, LevelStars } from '../components/LevelPicker';
+import { MIX_TITLE, WORKOUT_TITLE } from '../screens/MenuScreen';
 
 interface Props {
   kid: KidId;
@@ -21,6 +23,8 @@ interface Props {
   onQuit: () => void;
   /** grown-up wants to leave the goodbye screen */
   onParent: () => void;
+  /** 'workout' = the Brain Workout; 'mix' = Mix-Up (random games and levels) */
+  mode?: 'workout' | 'mix';
 }
 
 type View = 'intro' | 'map' | 'play' | 'bye';
@@ -29,12 +33,17 @@ const stationTitle = (s: Station): Phrase =>
   s.kind === 'game' ? GAME_BY_ID[s.gameId].title : s.kind === 'boss' ? BOSS.title : p('Move break', 'A moverse');
 const stationIcon = (s: Station) => (s.kind === 'game' ? GAME_BY_ID[s.gameId].icon : s.kind === 'boss' ? '🚀' : MOVES[s.move].emoji);
 
-export function WorkoutScreen({ kid, data, update, lang, onLang, onQuit, onParent }: Props) {
-  const minutes = data.settings.workout[kid];
-  const stations = useMemo(() => buildWorkout(kid, minutes, data.settings.moveBreaks), [kid, minutes]); // eslint-disable-line react-hooks/exhaustive-deps
+export function WorkoutScreen({ kid, data, update, lang, onLang, onQuit, onParent, mode = 'workout' }: Props) {
+  const mix = mode === 'mix';
+  const minutes = mix ? 60 : data.settings.workout[kid];
   /** 0 = automatic; 1–4 = the grown-up's chosen difficulty for every game */
-  const fixedLevel = data.settings.workoutLevel[kid];
-  const boss = useMemo(() => fixedLevel || bossLevel(data, kid, stations), []); // eslint-disable-line react-hooks/exhaustive-deps
+  const fixedLevel = mix ? 0 : data.settings.workoutLevel[kid];
+  const stations = useMemo(
+    () => (mix ? buildMix(kid, MENU_ORDER[kid].filter((g) => g !== 'block-builder'), Math.floor(Math.random() * 1e6)) : buildWorkout(kid, minutes, data.settings.moveBreaks, new Date(), fixedLevel)),
+    [kid, minutes], // eslint-disable-line react-hooks/exhaustive-deps
+  );
+  const lastStop = stations[stations.length - 1];
+  const boss = useMemo(() => (lastStop.kind === 'boss' && lastStop.level) || fixedLevel || bossLevel(data, kid, stations), []); // eslint-disable-line react-hooks/exhaustive-deps
   const [idx, setIdx] = useState(0);
   const [view, setView] = useState<View>('intro');
   const [paused, setPaused] = useState(false);
@@ -61,6 +70,10 @@ export function WorkoutScreen({ kid, data, update, lang, onLang, onQuit, onParen
   };
 
   const finish = () => {
+    if (mix) {
+      setView('bye');
+      return;
+    }
     const day = todayKey();
     update((d) => {
       const k = d.kids[kid];
@@ -80,13 +93,23 @@ export function WorkoutScreen({ kid, data, update, lang, onLang, onQuit, onParen
   if (view === 'intro') {
     return (
       <div className="wk-screen intro" data-testid="workout-intro">
-        {langBtn}
-        <Intro name={name} lang={lang} stations={stations} onGo={begin} onBack={onQuit} />
+        <div className="wk-lang">
+          {!mix && (
+            <LevelPicker
+              level={fixedLevel}
+              lang={lang}
+              testId="workout-level"
+              onChange={(l) => update((d) => ({ ...d, settings: { ...d.settings, workoutLevel: { ...d.settings.workoutLevel, [kid]: l } } }))}
+            />
+          )}
+          <LangToggle mode={lang} onChange={onLang} />
+        </div>
+        <Intro name={name} lang={lang} stations={stations} onGo={begin} onBack={onQuit} mix={mix} />
       </div>
     );
   }
   if (view === 'bye') {
-    return <Goodbye kid={kid} data={data} lang={lang} onParent={onParent} />;
+    return mix ? <MixDone lang={lang} onBack={onQuit} /> : <Goodbye kid={kid} data={data} lang={lang} onParent={onParent} />;
   }
   if (view === 'map') {
     return (
@@ -116,8 +139,8 @@ export function WorkoutScreen({ kid, data, update, lang, onLang, onQuit, onParen
           onBreak={() => undefined}
           workout={{
             rounds: station.kind === 'boss' ? BOSS.rounds(boss) : station.rounds,
-            level: station.kind === 'boss' ? boss : fixedLevel || undefined,
-            fixed: !!fixedLevel,
+            level: station.kind === 'boss' ? boss : station.level ?? (fixedLevel || undefined),
+            fixed: !!fixedLevel || station.kind === 'boss' || station.level !== undefined,
             onDone: station.kind === 'boss' ? finish : advance,
             onPause: () => setPaused(true),
           }}
@@ -147,11 +170,11 @@ export function WorkoutScreen({ kid, data, update, lang, onLang, onQuit, onParen
   );
 }
 
-function Intro({ name, lang, stations, onGo, onBack }: { name: string; lang: LangMode; stations: Station[]; onGo: () => void; onBack: () => void }) {
+function Intro({ name, lang, stations, onGo, onBack, mix }: { name: string; lang: LangMode; stations: Station[]; onGo: () => void; onBack: () => void; mix: boolean }) {
   useEffect(() => {
     void speak([
-      L.workoutHi(name),
-      p("We'll play games, move our bodies, and then fix a rocket!", '¡Vamos a jugar, a movernos y a arreglar un cohete!'),
+      mix ? p("It's Mix-Up time! Every game is a surprise.", '¡Es hora de la Mezcla Sorpresa! Cada juego es una sorpresa.') : L.workoutHi(name),
+      mix ? p('Some are easy, some are tricky!', '¡Unos son fáciles y otros son difíciles!') : p("We'll play games, move our bodies, and then fix a rocket!", '¡Vamos a jugar, a movernos y a arreglar un cohete!'),
       p('When you are ready, press the green button to start!', '¡Cuando estés listo, aprieta el botón verde para empezar!'),
     ]);
   }, [name]);
@@ -161,10 +184,10 @@ function Intro({ name, lang, stations, onGo, onBack }: { name: string; lang: Lan
         <span>⬅️</span>
       </button>
       <div className="wk-guide" aria-hidden>
-        🦉
+        {mix ? '🎲' : '🦉'}
       </div>
       <h1>
-        <Bi ph={WORKOUT_TITLE} mode={lang} />
+        <Bi ph={mix ? MIX_TITLE : WORKOUT_TITLE} mode={lang} />
       </h1>
       <div className="wk-preview" aria-hidden>
         {stations.map((s, i) => (
@@ -267,6 +290,12 @@ function JourneyMap({ stations, current, lang, kid, onGo }: { stations: Station[
         <span className="jn-title">
           <Bi ph={stationTitle(s)} mode={lang} />
         </span>
+        {s.kind === 'game' && s.level !== undefined && (
+          <span className="jn-level" data-testid="station-level">
+            <LevelStars level={s.level} />
+            {'⭐'.repeat(s.rounds)}
+          </span>
+        )}
         {s.kind === 'game' && (
           <span className="jn-skill">
             <Bi ph={GAME_BY_ID[s.gameId].skill} mode={lang} />
@@ -425,6 +454,30 @@ function Goodbye({ kid, data, lang, onParent }: { kid: KidId; data: AppData; lan
       </div>
       <button className="round-btn bye-replay" aria-label="Say it again" onClick={() => void speak(lines)}>
         <span>🔊</span>
+      </button>
+    </div>
+  );
+}
+
+function MixDone({ lang, onBack }: { lang: LangMode; onBack: () => void }) {
+  useEffect(() => {
+    sfx.fanfare();
+    void speak([p('Mix-Up done! Great playing!', '¡Terminamos la Mezcla! ¡Qué bien jugaste!')]);
+  }, []);
+  return (
+    <div className="goodbye mix-done" data-testid="mix-done">
+      <div className="bye-trophy pop-in" aria-hidden>
+        🎉
+      </div>
+      <h1>
+        <Bi ph={p('Mix-Up done!', '¡Terminamos la Mezcla!')} mode={lang} />
+      </h1>
+      <p className="bye-sub">
+        <Bi ph={p('Great playing!', '¡Qué bien jugaste!')} mode={lang} />
+      </p>
+      <button className="go-btn" data-testid="mix-back" onClick={onBack}>
+        <span>🏠</span>
+        <Bi ph={p('Back to games', 'Volver a los juegos')} mode={lang} />
       </button>
     </div>
   );

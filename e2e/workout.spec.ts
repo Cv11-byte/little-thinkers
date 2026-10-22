@@ -81,7 +81,7 @@ test('Brain Workout: games, a move break, the boss, then goodbye; once a day', a
   }
   await expect(page.getByTestId('workout-goodbye')).toBeVisible();
   expect(checkedMap).toBe(true);
-  expect([...seen].sort()).toEqual(['move', 'pop-balloons', 'rocket-rescue', 'shape-puzzle', traceGameFor(new Date()), 'who-says'].sort());
+  expect([...seen].sort()).toEqual(['move', 'pop-balloons', 'rocket-rescue', 'more-less', traceGameFor(new Date()), 'who-says'].sort());
 
   // finished today is saved; the goodbye screen only opens for a grown-up
   const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('little-thinkers:v1')!));
@@ -91,12 +91,84 @@ test('Brain Workout: games, a move break, the boss, then goodbye; once a day', a
   await page.getByTestId('gate-cancel').click();
   await expect(page.getByTestId('workout-goodbye')).toBeVisible();
 
-  // second try the same day does not start a new workout
+  // it can be played again the same day (unless a grown-up turns on once-a-day)
+  await page.reload();
+  await page.getByTestId('kid-kid1').click();
+  await expect(page.getByTestId('workout-start')).toHaveAttribute('data-done', 'false');
+  await page.getByTestId('workout-start').click({ force: true });
+  await expect(page.getByTestId('workout-intro')).toBeVisible();
+  // with once-a-day on, a second try stays on the menu
+  await page.evaluate(() => {
+    const raw = JSON.parse(localStorage.getItem('little-thinkers:v1')!);
+    raw.settings.workoutOncePerDay = true;
+    localStorage.setItem('little-thinkers:v1', JSON.stringify(raw));
+  });
   await page.reload();
   await page.getByTestId('kid-kid1').click();
   await expect(page.getByTestId('workout-start')).toHaveAttribute('data-done', 'true');
   await page.getByTestId('workout-start').click({ force: true });
   await expect(page.getByTestId('menu-screen')).toBeVisible();
+});
+
+test('Mix-Up: random games at different levels, then back to the games', async ({ page }) => {
+  test.setTimeout(300_000);
+  await seedLevels(page, 'kid1', {});
+  await page.goto('/');
+  await page.getByTestId('kid-kid1').click();
+  await page.getByTestId('mix-start').click();
+  await page.getByTestId('workout-go').click({ force: true });
+  const levels = new Set<string>();
+  const games: string[] = [];
+  for (let guard = 0; guard < 900; guard++) {
+    if (await page.getByTestId('mix-done').count()) break;
+    if (await page.getByTestId('station-level').count()) {
+      levels.add((await page.getByTestId('station-level').textContent()) ?? '');
+    }
+    const gs = page.getByTestId('game-screen');
+    if (!(await page.getByTestId('workout-map').count()) && !(await page.getByTestId('move-break').count()) && (await gs.count())) {
+      if ((await gs.getAttribute('data-phase')) !== 'play') {
+        await page.waitForTimeout(300);
+        continue;
+      }
+      const g = (await gs.getAttribute('data-game'))!;
+      if (games[games.length - 1] !== g) games.push(g);
+      const round = await gs.getAttribute('data-round');
+      await solveCurrent(page);
+      await page.waitForFunction(
+        (r) => {
+          const el = document.querySelector('[data-testid=game-screen]');
+          return !el || el.getAttribute('data-phase') !== 'play' || el.getAttribute('data-round') !== r;
+        },
+        round,
+        { timeout: 20000 },
+      );
+      continue;
+    }
+    await page.waitForTimeout(300);
+  }
+  await expect(page.getByTestId('mix-done')).toBeVisible();
+  expect(games.length).toBeGreaterThanOrEqual(8);
+  expect(levels.size).toBeGreaterThan(1);
+  await page.getByTestId('mix-back').click({ force: true });
+  await expect(page.getByTestId('menu-screen')).toBeVisible();
+});
+
+test('difficulty button: a hold opens it; the chosen level and star count apply to games', async ({ page }) => {
+  await seedLevels(page, 'kid1', { 'who-says': 2 });
+  await page.goto('/');
+  await page.getByTestId('kid-kid1').click();
+  // a quick tap does nothing
+  await page.getByTestId('level-picker').click();
+  await expect(page.getByTestId('level-picker-panel')).toHaveCount(0);
+  const b = (await page.getByTestId('level-picker').boundingBox())!;
+  await page.mouse.move(b.x + b.width / 2, b.y + b.height / 2);
+  await page.mouse.down();
+  await page.waitForTimeout(900);
+  await page.mouse.up();
+  await page.getByTestId('level-picker-4').click();
+  await page.getByTestId('tile-who-says').click();
+  await expect(page.getByTestId('game-screen')).toHaveAttribute('data-level', '4');
+  await expect(page.locator('.round-stars .rstar')).toHaveCount(5);
 });
 
 test('Brain Workout can be paused and stopped', async ({ page }) => {

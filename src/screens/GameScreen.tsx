@@ -7,7 +7,7 @@ import { HoldButton } from '../components/HoldButton';
 import { sfx } from '../engine/sfx';
 import { speak, stopSpeech, whenQuiet } from '../engine/speech';
 import { Stage, useStageSize } from '../engine/stage';
-import { type AppData, type KidId, getStats, levelState } from '../engine/storage';
+import { type AppData, type KidId, getStats, levelState, ROUNDS_BY_LEVEL } from '../engine/storage';
 import { GAME_BY_ID } from '../games/registry';
 import type { RoundApi } from '../games/types';
 import { KIDS, STICKERS } from '../app/kids';
@@ -37,9 +37,12 @@ const MISTAKE_LOCK_MS = 900;
 
 export function GameScreen({ kid, gameId, data, update, lang, onHome, timeUp, onBreak, onLang, workout }: Props) {
   const def = GAME_BY_ID[gameId];
-  const startLevel = workout?.level ?? getStats(data, kid, gameId).level;
+  // a grown-up (or the difficulty button) can fix the level; otherwise each game adapts on its own
+  const chosen = data.settings.playLevel[kid];
+  const startLevel = workout?.level ?? (chosen || getStats(data, kid, gameId).level);
+  const fixedLevel = workout ? !!workout.fixed : !!chosen;
   const [level, setLevel] = useState(startLevel);
-  const [total, setTotal] = useState(() => workout?.rounds ?? def.rounds(startLevel));
+  const [total, setTotal] = useState(() => workout?.rounds ?? (def.adaptive ? Math.max(def.rounds(startLevel), ROUNDS_BY_LEVEL[startLevel] ?? 3) : def.rounds(startLevel)));
   const [round, setRound] = useState(0);
   const [phase, setPhase] = useState<Phase>('play');
   const [hint, setHint] = useState(0);
@@ -114,7 +117,7 @@ export function GameScreen({ kid, gameId, data, update, lang, onHome, timeUp, on
     s.mistakes += result.mistakes;
     if (result.hints === 0 && result.mistakes <= 1) s.independent += 1;
     s.lastPlayed = Date.now();
-    if (def.adaptive && !workout?.fixed) {
+    if (def.adaptive && !fixedLevel) {
       // the round was played at `level`; adapt from there
       const u = applyRound({ ...levelState(s), level }, result);
       s.level = u.state.level;
@@ -218,8 +221,8 @@ export function GameScreen({ kid, gameId, data, update, lang, onHome, timeUp, on
   const playAgain = () => {
     setSticker(null);
     setLevelNote(null);
-    const lvl = getStats(dataRef.current, kid, gameId).level;
-    setTotal(def.rounds(lvl));
+    const lvl = dataRef.current.settings.playLevel[kid] || getStats(dataRef.current, kid, gameId).level;
+    setTotal(def.adaptive ? Math.max(def.rounds(lvl), ROUNDS_BY_LEVEL[lvl] ?? 3) : def.rounds(lvl));
     if (timeUp()) {
       onBreak();
       return;

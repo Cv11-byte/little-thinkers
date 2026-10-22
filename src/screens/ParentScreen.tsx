@@ -3,6 +3,7 @@ import { MAX_LEVEL, MIN_LEVEL } from '../engine/adaptive';
 import type { LangMode } from '../engine/i18n';
 import { type AppData, type KidId, WORKOUT_LENGTHS, cleanName, getStats, newStats, todayKey, workoutDoneToday } from '../engine/storage';
 import { buildWorkout } from '../workout/plan';
+import { GAME_SKILLS, SKILL_AREAS } from '../games/registry';
 import { GAME_BY_ID } from '../games/registry';
 import { VoicePanel } from './VoicePanel';
 import { GAMES } from '../games/registry';
@@ -125,9 +126,18 @@ export function ParentScreen({ data, update, onReset, onClose }: Props) {
             />{' '}
             Stand-up move breaks between games (jump like a frog, reach up like a giraffe…)
           </label>
+          <label>
+            <input
+              type="checkbox"
+              checked={data.settings.workoutOncePerDay}
+              onChange={(e) => update((d) => ({ ...d, settings: { ...d.settings, workoutOncePerDay: e.target.checked } }))}
+              data-testid="p-once-a-day"
+            />{' '}
+            Only once a day (off: the workout can be replayed anytime)
+          </label>
         </div>
         {(Object.keys(KIDS) as KidId[]).map((id) => {
-          const plan = buildWorkout(id, data.settings.workout[id], data.settings.moveBreaks);
+          const plan = buildWorkout(id, data.settings.workout[id], data.settings.moveBreaks, new Date(), data.settings.workoutLevel[id]);
           const doneToday = workoutDoneToday(data, id);
           return (
             <div key={id} className="wk-parent-row">
@@ -173,7 +183,7 @@ export function ParentScreen({ data, update, onReset, onClose }: Props) {
                   .map((x) => (x.kind === 'game' ? GAME_BY_ID[x.gameId].title.en : ''))
                   .join(', ')}
               </p>
-              {doneToday && (
+              {doneToday && data.settings.workoutOncePerDay && (
                 <button
                   className="small-btn"
                   data-testid={`p-wk-again-${id}`}
@@ -184,6 +194,36 @@ export function ParentScreen({ data, update, onReset, onClose }: Props) {
                   Allow another workout today
                 </button>
               )}
+            </div>
+          );
+        })}
+      </section>
+
+      <section className="p-card" data-testid="p-skills">
+        <h2>Skills map</h2>
+        <p className="note">Puzzles solved in each skill area (a game counts toward every skill it builds). Thin bars show what to play more.</p>
+        {(Object.keys(KIDS) as KidId[]).map((id) => {
+          const totals = SKILL_AREAS.map((a) => ({
+            a,
+            n: Object.entries(GAME_SKILLS)
+              .filter(([, skills]) => skills.includes(a.id))
+              .reduce((sum, [g]) => sum + (data.kids[id].games[g]?.rounds ?? 0), 0),
+          }));
+          const max = Math.max(1, ...totals.map((t) => t.n));
+          return (
+            <div key={id} className="skill-map">
+              <b>
+                {KIDS[id].avatar} {adultLabel(id)}
+              </b>
+              {totals.map(({ a, n }) => (
+                <div key={a.id} className="skill-row" data-testid={`skill-${id}-${a.id}`}>
+                  <span className="skill-name">{a.en}</span>
+                  <span className="skill-bar">
+                    <i style={{ width: `${(n / max) * 100}%`, background: a.color }} />
+                  </span>
+                  <span className="skill-n">{n}</span>
+                </div>
+              ))}
             </div>
           );
         })}

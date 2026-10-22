@@ -64,6 +64,19 @@ export const L = {
   whichMore: (foodEn: string, foodEs: string) => p(`Which plate has more ${foodEn}?`, `¿Qué plato tiene más ${foodEs}?`),
   yesMore: (n: number) => p(`Yes! ${n} is more!`, `¡Sí! ${num(n).es} es más.`),
 
+  // ---- más o menos ----
+  moreBy: (d: number) => p(`Yes! ${d} more!`, `¡Sí! ¡${cap(num(d).es)} más!`),
+  lessBy: (d: number) => p(`Yes! ${d} less!`, `¡Sí! ¡${cap(num(d).es)} menos!`),
+  thereAre: (n: number, food: { en: [string, string]; es: [string, string] }) => p(`There are ${n} ${food.en[1]}.`, `Hay ${num(n).es} ${food.es[1]}.`),
+  eats: (eaterEn: string, esAl: string, k: number, food: { en: [string, string]; es: [string, string]; feminine: boolean }) =>
+    p(
+      `The ${eaterEn} eats ${k} ${k === 1 ? food.en[0] : food.en[1]}.`,
+      `${cap(esAl.replace(/^al /, 'el '))} se come ${k === 1 ? (food.feminine ? 'una' : 'uno') : num(k).es}.`,
+    ),
+  howManyLeft: (feminine: boolean) => p('How many are left?', feminine ? '¿Cuántas quedan?' : '¿Cuántos quedan?'),
+  leftYes: (n: number, feminine: boolean) =>
+    n === 1 ? p('Yes! One is left!', feminine ? '¡Sí! ¡Queda una!' : '¡Sí! ¡Queda uno!') : p(`Yes! ${n} are left!`, `¡Sí! ¡Quedan ${num(n).es}!`),
+
   // ---- pop & tap ----
   pop: (verbEn: string, verbEs: string, n: number, color: ColorId, thingEn: string, thingEs: string) =>
     p(`${verbEn} ${n} ${COLORS[color].name.en} ${thingEn}!`, `¡${verbEs} ${num(n).es} ${thingEs} ${COLORS[color].plural.es}!`),

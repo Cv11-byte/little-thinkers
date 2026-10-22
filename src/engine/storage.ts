@@ -34,6 +34,10 @@ export interface Settings {
   workout: Record<KidId, number>;
   /** "stand up and move" breaks inside the Brain Workout */
   moveBreaks: boolean;
+  /** level for every game in the menu, per kid: 0 = automatic (each game adapts), 1–4 = fixed */
+  playLevel: Record<KidId, number>;
+  /** only allow one Brain Workout per day (off = play it anytime) */
+  workoutOncePerDay: boolean;
   /** Brain Workout difficulty per kid: 0 = automatic (each game's own level), 1–4 = fixed for every game */
   workoutLevel: Record<KidId, number>;
   /** the children's names, typed in the grown-up corner (kept only on this device) */
@@ -41,6 +45,9 @@ export interface Settings {
 }
 
 export const WORKOUT_LENGTHS = [10, 20, 30];
+
+/** stars (rounds) per game at each level: harder levels are longer */
+export const ROUNDS_BY_LEVEL: Record<number, number> = { 1: 3, 2: 3, 3: 4, 4: 5 };
 
 export interface AppData {
   version: 1;
@@ -53,7 +60,7 @@ export const STORAGE_KEY = 'little-thinkers:v1';
 export const DEFAULT_START_LEVEL: Record<KidId, number> = { kid1: 2, kid2: 1 };
 
 export function defaultSettings(): Settings {
-  return { lang: 'both', voice: true, sounds: true, playLimit: 0, workout: { kid1: 20, kid2: 10 }, moveBreaks: true, workoutLevel: { kid1: 0, kid2: 0 }, names: { kid1: '', kid2: '' } };
+  return { lang: 'both', voice: true, sounds: true, playLimit: 0, workout: { kid1: 20, kid2: 10 }, moveBreaks: true, workoutLevel: { kid1: 0, kid2: 0 }, playLevel: { kid1: 0, kid2: 0 }, workoutOncePerDay: false, names: { kid1: '', kid2: '' } };
 }
 
 export function defaultData(): AppData {
@@ -138,6 +145,13 @@ export function sanitize(raw: unknown): AppData {
       for (const k of ['kid1', 'kid2'] as KidId[]) {
         const n = s.names[k];
         if (typeof n === 'string') d.settings.names[k] = cleanName(n);
+      }
+    }
+    if (typeof s.workoutOncePerDay === 'boolean') d.settings.workoutOncePerDay = s.workoutOncePerDay;
+    if (isObj(s.playLevel)) {
+      for (const k of ['kid1', 'kid2'] as KidId[]) {
+        const m = s.playLevel[k];
+        if (typeof m === 'number' && [0, 1, 2, 3, 4].includes(m)) d.settings.playLevel[k] = m;
       }
     }
     if (isObj(s.workoutLevel)) {

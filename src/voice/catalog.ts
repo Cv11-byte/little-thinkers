@@ -15,6 +15,7 @@ import { EATERS } from '../games/feed/FeedTheBear';
 import { THEMES, THING } from '../games/balloons/PopBalloons';
 import { BOSS_NEEDS, FUEL_COLORS, DOOR_SHAPES, fuelEs } from '../games/boss/RocketRescue';
 import { LETTER_STROKES, letterLines } from '../games/trace/letters';
+import { L_build, PUZZLES } from '../games/blocks/BlockPuzzle';
 import { SHAPES } from '../games/shapes/shapes';
 
 export function dynamicPhrases(): Phrase[] {
@@ -63,6 +64,22 @@ export function dynamicPhrases(): Phrase[] {
     add(L.whichMore(e.foodEn[1], e.foodEs[1]));
   }
   for (let n = 1; n <= 7; n++) add(L.yesMore(n));
+
+  // block puzzle
+  for (const list of Object.values(PUZZLES))
+    for (const pz of list) add(L_build(pz.name), { en: pz.name.en.charAt(0).toUpperCase() + pz.name.en.slice(1) + '!', es: '¡' + pz.name.es.charAt(0).toUpperCase() + pz.name.es.slice(1) + '!' });
+
+  // más o menos
+  for (let d = 1; d <= 9; d++) add(L.moreBy(d), L.lessBy(d));
+  for (const e of EATERS) {
+    const food = { en: e.foodEn, es: e.foodEs, feminine: e.feminine };
+    for (let n = 3; n <= 9; n++) add(L.thereAre(n, food));
+    for (let k = 1; k <= 4; k++) add(L.eats(e.en, e.esAl, k, food));
+  }
+  for (const fem of [true, false]) {
+    add(L.howManyLeft(fem));
+    for (let n = 1; n <= 8; n++) add(L.leftYes(n, fem));
+  }
 
   // pop & tap
   for (const th of THEMES)

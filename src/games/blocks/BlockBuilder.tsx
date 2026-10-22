@@ -242,7 +242,7 @@ function BlockBuilder({ api }: { api: RoundApi }) {
 
 export const blockBuilder: GameDef = {
   id: 'block-builder',
-  title: p('Block Builder', 'Construye'),
+  title: p('Free Build', 'Construye Libre'),
   icon: '🧱',
   skill: p('Creativity & building', 'Creatividad y construir'),
   tint: '#F58A3A',

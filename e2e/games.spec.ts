@@ -260,6 +260,63 @@ test.describe('games are playable with a finger on iPad size', () => {
     await expect(page.getByTestId('trace')).not.toHaveAttribute('data-letter', first!, { timeout: 10000 });
   });
 
+  test('Más o Menos: pick the row with more; it pairs up and shows the extras', async ({ page }) => {
+    await seedLevels(page, 'kid1', { 'more-less': 2 });
+    await openGame(page, 'kid1', 'more-less');
+    const g = page.getByTestId('more-less');
+    await expect(g).toHaveAttribute('data-kind', 'compare');
+    const right = (await g.getAttribute('data-right'))!;
+    const wrong = right === 'top' ? 'bottom' : 'top';
+    await page.getByTestId(`row-${wrong}`).dispatchEvent('pointerdown');
+    await expect(page.getByTestId('game-screen')).toHaveAttribute('data-round', '0');
+    await ready(page);
+    await solveCurrent(page);
+    await waitRoundDone(page, 0);
+  });
+
+  test('Más o Menos: take-away at level 3 ("how many are left?")', async ({ page }) => {
+    test.setTimeout(90_000);
+    await seedLevels(page, 'kid1', { 'more-less': 3 });
+    await openGame(page, 'kid1', 'more-less');
+    await solveCurrent(page);
+    await waitRoundDone(page, 0);
+    await expect(page.getByTestId('more-less')).toHaveAttribute('data-kind', 'takeaway', { timeout: 15000 });
+    await solveCurrent(page);
+    await waitRoundDone(page, 1);
+  });
+
+  test('Construir: pieces only fit inside the outline; filling it finishes', async ({ page }) => {
+    await seedLevels(page, 'kid1', { 'block-puzzle': 2 });
+    await openGame(page, 'kid1', 'block-puzzle');
+    // dropping a piece outside the outline sends it back
+    const from = await center(page, '[data-testid=piece-0] [data-testid=pcell]');
+    await drag(page, from, { x: from.x, y: 40 });
+    await page.waitForTimeout(400);
+    await expect(page.getByTestId('piece-0')).toHaveAttribute('data-placed', 'false');
+    await ready(page);
+    await solveCurrent(page);
+    await expect(page.getByTestId('block-puzzle')).toHaveAttribute('data-done', 'true');
+    await waitRoundDone(page, 0);
+  });
+
+  test('Construir top level: tap turns a piece', async ({ page }) => {
+    await seedLevels(page, 'kid1', { 'block-puzzle': 4 });
+    await openGame(page, 'kid1', 'block-puzzle');
+    const before = await page.getByTestId('piece-0').getAttribute('data-cells');
+    const c = await center(page, '[data-testid=piece-0] [data-testid=pcell]');
+    await page.mouse.click(c.x, c.y);
+    await page.waitForTimeout(200);
+    expect(await page.getByTestId('piece-0').getAttribute('data-cells')).not.toBe(before);
+    await solveCurrent(page);
+    await waitRoundDone(page, 0);
+  });
+
+  test('Trace: the star has a star-shaped home at the end of the line', async ({ page }) => {
+    await seedLevels(page, 'kid1', { 'trace-numbers': 2 });
+    await openGame(page, 'kid1', 'trace-numbers');
+    await expect(page.getByTestId('trace-goal')).toBeVisible();
+  });
+
   test('Help a Friend: the helpful thing is the one that works', async ({ page }) => {
     await seedLevels(page, 'kid1', { 'help-a-friend': 2 });
     await openGame(page, 'kid1', 'help-a-friend');

@@ -20,6 +20,23 @@ export async function solveCurrent(page: Page) {
     }
     return;
   }
+  const ml = page.getByTestId('more-less');
+  if (await ml.count()) {
+    if ((await ml.getAttribute('data-kind')) === 'compare') {
+      await tap(`[data-testid=row-${await ml.getAttribute('data-right')}] rect`);
+    } else {
+      const left = await ml.getAttribute('data-left');
+      await page.getByTestId(`answer-${left}`).waitFor({ timeout: 20000 });
+      await ready(page);
+      await tap(`[data-testid=answer-${left}]`);
+    }
+    return;
+  }
+  const bp = page.getByTestId('block-puzzle');
+  if (await bp.count()) {
+    await solveBlockPuzzle(page);
+    return;
+  }
   if (await page.getByTestId('who-says').count()) {
     const ans = await page.getByTestId('who-says').getAttribute('data-answer');
     await tap(`[data-testid=card-${ans}]`);
@@ -165,3 +182,29 @@ export async function seedWorkout(page: Page, minutes: number) {
   }, minutes);
 }
 
+
+/** Turn each piece the right way (top level), then drag it to its spot in the outline. */
+export async function solveBlockPuzzle(page: Page) {
+  const bp = page.getByTestId('block-puzzle');
+  const cell = Number(await bp.getAttribute('data-cell'));
+  const ids = await page.locator('[data-testid^=piece-]').evaluateAll((els) => els.map((e) => e.getAttribute('data-testid')!));
+  for (const id of ids) {
+    const piece = page.getByTestId(id);
+    if ((await piece.getAttribute('data-placed')) === 'true') continue;
+    for (let t = 0; t < 4 && (await piece.getAttribute('data-cells')) !== (await piece.getAttribute('data-goal-cells')); t++) {
+      const c = await center(page, `[data-testid=${id}] [data-testid=pcell]`);
+      await page.mouse.click(c.x, c.y);
+      await page.waitForTimeout(150);
+    }
+    const [gc, gr] = (await piece.getAttribute('data-goal'))!.split(',').map(Number);
+    const goal = (await piece.getAttribute('data-goal-cells'))!.split(' ').map((s) => s.split(':').map(Number));
+    const w = Math.max(...goal.map((g) => g[0])) + 1;
+    const h = Math.max(...goal.map((g) => g[1])) + 1;
+    const box = (await page.locator(`[data-testid=outline-cell][data-c="${gc}"][data-r="${gr}"]`).boundingBox())!;
+    const k = box.width / (cell - 8);
+    const to = { x: box.x + box.width / 2 + ((w - 1) / 2) * cell * k, y: box.y + box.height / 2 + ((h - 1) / 2) * cell * k + 30 * k };
+    const from = await center(page, `[data-testid=${id}] [data-testid=pcell]`);
+    await drag(page, from, to);
+    await page.waitForTimeout(250);
+  }
+}

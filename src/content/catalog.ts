@@ -53,7 +53,7 @@ export const CATALOG: Thing[] = [
   A('cat', '🐱', 'cat', 'el gato', ['🐈']),
   A('cow', '🐄', 'cow', 'la vaca', ['🐮']),
   A('horse', '🐴', 'horse', 'el caballo', ['🐎']),
-  A('pig', '🐖', 'pig', 'el cerdo', ['🐷']),
+  A('pig', '🐖', 'pig', 'el cochinito', ['🐷']),
   A('sheep', '🐑', 'sheep', 'la oveja'),
   A('goat', '🐐', 'goat', 'la chiva'),
   A('chicken', '🐔', 'chicken', 'la gallina'),
@@ -169,7 +169,7 @@ export const CATALOG: Thing[] = [
   I('plate', '🍽️', 'plate', 'el plato'),
   I('cup', '🥤', 'cup', 'el vaso'),
   I('bowl', '🥣', 'bowl', 'el tazón'),
-  I('bottle', '🍼', 'bottle', 'el biberón'),
+  I('bottle', '🍼', 'bottle', 'la mamila'),
   I('water', '#water', 'glass of water', 'el vaso de agua'),
   // bath & bed
   I('toothbrush', '🪥', 'toothbrush', 'el cepillo de dientes'),

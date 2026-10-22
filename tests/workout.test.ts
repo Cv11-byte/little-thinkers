@@ -19,7 +19,7 @@ describe('Brain Workout plan', () => {
     const games = (m: number) => buildWorkout('kid1', m).filter((s) => s.kind === 'game');
     expect(games(10).length).toBe(4);
     expect(games(20).length).toBe(7);
-    expect(games(30).length).toBe(9);
+    expect(games(30).length).toBe(11);
     const r = (m: number) => (games(m)[0] as { rounds: number }).rounds;
     expect(r(30)).toBeGreaterThan(r(10));
   });
