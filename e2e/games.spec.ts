@@ -233,11 +233,14 @@ test.describe('games are playable with a finger on iPad size', () => {
     await page.waitForTimeout(500);
     await expect(page.locator(sel)).toHaveAttribute('data-placed', 'false');
     // press and move: the piece moves with the finger before letting go
+    // (straight up or down inside the tray, so it never lands on a hole)
+    const vh = page.viewportSize()!.height;
+    const dy = from.y > vh / 2 ? -22 : 22;
     await page.mouse.move(from.x, from.y);
     await page.mouse.down();
-    for (let i = 1; i <= 10; i++) await page.mouse.move(from.x - i * 25, from.y + i * 6);
+    for (let i = 1; i <= 10; i++) await page.mouse.move(from.x, from.y + i * dy);
     const mid = (await page.locator(sel).boundingBox())!;
-    expect(from.x - (mid.x + mid.width / 2)).toBeGreaterThan(150);
+    expect(Math.abs(mid.y + mid.height / 2 - from.y)).toBeGreaterThan(150);
     // let go in an empty spot: back to where it started
     await page.mouse.up();
     await expect
