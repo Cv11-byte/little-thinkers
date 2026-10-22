@@ -1,0 +1,29 @@
+name: Find Mexican Spanish voices
+
+# Runs when voices/find.json changes. Writes voices/candidates.json (no credits used).
+on:
+  push:
+    branches: [main]
+    paths: ['voices/find.json']
+
+permissions:
+  contents: write
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/find-voices.mjs
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      - run: |
+          git config user.name "voice-bot"
+          git config user.email "voice-bot@users.noreply.github.com"
+          git add voices/candidates.json
+          git diff --cached --quiet || git commit -m "List Mexican Spanish voices"
+          git pull --rebase origin main
+          git push

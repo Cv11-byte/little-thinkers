@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     # a voice request records first, then deploys by itself
-    paths-ignore: ['voices/request.json']
+    paths-ignore: ['voices/request.json', 'voices/find.json', 'voices/candidates.json', 'scripts/find-voices.mjs', '.github/workflows/find-voices.yml']
   workflow_dispatch:
   workflow_call:
 
