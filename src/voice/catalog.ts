@@ -84,6 +84,18 @@ export function dynamicPhrases(): Phrase[] {
   return out;
 }
 
+/**
+ * Lines heard less often (record these last when credits run short):
+ * Find It's vehicles/people/things/food, letters after the vowels, and names of non-animal things.
+ */
+export function laterPhrases(): Phrase[] {
+  const out: Phrase[] = [];
+  for (const a of findableEver()) out.push(L.whereIs(a), L.thatsThe(a), L.theAnimal(a), a.name);
+  for (const x of CATALOG) if (x.group !== 'animals') out.push(x.name);
+  for (const l of Object.keys(LETTER_STROKES)) if (!'AEIOU'.includes(l)) out.push(letterLines.trace(l), letterLines.name(l), letterLines.sayIt(l), letterLines.isFor(l));
+  return out;
+}
+
 /** Static p('en', 'es') and { en: '…', es: '…' } pairs found in source text. */
 export function staticPhrasesFromSource(src: string): Phrase[] {
   const out: Phrase[] = [];

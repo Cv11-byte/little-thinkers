@@ -92,7 +92,19 @@ function polish(file) {
   }
 }
 
-const todo = lines.filter((l) => REDO.has(l.id) || !existsSync(`public/voices/${l.lang}/${l.id}.mp3`));
+// most-used lines first, English and Spanish taking turns, so a short budget covers both languages evenly
+const missingLines = lines.filter((l) => REDO.has(l.id) || !existsSync(`public/voices/${l.lang}/${l.id}.mp3`));
+const rank = new Map();
+const counters = {};
+for (const l of [...missingLines].sort((a, b) => (a.priority ?? 1) - (b.priority ?? 1))) {
+  const k = `${a_key(l)}`;
+  counters[k] = (counters[k] ?? 0) + 1;
+  rank.set(l, (l.priority ?? 1) * 1e6 + counters[k]);
+}
+function a_key(l) {
+  return `${l.priority ?? 1}|${l.lang}`;
+}
+const todo = [...missingLines].sort((a, b) => rank.get(a) - rank.get(b) || a.lang.localeCompare(b.lang));
 let batch = LIMIT ? todo.slice(0, LIMIT) : todo;
 if (MAX_CHARS) {
   let used = 0;
