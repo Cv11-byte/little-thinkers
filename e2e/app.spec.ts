@@ -188,7 +188,7 @@ test.describe('recorded voices', () => {
   test.use({ serviceWorkers: 'block' });
 test('recorded voice clips play when available; missing lines fall back', async ({ page }) => {
   const { phraseIdJs } = await import('../scripts/phrase-id.mjs');
-  const hi = 'Hi! What do you want to play?';
+  const hi = 'Hi! Ready to learn?';
   const id = phraseIdJs('en', hi);
   await page.route('**/voices/manifest.json', (r) => r.fulfill({ json: { clips: [`en/${id}`], text: { [`en/${id}`]: hi } } }));
   await page.route(`**/voices/en/${id}.mp3`, (r) => r.fulfill({ path: 'e2e/fixtures/tone.mp3', contentType: 'audio/mpeg' }));

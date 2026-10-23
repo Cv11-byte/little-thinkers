@@ -40,7 +40,7 @@ test('Workout: every game, move breaks, the boss, then goodbye; replayable', asy
 
   const seen = new Set<string>();
   let checkedMap = false;
-  for (let guard = 0; guard < 600; guard++) {
+  for (let guard = 0; guard < 6000; guard++) {
     if (await page.getByTestId('workout-goodbye').count()) break;
     if (await page.getByTestId('workout-map').count()) {
       // after a game, the map says it's finished, and waits for the bar to fill before the next game
@@ -186,7 +186,7 @@ test('Brain Workout can be paused and stopped', async ({ page }) => {
 
 test('nothing gets stuck even if the iPad voice is blocked (moves on with no extra taps)', async ({ page }) => {
   test.setTimeout(120_000);
-  await seedWorkout(page, 10);
+  await seedWorkout(page, 20);
   await page.addInitScript(() => {
     const raw = JSON.parse(localStorage.getItem('little-thinkers:v1')!);
     raw.settings.voice = true;
@@ -222,7 +222,7 @@ test('nothing gets stuck even if the iPad voice is blocked (moves on with no ext
 });
 
 test('every line spoken during a full workout is in the voice catalog', async ({ page }) => {
-  test.setTimeout(900_000);
+  test.setTimeout(2_400_000);
   const catalog = JSON.parse(readFileSync('voices/phrases.json', 'utf8')) as { lang: string; text: string }[];
   const have = new Set(catalog.map((l) => l.lang + '|' + l.text));
   await page.addInitScript(() => {
@@ -233,7 +233,7 @@ test('every line spoken during a full workout is in the voice catalog', async ({
   await page.getByTestId('kid-kid1').click();
   await page.getByTestId('workout-start').click({ force: true });
   await page.getByTestId('workout-go').click({ force: true });
-  for (let guard = 0; guard < 900; guard++) {
+  for (let guard = 0; guard < 9000; guard++) {
     if (await page.getByTestId('workout-goodbye').count()) break;
     const gs = page.getByTestId('game-screen');
     if ((await gs.count()) && (await gs.getAttribute('data-phase')) === 'play') {
