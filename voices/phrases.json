@@ -125,9 +125,9 @@
   "text": "A rocket!"
  },
  {
-  "id": "b4f54074",
+  "id": "3963fe46",
   "lang": "en",
-  "text": "A table!"
+  "text": "A soccer goal!"
  },
  {
   "id": "3f374ec7",
@@ -190,11 +190,6 @@
   "text": "airplane"
  },
  {
-  "id": "35515610",
-  "lang": "en",
-  "text": "All done for today!"
- },
- {
   "id": "7fc7183c",
   "lang": "en",
   "text": "All done! Great playing!"
@@ -234,11 +229,6 @@
   "id": "bbc834da",
   "lang": "en",
   "text": "Animal Homes"
- },
- {
-  "id": "59ab9fdc",
-  "lang": "en",
-  "text": "Animal Homes: all done!"
  },
  {
   "id": "435c414f",
@@ -388,11 +378,6 @@
   "text": "Block Puzzle"
  },
  {
-  "id": "40815215",
-  "lang": "en",
-  "text": "Block Puzzle: all done!"
- },
- {
   "id": "6bf4657c",
   "lang": "en",
   "text": "blocks",
@@ -442,11 +427,6 @@
   "lang": "en",
   "text": "bowl",
   "priority": 2
- },
- {
-  "id": "95d53521",
-  "lang": "en",
-  "text": "Brain Workout"
  },
  {
   "id": "222beb94",
@@ -630,11 +610,6 @@
   "id": "0d4b4c8f",
   "lang": "en",
   "text": "Copy Me"
- },
- {
-  "id": "f2dcf35f",
-  "lang": "en",
-  "text": "Copy Me: all done!"
  },
  {
   "id": "918db134",
@@ -914,11 +889,6 @@
   "text": "Feed the Animals"
  },
  {
-  "id": "72c34eb2",
-  "lang": "en",
-  "text": "Feed the Animals: all done!"
- },
- {
   "id": "e4162066",
   "lang": "en",
   "text": "Feelings & kindness"
@@ -937,11 +907,6 @@
   "id": "dc2ed1e2",
   "lang": "en",
   "text": "Find It"
- },
- {
-  "id": "074d7744",
-  "lang": "en",
-  "text": "Find It: all done!"
  },
  {
   "id": "cae15fcc",
@@ -1066,11 +1031,6 @@
   "id": "05b87798",
   "lang": "en",
   "text": "Free Build"
- },
- {
-  "id": "aa508e82",
-  "lang": "en",
-  "text": "Free Build: all done!"
  },
  {
   "id": "eec2c5b8",
@@ -1251,11 +1211,6 @@
   "text": "grapes"
  },
  {
-  "id": "dc3066e2",
-  "lang": "en",
-  "text": "Great job today! Your brain did a big workout."
- },
- {
   "id": "60fcc653",
   "lang": "en",
   "text": "Great job!"
@@ -1279,6 +1234,11 @@
   "id": "74403968",
   "lang": "en",
   "text": "Great playing!"
+ },
+ {
+  "id": "7418cf14",
+  "lang": "en",
+  "text": "Great work today!"
  },
  {
   "id": "fe6fcd25",
@@ -1339,11 +1299,6 @@
   "text": "Help a Friend"
  },
  {
-  "id": "46df0e9c",
-  "lang": "en",
-  "text": "Help a Friend: all done!"
- },
- {
   "id": "20c0f081",
   "lang": "en",
   "text": "Help the animals get home!"
@@ -1359,14 +1314,14 @@
   "text": "hexagon"
  },
  {
-  "id": "f71757ec",
+  "id": "9b4045ae",
   "lang": "en",
-  "text": "Hi! It's time for your brain workout!"
+  "text": "Hi! Let's learn, move, and fix a rocket!"
  },
  {
-  "id": "4585da68",
+  "id": "19777383",
   "lang": "en",
-  "text": "Hi! What do you want to play?"
+  "text": "Hi! Ready to learn?"
  },
  {
   "id": "77547db6",
@@ -1520,9 +1475,9 @@
   "text": "It's Mix-Up time! Every game is a surprise."
  },
  {
-  "id": "92e1f991",
+  "id": "d3f46d06",
   "lang": "en",
-  "text": "It's time to turn off the iPad. Bye bye!"
+  "text": "It's time to go. Bye bye!"
  },
  {
   "id": "0b2e1b2a",
@@ -1655,9 +1610,9 @@
   "text": "Let's build a rocket! Fill every square."
  },
  {
-  "id": "be1912da",
+  "id": "65cfca84",
   "lang": "en",
-  "text": "Let's build a table! Fill every square."
+  "text": "Let's build a soccer goal! Fill every square."
  },
  {
   "id": "63599fcf",
@@ -1842,11 +1797,6 @@
   "text": "More or Less"
  },
  {
-  "id": "15751981",
-  "lang": "en",
-  "text": "More or Less: all done!"
- },
- {
   "id": "6c56039b",
   "lang": "en",
   "text": "More pieces · 4 choices"
@@ -1989,6 +1939,11 @@
   "id": "2da08f5f",
   "lang": "en",
   "text": "Next: Trace Numbers!"
+ },
+ {
+  "id": "77ef2d53",
+  "lang": "en",
+  "text": "Nice! On to the next one!"
  },
  {
   "id": "d50b3bfa",
@@ -2242,11 +2197,6 @@
   "id": "834e2b7a",
   "lang": "en",
   "text": "Pop & Tap"
- },
- {
-  "id": "7aff3bfc",
-  "lang": "en",
-  "text": "Pop & Tap: all done!"
  },
  {
   "id": "3f8dba82",
@@ -2527,19 +2477,9 @@
   "text": "Rocket Maze"
  },
  {
-  "id": "63737ec1",
-  "lang": "en",
-  "text": "Rocket Maze: all done!"
- },
- {
   "id": "f4156dfb",
   "lang": "en",
   "text": "Rocket Rescue"
- },
- {
-  "id": "482a2013",
-  "lang": "en",
-  "text": "Rocket Rescue: all done!"
  },
  {
   "id": "55016f9a",
@@ -2766,11 +2706,6 @@
   "id": "6c378013",
   "lang": "en",
   "text": "Shapes & Shadows"
- },
- {
-  "id": "670ce00b",
-  "lang": "en",
-  "text": "Shapes & Shadows: all done!"
  },
  {
   "id": "8db4c917",
@@ -5848,19 +5783,9 @@
   "text": "Trace Letters"
  },
  {
-  "id": "41701fb4",
-  "lang": "en",
-  "text": "Trace Letters: all done!"
- },
- {
   "id": "9b498121",
   "lang": "en",
   "text": "Trace Numbers"
- },
- {
-  "id": "a9a37601",
-  "lang": "en",
-  "text": "Trace Numbers: all done!"
  },
  {
   "id": "003fe2b2",
@@ -6190,11 +6115,6 @@
   "id": "c76cf8b4",
   "lang": "en",
   "text": "watermelon"
- },
- {
-  "id": "ff772cfa",
-  "lang": "en",
-  "text": "We'll play games, move our bodies, and then fix a rocket!"
  },
  {
   "id": "c345f829",
@@ -7212,6 +7132,11 @@
   "text": "Words & listening"
  },
  {
+  "id": "ee2559b9",
+  "lang": "en",
+  "text": "Workout"
+ },
+ {
   "id": "899ca1bc",
   "lang": "en",
   "text": "Wow!"
@@ -7446,9 +7371,9 @@
   "text": "yo-yo"
  },
  {
-  "id": "06b21f1c",
+  "id": "b8919540",
   "lang": "en",
-  "text": "You already did your brain workout today!"
+  "text": "You already did your workout today!"
  },
  {
   "id": "b444a968",
@@ -7486,11 +7411,6 @@
   "id": "0b9d88d0",
   "lang": "en",
   "text": "zero"
- },
- {
-  "id": "a0c4d9ed",
-  "lang": "es",
-  "text": "¡¿Dónde Está?: terminado!"
  },
  {
   "id": "142081d8",
@@ -7541,11 +7461,6 @@
   "id": "11d2d3db",
   "lang": "es",
   "text": "¡Ayuda a los animales a llegar a su casa!"
- },
- {
-  "id": "fab4dfaf",
-  "lang": "es",
-  "text": "¡Ayuda a un Amigo: terminado!"
  },
  {
   "id": "3b3af903",
@@ -7645,11 +7560,6 @@
   "text": "¡Bzzz!"
  },
  {
-  "id": "49830bd8",
-  "lang": "es",
-  "text": "¡Casas de Animales: terminado!"
- },
- {
   "id": "d7b8678f",
   "lang": "es",
   "text": "¡Casi! Intenta otra vez."
@@ -7677,24 +7587,9 @@
   "text": "¡Comida!"
  },
  {
-  "id": "3684ddd1",
-  "lang": "es",
-  "text": "¡Construir: terminado!"
- },
- {
-  "id": "4b5d7dce",
-  "lang": "es",
-  "text": "¡Construye Libre: terminado!"
- },
- {
   "id": "c6e28107",
   "lang": "es",
   "text": "¡Construye una casa! ¿Le pones un techo?"
- },
- {
-  "id": "e348d446",
-  "lang": "es",
-  "text": "¡Cópiame: terminado!"
  },
  {
   "id": "aa70f809",
@@ -7822,11 +7717,6 @@
   "id": "e7e38a67",
   "lang": "es",
   "text": "¡Dale una zanahoria al conejo!"
- },
- {
-  "id": "0429099e",
-  "lang": "es",
-  "text": "¡Dales de Comer: terminado!"
  },
  {
   "id": "d847c6ca",
@@ -8713,11 +8603,6 @@
   "text": "¡Falta la puerta! ¿Qué pieza le queda a la puerta?"
  },
  {
-  "id": "7811a78f",
-  "lang": "es",
-  "text": "¡Figuras y Sombras: terminado!"
- },
- {
   "id": "969a21d2",
   "lang": "es",
   "text": "¡Ganaste una calcomanía!"
@@ -8767,14 +8652,14 @@
   "priority": 2
  },
  {
-  "id": "f60041c3",
+  "id": "d2af5450",
   "lang": "es",
-  "text": "¡Hola! ¡Es hora de tu ejercicio mental!"
+  "text": "¡Hola! ¡Vamos a aprender, a movernos y a arreglar un cohete!"
  },
  {
-  "id": "09f9f20d",
+  "id": "2d5fddbb",
   "lang": "es",
-  "text": "¡Hola! ¿Qué quieres jugar?"
+  "text": "¡Hola! ¿Listo para estudiar?"
  },
  {
   "id": "63371750",
@@ -9177,11 +9062,6 @@
   "priority": 2
  },
  {
-  "id": "c503bd98",
-  "lang": "es",
-  "text": "¡Laberinto Espacial: terminado!"
- },
- {
   "id": "3a9c0d7a",
   "lang": "es",
   "text": "¡Las botas!",
@@ -9262,11 +9142,6 @@
   "priority": 2
  },
  {
-  "id": "fbdb5664",
-  "lang": "es",
-  "text": "¡Más o Menos: terminado!"
- },
- {
   "id": "fe3121ad",
   "lang": "es",
   "text": "¡Miau!"
@@ -9312,14 +9187,19 @@
   "text": "¡Muy bien!"
  },
  {
+  "id": "aa785e6c",
+  "lang": "es",
+  "text": "¡Muy bien! ¡Vamos al siguiente!"
+ },
+ {
   "id": "86eb5afd",
   "lang": "es",
   "text": "¡Muy bien! Siéntate, vamos a seguir."
  },
  {
-  "id": "61f3dae7",
+  "id": "1c691ac7",
   "lang": "es",
-  "text": "¡Muy buen trabajo hoy! Tu cerebro hizo mucho ejercicio."
+  "text": "¡Muy buen trabajo hoy!"
  },
  {
   "id": "e47f965c",
@@ -9432,11 +9312,6 @@
   "id": "7b9c14dd",
   "lang": "es",
   "text": "¡Quiquiriquí!"
- },
- {
-  "id": "5b01a921",
-  "lang": "es",
-  "text": "¡Rescate Espacial: terminado!"
  },
  {
   "id": "d516d807",
@@ -9577,11 +9452,6 @@
   "id": "91cddf6e",
   "lang": "es",
   "text": "¡Revienta tres globos verdes!"
- },
- {
-  "id": "83482c44",
-  "lang": "es",
-  "text": "¡Revienta y Toca: terminado!"
  },
  {
   "id": "f3112489",
@@ -9809,11 +9679,6 @@
   "id": "1254940f",
   "lang": "es",
   "text": "¡Terminamos la Mezcla! ¡Qué bien jugaste!"
- },
- {
-  "id": "fe8830dd",
-  "lang": "es",
-  "text": "¡Terminamos por hoy!"
  },
  {
   "id": "109d0954",
@@ -10183,16 +10048,6 @@
   "priority": 2
  },
  {
-  "id": "0a596539",
-  "lang": "es",
-  "text": "¡Traza Letras: terminado!"
- },
- {
-  "id": "301ce702",
-  "lang": "es",
-  "text": "¡Traza Números: terminado!"
- },
- {
   "id": "e595870b",
   "lang": "es",
   "text": "¡U de unicornio!"
@@ -10288,11 +10143,6 @@
   "text": "¡Una linterna!"
  },
  {
-  "id": "c24e79d9",
-  "lang": "es",
-  "text": "¡Una mesa!"
- },
- {
   "id": "d91611d1",
   "lang": "es",
   "text": "¡Una pared!"
@@ -10301,6 +10151,11 @@
   "id": "94ea42b0",
   "lang": "es",
   "text": "¡Una pelota!"
+ },
+ {
+  "id": "b70161f9",
+  "lang": "es",
+  "text": "¡Una portería!"
  },
  {
   "id": "4da627a7",
@@ -10388,14 +10243,14 @@
   "text": "¡Vamos a construir una escalerita! Llena todos los cuadros."
  },
  {
-  "id": "cc3af437",
-  "lang": "es",
-  "text": "¡Vamos a construir una mesa! Llena todos los cuadros."
- },
- {
   "id": "40e5b10f",
   "lang": "es",
   "text": "¡Vamos a construir una pared! Llena todos los cuadros."
+ },
+ {
+  "id": "6df9fce7",
+  "lang": "es",
+  "text": "¡Vamos a construir una portería! Llena todos los cuadros."
  },
  {
   "id": "9d75de0d",
@@ -10406,11 +10261,6 @@
   "id": "8e04cde6",
   "lang": "es",
   "text": "¡Vamos a construir una ventana! Llena todos los cuadros."
- },
- {
-  "id": "b2b746bc",
-  "lang": "es",
-  "text": "¡Vamos a jugar, a movernos y a arreglar un cohete!"
  },
  {
   "id": "ad9a7b6b",
@@ -10435,9 +10285,9 @@
   "text": "¡Verde! ¡Glu, glu, glu!"
  },
  {
-  "id": "d8a66033",
+  "id": "93f08d92",
   "lang": "es",
-  "text": "¡Ya hiciste tu ejercicio mental hoy!"
+  "text": "¡Ya hiciste tu ejercicio hoy!"
  },
  {
   "id": "c90269bf",
@@ -12097,9 +11947,9 @@
   "text": "dos"
  },
  {
-  "id": "5aef27a5",
+  "id": "631dfc4c",
   "lang": "es",
-  "text": "Ejercicio Mental"
+  "text": "Ejercicio"
  },
  {
   "id": "b724aba2",
@@ -12534,9 +12384,9 @@
   "text": "enojado"
  },
  {
-  "id": "9c73a1bf",
+  "id": "5928ee4f",
   "lang": "es",
-  "text": "Es hora de apagar el iPad. ¡Adiós!"
+  "text": "Es hora de irnos. ¡Adiós!"
  },
  {
   "id": "1bcc01cd",

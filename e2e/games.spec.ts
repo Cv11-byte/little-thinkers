@@ -317,6 +317,44 @@ test.describe('games are playable with a finger on iPad size', () => {
     await waitRoundDone(page, 0);
   });
 
+  test('Trace 10: finishing the 1 does not fill in the 0', async ({ page }) => {
+    await seedLevels(page, 'kid1', { 'trace-numbers': 2 });
+    await page.addInitScript(() => {
+      const raw = JSON.parse(localStorage.getItem('little-thinkers:v1')!);
+      if (!sessionStorage.getItem('mem')) {
+        raw.kids.kid1.games['trace-numbers'].mem = { next: 9 };
+        localStorage.setItem('little-thinkers:v1', JSON.stringify(raw));
+        sessionStorage.setItem('mem', '1');
+      }
+    });
+    await openGame(page, 'kid1', 'trace-numbers');
+    await expect(page.getByTestId('trace')).toHaveAttribute('data-number', '10');
+    const pts = await page.evaluate(() => {
+      const p = document.querySelector('[data-testid=trace] path[stroke=none]') as SVGPathElement;
+      const len = p.getTotalLength();
+      const m = p.getScreenCTM()!;
+      const out = [];
+      for (let d = 0; d <= len; d += 15) {
+        const q = p.getPointAtLength(d);
+        out.push({ x: q.x * m.a + m.e, y: q.y * m.d + m.f });
+      }
+      const e = p.getPointAtLength(len);
+      out.push({ x: e.x * m.a + m.e, y: e.y * m.d + m.f });
+      return out;
+    });
+    await page.mouse.move(pts[0].x, pts[0].y);
+    await page.mouse.down();
+    for (const q of pts.slice(1)) await page.mouse.move(q.x, q.y, { steps: 2 });
+    await page.mouse.up();
+    await page.waitForTimeout(600);
+    const filled = await page.evaluate(() =>
+      [...document.querySelectorAll('[data-testid=trace] path[stroke="#F5A623"]')].map((p) => parseFloat(p.getAttribute('stroke-dasharray')!)),
+    );
+    expect(filled[0]).toBeGreaterThan(100); // the 1 is filled
+    expect(filled[1]).toBeLessThan(1); // the 0 waits for its own trace
+    await expect(page.getByTestId('trace')).toHaveAttribute('data-finished', 'false');
+  });
+
   test('Trace: the star has a star-shaped home at the end of the line', async ({ page }) => {
     await seedLevels(page, 'kid1', { 'trace-numbers': 2 });
     await openGame(page, 'kid1', 'trace-numbers');

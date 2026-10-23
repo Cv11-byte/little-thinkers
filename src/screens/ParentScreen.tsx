@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { MAX_LEVEL, MIN_LEVEL } from '../engine/adaptive';
 import type { LangMode } from '../engine/i18n';
 import { type AppData, type KidId, WORKOUT_LENGTHS, cleanName, getStats, newStats, todayKey, workoutDoneToday } from '../engine/storage';
-import { buildWorkout } from '../workout/plan';
+import { WORKOUT_ROUNDS, buildWorkout } from '../workout/plan';
 import { GAME_SKILLS, SKILL_AREAS } from '../games/registry';
 import { GAME_BY_ID } from '../games/registry';
 import { VoicePanel } from './VoicePanel';
@@ -113,8 +113,8 @@ export function ParentScreen({ data, update, onReset, onClose }: Props) {
       <section className="p-card" data-testid="p-workout">
         <h2>Brain Workout</h2>
         <p className="note">
-          A once-a-day guided session: games in a set order, short movement breaks, the Rocket Rescue finale, then a goodbye screen that only a grown-up
-          can close. If it runs long, it skips ahead to the finale.
+          A guided session through every game in a set order, with stand-up move breaks, the Rocket Rescue finale, then a goodbye screen that only a
+          grown-up can close. Length sets the rounds per game; Hard and Expert add a round.
         </p>
         <div className="toggles">
           <label>
@@ -153,7 +153,7 @@ export function ParentScreen({ data, update, onReset, onClose }: Props) {
                       data-testid={`p-wk-${id}-${m}`}
                       onClick={() => update((d) => ({ ...d, settings: { ...d.settings, workout: { ...d.settings.workout, [id]: m } } }))}
                     >
-                      {m} min
+                      {({ 10: 'Short', 20: 'Medium', 30: 'Long' } as Record<number, string>)[m]} · {WORKOUT_ROUNDS[m]} {WORKOUT_ROUNDS[m] === 1 ? 'round' : 'rounds'}
                     </button>
                   ))}
                 </div>

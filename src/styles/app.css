@@ -2134,3 +2134,14 @@ image.art {
 .skill-bar { height: 14px; border-radius: 7px; background: #efeaf6; overflow: hidden; }
 .skill-bar i { display: block; height: 100%; border-radius: 7px; min-width: 4px; }
 .skill-n { text-align: right; font-variant-numeric: tabular-nums; }
+/* Rocket Rescue: the part being fixed glows */
+.part-glow {
+  fill: rgba(255, 226, 122, 0.25);
+  stroke: #ffe27a;
+  stroke-width: 8;
+  animation: part-glow 1.2s ease-in-out infinite;
+}
+@keyframes part-glow {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}

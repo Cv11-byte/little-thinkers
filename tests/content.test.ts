@@ -128,12 +128,10 @@ describe('copy me', () => {
 });
 
 describe('workout tracing', () => {
-  it('alternates numbers and letters by day', () => {
-    const d1 = new Date(2026, 9, 21);
-    const d2 = new Date(2026, 9, 22);
-    expect(traceGameFor(d1)).not.toBe(traceGameFor(d2));
-    const ids = (d: Date) => buildWorkout('kid1', 20, true, d).flatMap((s) => (s.kind === 'game' ? [s.gameId] : []));
-    expect(ids(d1).filter((g) => g.startsWith('trace'))).toHaveLength(1);
-    expect(new Set([...ids(d1), ...ids(d2)])).toContain('trace-letters');
+  it('includes both numbers and letters every day', () => {
+    const ids = buildWorkout('kid1', 20, true, new Date(2026, 9, 21)).flatMap((s) => (s.kind === 'game' ? [s.gameId] : []));
+    expect(ids).toContain('trace-numbers');
+    expect(ids).toContain('trace-letters');
+    expect(traceGameFor(new Date(2026, 9, 21))).not.toBe(traceGameFor(new Date(2026, 9, 22)));
   });
 });

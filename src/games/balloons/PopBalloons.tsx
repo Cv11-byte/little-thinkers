@@ -4,7 +4,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { L } from '../../engine/lines';
-import { COLORS, type ColorId, p } from '../../engine/i18n';
+import { COLORS, type ColorId, num, p } from '../../engine/i18n';
 import { makeRng, shuffle } from '../../engine/rng';
 import { sfx } from '../../engine/sfx';
 import { useStage, useTimers } from '../../engine/stage';
@@ -92,6 +92,7 @@ function PopBalloons({ api }: { api: RoundApi }) {
   const [shown, setShown] = useState(0);
   /** after the last pop, the tray counts itself: 1, 2, 3 */
   const [counted, setCounted] = useState(0);
+  const [counting, setCounting] = useState(false);
   const [hintOn, setHintOn] = useState(false);
   const wrongs = useRef(0);
   const t = THING[plan.theme];
@@ -140,14 +141,20 @@ function PopBalloons({ api }: { api: RoundApi }) {
     later(() => sfx.count(gotRef.current - 1), 120);
     if (gotRef.current === plan.nTarget) {
       setDone(true);
-      // slow, satisfying finish: count the tray 1-2-3, the others float away, then next round
-      for (let k = 1; k <= plan.nTarget; k++) {
-        later(() => {
+      // slow, satisfying finish: count the tray out loud (1, 2, 3...), the others float away, then next round
+      const count = async () => {
+        await new Promise((r) => later(() => r(null), 700));
+        for (let k = 1; k <= plan.nTarget; k++) {
           setCounted(k);
           sfx.count(k - 1);
-        }, 700 + k * COUNT_MS);
-      }
-      later(() => api.solved(), 700 + plan.nTarget * COUNT_MS + 1500);
+          // wait for the number to be said (and at least a beat), so each number is clear
+          await Promise.all([api.say(num(k)), new Promise((r) => later(() => r(null), COUNT_MS))]);
+        }
+        setCounting(false);
+        later(() => api.solved(), 1300);
+      };
+      setCounting(true);
+      void count();
     }
   };
 
@@ -206,7 +213,7 @@ function PopBalloons({ api }: { api: RoundApi }) {
         <g
           key={b.id}
           className={'balloon' + (b.popped ? ' popped' : '') + (done && !b.popped ? ' fly' : '')}
-          style={{ transformOrigin: `${b.x}px ${b.y}px`, animationDelay: done ? `${(700 + plan.nTarget * COUNT_MS) / 1000}s` : undefined }}
+          style={{ transformOrigin: `${b.x}px ${b.y}px`, animationPlayState: counting ? 'paused' : undefined }}
           data-testid={`balloon-${b.color}`}
           data-popped={b.popped}
           onPointerDown={(e) => {

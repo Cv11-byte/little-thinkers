@@ -20,17 +20,18 @@ const withName = (name: string, build: (comma: string, space: string) => Phrase)
 
 export const L = {
   // ---- app & praise ----
-  hi: (name: string) => withName(name, (_c, s) => p(`Hi${s}! What do you want to play?`, `¡Hola${s}! ¿Qué quieres jugar?`)),
+  hi: (name: string) => withName(name, (_c, s) => p(`Hi${s}! Ready to learn?`, `¡Hola${s}! ¿Listo para estudiar?`)),
   alreadyWorkout: (name: string) =>
-    withName(name, (c) => p(`You already did your brain workout today${c}!`, `¡Ya hiciste tu ejercicio mental hoy${c}!`)),
+    withName(name, (c) => p(`You already did your workout today${c}!`, `¡Ya hiciste tu ejercicio hoy${c}!`)),
   praise: (name: string, i: number) =>
     withName(name, (c) => [p(`Great job${c}!`, `¡Muy bien${c}!`), p(`You did it${c}!`, `¡Lo hiciste${c}!`), p(`Wow${c}!`, `¡Guau${c}!`)][i % 3]),
   allDone: (name: string) => withName(name, (c) => p(`All done${c}! Great playing!`, `¡Terminamos${c}! ¡Qué bien jugaste!`)),
   workoutHi: (name: string) =>
-    withName(name, (_c, s) => p(`Hi${s}! It's time for your brain workout!`, `¡Hola${s}! ¡Es hora de tu ejercicio mental!`)),
+    withName(name, (_c, s) => p(`Hi${s}! Let's learn, move, and fix a rocket!`, `¡Hola${s}! ¡Vamos a aprender, a movernos y a arreglar un cohete!`)),
   workoutBye: (name: string) =>
-    withName(name, (c) => p(`Great job today${c}! Your brain did a big workout.`, `¡Muy buen trabajo hoy${c}! Tu cerebro hizo mucho ejercicio.`)),
-  gameDone: (title: Phrase) => p(`${title.en}: all done!`, `¡${title.es}: terminado!`),
+    withName(name, (c) => p(`Great work today${c}!`, `¡Muy buen trabajo hoy${c}!`)),
+  /** between workout games: short and friendly (the next game's name follows) */
+  gameDone: () => p('Nice! On to the next one!', '¡Muy bien! ¡Vamos al siguiente!'),
   next: (title: Phrase) => p(`Next: ${title.en}!`, `Ahora: ¡${title.es}!`),
 
   // ---- trace ----

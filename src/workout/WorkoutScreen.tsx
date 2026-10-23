@@ -174,7 +174,7 @@ function Intro({ name, lang, stations, onGo, onBack, mix }: { name: string; lang
   useEffect(() => {
     void speak([
       mix ? p("It's Mix-Up time! Every game is a surprise.", '¡Es hora de la Mezcla Sorpresa! Cada juego es una sorpresa.') : L.workoutHi(name),
-      mix ? p('Some are easy, some are tricky!', '¡Unos son fáciles y otros son difíciles!') : p("We'll play games, move our bodies, and then fix a rocket!", '¡Vamos a jugar, a movernos y a arreglar un cohete!'),
+      ...(mix ? [p('Some are easy, some are tricky!', '¡Unos son fáciles y otros son difíciles!')] : []),
       p('When you are ready, press the green button to start!', '¡Cuando estés listo, aprieta el botón verde para empezar!'),
     ]);
   }, [name]);
@@ -184,7 +184,7 @@ function Intro({ name, lang, stations, onGo, onBack, mix }: { name: string; lang
         <span>⬅️</span>
       </button>
       <div className="wk-guide" aria-hidden>
-        {mix ? '🎲' : '🦉'}
+        {mix ? '🎲' : '🧑‍🚀'}
       </div>
       <h1>
         <Bi ph={mix ? MIX_TITLE : WORKOUT_TITLE} mode={lang} />
@@ -231,7 +231,7 @@ function JourneyMap({ stations, current, lang, kid, onGo }: { stations: Station[
     // say that the last stop is finished, so the switch is clear
     if (prev && prev.kind === 'game') {
       sfx.win();
-      lines.push(L.gameDone(GAME_BY_ID[prev.gameId].title));
+      lines.push(L.gameDone());
     } else if (prev && prev.kind === 'move') {
       lines.push(p('Great moving!', '¡Muy bien movido!'));
     }
@@ -400,11 +400,7 @@ function MoverKid({ move }: { move: MoveId }) {
 function Goodbye({ kid, data, lang, onParent }: { kid: KidId; data: AppData; lang: LangMode; onParent: () => void }) {
   const name = KIDS[kid].name;
   const lines = useMemo(
-    () => [
-      L.workoutBye(name),
-      p('See you tomorrow!', '¡Nos vemos mañana!'),
-      p("It's time to turn off the iPad. Bye bye!", 'Es hora de apagar el iPad. ¡Adiós!'),
-    ],
+    () => [L.workoutBye(name), p("It's time to go. Bye bye!", 'Es hora de irnos. ¡Adiós!')],
     [name],
   );
   useEffect(() => {
@@ -439,10 +435,10 @@ function Goodbye({ kid, data, lang, onParent }: { kid: KidId; data: AppData; lan
         🏆
       </div>
       <h1>
-        <Bi ph={p('All done for today!', '¡Terminamos por hoy!')} mode={lang} />
+        <Bi ph={p('Great work today!', '¡Muy buen trabajo hoy!')} mode={lang} />
       </h1>
       <p className="bye-sub">
-        <Bi ph={p('See you tomorrow!', '¡Nos vemos mañana!')} mode={lang} />
+        <Bi ph={p("It's time to go. Bye bye!", 'Es hora de irnos. ¡Adiós!')} mode={lang} />
       </p>
       <div className="bye-week" aria-label="This week">
         {days.map((d) => (

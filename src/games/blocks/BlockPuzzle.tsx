@@ -33,7 +33,7 @@ export const PUZZLES: Record<number, Puzzle[]> = {
   2: [
     P('a house', 'una casa', '🏠', '.A.\nBBB\nCCC'),
     P('some stairs', 'una escalera', '🪜', 'A..\nBB.\nCCC'),
-    P('a table', 'una mesa', '🪑', 'AAA\nB.C\nB.C'),
+    P('a soccer goal', 'una portería', '🥅', 'AAA\nB.C\nB.C'),
     P('a bridge', 'un puente', '🌉', 'AAA\nB.C'),
   ],
   3: [

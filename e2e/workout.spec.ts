@@ -2,7 +2,6 @@ import { expect, test } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { holdHome, seedLevels } from './helpers';
 import { seedWorkout, solveCurrent } from './solver';
-import { traceGameFor } from '../src/workout/plan';
 
 test('language button cycles English → Español → Both, and Both shows two lines', async ({ page }) => {
   await seedLevels(page, 'kid1', {});
@@ -29,11 +28,12 @@ test('language button cycles English → Español → Both, and Both shows two l
   expect(saved.settings.lang).toBe('en');
 });
 
-test('Brain Workout: games, a move break, the boss, then goodbye; once a day', async ({ page }) => {
-  test.setTimeout(240_000);
+test('Workout: every game, move breaks, the boss, then goodbye; replayable', async ({ page }) => {
+  test.setTimeout(1_200_000);
   await seedWorkout(page, 10);
   await page.goto('/');
   await page.getByTestId('kid-kid1').click();
+  const menuGames = await page.locator('[data-testid^=tile-]').evaluateAll((els) => els.map((e) => e.getAttribute('data-testid')!.replace('tile-', '')));
   await page.getByTestId('workout-start').click({ force: true });
   await page.getByTestId('workout-intro').waitFor();
   await page.getByTestId('workout-go').click({ force: true });
@@ -81,7 +81,7 @@ test('Brain Workout: games, a move break, the boss, then goodbye; once a day', a
   }
   await expect(page.getByTestId('workout-goodbye')).toBeVisible();
   expect(checkedMap).toBe(true);
-  expect([...seen].sort()).toEqual(['move', 'pop-balloons', 'rocket-rescue', 'more-less', traceGameFor(new Date()), 'who-says'].sort());
+  expect([...seen].sort()).toEqual([...menuGames.filter((g) => g !== 'block-builder'), 'move', 'rocket-rescue'].sort());
 
   // finished today is saved; the goodbye screen only opens for a grown-up
   const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('little-thinkers:v1')!));

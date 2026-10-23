@@ -77,6 +77,9 @@ export async function solveCurrent(page: Page) {
       return;
     }
     if (step === 'door') {
+      // the missing door glows on the rocket, and there's no pointing-hand sign
+      await expect(page.locator('[data-testid=rocket] [data-testid=part-glow]')).toHaveCount(1);
+      await expect(page.getByTestId('door-step')).not.toContainText('👈');
       const d = await page.getByTestId('door-step').getAttribute('data-target');
       await page.getByTestId(`door-${d}`).dispatchEvent('pointerdown');
       return;

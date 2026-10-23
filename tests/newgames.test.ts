@@ -78,7 +78,9 @@ describe('levels, rounds and modes', () => {
     expect(ROUNDS_BY_LEVEL[1]).toBe(3);
     expect(ROUNDS_BY_LEVEL[4]).toBe(5);
     const g = (lvl: number) => buildWorkout('kid1', 20, true, new Date(2026, 9, 21), lvl).find((s) => s.kind === 'game');
-    expect(g(4)!.kind === 'game' && g(4)!.rounds).toBe(5);
+    // workout: Hard and Expert add a round per game
+    expect(g(0)!.kind === 'game' && g(0)!.rounds).toBe(2);
+    expect(g(4)!.kind === 'game' && g(4)!.rounds).toBe(4);
   });
 
   it('Mix-Up: random games at mixed levels, never the same game twice in a row, ends with the rocket', () => {

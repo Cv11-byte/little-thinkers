@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { bossLevel, buildWorkout, nextIndex } from '../src/workout/plan';
 import { bossPlan } from '../src/games/boss/RocketRescue';
-import { GAME_BY_ID } from '../src/games/registry';
+import { GAME_BY_ID, MENU_ORDER } from '../src/games/registry';
 import { defaultData, todayKey, workoutDoneToday } from '../src/engine/storage';
 
 describe('Brain Workout plan', () => {
@@ -15,13 +15,16 @@ describe('Brain Workout plan', () => {
       }
   });
 
-  it('longer workouts visit more games with more rounds', () => {
-    const games = (m: number) => buildWorkout('kid1', m).filter((s) => s.kind === 'game');
-    expect(games(10).length).toBe(4);
-    expect(games(20).length).toBe(7);
-    expect(games(30).length).toBe(11);
-    const r = (m: number) => (games(m)[0] as { rounds: number }).rounds;
-    expect(r(30)).toBeGreaterThan(r(10));
+  it('every length visits every game (except Free Build); longer means more rounds', () => {
+    for (const kid of ['kid1', 'kid2'] as const) {
+      const all = MENU_ORDER[kid].filter((g) => g !== 'block-builder').sort();
+      for (const m of [10, 20, 30]) {
+        const ids = buildWorkout(kid, m).flatMap((s) => (s.kind === 'game' ? [s.gameId] : []));
+        expect([...ids].sort()).toEqual(all);
+      }
+    }
+    const r = (m: number) => (buildWorkout('kid1', m).find((s) => s.kind === 'game') as { rounds: number }).rounds;
+    expect([r(10), r(20), r(30)]).toEqual([1, 2, 3]);
   });
 
   it('never puts two move breaks in a row', () => {
@@ -31,11 +34,11 @@ describe('Brain Workout plan', () => {
     }
   });
 
-  it('jumps to the boss when time runs out', () => {
+  it('never skips a stop, even when it runs long', () => {
     const w = buildWorkout('kid1', 20);
     const bossAt = w.findIndex((s) => s.kind === 'boss');
     expect(nextIndex(w, 0, 0, 20)).toBe(1);
-    expect(nextIndex(w, 0, 21 * 60_000, 20)).toBe(bossAt);
+    expect(nextIndex(w, 0, 90 * 60_000, 20)).toBe(1);
     expect(nextIndex(w, bossAt, 0, 20)).toBe(w.length);
   });
 

@@ -75,7 +75,7 @@ function RocketRescue({ api }: { api: RoundApi }) {
           );
         })}
       </g>
-      <Rocket x={rocket.x} y={rocket.y} s={rocket.s} done={api.round} plan={plan} launch={launch} />
+      <Rocket x={rocket.x} y={rocket.y} s={rocket.s} done={api.round} plan={plan} launch={launch} focus={step} />
       {step === 'fuel' && <FuelStep api={api} plan={plan} area={area} rocket={rocket} />}
       {step === 'stars' && <StarsStep api={api} plan={plan} area={area} rocket={rocket} />}
       {step === 'door' && <DoorStep api={api} plan={plan} area={area} />}
@@ -117,7 +117,7 @@ function SpaceBackdrop({ W, H, seed }: { W: number; H: number; seed: number }) {
   );
 }
 
-function Rocket({ x, y, s, done, plan, launch }: { x: number; y: number; s: number; done: number; plan: Plan; launch: boolean }) {
+function Rocket({ x, y, s, done, plan, launch, focus }: { x: number; y: number; s: number; done: number; plan: Plan; launch: boolean; focus?: string }) {
   const fuelColor = COLORS[plan.fuelTarget].hex;
   return (
     <g transform={`translate(${x} ${y}) scale(${s})`} data-testid="rocket">
@@ -154,8 +154,18 @@ function Rocket({ x, y, s, done, plan, launch }: { x: number; y: number; s: numb
           </text>
         )}
         <ellipse cx={-16} cy={-74} rx={10} ry={16} fill="#fff" opacity={0.45} transform="rotate(30 -16 -74)" />
+        {/* the part being fixed right now glows, so it's clear what's missing */}
+        {focus === 'stars' && done < 2 && <circle cx={0} cy={-55} r={64} className="part-glow" data-testid="part-glow" />}
+        {focus === 'lights' && done < 4 && <rect x={-58} y={-174} width={116} height={48} rx={24} className="part-glow" data-testid="part-glow" />}
+        {focus === 'fuel' && done < 1 && <rect x={94} y={-114} width={48} height={210} rx={24} className="part-glow" data-testid="part-glow" />}
         {/* door */}
         <g transform="translate(0 90)">
+          {focus === 'door' && done < 3 && (
+            <g className="goal-pulse" data-testid="part-glow">
+              <Shape id={plan.door} r={56} fill="#FFE27A" />
+              <Shape id={plan.door} r={50} fill="none" stroke="#F7C431" sw={8} />
+            </g>
+          )}
           {done >= 3 ? (
             <Shape id={plan.door} r={42} fill={SHAPES[plan.door].color} stroke="#B88A2E" sw={7} />
           ) : (
@@ -414,9 +424,6 @@ function DoorStep({ api, plan, area }: StepProps) {
           </g>
         );
       })}
-      <text x={area.x + area.w / 2} y={area.y + area.h * 0.82} fontSize={64} textAnchor="middle" dominantBaseline="central">
-        👈🚪
-      </text>
       {bursts.layer}
     </g>
   );

@@ -25,7 +25,8 @@ export function dynamicPhrases(): Phrase[] {
   // praise etc. without a name (named versions fall back to these)
   for (let i = 0; i < 3; i++) add(L.praise('', i));
   add(L.hi(''), L.alreadyWorkout(''), L.allDone(''), L.workoutHi(''), L.workoutBye(''));
-  for (const g of [...GAMES, BOSS]) add(L.next(g.title), L.gameDone(g.title), g.title, g.skill);
+  for (const g of [...GAMES, BOSS]) add(L.next(g.title), g.title, g.skill);
+  add(L.gameDone());
 
   // letters
   for (const l of Object.keys(LETTER_STROKES)) add(letterLines.trace(l), letterLines.name(l), letterLines.sayIt(l), letterLines.isFor(l));

@@ -134,7 +134,9 @@ export function TraceCore({ api, glyphKey, strokes, cfg, onTraced, side, data }:
     st.idx = ni;
     setIdx(ni);
     const frac = ni / (pts.length - 1);
-    setFracs((f) => f.map((v, i) => (i === st.stroke ? frac : v)));
+    // capture the stroke now: by the time React applies this, st.stroke may already be the next line
+    const si = st.stroke;
+    setFracs((f) => f.map((v, i) => (i === si ? frac : v)));
     if (ni - st.lastSound >= 3 || ni < st.lastSound) {
       st.lastSound = ni;
       sfx.trace(frac);

@@ -18,7 +18,7 @@ interface Props {
   onLang: (m: LangMode) => void;
 }
 
-export const WORKOUT_TITLE = p('Brain Workout', 'Ejercicio Mental');
+export const WORKOUT_TITLE = p('Workout', 'Ejercicio');
 export const MIX_TITLE = p('Mix-Up', 'Mezcla Sorpresa');
 
 export function MenuScreen({ kid, data, lang, onGame, onBack, onStickers, onWorkout, onMix, onLevel, onLang }: Props) {
@@ -50,7 +50,7 @@ export function MenuScreen({ kid, data, lang, onGame, onBack, onStickers, onWork
         </div>
       </header>
       <button className={'workout-card' + (done ? ' done' : '')} data-testid="workout-start" data-done={done} onClick={onWorkout}>
-        <span className="wk-icon">{done ? '✅' : '🧠'}</span>
+        <span className="wk-icon">{done ? '✅' : '🧑‍🚀'}</span>
         <span className="wk-text">
           <span className="wk-title">
             <Bi ph={WORKOUT_TITLE} mode={lang} />
